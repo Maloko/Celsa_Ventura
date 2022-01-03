@@ -12,7 +12,6 @@ namespace Business
             NeumaticoControl_Debug("Neumatico_Control_List", E_Neumatico_Control);
             return D_Neumatico_Control.Neumatico_Control_List(E_Neumatico_Control);
         }
-
         public DataTable NeumaticoControl_GetItem(E_Neumatico_Control E_Neumatico_Control)
         {
             NeumaticoControl_Debug("NeumaticoControl_GetItem", E_Neumatico_Control);
