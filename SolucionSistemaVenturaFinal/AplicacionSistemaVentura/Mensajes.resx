@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EjecControlNeumaticoBTNG_CONS1" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="EjecControlNeumaticoBTNG_EDIT1" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="EjecControlNeumaticoBTNG_NUEV1" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="EjecControlNeumaticoFORM_CAPT1" xml:space="preserve">
+    <value>Ejecutar Control de Neumatico</value>
+    <comment>Gestión Perfil Unidad de Control</comment>
+  </data>
+  <data name="EjecControlNeumaticoGRAB_EDIT1" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="EjecControlNeumaticoGRAB_NUEV1" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="EjecControlNeumaticoLOGI_DUPL1" xml:space="preserve">
+    <value>Descripción de Control Neumatico ya existe</value>
+    <comment>Descripción de Perfil ya existe</comment>
+  </data>
+  <data name="EjecControlNeumaticoOBLI_CICLO" xml:space="preserve">
+    <value>Debe seleccionar una Ciclo</value>
+    <comment>Debe seleccionar una Ciclo</comment>
+  </data>
+  <data name="EjecControlNeumaticoOBLI_DESC1" xml:space="preserve">
+    <value>El campo obsercación no admite valores en blanco</value>
+    <comment>El campo obsercación no admite valores en blanco</comment>
+  </data>
+  <data name="EjecControlNeumaticoOBLI_ESTA1" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="EjecControlNeumaticoOBLI_UC" xml:space="preserve">
+    <value>Debe seleccionar una Unidad de Control</value>
+    <comment>Debe seleccionar una Unidad de Control</comment>
+  </data>
+  <data name="EjecControlNeumaticoTAB0_CAPT1" xml:space="preserve">
+    <value>Listado de Control de Neumatico</value>
+    <comment>Listado de Control de Neumático</comment>
+  </data>
+  <data name="EjecControlNeumaticoTAB1_CONS1" xml:space="preserve">
+    <value>Consultar Control de Neumático</value>
+    <comment>Consultar Control de Neumático</comment>
+  </data>
+  <data name="EjecControlNeumaticoTAB1_EDIT1" xml:space="preserve">
+    <value>Editar Control de Neumático</value>
+    <comment>Editar Control de Neumático</comment>
+  </data>
+  <data name="EjecControlNeumaticoTAB1_NUEV1" xml:space="preserve">
+    <value>Nuevo Control de Neumático</value>
+    <comment>Nuevo Control de Neumático</comment>
+  </data>
+  <data name="EjecGestRegInciBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="EjecGestRegInciBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="EjecGestRegInciBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="EjecGestRegInciCICLO_DUPL" xml:space="preserve">
+    <value>El ciclo que desea agregar ya existe, agrege otro.</value>
+    <comment>El ciclo que desea agregar ya existe, agrege otro.</comment>
+  </data>
+  <data name="EjecGestRegInciFORM_CAPT" xml:space="preserve">
+    <value>Gestión Registro de Incidencia</value>
+    <comment>Gestión Registro de Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="EjecGestRegInciGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_CF" xml:space="preserve">
+    <value>El campo contador final no admite valores en blanco</value>
+    <comment>El campo contador final no admite valores en blanco</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_CF0" xml:space="preserve">
+    <value>El campo contador final no admite valor 0</value>
+    <comment>El campo contador final no admite valor 0</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_CI" xml:space="preserve">
+    <value>El campo contador inicial no admite valores en blanco</value>
+    <comment>El campo contador inicial no admite valores en blanco</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_CI0" xml:space="preserve">
+    <value>El campo contador incial no admite valor 0</value>
+    <comment>El campo contador incial no admite valor 0</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_EST" xml:space="preserve">
+    <value>Debe seleccionar un estado de Incidencia</value>
+    <comment>Debe seleccionar un estado de Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_FEC" xml:space="preserve">
+    <value>Debe seleccionar un fecha</value>
+    <comment>Debe seleccionar un fecha</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_RESP" xml:space="preserve">
+    <value>Debe seleccionar un responsable</value>
+    <comment>Debe seleccionar un responsable</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_SOLI" xml:space="preserve">
+    <value>Debe seleccionar un solicitante</value>
+    <comment>Debe selecconar un solicitante</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_TIN" xml:space="preserve">
+    <value>Debe seleccionar un tipo de Incidencia</value>
+    <comment>Debe seleccionar un tipo de Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciOBLI_UC" xml:space="preserve">
+    <value>Debe seleccionar una Unidad de Control</value>
+    <comment>Debe seleccionar una Unidad de Control</comment>
+  </data>
+  <data name="EjecGestRegInciTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Incidencias</value>
+    <comment>Listado de Incidencias</comment>
+  </data>
+  <data name="EjecGestRegInciTAB1_CONS" xml:space="preserve">
+    <value>Consultar Incidencia</value>
+    <comment>Consultar Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciTAB1_EDIT" xml:space="preserve">
+    <value>Editar Incidencia</value>
+    <comment>Editar Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciTAB1_NUEV" xml:space="preserve">
+    <value>Nueva Incidencia</value>
+    <comment>Nueva Incidencia</comment>
+  </data>
+  <data name="EjecGestRegInciVALI_EXIS" xml:space="preserve">
+    <value>El ciclo que desea agregar ya existe, elija otro por favor.</value>
+    <comment>El ciclo que desea agregar ya existe, elija otro por favor.</comment>
+  </data>
+  <data name="EjecGestRegInciVALI_MAY" xml:space="preserve">
+    <value>El campo contador inicial no debe ser mayor o igual al campo contador final.</value>
+    <comment>El campo contador inicial no debe ser mayor o igual al campo contador final.</comment>
+  </data>
+  <data name="EjecGestRegInciVALI_MEN" xml:space="preserve">
+    <value>El campo contador final no debe ser menor o igual al campo contador inicial.</value>
+    <comment>El campo contador final no debe ser menor o igual al campo contador inicial.</comment>
+  </data>
+  <data name="GestActividadBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestActividadBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestActividadBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestActividadFORM_CAPT" xml:space="preserve">
+    <value>Gestión Actividad</value>
+    <comment>Gestión de Actividad</comment>
+  </data>
+  <data name="GestActividadGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestActividadGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestActividadLOGI_DUPL" xml:space="preserve">
+    <value>Descripción de Actividad ya existente</value>
+    <comment>Descripción de Actividad ya existente</comment>
+  </data>
+  <data name="GestActividadOBLI_DESC" xml:space="preserve">
+    <value>El campo descripción no admite valores en blanco</value>
+    <comment>El campo descripción no admite valores en blanco</comment>
+  </data>
+  <data name="GestActividadOBLI_DESCNUM" xml:space="preserve">
+    <value>El campo descripción no admite valores númericos</value>
+    <comment>El campo descripción no admite valores númericos</comment>
+  </data>
+  <data name="GestActividadOBLI_ESTA" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestActividadTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Actividades</value>
+    <comment>Listado de Actividad</comment>
+  </data>
+  <data name="GestActividadTAB1_CONS" xml:space="preserve">
+    <value>Consultar Actividad</value>
+    <comment>Consultar Actividad</comment>
+  </data>
+  <data name="GestActividadTAB1_EDIT" xml:space="preserve">
+    <value>Editar Actividad</value>
+    <comment>Editar Actividad</comment>
+  </data>
+  <data name="GestActividadTAB1_NUEV" xml:space="preserve">
+    <value>Nueva Actividad</value>
+    <comment>Nueva Actividad</comment>
+  </data>
+  <data name="GestHerramientaEspecialBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestHerramientaEspecialBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestHerramientaEspecialBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestHerramientaEspecialFORM_CAPT" xml:space="preserve">
+    <value>Gestión Herramientas Especiales</value>
+    <comment>Gestión Herramientas Especiales</comment>
+  </data>
+  <data name="GestHerramientaEspecialGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestHerramientaEspecialGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestHerramientaEspecialLOGI_DUPL" xml:space="preserve">
+    <value>Descripción de Herramienta Especial ya existente</value>
+    <comment>Descripción de Herramienta Especial ya existente</comment>
+  </data>
+  <data name="GestHerramientaEspecialLOGI_DUPL_SER" xml:space="preserve">
+    <value>Ya existe el número de serie</value>
+    <comment>Ya existe el número de serie</comment>
+  </data>
+  <data name="GestHerramientaEspecialOBLI_COME" xml:space="preserve">
+    <value>El campo comentario no admite valores en blanco</value>
+    <comment>El campo comentario no admite valores en blanco</comment>
+  </data>
+  <data name="GestHerramientaEspecialOBLI_DESC" xml:space="preserve">
+    <value>El campo descripción no admite valores en blanco</value>
+    <comment>El campo descripción no admite valores en blanco</comment>
+  </data>
+  <data name="GestHerramientaEspecialOBLI_DESCNUM" xml:space="preserve">
+    <value>El campo descripción no admite valores númericos</value>
+    <comment>El campo descripción no admite valores númericos</comment>
+  </data>
+  <data name="GestHerramientaEspecialOBLI_ESTA" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestHerramientaEspecialTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Herramientas Especiales</value>
+    <comment>Listado de Herramientas Especiales</comment>
+  </data>
+  <data name="GestHerramientaEspecialTAB1_CONS" xml:space="preserve">
+    <value>Consultar Herramienta Especial</value>
+    <comment>Consultar Herramienta Especial</comment>
+  </data>
+  <data name="GestHerramientaEspecialTAB1_EDIT" xml:space="preserve">
+    <value>Editar Herramienta Especial</value>
+    <comment>Editar Herramienta Especial</comment>
+  </data>
+  <data name="GestHerramientaEspecialTAB1_NUEV" xml:space="preserve">
+    <value>Nueva Herramienta Especial</value>
+    <comment>Nueva Herramienta Especial</comment>
+  </data>
+  <data name="GestNeumaticoBTNG_CONS1" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestNeumaticoBTNG_EDIT1" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestNeumaticoBTNG_NUEV1" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestNeumaticoFORM_CAPT1" xml:space="preserve">
+    <value>Listado de Gestión de Neumatico</value>
+    <comment>Listado de Gestión de Neumatico</comment>
+  </data>
+  <data name="GestNeumaticoGRAB_BAJ" xml:space="preserve">
+    <value>Neumático dado de baja correctamente</value>
+    <comment>Neumático dado de baja correctamente</comment>
+  </data>
+  <data name="GestNeumaticoGRAB_EDIT1" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestNeumaticoGRAB_NUEV1" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestNeumaticoLOGI_DUPL1" xml:space="preserve">
+    <value>Descripción de Neumático ya existe</value>
+    <comment>Descripción de Neumático ya existe</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_BAN1" xml:space="preserve">
+    <value>Debe seleccionar al menos un tipo de banda</value>
+    <comment>Debe seleccionar al menos un tipo de banda</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_CICLO" xml:space="preserve">
+    <value>Debe seleccionar una Ciclo</value>
+    <comment>Debe seleccionar una Ciclo</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_COM1" xml:space="preserve">
+    <value>El campo Comentario no admite valores en blanco</value>
+    <comment>El campo Comentario no admite valores en blanco</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_DIS1" xml:space="preserve">
+    <value>Debe seleccionar al menos un tipo de diseño</value>
+    <comment>Debe seleccionar al menos un tipo de diseño</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_EST" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_NSE" xml:space="preserve">
+    <value>El campo numero de serie no admite valores en blanco</value>
+    <comment>El campo numero de serie no admite valores en blanco</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_TPN" xml:space="preserve">
+    <value>El campo Tipo de neumático no acepta valores en blanco</value>
+    <comment>El campo Tipo de neumático no acepta valores en blanco</comment>
+  </data>
+  <data name="GestNeumaticoOBLI_UC" xml:space="preserve">
+    <value>Debe seleccionar una Unidad de Control</value>
+    <comment>Debe seleccionar una Unidad de Control</comment>
+  </data>
+  <data name="GestNeumaticoTAB0_CAPT1" xml:space="preserve">
+    <value>Listado de Control de Neumatico</value>
+    <comment>Listado de Control de Neumático</comment>
+  </data>
+  <data name="GestNeumaticoTAB1_CONS1" xml:space="preserve">
+    <value>Consultar Control de Neumático</value>
+    <comment>Consultar Control de Neumático</comment>
+  </data>
+  <data name="GestNeumaticoTAB1_EDIT1" xml:space="preserve">
+    <value>Edición de Neumático</value>
+    <comment>Edición de Neumático</comment>
+  </data>
+  <data name="GestNeumaticoTAB1_NUEV1" xml:space="preserve">
+    <value>Nuevo Neumático</value>
+    <comment>Nuevo Neumático</comment>
+  </data>
+  <data name="GestNeumaticoVAL_NSERNONUM" xml:space="preserve">
+    <value>El campo serie no admite valores 100% numéricos</value>
+    <comment>El campo serie no admite valores 100% numéricos</comment>
+  </data>
+  <data name="GestPerfilNeumaticoBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestPerfilNeumaticoBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestPerfilNeumaticoBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestPerfilNeumaticoFORM_CAPT" xml:space="preserve">
+    <value>Perfil de Neumático</value>
+    <comment>Perfil de Neumático</comment>
+  </data>
+  <data name="GestPerfilNeumaticoGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestPerfilNeumaticoGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestPerfilNeumaticoLOGI_DUPL" xml:space="preserve">
+    <value>Descripción de Perfil de Neumático ya existente</value>
+    <comment>Descripción de Perfil de Neumático ya existente</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_COME" xml:space="preserve">
+    <value>El campo comentario no admite valores en blanco</value>
+    <comment>El campo comentario no admite valores en blanco</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_DESC" xml:space="preserve">
+    <value>El campo descripción no admite valores en blanco</value>
+    <comment>El campo descripción no admite valores en blanco</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_DESCNUM" xml:space="preserve">
+    <value>El campo descripción no admite valores númericos</value>
+    <comment>El campo descripción no admite valores númericos</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_EJE" xml:space="preserve">
+    <value>Debe seleccionar al menos un eje</value>
+    <comment>Debe seleccionar al menos un eje</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_ESTA" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_LLAN" xml:space="preserve">
+    <value>Debe seleccionar llantas de repuesto</value>
+    <comment>Debe seleccionar llantas de repuesto</comment>
+  </data>
+  <data name="GestPerfilNeumaticoOBLI_REPU" xml:space="preserve">
+    <value>Repuesto Obligatorio</value>
+    <comment>Mensaje de repuesto obligatorio</comment>
+  </data>
+  <data name="GestPerfilNeumaticoTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Perfil de Neumático</value>
+    <comment>Listado de Perfil de Neumático</comment>
+  </data>
+  <data name="GestPerfilNeumaticoTAB1_CONS" xml:space="preserve">
+    <value>Consultar Perfil de Neumático</value>
+    <comment>Consultar Perfil de Neumático</comment>
+  </data>
+  <data name="GestPerfilNeumaticoTAB1_EDIT" xml:space="preserve">
+    <value>Editar Perfil de Neumático</value>
+    <comment>Editar Perfil de Neumático</comment>
+  </data>
+  <data name="GestPerfilNeumaticoTAB1_NUEV" xml:space="preserve">
+    <value>Nuevo Perfil de Neumático</value>
+    <comment>Nuevo Perfil de Neumático</comment>
+  </data>
+  <data name="GestPerfilUCBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestPerfilUCBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestPerfilUCBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestPerfilUCFORM_CAPT" xml:space="preserve">
+    <value>Gestión Perfil Unidad de Control</value>
+    <comment>Gestión Perfil Unidad de Control</comment>
+  </data>
+  <data name="GestPerfilUCGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestPerfilUCGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestPerfilUCLOGI_DUPL" xml:space="preserve">
+    <value>Descripción de Perfil ya existe</value>
+    <comment>Descripción de Perfil ya existe</comment>
+  </data>
+  <data name="GestPerfilUCOBLI_DESC" xml:space="preserve">
+    <value>El campo descripción no admite valores en blanco</value>
+    <comment>El campo descripción no admite valores en blanco</comment>
+  </data>
+  <data name="GestPerfilUCOBLI_ESTA" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestPerfilUCTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Perfil Unidad de Control</value>
+    <comment>Listado de Perfil Unidad de Control</comment>
+  </data>
+  <data name="GestPerfilUCTAB1_CONS" xml:space="preserve">
+    <value>Consultar Perfil Unidad de Control</value>
+    <comment>Consultar Perfil Unidad de Control</comment>
+  </data>
+  <data name="GestPerfilUCTAB1_EDIT" xml:space="preserve">
+    <value>Editar Perfil Unidad de Control</value>
+    <comment>Editar Perfil Unidad de Control</comment>
+  </data>
+  <data name="GestPerfilUCTAB1_NUEV" xml:space="preserve">
+    <value>Nuevo Perfil Unidad de Control</value>
+    <comment>Nuevo Perfil Unidad de Control</comment>
+  </data>
+  <data name="GestTareaBTNG_CONS" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Aceptar</comment>
+  </data>
+  <data name="GestTareaBTNG_EDIT" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>Actualizar</comment>
+  </data>
+  <data name="GestTareaBTNG_NUEV" xml:space="preserve">
+    <value>Crear</value>
+    <comment>Crear</comment>
+  </data>
+  <data name="GestTareaFORM_CAPT" xml:space="preserve">
+    <value>Gestión Tarea</value>
+    <comment>Gestión Tarea</comment>
+  </data>
+  <data name="GestTareaGRAB_EDIT" xml:space="preserve">
+    <value>Edición satisfactoria</value>
+    <comment>Edición satisfactoria</comment>
+  </data>
+  <data name="GestTareaGRAB_NUEV" xml:space="preserve">
+    <value>Creación Satisfactoria</value>
+    <comment>Creación Satisfactoria</comment>
+  </data>
+  <data name="GestTareaLOGI_DUPL" xml:space="preserve">
+    <value>Descripción de Tarea ya existente</value>
+    <comment>Descripción de Tarea ya existente</comment>
+  </data>
+  <data name="GestTareaOBLI_ACTI" xml:space="preserve">
+    <value>Debe seleccionar al menos una actividad</value>
+    <comment>Debe seleccionar al menos una actividad</comment>
+  </data>
+  <data name="GestTareaOBLI_DESC" xml:space="preserve">
+    <value>El campo descripción no admite valores en blanco</value>
+    <comment>El campo descripción no admite valores en blanco</comment>
+  </data>
+  <data name="GestTareaOBLI_DESCNUM" xml:space="preserve">
+    <value>El campo descripción no admite valores númericos</value>
+    <comment>El campo descripción no admite valores númericos</comment>
+  </data>
+  <data name="GestTareaOBLI_ESTA" xml:space="preserve">
+    <value>Debe seleccionar al menos un estado</value>
+    <comment>Debe seleccionar al menos un estado</comment>
+  </data>
+  <data name="GestTareaTAB0_CAPT" xml:space="preserve">
+    <value>Listado de Tareas</value>
+    <comment>Listado de Tarea</comment>
+  </data>
+  <data name="GestTareaTAB1_CONS" xml:space="preserve">
+    <value>Consultar Tarea</value>
+    <comment>Consultar Tarea Especial</comment>
+  </data>
+  <data name="GestTareaTAB1_EDIT" xml:space="preserve">
+    <value>Editar Tarea</value>
+    <comment>Editar Tarea Especial</comment>
+  </data>
+  <data name="GestTareaTAB1_NUEV" xml:space="preserve">
+    <value>Nueva Tarea</value>
+    <comment>Nueva Tarea Especial</comment>
+  </data>
+</root>

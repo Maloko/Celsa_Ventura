@@ -1,0 +1,244 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:17:48.7846628-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:23:47.7293163-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:25:41.9059317-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:25:52.5915013-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:30:09.2684407-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:30:32.7063165-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T16:32:49.5140168-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T17:50:54.2754869-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 50
+   en Business.B_TipoUnidad.TipoUnidadC_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 26
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 145</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T17:59:04.6376922-05:00</Error_DateTime>
+    <Error_Description>Procedure or function 'TipoUnidadC_Insert' expects parameter '@CodUC', which was not supplied.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_TipoUnidad.TUnidad_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 71
+   en Business.B_TipoUnidad.TUnidad_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 30
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 146</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T18:03:36.9107854-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TUnidad_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 72
+   en Business.B_TipoUnidad.TUnidad_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 30
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 146</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-02-22T18:09:20.323336-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_TipoUnidad.TUnidad_Insert(E_TipoUnidad obje) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_TipoUnidad.cs:línea 72
+   en Business.B_TipoUnidad.TUnidad_Insert(E_TipoUnidad E_TipoUnidad) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_TipoUnidad.cs:línea 30
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestTipoUnidadControl.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ01-Definicion\GestTipoUnidadControl.xaml.cs:línea 146</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,399 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:01:53.0663111-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:01:53.0819487-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:01:53.1192897-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:02:11.9235714-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:02:16.3642471-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:02:16.3672471-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:18.2805874-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:18.2805874-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:18.2805874-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:28.1705914-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:40.1441774-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:41.0231762-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:41.0231762-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:13:44.3950955-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_Update</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = AQP01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:14:04.922903-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = AQP01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:14:05.0322878-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:33:42.9265282-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:33:42.9421534-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:33:42.9421534-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:34:53.2567008-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:34:58.9973934-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:34:58.9973934-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:35:01.1984984-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_Update</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = ALM.SM01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:35:04.7276526-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = ALM.SM01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:35:04.7276526-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = ALM.SM01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:35:17.7927967-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:08.4227505-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:08.4227505-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:08.4227505-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:18.0746863-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:19.3315551-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:19.3315551-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T16:58:21.3126631-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_Update</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = AQP01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:58:52.2461634-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = AQP01, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T16:58:52.2617907-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:27.8766275-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:27.8766275-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:27.8922522-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:35.1155058-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:36.3883967-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:36.3883967-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T17:09:37.9196327-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_Update</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 1, Valor = AML.SN1, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T17:09:47.4979607-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 42, IdColumna = 0, Valor = AML.SN1, Descripcion = Almacén Origen (Central), IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 1</Parametros>
+    <FechaHora>2015-05-26T17:09:47.5135675-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T18:24:01.11113-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_GetItem</Metodo>
+    <Parametros>IdTabla = 1000, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 1, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T18:24:01.1736816-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>TablaMaestra_List</Metodo>
+    <Parametros>IdTabla = 0, IdColumna = 0, Valor = , Descripcion = , IdColumnaPadre = 0, FlagActivo = 2, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-05-26T18:24:01.1892859-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,1 @@
+(30) RD: Debe indicar si es reparable Transcation commit unsuccessfully.	

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0617F5DC-8E9B-4BA5-B750-56ADC9DB2B25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business</RootNamespace>
+    <AssemblyName>Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="B_Actividad.cs" />
+    <Compile Include="B_CargaMasiva.cs" />
+    <Compile Include="B_Ciclo.cs" />
+    <Compile Include="B_Conexion.cs" />
+    <Compile Include="B_ContadorDet.cs" />
+    <Compile Include="B_Correo.cs" />
+    <Compile Include="B_Empresa.cs" />
+    <Compile Include="B_FormatoImpresion.cs" />
+    <Compile Include="B_Herramienta.cs" />
+    <Compile Include="B_HerramientaItem.cs" />
+    <Compile Include="B_HI.cs" />
+    <Compile Include="B_HR.cs" />
+    <Compile Include="B_Menu.cs" />
+    <Compile Include="B_Neumatico.cs" />
+    <Compile Include="B_Neumatico_Ciclo.cs" />
+    <Compile Include="B_Neumatico_Control.cs" />
+    <Compile Include="B_Neumatico_ControlDet.cs" />
+    <Compile Include="B_Neumatico_Transfer.cs" />
+    <Compile Include="B_OT.cs" />
+    <Compile Include="B_OTArticulo.cs" />
+    <Compile Include="B_OTComp.cs" />
+    <Compile Include="B_OTIProv.cs" />
+    <Compile Include="B_Perfil.cs" />
+    <Compile Include="B_PerfilComp.cs" />
+    <Compile Include="B_PerfilComp_Actividad.cs" />
+    <Compile Include="B_PerfilComp_Ciclo.cs" />
+    <Compile Include="B_PerfilDetalle.cs" />
+    <Compile Include="B_PerfilNeumatico.cs" />
+    <Compile Include="B_PerfilNeumaticoEje.cs" />
+    <Compile Include="B_PerfilTarea.cs" />
+    <Compile Include="B_PM.cs" />
+    <Compile Include="B_Programacion.cs" />
+    <Compile Include="B_Rol.cs" />
+    <Compile Include="B_Settings.cs" />
+    <Compile Include="B_TablaMaestra.cs" />
+    <Compile Include="B_Tarea.cs" />
+    <Compile Include="B_TP.cs" />
+    <Compile Include="B_UC.cs" />
+    <Compile Include="B_UCComp.cs" />
+    <Compile Include="B_UCCompTransfer.cs" />
+    <Compile Include="B_UCComp_Ciclo.cs" />
+    <Compile Include="B_UCIncidencia.cs" />
+    <Compile Include="B_UCIncidenciaDet.cs" />
+    <Compile Include="B_Usuario.cs" />
+    <Compile Include="B_Alertas.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{6B081406-545F-4CB9-B8C9-D10EF285CEF1}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{C5D7AD24-7780-4313-A3C3-997F9D62E5F0}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilitarios\Utilitarios.csproj">
+      <Project>{A67C7FAC-67A3-4517-9654-71F28EDA6B33}</Project>
+      <Name>Utilitarios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Business.dll" />
+    <Content Include="bin\Debug\Business.pdb" />
+    <Content Include="bin\Debug\Data.dll" />
+    <Content Include="bin\Debug\Data.pdb" />
+    <Content Include="bin\Debug\Entities.dll" />
+    <Content Include="bin\Debug\Entities.pdb" />
+    <Content Include="bin\Debug\Utilitarios.dll" />
+    <Content Include="bin\Debug\Utilitarios.pdb" />
+    <Content Include="bin\Release\Business.dll" />
+    <Content Include="bin\Release\Business.pdb" />
+    <Content Include="bin\Release\Data.dll" />
+    <Content Include="bin\Release\Data.pdb" />
+    <Content Include="bin\Release\Entities.dll" />
+    <Content Include="bin\Release\Entities.pdb" />
+    <Content Include="bin\Release\Utilitarios.dll" />
+    <Content Include="bin\Release\Utilitarios.pdb" />
+    <Content Include="bin\x64\Debug\Business.dll" />
+    <Content Include="bin\x64\Debug\Business.pdb" />
+    <Content Include="bin\x64\Debug\Data.dll" />
+    <Content Include="bin\x64\Debug\Data.pdb" />
+    <Content Include="bin\x64\Debug\Entities.dll" />
+    <Content Include="bin\x64\Debug\Entities.pdb" />
+    <Content Include="bin\x64\Debug\Utilitarios.dll" />
+    <Content Include="bin\x64\Debug\Utilitarios.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x64\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

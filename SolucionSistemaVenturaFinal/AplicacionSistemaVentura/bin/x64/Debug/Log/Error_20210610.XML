@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-10T15:40:41.1958472-05:00</Error_DateTime>
+    <Error_Description>El parámetro 'address' no puede ser una cadena vacía.
+Nombre del parámetro: address</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.Mailer(String titulo, String UC, String PerfilComp, String vfcambio, String vcontador, String vporc, String color) en C:\Users\gparedes\Desktop\VSMONE\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 378</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void .ctor(System.String, System.String, System.Text.Encoding)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-10T15:42:57.3832386-05:00</Error_DateTime>
+    <Error_Description>El parámetro 'address' no puede ser una cadena vacía.
+Nombre del parámetro: address</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.Mailer(String titulo, String UC, String PerfilComp, String vfcambio, String vcontador, String vporc, String color) en C:\Users\gparedes\Desktop\VSMONE\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 378</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void .ctor(System.String, System.String, System.Text.Encoding)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-10T15:45:32.1448568-05:00</Error_DateTime>
+    <Error_Description>El parámetro 'address' no puede ser una cadena vacía.
+Nombre del parámetro: address</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.Mailer(String titulo, String UC, String PerfilComp, String vfcambio, String vcontador, String vporc, String color) en C:\Users\gparedes\Desktop\VSMONE\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 378</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void .ctor(System.String, System.String, System.Text.Encoding)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-10T15:48:36.7889792-05:00</Error_DateTime>
+    <Error_Description>El parámetro 'address' no puede ser una cadena vacía.
+Nombre del parámetro: address</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.Mailer(String titulo, String UC, String PerfilComp, String vfcambio, String vcontador, String vporc, String color) en C:\Users\gparedes\Desktop\VSMONE\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 378</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void .ctor(System.String, System.String, System.Text.Encoding)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-10T16:02:05.7701631-05:00</Error_DateTime>
+    <Error_Description>El parámetro 'address' no puede ser una cadena vacía.
+Nombre del parámetro: address</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.Mailer(String titulo, String UC, String PerfilComp, String vfcambio, String vcontador, String vporc, String color) en C:\Users\gparedes\Desktop\VSMONE\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 380</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void .ctor(System.String, System.String, System.Text.Encoding)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+</NewDataSet>

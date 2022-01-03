@@ -1,0 +1,204 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ02_Planificacion.PlanGestionMantenimiento"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" d:DesignHeight="535" d:DesignWidth="1024">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            
+            <DataTemplate x:Key="CheckTemplate">
+                <CheckBox x:Name="dtgActCheked" IsChecked="{Binding Path=RowData.Row.IsChecked}" HorizontalAlignment="Center" VerticalAlignment="Center" Click="CheckBox_Click"/>
+            </DataTemplate>
+            <Style x:Key="TreeViewItemStyle" TargetType="TreeViewItem">
+                <Setter Property="IsExpanded" Value="True" />
+                <Setter Property="IsSelected" Value="{Binding IsInitiallySelected, Mode=OneTime}" />
+                <Setter Property="KeyboardNavigation.AcceptsReturn" Value="True" />
+            </Style>
+            <HierarchicalDataTemplate x:Key="CheckBoxItemTemplate" ItemsSource="{Binding Children, Mode=OneTime}">
+                <StackPanel Orientation="Horizontal">
+                    <Label VerticalAlignment="Center" Content="{Binding Name, Mode=OneTime}" Margin="2,0" FontWeight="{Binding FontWeight}" />
+                    <TextBlock Name="Id" Text="{Binding IdMenu}" Visibility="Hidden"/>
+                </StackPanel>
+            </HierarchicalDataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl Margin="12,12,12,12" Name="tabControl1">
+            <TabItem Header="Listado de Planes de Mantenimiento" Name="tbListaPM">
+                <Grid>
+                    <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Margin="10,10,10,52" Name="dtgListPM" MouseDoubleClick="dtgListPM_MouseDoubleClick">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn VisibleIndex="0" FieldName="CodPM" Header="Código" Width="100" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Tag="CodPM" FontWeight="Bold" Text="{Binding Data.CodPM}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn VisibleIndex="1" FieldName="PM" Header="Plan de Mantenimiento" Width="160"/>
+                            <dxg:GridColumn VisibleIndex="2" FieldName="Perfil" Header="Perfil" Width="150"/>
+                            <dxg:GridColumn VisibleIndex="3" FieldName="Ciclo"  Header="Ciclo" />
+                            <dxg:GridColumn VisibleIndex="4" FieldName="Frecuencia" Header="Frecuencia" Width="80">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="n2"/>
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn VisibleIndex="5" FieldName="TipoOTDefecto" Header="Tipo de OT" Width="80"/>
+                            <dxg:GridColumn VisibleIndex="6" FieldName="Porc01" Header="Límite Amarillo" Width="100" HorizontalHeaderContentAlignment="Center">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:TextEditSettings MaskType="Numeric" Mask="p2" DisplayFormat="p2"/>
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn VisibleIndex="7" FieldName="Porc02" Header="Límite Naranja" Width="100" HorizontalHeaderContentAlignment="Center">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:TextEditSettings MaskType="Numeric" Mask="p2" DisplayFormat="p2"/>
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn VisibleIndex="8" FieldName="EstadoPM" Header="Estado" Width="80"/>
+                            <dxg:GridColumn VisibleIndex="9" FieldName="IdPM" Header="Código" Visible="False" />
+                        </dxg:GridControl.Columns>
+
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" FieldName="CodPM" />
+                        </dxg:GridControl.TotalSummary>
+
+                        <dxg:GridControl.View>
+                            <dxg:TableView
+                                ShowFixedTotalSummary="True"
+                                AllowPerPixelScrolling="True"
+                                ShowGroupPanel="False"
+                                ShowSearchPanelMode="Always"
+                                SearchPanelHorizontalAlignment="Left" 
+                                ShowIndicator="True"
+                                AlternateRowBackground="AliceBlue"
+                                AllowEditing="False"
+                                 />
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                    <Button Style="{DynamicResource buttonStyle}" Height="28" HorizontalAlignment="Left" Margin="10,0,0,10"  VerticalAlignment="Bottom" Width="100" Content="Registrar"  Name="BtnRegistrarPMantenimiento"  Click="BtnRegistrarPMantenimiento_Click"/>
+                    <Button Style="{DynamicResource buttonStyle}" Height="28" HorizontalAlignment="Left" Margin="120,0,0,10"  VerticalAlignment="Bottom" Width="100" Content="Modificar"  Name="BtnModificarPMantenimiento"  Click="BtnModificarPMantenimiento_Click"/>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Consultar Plan de Mantenimiento" Name="tbDetallesPM">
+                <Grid>
+                    <Label Content="Código:" HorizontalAlignment="Left" Margin="10,13,0,0" Name="label1" VerticalAlignment="Top" />
+                    <Label Content="Descripción:" HorizontalAlignment="Left" Margin="10,45,0,0" Name="label2" VerticalAlignment="Top" />
+                    <Label Content="Perfil:" HorizontalAlignment="Left" Margin="222,13,0,0" Name="label3" VerticalAlignment="Top" />
+                    <Label Content="Ciclo:" HorizontalAlignment="Left" Margin="222,45,0,0" Name="label4" VerticalAlignment="Top" />
+                    <Label Content="Estado:" HorizontalAlignment="Left" Margin="404,13,0,0" Name="label5" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="269,10,0,0" Name="CboPerfil" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" SelectedIndexChanged="CboPerfil_SelectedIndexChanged" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="269,42,0,0" Name="CboCiclo" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" SelectedIndexChanged="CboCiclo_SelectedIndexChanged" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="468,10,0,0" Name="CboEstado" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" SelectedIndexChanged="CboEstado_SelectedIndexChanged"/>
+                    <TextBox IsReadOnly="True" Text="Nuevo Código" HorizontalAlignment="Left" Margin="84,10,0,0" Name="TxTCodigo" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" />
+                    <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecial}" HorizontalAlignment="Left" Margin="84,42,0,0" Name="txtDescripcion" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" EditValueChanged="txtDescripcion_EditValueChanged" />
+                    <Label Content="Tipo O/T:" HorizontalAlignment="Left" Margin="404,45,0,0" Name="label11" VerticalAlignment="Top"/>
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="468,42,0,0" Name="CboTipoOTDefecto" VerticalAlignment="Top" Width="95" GotFocus="OnFocus"  LostFocus="OutFocus" SelectedIndexChanged="CboTipoOTDefecto_SelectedIndexChanged"/>
+                    <GroupBox Header="Frecuencia de Ejecución" Height="355" HorizontalAlignment="Left" Margin="625,72,0,0" Name="gbFrecuencias" VerticalAlignment="Top" Width="336">
+                        <Grid>
+                            <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" HorizontalAlignment="Left" Margin="18,48,0,0" Name="dtgFrec" VerticalAlignment="Top" Height="144" Width="287">
+
+                                <dxg:GridControl.Columns>
+                                    <dxg:GridColumn AllowEditing="False" FieldName="Frecuencia" HorizontalHeaderContentAlignment="Left" VisibleIndex="0" Header="Frecuencia" Width="140">
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="n2"/>
+                                        </dxg:GridColumn.EditSettings>
+                                    </dxg:GridColumn>
+                                    <dxg:GridColumn AllowEditing="False" FieldName="EstadoF" HorizontalHeaderContentAlignment="Left" VisibleIndex="1" Header="Estado" Width="80"/>
+                                    <dxg:GridColumn VisibleIndex="2" Width="25" >
+                                        <dxg:GridColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                                                    <dxe:ButtonEdit AllowDefaultButton="False" ShowText="False" HorizontalAlignment="Left" Width="20" Height="20">
+                                                        <dxe:ButtonInfo AllowDrop="False" Name="btnEditarFrec" Click="btnEditarFrec_Click" GlyphKind="Edit" ToolTipService.ToolTip="Modificar"/>
+                                                    </dxe:ButtonEdit>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </dxg:GridColumn.CellTemplate>
+                                    </dxg:GridColumn>
+                                    <dxg:GridColumn FieldName="IdEstadoDisponible" VisibleIndex="3" Visible="False"/>
+                                </dxg:GridControl.Columns>
+
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AllowPerPixelScrolling="True" Name="tableView2" ShowTotalSummary="False" ShowGroupPanel="False" />
+                                </dxg:GridControl.View>
+                            </dxg:GridControl>
+                            <GroupBox Header="Semáforo" Height="109" HorizontalAlignment="Left" Margin="17,207,0,0" Name="groupBox2" VerticalAlignment="Top" Width="288">
+                                <Grid>
+                                    <Label Content="Límite Amarillo:" HorizontalAlignment="Left" Margin="6,16,0,0" Name="label6" VerticalAlignment="Top" />
+                                    <Label Content="Límite Naranja:" HorizontalAlignment="Left" Margin="6,49,0,0" Name="label7" VerticalAlignment="Top" />
+                                    <dxe:SpinEdit Value="1" Increment="10" MinValue="1" MaxValue="100" MaxLength="3" Width="95" Name="spLimiteNaranja" Height="24" Margin="100,44,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" GotFocus="OnFocus"  LostFocus="OutFocus" IsFloatValue="False" EditValueChanged="spLimiteNaranja_EditValueChanged"/>
+                                    <dxe:SpinEdit Value="1" Increment="10" MinValue="1" MaxValue="100" MaxLength="3" Width="95" Name="spLimiteAmarillo" Height="24" Margin="100,11,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" GotFocus="OnFocus"  LostFocus="OutFocus" IsFloatValue="False" EditValueChanged="spLimiteAmarillo_EditValueChanged" />
+                                    <Label Content="%" HorizontalAlignment="Left" Margin="212,16,0,0" Name="label8" VerticalAlignment="Top" />
+                                    <Label Content="%" HorizontalAlignment="Left" Margin="212,49,0,0" Name="label9" VerticalAlignment="Top" />
+                                </Grid>
+                            </GroupBox>
+                            <dxe:ButtonEdit AllowDefaultButton="False" Height="25" HorizontalAlignment="Left" Margin="16,17,0,0" Name="buttonEdit3" ShowText="False" VerticalAlignment="Top" Width="25" TabIndex="4">
+                                <dxe:ButtonInfo AllowDrop="False" Name="btnAbrirFrecuencia" Click="btnAbrirFrecuencia_Click" GlyphKind="Down" ToolTipService.ToolTip="Agregar Frecuencia"/>
+                            </dxe:ButtonEdit>
+                        </Grid>
+                    </GroupBox>
+                    <TreeView Height="347" HorizontalAlignment="Left" Margin="10,79,0,0" Name="trvComp" VerticalAlignment="Top" Width="220" ItemContainerStyle="{StaticResource TreeViewItemStyle}"
+                            ItemTemplate="{StaticResource CheckBoxItemTemplate}" SelectedItemChanged="trvComp_SelectedItemChanged" />
+
+                    <GroupBox Header="Actividades" Height="354" HorizontalAlignment="Left" Margin="260,72,0,0" Name="gbActividades" VerticalAlignment="Top" Width="338">
+                        <Grid>
+                            <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Height="309" HorizontalAlignment="Left" Margin="12,10,0,0" Name="dtgActi" VerticalAlignment="Top" Width="302">
+                                <dxg:GridControl.Columns>
+                                    <dxg:GridColumn FieldName="IsChecked" Header=" " VisibleIndex="0" Width="50" CellTemplate="{StaticResource CheckTemplate}"/>
+                                    <dxg:GridColumn AllowEditing="False" FieldName="Actividad" Width="200" VisibleIndex="1" />
+                                </dxg:GridControl.Columns>
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AllowPerPixelScrolling="True" Name="tableView3" ShowGroupPanel="False" ShowTotalSummary="False" />
+                                </dxg:GridControl.View>
+                            </dxg:GridControl>
+                        </Grid>
+                    </GroupBox>
+                    <Button Style="{DynamicResource buttonStyle}" Width="100" IsDefault="True"   HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" Content="Grabar" Name="BtnGrabar" Click="BtnGrabar_Click"/>
+                    <Button Style="{DynamicResource buttonStyle}" Width="100" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Margin="120,0,0,10" Content="Cancelar" Name="BtnCancelar" Click="BtnCancelar_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Grid Name="stkAbrirFrecuencia" Visibility="Collapsed">
+            <Grid Background="Black" Opacity="0.75"/>
+            <Border x:Name="InputBorde1" MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+                <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="361" Margin="-1" Text="Agregar Frecuencia" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <StackPanel Visibility="Visible" HorizontalAlignment="Left" Margin="0,0,0,0" Name="stkAbrirFrecuencia2" VerticalAlignment="Top" Background="White" Height="103">
+                        <Grid Width="360" Height="102">
+                            <Label  Content="Frecuencia:" Name="label13" Margin="67,29,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                            <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" Height="23" Name="txtFrecuencia" Width="154" Margin="143,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+                            <Button Style="{DynamicResource buttonStyle}" IsDefault="False" Height="25" HorizontalAlignment="Left" Margin="75,0,0,10" VerticalAlignment="Bottom" Width="87" Content="Aceptar" Name="btnAgregarFrec" Click="btnAgregarFrec_Click"/>
+                            <Button Style="{DynamicResource buttonStyle}" IsCancel="False" Height="25" HorizontalAlignment="Right" Margin="0,0,75,10" VerticalAlignment="Bottom" Width="87" Content="Cancelar" Name="btnCancelarFrec" Click="btnCancelarFrec_Click"/>
+                        </Grid>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Name="stkEditFrec" Visibility="Collapsed">
+            <Grid Background="Black" Opacity="0.75"/>
+            <Border x:Name="InputBorde2" MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+                <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="361" Margin="-1" Text="Modificar Frecuencia" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <StackPanel Visibility="Visible" Name="stkEditFrec2" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="360" Background="White" Height="120">
+                        <Grid Width="360" Height="120">
+                            <Button Style="{DynamicResource buttonStyle}" IsDefault="False" Height="25" HorizontalAlignment="Left" Margin="75,0,0,10" VerticalAlignment="Bottom" Width="87" Content="Aceptar" Name="btnEditarFrecu" Click="btnEditarFrecu_Click"/>
+                            <Button Style="{DynamicResource buttonStyle}" IsCancel="False" Height="25" HorizontalAlignment="Right" Margin="0,0,75,10" VerticalAlignment="Bottom" Width="87" Content="Cancelar" Name="btnCancelarFrecu" Click="btnCancelarFrecu_Click"/>
+                            
+                            <Label Content="Frecuencia:" Name="label16" Margin="67,17,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" />
+                            <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" Height="23" Name="txtFrecEdit"  Width="154" Margin="143,13,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" EditValueChanged="txtFrecEdit_EditValueChanged"/>
+                            <Label Content="Estado:" HorizontalAlignment="Left" Margin="67,49,0,0" Name="label15" VerticalAlignment="Top" />
+                            <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="143,45,0,0" Name="cboEstFrec" VerticalAlignment="Top" Width="154" Height="23" SelectedIndexChanged="cboEstFrec_SelectedIndexChanged"/>
+                        </Grid>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

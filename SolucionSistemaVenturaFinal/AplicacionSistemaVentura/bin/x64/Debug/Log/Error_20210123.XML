@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T17:08:06.8029881-05:00</Error_DateTime>
+    <Error_Description>El nombre del directorio no es válido.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en System.IO.Directory.Delete(String path)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5049</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T17:22:59.6083488-05:00</Error_DateTime>
+    <Error_Description>El nombre del directorio no es válido.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en System.IO.Directory.Delete(String path)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5052</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T17:24:30.4105582-05:00</Error_DateTime>
+    <Error_Description>El nombre del directorio no es válido.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en System.IO.Directory.Delete(String path)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5052</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T17:38:01.2880409-05:00</Error_DateTime>
+    <Error_Description>El nombre del directorio no es válido.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en System.IO.Directory.Delete(String path)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5052</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T17:38:04.2804417-05:00</Error_DateTime>
+    <Error_Description>El nombre del directorio no es válido.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en System.IO.Directory.Delete(String path)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5052</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-23T18:15:57.7826635-05:00</Error_DateTime>
+    <Error_Description>Error de lectura porque no hay datos.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   en System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   en System.Data.SqlClient.SqlDataReader.GetSqlBytes(Int32 i)
+   en Data.D_Documents.Documents_VDoc(E_Documents E_Documents) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Data\D_Documents.cs:línea 66
+   en Business.B_Documents.Documents_VDoc(E_Documents E_Documents) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\Business\B_Documents.cs:línea 24
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnVerArchivo_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5036</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CheckDataIsReady(Int32, Boolean, Boolean, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

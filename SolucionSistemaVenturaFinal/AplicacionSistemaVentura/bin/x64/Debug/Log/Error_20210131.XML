@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:00:16.9052271-05:00</Error_DateTime>
+    <Error_Description>No se puede encontrar la columna 10.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 127
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn get_Item(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:16:24.5707793-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get__Default(Object RowIndex, Object ColumnIndex)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 126
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:20:28.2377083-05:00</Error_DateTime>
+    <Error_Description>No se puede encontrar la columna 10.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 127
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn get_Item(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:21:43.8930756-05:00</Error_DateTime>
+    <Error_Description>No se puede encontrar la columna 10.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 127
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn get_Item(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:25:48.6111762-05:00</Error_DateTime>
+    <Error_Description>No se puede encontrar la columna 10.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 127
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn get_Item(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:47:44.0324947-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A01A8</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get_Columns()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 124
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T17:56:43.4067651-05:00</Error_DateTime>
+    <Error_Description>No se puede encontrar la columna 10.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 128
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnAbrirExcel_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 74</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn get_Item(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T19:24:04.4624437-05:00</Error_DateTime>
+    <Error_Description>No se reconoce la cadena como un valor de DateTime válido. Hay una palabra desconocida a partir del índice 20.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.BtnRegistrar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 163</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-31T20:20:49.509912-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 2.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.BtnRegistrar_Click(Object sender, RoutedEventArgs e) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 159</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

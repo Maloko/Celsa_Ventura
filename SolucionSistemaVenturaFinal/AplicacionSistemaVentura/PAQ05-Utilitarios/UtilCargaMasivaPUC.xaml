@@ -1,0 +1,354 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="539" d:DesignWidth="716"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+    <Grid>
+        <Label Content="Seleccione archivo excel" HorizontalAlignment="Left" Margin="10,13,0,0" Name="label1" VerticalAlignment="Top" />
+        <dxe:ButtonEdit AllowDefaultButton="False" HorizontalAlignment="Left" Margin="138,10,0,0" Name="BtnBuscar" ShowText="False" VerticalAlignment="Top" Width="20" Height="20">
+            <dxe:ButtonInfo Content="..." Click="btnAbrirExcel_Click" />
+        </dxe:ButtonEdit>
+        <Label Content="Ubicación" HorizontalAlignment="Left" Margin="10,35,0,0" Name="lblUbicacion" VerticalAlignment="Top" />
+        <Label Content="" HorizontalAlignment="Left" Margin="138,35,0,0" Name="lblRuta" VerticalAlignment="Top" />
+        <Button Content="Descargar Formato" HorizontalAlignment="Right" Margin="0,10,10,0" Name="btnDescargar" VerticalAlignment="Top" Width="132" Click="btnDescargar_Click" Style="{DynamicResource buttonStyle}"/>
+        <TabControl Margin="10,60,10,0" Name="tabControl1" Height="329" VerticalAlignment="Top">
+            <TabItem Header="Lista Perfil de Unidad de Control" Name="tabEncabezado">
+                <Grid>
+                    <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgEncabezado" Margin="10,10,10,10">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="Perfil" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Perfil}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="IdTipoUnidad" Header="Tipo Unidad" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.IdTipoUnidad}" Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="IdCicloDefecto" Header="Ciclo Defecto">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.IdCicloDefecto}" Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="IdPerfilNeumatico" Header="Perfil Neumatico" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.IdPerfilNeumatico}" Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="IdEstadoP" Header="Estado" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.IdEstadoP}" Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                        </dxg:GridControl.TotalSummary>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView1"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </Grid>
+            </TabItem>
+            <TabItem Name="tabComponentes" Header="Lista Perfil de Componentes" >
+                <Grid>
+                    <TabControl Margin="5,5,5,5" Name="tabControl2" IsVisibleChanged="PLANTILLAtabControl_IsVisibleChanged">
+                        <TabItem Name="tabPComp" Header="Lista">
+                            <Grid>
+                                <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgDetalle" Margin="10,10,10,10">
+                                    <dxg:GridControl.Columns>
+                                        <dxg:GridColumn FieldName="CodPerfilComp" Header="IdPerfilComp"  >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.CodPerfilComp}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold" />
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="PerfilComp" >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.PerfilComp}" Background="{Binding Path=RowData.Row.Color}" />
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdPerfilCompPadre" Header="Cod.Perfil Comp. Padre" >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdPerfilCompPadre}" Background="{Binding Path=RowData.Row.Color}" />
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdPerfil" Header="Perfil U. C." >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdPerfil}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdTipoDetalle" Header="Tipo Detalle" >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdTipoDetalle}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="FlagNeumatico">
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.FlagNeumatico}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdEstadoPC" Header="Estado">
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdEstadoPC}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                    </dxg:GridControl.Columns>
+                                    <dxg:GridControl.TotalSummary>
+                                        <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                                    </dxg:GridControl.TotalSummary>
+                                    <dxg:GridControl.View>
+                                        <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView2"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                                    </dxg:GridControl.View>
+                                </dxg:GridControl>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Name="tabPerfilCompCiclo" Header="Ciclos de Componentes">
+                            <Grid>
+                                <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgPerfilCompCiclo" Margin="10,10,10,10">
+                                    <dxg:GridControl.Columns>
+                                        <dxg:GridColumn FieldName="IdPerfilComp" Header="IdPerfilComp"  >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdPerfilComp}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdCiclo" Header="Ciclo" >
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdCiclo}"  Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="FrecuenciaCambio" Header="Frecuencia de cambio">
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.FrecuenciaCambio}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="IdEstadoPCC" Header="Estado">
+                                            <dxg:GridColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Label Content="{Binding Data.IdEstadoPCC}" Background="{Binding Path=RowData.Row.Color}"/>
+                                                </DataTemplate>
+                                            </dxg:GridColumn.CellTemplate>
+                                        </dxg:GridColumn>
+                                    </dxg:GridControl.Columns>
+                                    <dxg:GridControl.TotalSummary>
+                                        <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                                    </dxg:GridControl.TotalSummary>
+                                    <dxg:GridControl.View>
+                                        <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView4"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown" />
+                                    </dxg:GridControl.View>
+                                </dxg:GridControl>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Name="tabPerfilCompActividad" Header="Actividades de Componentes" >
+                            <Grid>
+                                <TabControl Margin="5,5,5,5" Name="tabControl3" IsVisibleChanged="PLANTILLAtabControl_IsVisibleChanged">
+                                    <TabItem Name="tabPCActividad" Header="Lista">
+                                        <Grid>
+                                            <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgPerfilCompActividad" Margin="10,10,10,10">
+                                                <dxg:GridControl.Columns>
+                                                    <dxg:GridColumn FieldName="IdPerfilComp" Header="IdPerfilComp"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdPerfilComp}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="IdActividad" Header="Actividad" >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdActividad}"  Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="Flag Uso">
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.FlagUso}" Background="{Binding Path=RowData.Row.Color}"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                </dxg:GridControl.Columns>
+                                                <dxg:GridControl.TotalSummary>
+                                                    <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                                                </dxg:GridControl.TotalSummary>
+                                                <dxg:GridControl.View>
+                                                    <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView3"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                                                </dxg:GridControl.View>
+                                            </dxg:GridControl>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Name="tabPerfilTarea" Header="Tareas de Actividades de Componentes">
+                                        <Grid>
+                                            <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgPerfilTarea" Margin="10,10,10,10">
+                                                <dxg:GridControl.Columns>
+                                                    <dxg:GridColumn FieldName="CodPerfilComp" Header="IdPerfilComp">
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.CodPerfilComp}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold" />
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="Actividad"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.Actividad}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="IdTarea" Header="Tarea"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdTarea}" Background="{Binding Path=RowData.Row.Color}" />
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="HorasHombre"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.HorasHombre}"  Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="IdEstadoPT" Header="Estado">
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdEstadoPT}" Background="{Binding Path=RowData.Row.Color}"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                </dxg:GridControl.Columns>
+                                                <dxg:GridControl.TotalSummary>
+                                                    <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                                                </dxg:GridControl.TotalSummary>
+                                                <dxg:GridControl.View>
+                                                    <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView5"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                                                </dxg:GridControl.View>
+                                            </dxg:GridControl>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Name="tabPerfilDetalle" Header="Detalles de Actividades de Componentes">
+                                        <Grid>
+                                            <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgPerfilDetalle" Margin="10,10,10,10">
+                                                <dxg:GridControl.Columns>
+                                                    <dxg:GridColumn FieldName="IdTipoArticulo" >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdTipoArticulo}" Background="{Binding Path=RowData.Row.Color}" />
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="CodPerfilComp" Header="IdPerfilComp" >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.CodPerfilComp}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold" />
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="Actividad"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.Actividad}" Background="{Binding Path=RowData.Row.Color}" FontWeight="Bold"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="IdArticulo" Header="Articulo" Width="240">
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.IdArticulo}" Background="{Binding Path=RowData.Row.Color}" />
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                    <dxg:GridColumn FieldName="Cantidad"  >
+                                                        <dxg:GridColumn.CellTemplate>
+                                                            <DataTemplate>
+                                                                <Label Content="{Binding Data.Cantidad}"  Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+                                                            </DataTemplate>
+                                                        </dxg:GridColumn.CellTemplate>
+                                                    </dxg:GridColumn>
+                                                </dxg:GridControl.Columns>
+                                                <dxg:GridControl.TotalSummary>
+                                                    <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                                                </dxg:GridControl.TotalSummary>
+                                                <dxg:GridControl.View>
+                                                    <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView6"
+                        ShowTotalSummary="False" ShowGroupPanel="False" 
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                                                </dxg:GridControl.View>
+                                            </dxg:GridControl>
+                                        </Grid>
+                                    </TabItem>
+                                </TabControl>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <dxe:TextEdit Margin="10,416,10,47" Name="txtMensaje" IsReadOnly="True" VerticalScrollBarVisibility="Visible" VerticalContentAlignment="Top"/>
+        <Label Content="Errores Encontrados:" HorizontalAlignment="Left" Margin="10,396,0,0" Name="label3" VerticalAlignment="Top" />
+
+        <Label Content="Total de Errores:" HorizontalAlignment="Right" Margin="0,396,45,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="0" HorizontalAlignment="Right" Margin="0,396,10,0" Name="lblTotalErrores" VerticalAlignment="Top" Width="36" HorizontalContentAlignment="Right" />
+
+        <Button Content="Registrar" Click="BtnRegistrar_Click" Height="28" HorizontalAlignment="Left" Margin="10,0,0,10" Name="BtnRegistrar" VerticalAlignment="Bottom" Width="84" Style="{DynamicResource buttonStyle}" />
+        <Button Content="Cancelar"  Height="28" HorizontalAlignment="Left" Margin="120,0,0,10" Name="BtnCancelar" VerticalAlignment="Bottom" Width="84" Style="{DynamicResource buttonStyle}" />
+        
+
+    </Grid>
+</UserControl>

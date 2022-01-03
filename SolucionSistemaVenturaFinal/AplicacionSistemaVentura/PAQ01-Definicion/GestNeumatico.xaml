@@ -1,0 +1,248 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" d:DesignHeight="462" d:DesignWidth="810">
+    <Grid>
+        <Label Name="lblIdNeumatico" Visibility="Hidden"/>
+        <TabControl Margin="14,10,15,9" Name="tabControl1">
+            <TabItem Header="Listado de Neumáticos" Name="tabLista">
+                <Grid>
+                    <dxg:GridControl EnableSmartColumnsGeneration="True" Margin="10,45,10,49" Name="dtgNeumatico" AutoGenerateColumns="None" MouseDoubleClick="dtgNeumatico_MouseDoubleClick">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="NroSerie"  Visible="False"/>
+                            <dxg:GridColumn FieldName="IdEstadoN"  Visible="False"/>
+                            <dxg:GridColumn FieldName="NroSerie" Header="Serie" Width="90" VisibleIndex="0">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Tag="NroSerie" FontWeight="Bold" Text="{Binding Data.NroSerie}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="DescripcionSAP" Header="Tipo Neumático" VisibleIndex="1" Width="200"/>
+                            <dxg:GridColumn FieldName="PlacaSerie" Header="PlacaSerie_UC"/>
+                            <dxg:GridColumn FieldName="TipoBanda"  Header="Tipo de Banda" />
+                            <dxg:GridColumn FieldName="Disenio" Header="Diseño"  />
+                            
+                            
+                            <dxg:GridColumn FieldName="FechaAlta" Header="Fecha Alta" Width="110"/>
+                            <dxg:GridColumn FieldName="FechaBaja" Header="Fecha Baja" Width="110"/>
+                            <dxg:GridColumn FieldName="EstadoN" Header="Estado" Width="90"/>
+                            <dxg:GridColumn FieldName="IdNeumatico" Visible="False"/>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" FieldName="NroSerie" />
+                        </dxg:GridControl.TotalSummary>
+
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                                ShowFixedTotalSummary="True"
+                                AllowPerPixelScrolling="True"
+                                ShowGroupPanel="False"
+                                ShowSearchPanelMode="Always"                                
+                                SearchPanelHorizontalAlignment="Left" 
+                                ShowIndicator="True"
+                                AlternateRowBackground="AliceBlue"
+                                AllowEditing="False"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                    
+                    <GroupBox Header="Buscar por Estado:" Height="39" HorizontalAlignment="Center" Margin="0,0,0,0" Name="grbBusqueda" VerticalAlignment="Top" Width="639">
+                        <Grid>
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="24,2,0,0"  VerticalAlignment="Top" Name="rdbTodos" Content="Todos" Checked="rdbTodos_Checked"/>
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="124,2,0,0" VerticalAlignment="Top" Name="rdbAlta" Content="Alta" Checked="rdbAlta_Checked" />
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="224,2,0,0" VerticalAlignment="Top" Name="rdbAsignado" Content="Asignado" Checked="rdbAsignado_Checked" />
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="335,2,0,0" VerticalAlignment="Top" Name="rdbRetiro" Content="Retiro" Checked="rdbRetiro_Checked" />
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="424,2,0,0" VerticalAlignment="Top" Name="rdbReparado" Content="Reparado" Checked="rdbReparado_Checked" />
+                            <RadioButton Height="16" HorizontalAlignment="Left" Margin="535,2,0,0" VerticalAlignment="Top" Name="rdbBaja" Content="Baja" Checked="rdbBaja_Checked" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Content="Registrar" HorizontalAlignment="Left" Margin="5,0,0,12" Name="btnMatrSerie" Click="btnNuevo_Click" Width="75" Style="{DynamicResource buttonStyle}" Height="28" VerticalAlignment="Bottom" />
+                    <Button Content="Modificar" HorizontalAlignment="Left" Margin="116,0,0,12" Name="btnModiSerie" Click="btnModificar_Click" Width="75" Style="{DynamicResource buttonStyle}" Height="28" VerticalAlignment="Bottom" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Datos de Neumático" Name="tabDetalle">
+                <Grid>
+                    <Grid Name="gridTab1" >
+                        <CheckBox Content="No usar Stock" Height="16" HorizontalAlignment="Left" Margin="442,18,0,0" Name="chkNoStock" VerticalAlignment="Top" Click="chkNoStock_Click"/>
+                        <Label Content="Tipo de Neumático:" Height="28" HorizontalAlignment="Left" Margin="10,15,0,0" Name="label1" VerticalAlignment="Top" />
+                        <dxe:TextEdit Height="23" Margin="123,15,0,0" Name="txtTipoNeu" VerticalAlignment="Top" IsReadOnly="True" IsEnabled="False" HorizontalAlignment="Left" Width="263" />
+                        <dxe:ButtonEdit Name="btntipo" AllowDefaultButton="False" Height="20" Margin="399,16,0,0" ShowText="False" VerticalAlignment="Top" TabIndex="4" HorizontalAlignment="Left" Width="30">
+                            <dxe:ButtonInfo Name="btnAbrirVentanaTipo" Click="btnAbrirVentanaTipo_Click" AllowDrop="False" Content="..."/>
+                        </dxe:ButtonEdit>
+                        <Label Content="Número de Serie:" Height="28" HorizontalAlignment="Left" Margin="10,48,0,0" Name="label2" VerticalAlignment="Top" />
+                        <dxe:TextEdit Style="{DynamicResource FormatoNroSeries}" Height="23" Margin="123,48,0,0" Name="txtNroSerie" VerticalAlignment="Top" KeyDown="txtPLANTILLA_KeyDown" HorizontalAlignment="Left" Width="66" />
+                        <Label Content="Comentarios:" Height="28" HorizontalAlignment="Left" Margin="512,205,0,0" Name="label8" VerticalAlignment="Top" />
+                        <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="118" Margin="512,225,0,0" Name="txtComen" VerticalAlignment="Top" KeyDown="txtPLANTILLA_KeyDown" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" HorizontalAlignment="Left" Width="242" />
+
+                        <Button Content="Dar Baja" Height="28" HorizontalAlignment="Left" Name="btnDarBaja" Margin="230,0,0,28" VerticalAlignment="Bottom" Click="btnDarBaja_Click"  Style="{DynamicResource buttonStyle}"/>
+                        <Button Width="100" IsDefault="True"   HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,28" Content="Grabar" Name="btnGrabar" Click="BtnGrabar_Click" Style="{DynamicResource buttonStyle}"/>
+                        <Button Width="100" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="120,0,0,28" Content="Cancelar" Name="btnCancelar" Click="btnCancelar_Click" Style="{DynamicResource buttonStyle}" />
+                        <Button Width="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="340,0,0,28" Content="Imprimir" Name="btnImprimir" Click="btnImprimir_Click" Style="{DynamicResource buttonStyle}"/>
+
+                        <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Height="137" Margin="10,206,0,0" Name="dtgCiclo" VerticalAlignment="Top" HorizontalAlignment="Left" Width="487">
+                            <dxg:GridControl.Columns>
+
+                                <dxg:GridColumn FieldName="Ciclo" VisibleIndex="0" />
+                                <dxg:GridColumn FieldName="Contador" VisibleIndex="1" Width="70">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings  HorizontalContentAlignment="Right"/>
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn FieldName="FrecuenciaCambio" Header="Frecuencia&#10;Cambio" VisibleIndex="2" Width="70" >
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings HorizontalContentAlignment="Right"/>
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn FieldName="FrecuenciaExtendida" Header="Frecuencia&#10;Extendida" VisibleIndex="3" Width="70">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings HorizontalContentAlignment="Right"/>
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn FieldName="Accion" Header="Acción" VisibleIndex="4" Width="105" >
+                                    <dxg:GridColumn.CellTemplate>
+                                        <DataTemplate>
+                                                <dxe:ButtonEdit AllowDefaultButton="False" HorizontalAlignment="Left" Width="45">
+                                                    <dxe:ButtonInfo AllowDrop="False" Content="Editar" Click="btnAbrirVentanaCiclo_Click" />
+                                                </dxe:ButtonEdit>
+                                        </DataTemplate>
+                                    </dxg:GridColumn.CellTemplate>
+                                </dxg:GridColumn>
+                            </dxg:GridControl.Columns>
+                            <dxg:GridControl.View>
+                                <dxg:TableView                                     
+                                AllowPerPixelScrolling="True" Name="tableView2" 
+                                ShowGroupPanel="False" ShowTotalSummary="False"
+                                AlternateRowBackground="AliceBlue" AllowEditing="False" />
+                            </dxg:GridControl.View>
+                        </dxg:GridControl>
+                        
+                        <GroupBox Header="Datos Informativos" Height="119" Margin="10,76,0,0" Name="groupBox2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="702">
+                            <Grid>
+                                <Label Content="Posición:" Height="28" HorizontalAlignment="Right" Margin="0,65,639,0" Name="label5" VerticalAlignment="Top" />
+                                <TextBox Height="23" Background="LightGray" Margin="0,65,534,0" Name="txtPosicion" VerticalAlignment="Top" HorizontalAlignment="Right" Width="66" />
+                                <Label Content="Éje:" Height="28" HorizontalAlignment="Right" Margin="0,35,663,0" Name="label15" VerticalAlignment="Top" />
+                                <TextBox Background="LightGray" Height="23" Margin="0,35,534,0" Name="txtEje" VerticalAlignment="Top" HorizontalAlignment="Right" Width="66" />
+                                <Label Content="Unidad Control:" Height="28" HorizontalAlignment="Right" Margin="0,5,606,0" Name="label4" VerticalAlignment="Top" />
+                                <TextBox Background="LightGray" Height="23" Margin="0,5,534,0" Name="txtUniControl" VerticalAlignment="Top" HorizontalAlignment="Right" Width="66" />
+                                <dxe:ComboBoxEdit IsEnabled="False" Margin="0,5,256,0" Name="cboEstado" Height="23" VerticalAlignment="Top" SelectedIndexChanged="cboEstado_SelectedIndexChanged" HorizontalAlignment="Right" Width="127" />
+                                <Label Content="Fecha Alta:" Height="28" HorizontalAlignment="Right" Margin="0,5,161,0" Name="label7" VerticalAlignment="Top" />
+                                <Label Content="Estado:" Height="28" Margin="0,5,432,0" Name="label33" VerticalAlignment="Top" HorizontalAlignment="Right" Width="36" />
+                                <Label Content="Fecha Baja:" Height="28" HorizontalAlignment="Right" Margin="0,35,158,0" Name="label9" VerticalAlignment="Top" />
+                                <Label Content="Fecha de Alta" Height="28" HorizontalAlignment="Left" Margin="548,5,0,0" Name="lblFeAl" VerticalAlignment="Top" />
+                                <Label Content="Fecha de Baja" Height="28" Margin="0,35,74,0" Name="lblFeBa" VerticalAlignment="Top" HorizontalAlignment="Right" Width="68" />
+                                <dxe:ComboBoxEdit IsTextEditable="False" Margin="0,35,256,0" Name="cboDisenio" VerticalAlignment="Top" SelectedIndexChanged="cboDisenio_SelectedIndexChanged" HorizontalAlignment="Right" Width="127" />
+                                <Label Content="Diseño:" Height="28" Margin="0,35,431,0" Name="label10" VerticalAlignment="Top" HorizontalAlignment="Right" Width="37" />
+                                <Label Content="Tipo de Banda:" Height="28" Margin="0,65,394,0" Name="label11" VerticalAlignment="Top" HorizontalAlignment="Right" Width="74" />
+                                <dxe:ComboBoxEdit Margin="0,65,256,0" Name="cboTipoBanda" VerticalAlignment="Top" SelectedIndexChanged="cboTipoBanda_SelectedIndexChanged" HorizontalAlignment="Right" Width="127"  IsTextEditable="False" />
+                            </Grid>
+                        </GroupBox>
+                        
+                        
+                    </Grid>
+                    
+                    <DockPanel Margin="0,0,0,0" Visibility="Visible" Name="sbAuditoria" VerticalAlignment="Bottom">
+                        <StatusBar DockPanel.Dock="Top" Style="{DynamicResource Auditoria}">
+                            <StatusBar.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="50*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="50*" />
+                                        </Grid.ColumnDefinitions>
+                                    </Grid>
+                                </ItemsPanelTemplate>
+                            </StatusBar.ItemsPanel>
+                            <StatusBarItem Grid.Column="0">
+                                <TextBlock Text="[Creación]" FontWeight="Bold" />
+                            </StatusBarItem>
+                            <Separator Grid.Column="1" />
+                            <StatusBarItem Grid.Column="2">
+                                <TextBlock Name="lblAuditoria_creacion" Text="" />
+                            </StatusBarItem>
+                            <StatusBarItem Grid.Column="3">
+                                <TextBlock Text="[Modificación]" FontWeight="Bold" />
+                            </StatusBarItem>
+                            <Separator Grid.Column="4" />
+                            <StatusBarItem Grid.Column="5">
+                                <TextBlock Name="lblAuditoria_modificacion" Text="" />
+                            </StatusBarItem>
+                        </StatusBar>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+        <Grid Name="stpVentanaCiclo" Visibility="Collapsed" IsVisibleChanged="PLANTILLA_VentanaEmergente_IsVisible">
+        <Grid Background="Black" Opacity="0.75"/>
+        <Border x:Name="InputBorde1" MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+            <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="304" Margin="-1" Text="Edición - Datos de Neumáticos" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <StackPanel Height="225" HorizontalAlignment="Left" Margin="0,0,0,0" Background="White"
+                                Name="StakePanel97" VerticalAlignment="Top" Width="304"  Visibility="Visible" >
+                        <Border Height="225">
+                            <Grid>
+                                <Label Content="Seleccione Ciclo:" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label3" VerticalAlignment="Top"  />
+                                <Label Content="Contador:" Height="28" HorizontalAlignment="Left" Margin="10,40,0,0" Name="label6" VerticalAlignment="Top" />
+                                <Label Content="Frecuencia de Cambio:" Height="28" HorizontalAlignment="Left" Margin="10,70,0,0" Name="label12" VerticalAlignment="Top" />
+                                <Label Content="Frecuencia Extendida:" Height="28" HorizontalAlignment="Left" Margin="10,100,0,0" Name="label13" VerticalAlignment="Top" />
+                                <Label Content="Estado:" Height="28" HorizontalAlignment="Left" Margin="10,130,0,0" Name="label14" VerticalAlignment="Top" />
+                                <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="140,10,0,0" Name="cboCiclo" VerticalAlignment="Top" Width="121" IsTextEditable="False"  SelectedIndexChanged="cboDisenio_SelectedIndexChanged"/>
+
+                                <dxe:TextEdit MaskType="Numeric" Mask="#,###,###,###,###,##0.00;"  MaskUseAsDisplayFormat="True" Height="23" HorizontalAlignment="Left" Margin="140,40,0,0" Name="txtContador" VerticalAlignment="Top" Width="120" KeyDown="txtPLANTILLA_KeyDown"/>
+                                <dxe:TextEdit MaskType="Numeric" Mask="#,###,###,###,###,##0.00;"  MaskUseAsDisplayFormat="True" Height="23" HorizontalAlignment="Left" Margin="140,70,0,0" Name="txtFrecuenciaCambio" VerticalAlignment="Top" Width="120" KeyDown="txtPLANTILLA_KeyDown"/>
+                                <dxe:TextEdit MaskType="Numeric" Mask="#,###,###,###,###,##0.00;"  MaskUseAsDisplayFormat="True" Height="23" HorizontalAlignment="Left" Margin="140,100,0,0" Name="txtFrecuenciaExtendida" VerticalAlignment="Top" Width="120" KeyDown="txtPLANTILLA_KeyDown"/>
+                                
+                                <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="140,130,0,0" Name="cboEstadoCiclo" VerticalAlignment="Top" Width="121" IsTextEditable="False" SelectedIndexChanged="cboEstadoCiclo_SelectedIndexChanged" />
+                                <CheckBox Content="Ciclo Principal" Height="16" HorizontalAlignment="Left" Margin="140,160,0,0" Name="chkCicloPrincipal" VerticalAlignment="Top" />
+                                <Button IsDefault="True"  Click="btnAgregar_Click" Content="Aceptar" Margin="40,190,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{DynamicResource buttonStyle}"/>
+                                <Button IsCancel="True" Click="btnCancelarVentana_Click" Content="Cancelar" Margin="150,190,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{DynamicResource buttonStyle}"/>
+                                
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>            
+        </Border>
+    </Grid>
+
+        <Grid Name="stpVentanaBaja" Visibility="Collapsed" IsVisibleChanged="PLANTILLA_VentanaEmergente_IsVisible">
+            <Grid Background="Black" Opacity="0.75"/>
+            <Border Name="bor2" MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+                <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="304" Margin="-1" Text="Baja de Neumaticos" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <StackPanel Background="White" HorizontalAlignment="Center" Margin="0,0,0,0" Name="StackPanel99" VerticalAlignment="Center" Visibility="Visible">
+                        <Grid>
+                            <Label Content="¿Desea dar de baja a este neumático?" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Normal" />
+                            <Label Content="Fecha Hora:" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,30,0,0"/>
+                            <dxe:TextEdit Name="mskFecha" EditValue="" Width="110" Height="22" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,30,0,0"/>
+                            <Button IsDefault="True" Content="Aceptar" Name="btnAceptarVentanaBaja" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,10" Click="btnAceptarVentanaBaja_Click" Style="{DynamicResource buttonStyle}"/>
+                            <Button IsCancel="True" Content="Cancelar" Name="btnCancelarVentanaBaja" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,60,0,10" Click="btnCancelarVentanaBaja_Click" Style="{DynamicResource buttonStyle}"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Name="stpVentanaTipoNeumatico" Visibility="Collapsed" IsVisibleChanged="PLANTILLA_VentanaEmergente_IsVisible">
+            <Grid Background="Black" Opacity="0.75"/>
+            <Border x:Name="InputBorde2" MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+                <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="304" Margin="-1" Text="Seleccionar Tipo de Neumático" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <StackPanel Background="White" HorizontalAlignment="Center" Margin="0,0,0,0" Name="StakePanel98" VerticalAlignment="Center" Visibility="Visible">
+                        <Grid>
+                            <dxe:ComboBoxEdit HorizontalAlignment="Center" Margin="0,20,0,0" Name="cboTipoNeumatico" VerticalAlignment="Top" Width="168" />
+                            <Button IsDefault="True" Content="Aceptar"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,10" Click="btnAceptarTipoNeumatico_Click" Style="{DynamicResource buttonStyle}"/>
+                            <Button IsCancel="True" Content="Cancelar" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,60,0,10" Click="btnCancelarTipoNeumatico_Click" Style="{DynamicResource buttonStyle}"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,647 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T14:57:16.9313242-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T14:57:25.4882078-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T14:57:25.7999055-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:00:59.7973547-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:01:36.686971-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T15:01:36.7299897-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:19:26.6894662-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:19:40.4955335-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:45:46.4312334-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:46:07.3720222-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T15:46:07.4828333-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:47:39.3708315-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T15:47:39.4158705-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T15:48:46.5407436-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:12:03.7321102-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:12:19.6221441-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:12:27.1966288-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:13:34.7765472-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T16:15:43.370035-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:19:14.6530257-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:16:35 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:19:14.7901479-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:16:35 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:21:02.6670944-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:16:35 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:21:02.7928073-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:30:47.9764236-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:13.1303042-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:31:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:13.262671-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:31:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:13.4842642-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 4, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:31:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:24.0221004-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 4, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:24.0867863-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S002, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:31:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:37.9417137-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:37.959082-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 2, IdTipoBanda = 2, FechaAlta = 23/02/2021 04:31:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:45.5966929-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:45.6202544-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:45.6863713-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:57.7630067-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 3, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T16:32:57.7809139-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:33:21.0492569-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:33:21.1088954-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 3, NroSerie = S001, CodigoSAP = 0040180005, DescripcionSAP = LLANTA VSMONE, IdDisenio = 1, IdTipoBanda = 1, FechaAlta = 27/01/2021 10:55:00 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-02-23T16:33:21.198956-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:00:07.5634965-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:00:08.3266636-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:00:09.4825551-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:00:09.8167598-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:00:12.20784-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:01:45.8073584-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>HR_List</Metodo>
+    <Parametros>IdHR = 0, CodHR = , IdUC = 0, FechaHR =01/01/0001 12:00:00 a.m., CodSolicitanteSAP =, NombreSolicitanteSAP =, IdEstadoHR = 1, Observacion =, IdUsuarioCreacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:01:53.6705661-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:07.30662-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>HR_List</Metodo>
+    <Parametros>IdHR = 0, CodHR = , IdUC = 0, FechaHR =01/01/0001 12:00:00 a.m., CodSolicitanteSAP =, NombreSolicitanteSAP =, IdEstadoHR = 1, Observacion =, IdUsuarioCreacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:07.8960883-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_List</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = True, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:36.3969661-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:36.5309977-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_List</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = True, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:42.946378-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:02:42.9594967-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:17:01.8596408-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:17:01.8746692-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:17:02.0777576-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:17:02.0888093-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:17:07.372003-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 4, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:12.7565409-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 4, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:18.3690318-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =4, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:36.6807635-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 4, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:43.2430286-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = P002, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:18:43.2886522-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 4, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:43.382108-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 4, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:18:43.5096869-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 3, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:19:12.4944905-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 3, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T17:19:16.0244738-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:19:51.2966227-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTHerramienta_Combo</Metodo>
+    <Parametros>IdOT = 4, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 4, MotivoPostergacion = , Observacion = Para pruebas 23-02-2021, FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 23/02/2021 05:29:46 p.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:30:20.6816229-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTHerramienta_GetTreeVieNrSeries</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:30:20.7113167-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:30:25.9210071-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OT_Get</Metodo>
+    <Parametros>IdOT = 4, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:40:06.4861906-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T17:42:55.6367692-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T23:40:40.6799129-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T23:40:40.821257-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T23:40:41.2891285-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T23:40:41.3366668-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-02-23T23:40:42.0932739-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OT_Get</Metodo>
+    <Parametros>IdOT = 7, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2021-02-23T23:41:11.6199785-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ04_Reportes.ControlAlertas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:local="clr-namespace:AplicacionSistemaVentura"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <local:EmailForegroundConverter x:Key="EmailForegroundConverter" />
+            <local:EmailFontWeightConverter x:Key="EmailFontWeightConverter" />
+            <local:EmailImageConverter x:Key="EmailImageConverter" />
+            <DataTemplate x:Key="EmailStyle">
+                <Label x:Name="PART_Editor" Content="{Binding Path=RowData.Row.Alerta}" Foreground="{Binding Path=RowData.Row.FlagLeido, Converter={StaticResource EmailForegroundConverter}}" FontWeight="{Binding Path=RowData.Row.FlagLeido, Converter={StaticResource EmailFontWeightConverter}}"/>
+            </DataTemplate>
+            <DataTemplate x:Key="EmailStyleEstado">
+                <Image x:Name="PART_Editor" Width="15" Height="15" Source="{Binding Path=RowData.Row.FlagLeido, Converter={StaticResource EmailImageConverter}}"/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+
+
+        <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgAlertas" SelectionMode="Row" MouseLeftButtonDown="dtgAlertas_MouseLeftButtonDown" Margin="12,12,12,12">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn AllowEditing="False" FieldName="FlagLeido" CellTemplate="{StaticResource EmailStyleEstado}" Header=" " Width="30" VisibleIndex="0"/>
+                <dxg:GridColumn AllowEditing="False" FieldName="Alerta" Header="Descripción de la alerta" Width="380" CellTemplate="{StaticResource EmailStyle}" HorizontalHeaderContentAlignment="Center" VisibleIndex="1"/>
+                <dxg:GridColumn AllowEditing="False" FieldName="FechaAlerta" VisibleIndex="2" Width="180">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="DateTime" Mask="dd/mm/yyyy HH:mm:ss" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView ShowFixedTotalSummary="False"
+                               AllowPerPixelScrolling="False"
+                               ShowGroupPanel="False"
+                               ShowSearchPanelMode="Never"                                
+                               SearchPanelHorizontalAlignment="Left" 
+                               ShowIndicator="True"
+                               Name="viewAlertas"
+                               ShowTotalSummary="False"
+                               AllowEditing="False"
+                               AutoWidth="False"
+                               ShowGridMenu="viewAlertas_ShowGridMenu" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+        <dxg:GridControl Visibility="Collapsed" AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Height="200" Margin="12,0,12,18" Name="dtgAlertaDet" VerticalAlignment="Bottom">
+            <dxg:GridControl.View>
+                <dxg:TableView ShowFixedTotalSummary="False"
+                               AllowPerPixelScrolling="True"
+                               ShowGroupPanel="False"
+                               ShowSearchPanelMode="Never"                                
+                               SearchPanelHorizontalAlignment="Left" 
+                               ShowIndicator="True" 
+                               Name="viewAlertasDet"
+                               ShowTotalSummary="False"
+                               AutoWidth="False"
+                               AllowEditing="False" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <!--<Button Grid.Column="0" Grid.Row="2" Style="{DynamicResource buttonStyle}" Content="Ver" Name="btnAbrirSeleccion" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Click="btnAbrirSeleccion_Click"/>
+        <Button Grid.Column="1" Grid.Row="2" Style="{DynamicResource buttonStyle}" Content="Borrar" Name="btnBorrarSeleccion" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Click="btnBorrarSeleccion_Click"/>
+        <Button Grid.Column="2" Grid.Row="2" Style="{DynamicResource buttonStyle}" Content="Cerrar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" />-->
+    </Grid>
+</UserControl>

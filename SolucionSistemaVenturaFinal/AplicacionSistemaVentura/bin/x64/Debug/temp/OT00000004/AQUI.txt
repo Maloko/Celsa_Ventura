@@ -1,0 +1,22 @@
+
+	IF @TransType = '19'
+	BEGIN
+		SELECT @CtaDestino = ISNULL(T0.U_BPP_JrlDestino,''), @DocEntry = T0.DocEntry  
+		FROM ORPC T0 WHERE T0.DocNum = @BaseRef AND T0.TransId = @TransId
+		SELECT @CtaFuncion = T0.U_BPP_CTAD FROM RPC1 T0 
+		WHERE T0.DocEntry = @DocEntry AND T0.AcctCode = @Cuenta AND ISNULL(T0.Project,'') = @ProjectCode AND ISNULL(T0.OcrCode,'') = @CostingCode
+	END
+	IF @TransType = '59'
+	BEGIN
+		SELECT @CtaDestino = ISNULL(T0.U_BPP_JrlDestino,''), @DocEntry = T0.DocEntry  
+		FROM OIGN T0 WHERE T0.DocNum = @BaseRef AND T0.TransId = @TransId
+		SELECT @CtaFuncion = T0.U_BPP_CTAD FROM IGN1 T0 
+		WHERE T0.DocEntry = @DocEntry AND T0.AcctCode = @Cuenta AND ISNULL(T0.Project,'') = @ProjectCode AND ISNULL(T0.OcrCode,'') = @CostingCode
+	END
+	IF @TransType = '60'
+	BEGIN
+		SELECT @CtaDestino = ISNULL(T0.U_BPP_JrlDestino,''), @DocEntry = T0.DocEntry  
+		FROM OIGE T0 WHERE T0.DocNum = @BaseRef AND T0.TransId = @TransId
+		SELECT @CtaFuncion = T0.U_BPP_CTAD FROM IGE1 T0 
+		WHERE T0.DocEntry = @DocEntry AND T0.AcctCode = @Cuenta AND ISNULL(T0.Project,'') = @ProjectCode AND ISNULL(T0.OcrCode,'') = @CostingCode
+	END

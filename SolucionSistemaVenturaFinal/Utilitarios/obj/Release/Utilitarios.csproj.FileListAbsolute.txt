@@ -1,0 +1,18 @@
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Data.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Entities.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Data.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\bin\Release\Entities.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\obj\Release\Utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Utilitarios\obj\Release\Utilitarios.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Utilitarios.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Utilitarios.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Data.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Data.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\bin\Release\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\obj\Release\Utilitarios.csprojResolveAssemblyReference.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\obj\Release\Utilitarios.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Utilitarios\obj\Release\Utilitarios.pdb

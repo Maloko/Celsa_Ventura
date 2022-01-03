@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ04_Reportes.Indicadores"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             Loaded="UserControl_Loaded"
+             d:DesignHeight="247"
+             d:DesignWidth="761"
+             xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid" xmlns:dxpdf="http://schemas.devexpress.com/winfx/2008/xaml/pdf" xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/reportdesigner">
+    <Grid Height="247" Width="756">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="747*" />
+            <ColumnDefinition Width="9*" />
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Criterio de Consulta" FontSize="11" Height="191" HorizontalAlignment="Left" Margin="28,10,0,0" Name="groupBox1" VerticalAlignment="Top" Width="716">
+            <Grid Height="153" Width="688">
+                <Label Content="Año:" Height="28" HorizontalAlignment="Center" Margin="16,6,640,0" Name="label1" VerticalAlignment="Top" FontSize="11" />
+                <dxe:DateEdit HorizontalAlignment="Center" IsTextEditable="True" Margin="53,9,493,0" MaskCulture="es-PE" Name="dpAño" VerticalAlignment="Top" Width="119" Height="23" ShowToday="False" Mask="yyyy" />
+                <GroupBox Header="Tipo de Agrupación" Margin="16,0,6,6" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="666" Height="104" FontSize="11">
+                    <Grid Width="661" Height="77">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="165*" />
+                            <ColumnDefinition Width="165*" />
+                            <ColumnDefinition Width="165*" />
+                            <ColumnDefinition Width="148*" />
+                            <ColumnDefinition Width="17*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                        </Grid.RowDefinitions>
+                        <RadioButton Content="Anual" HorizontalAlignment="Center" Name="rbnAnual" Checked="rbnAnual_Checked" Margin="0,6,119,14" />
+                        <RadioButton Content="Semestral" HorizontalAlignment="Center" Name="rbnSemestral" Checked="rbnSemestral_Checked" Margin="76,6,22,14" />
+                        <RadioButton Content="Trimestral" HorizontalAlignment="Center" Name="rbnTrimestral" Checked="rbnTrimestral_Checked" Margin="15,6,84,16" Grid.Column="1" />
+                        <RadioButton Content="Mensual" HorizontalAlignment="Center" Name="rbnMensual" Checked="rbnMensual_Checked" Margin="106,6,165,16" Grid.Column="1" Grid.ColumnSpan="2" />
+                        <dxe:ComboBoxEdit Width="140" Height="23" Margin="79,12,112,4" HorizontalAlignment="Center" Visibility="Hidden" Name="cboSemestre" Grid.ColumnSpan="2" Grid.Row="1" />
+                        <Label Content="Seleccione:" Height="23" Margin="6,10,87,6" HorizontalAlignment="Center" Visibility="Hidden" Name="lblsemestre" Grid.Row="1" Width="72" />
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+        <Button Style="{DynamicResource buttonStyle}" Height="28" Name="button2" Width="93" Click="button2_Click" Margin="0,0,626,12" VerticalAlignment="Bottom" HorizontalAlignment="Right">Imprimir</Button>
+    </Grid>
+</UserControl>

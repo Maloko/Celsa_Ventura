@@ -1,0 +1,154 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:36:57.0287295-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>AplicacionCorreo</Error_Source>
+    <Error_Stack_Trace>   en AplicacionCorreo.Configuracion.Configuracion_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\Configuracion.cs:línea 53</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Configuracion_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:39:37.9829355-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>AplicacionCorreo</Error_Source>
+    <Error_Stack_Trace>   en AplicacionCorreo.Configuracion.Configuracion_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\Configuracion.cs:línea 53</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Configuracion_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:39:45.6113719-05:00</Error_DateTime>
+    <Error_Description>Error de inicio de sesión del usuario 'sa'.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   en System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Data.D_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\Data\D_TablaMaestra.cs:línea 19
+   en Business.B_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\Business\B_TablaMaestra.cs:línea 17
+   en AplicacionCorreo.EnvioCorreos.EnvioCorreos_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\EnvioCorreos.cs:línea 132</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:39:50.1006286-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>AplicacionCorreo</Error_Source>
+    <Error_Stack_Trace>   en AplicacionCorreo.Configuracion.Configuracion_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\Configuracion.cs:línea 53</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Configuracion_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:40:44.0067119-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>AplicacionCorreo</Error_Source>
+    <Error_Stack_Trace>   en AplicacionCorreo.Configuracion.Configuracion_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\Configuracion.cs:línea 53</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Configuracion_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-28T18:47:29.1498848-05:00</Error_DateTime>
+    <Error_Description>La conexión con el servidor se ha establecido correctamente, pero se ha producido un error durante el proceso de inicio de sesión. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   en System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Data.D_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\Data\D_TablaMaestra.cs:línea 19
+   en Business.B_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\Business\B_TablaMaestra.cs:línea 17
+   en AplicacionCorreo.Configuracion.Configuracion_Load(Object sender, EventArgs e) en D:\Ventura\jrivas_20150127\SistemaEnvioCorreos\AplicacionCorreo\Configuracion.cs:línea 55</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::207e:194c:3f57:fef5%14</IPAddress>
+  </Table1>
+</NewDataSet>

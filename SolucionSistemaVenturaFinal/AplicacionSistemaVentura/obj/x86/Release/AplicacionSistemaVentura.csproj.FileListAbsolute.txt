@@ -1,0 +1,268 @@
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.exe.config
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.exe
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Business.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Entities.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\InterfazMTTO.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\iSBO_BE.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\iSBO_DA.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\iSBO_Util.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Utilitarios.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Data.dll
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Business.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Entities.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Utilitarios.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\bin\Release\Data.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csprojResolveAssemblyReference.cache
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\CRViewer.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\GeneraImpresion.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\InterfazPrincipal.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\Loading.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestActividad.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestTarea.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\Indicadores.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\App.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\CRViewer.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\GeneraImpresion.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\InterfazPrincipal.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\Loading.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\App.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\Segulogin.baml
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.g.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csproj.GenerateResource.Cache
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.exe.licenses
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.exe
+C:\Users\VSUser\Desktop\ultimo compilado\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.exe.config
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.exe
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\AplicacionSistemaVentura.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Business.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\InterfazMTTO.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\iSBO_BE.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\iSBO_DA.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\iSBO_Util.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Utilitarios.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Data.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Business.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Utilitarios.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\bin\Release\Data.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csprojResolveAssemblyReference.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\CRViewer.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\GeneraImpresion.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\InterfazPrincipal.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\Loading.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestActividad.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestNeumatico.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilUC.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestTarea.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestUnidadControl.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\Indicadores.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteComparativo.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTopTaller.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\App.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\CRViewer.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\GeneraImpresion.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\InterfazPrincipal.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\Loading.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestActividad.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestNeumatico.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestTarea.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ControlAlertas.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\Indicadores.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\Segulogin.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\App.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura_MarkupCompile.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura_MarkupCompile.lref
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ04-Reportes\ControlAlertas.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\PAQ06-Seguridad\Segulogin.baml
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.g.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.Mensajes.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.Properties.Resources.resources
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.csproj.GenerateResource.Cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.exe.licenses
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.exe
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\AplicacionSistemaVentura\obj\x86\Release\AplicacionSistemaVentura.pdb

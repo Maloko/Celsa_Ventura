@@ -1,0 +1,168 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-10T15:05:38.2731476-05:00</Error_DateTime>
+    <Error_Description>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Data.D_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_TablaMaestra.cs:line 19
+   at Business.B_TablaMaestra.TablaMaestra_Combo(E_TablaMaestra E_TablaMaestra) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_TablaMaestra.cs:line 17
+   at AplicacionCorreo.EnvioCorreos.CargarDatosMaestros() in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 82
+   at AplicacionCorreo.EnvioCorreos.EnvioCorreos_Load(Object sender, EventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 67</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-10T18:56:48.1745347-05:00</Error_DateTime>
+    <Error_Description>String or binary data would be truncated.
+The data for table-valued parameter "@tblAlertas_Envio_Log" doesn't conform to the table type of the parameter.
+The statement has been terminated.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 63
+   at Business.B_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 30
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 325</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-10T18:58:44.3187431-05:00</Error_DateTime>
+    <Error_Description>String or binary data would be truncated.
+The data for table-valued parameter "@tblAlertas_Envio_Log" doesn't conform to the table type of the parameter.
+The statement has been terminated.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 63
+   at Business.B_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 30
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 325</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.157</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-10T20:47:20.9663391-05:00</Error_DateTime>
+    <Error_Description>Could not find stored procedure 'Alertas_UpdateCascade'.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertas) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 83
+   at Business.B_Alertas.Alertas_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertas) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 35
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 381</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.157</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-10T20:49:19.8645494-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'DetalleAlerta', table 'VEN_MMTO_FLOTA_VEHI.dbo.Alertas'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+IdError
+515</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertas) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 83
+   at Business.B_Alertas.Alertas_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertas) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 35
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 381</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.157</IPAddress>
+  </Table1>
+</NewDataSet>

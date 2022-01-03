@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-01-28T18:08:52.209411-05:00</Error_DateTime>
+    <Error_Description>'Se produjo una excepción al agregar un valor a una colección de tipo 'System.Windows.Controls.UIElementCollection'.' (número de línea: '35'; posición de línea: '22').</Error_Description>
+    <Error_Source>PresentationFramework</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   en System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   en System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   en System.Windows.Application.LoadBamlStreamWithSyncInfo(Stream stream, ParserContext pc)
+   en System.Windows.Application.LoadComponent(Uri resourceLocator, Boolean bSkipJournaledProperties)
+   en System.Windows.Application.LoadComponent(Uri resourceLocator)
+   en DevExpress.Xpf.Docking.XamlLoaderHelper.LoadContentFromUri(Uri uri)
+   en DevExpress.Xpf.Docking.LayoutPanel.CheckContentAsUri(Object content)
+   en DevExpress.Xpf.Docking.LayoutPanel.CheckContent(Object content)
+   en DevExpress.Xpf.Docking.LayoutPanel.OnContentChanged(Object content, Object oldContent)
+   en DevExpress.Xpf.Docking.ContentItem.&lt;.cctor&gt;b__e8(DependencyObject dObj, DependencyPropertyChangedEventArgs e)
+   en System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   en System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   en System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   en System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry&amp; newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   en System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en DevExpress.Xpf.Docking.ContentItem.set_Content(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DefinirHijo(String FormularioXAML, String Titulo, Double Ancho, Double Alto) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 186</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Load(System.Xaml.XamlReader, System.Xaml.IXamlObjectWriterFactory, Boolean, System.Object, System.Xaml.XamlObjectWriterSettings, System.Uri)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER3</NombreUsuario>
+    <HostName>WIN-Q3O0BSPVASQ</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

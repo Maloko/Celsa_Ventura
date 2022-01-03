@@ -1,0 +1,935 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:02:43.2200586-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:02:44.0121039-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:02:44.3711244-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:02:44.8321508-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:02:45.7492032-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:39:50.6214586-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:39:51.0664841-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:39:52.0225388-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:39:52.2405513-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:39:55.4717361-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:40:37.8411595-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:40:39.6552632-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:40:54.7181248-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:40:58.2153248-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:40:58.4093359-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:41:00.7854718-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:41:00.8544757-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:58:40.552087-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T17:58:41.041115-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:58:41.5161421-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:58:41.9831688-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T17:58:43.2552416-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:05.5639494-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:07.6680697-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:29.4123134-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:32.4744886-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:00:32.6414981-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:32.8865121-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:32.9465156-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:35.960688-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPerfil</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:37.5317778-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:00:37.6427842-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPerfil</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:37.726789-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPerfil</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:37.7707915-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:38.7258461-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:41.4940045-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:00:41.5760092-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:41.6210117-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:00:41.6560137-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:07:29.9113646-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:07:30.2053814-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:30.5964038-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:30.6504069-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:31.8114733-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:42.4490817-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:43.6871525-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:07:47.3383614-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:08:36.8591938-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:08:59.188471-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:09:01.2265875-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:09:44.6890734-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:13:45.3338375-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:13:45.6348548-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:13:46.0728798-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:13:46.127883-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:13:47.1039388-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:17.1168144-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:18.4298895-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:23.0561541-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:25.3382847-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:19:25.3942879-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:25.5932993-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:25.641302-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:46.3054839-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:19:46.3374858-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:46.4364914-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:19:48.7746252-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:05.4770123-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:21:05.5220149-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:05.6170203-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:05.665023-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:23.5180442-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:21:23.567047-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:23.7280562-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 38, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:23.7790591-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:51.7266576-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:21:51.7706601-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:51.8636655-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:21:51.907668-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:26:16.7618168-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:26:17.0748347-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:17.4708573-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:17.534861-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:18.4959159-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:28.4634861-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:30.070578-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:33.8937967-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:36.8339648-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:26:36.8929682-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:37.0409767-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:26:37.0909795-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:28:47.4404351-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:28:47.8174566-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:28:48.1604763-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:28:48.2144794-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:28:49.0785288-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 1, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:28:58.996096-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:01.6072454-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 105, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:03.0113257-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PM_CombobyPerfil</Metodo>
+    <Parametros>IdPM = 0, CodPM = , PM = , IdPerfil =105, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:06.9535512-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:09.1326758-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:29:09.1916792-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:09.3226867-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilDetalle_ComboByPM</Metodo>
+    <Parametros>IdPM = 37, CodPM = , PM = , IdPerfil =0, Porc01 =0, Porc02 = 0, IdTipoOTDefecto =0, IdEstadoPM =0, Prioridad = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:29:09.3766898-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:30:08.5290731-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:30:12.8353194-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:30:18.1846254-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTCompActividadEstado_Listar</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = RAFO_II, IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:30:23.4539267-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:30:34.1995414-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTHerramienta_GetTreeVieNrSeriesByIdHerramienta</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:30:48.1813411-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_UC_Combo</Metodo>
+    <Parametros>CodUC = , IdPerfil = 105, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2015-01-30T18:30:49.4204119-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilCompActividad_Update</Metodo>
+    <Parametros>IdOT = 405, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:30:51.3765238-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>OTArticulo_ListSolSAP</Metodo>
+    <Parametros>IdOT = 405, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:30:52.1695692-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2015-01-30T18:30:54.2806899-05:00</FechaHora>
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,287 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ01_Definicion.GestPerfilNeumatico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" d:DesignHeight="528" d:DesignWidth="1009">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="comboboxNroLlantas" >
+                    <dxe:ComboBoxEdit Name="PART_Editor" IsTextEditable="False" IsEnabled="True"   ValueMember="Id" DisplayMember="Text" 
+                                  ItemsSource="{Binding Data.DetailSource}" SelectedIndexChanged="cboNroLlanta_SelectedIndexChanged">
+                    </dxe:ComboBoxEdit>      
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl Margin="19,10,7,5" Name="tabControl1">
+            <TabItem Header="Listado de Perfil de Neumáticos" Name="tabLista">
+                <Grid>
+                    <dxg:GridControl IsEnabled="True" AllowDrop="False" AllowMRUFilterList="True" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Margin="19,10,20,53" Name="dtgPerfNeum" MouseDoubleClick="dtgPerfNeum_MouseDoubleClick" AllowColumnMRUFilterList="True">
+                        <dxg:GridControl.Columns>
+                            
+                            <dxg:GridColumn Visible ="False" VisibleIndex="0" FieldName="IdPerfilNeumatico"/>
+                            <dxg:GridColumn Visible ="False" VisibleIndex="0" FieldName="CodPerfilNeumatico"/>
+                            
+                            <dxg:GridColumn VisibleIndex="0" FieldName="CodPerfilNeumatico" Header="Código" Width="150">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Tag="CodPerfilNeumatico" FontWeight="Bold" Text="{Binding Data.CodPerfilNeumatico}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+
+                            <dxg:GridColumn VisibleIndex="2" FieldName="PerfilNeumatico" Header="Descripción" Width="200" />
+                            <dxg:GridColumn VisibleIndex="3" FieldName="NroEjes" Header="Cantidad Ejes" Width="90" />
+                            <dxg:GridColumn VisibleIndex="4" FieldName="NroLlantaRepuesto" Header="Llantas Repuesto" />
+                            <dxg:GridColumn VisibleIndex="5" FieldName="Observacion" Header="Observación" Width="200"/>
+                            <dxg:GridColumn VisibleIndex="6" Visible="False" FieldName="IdEstadoPN" Header="Estado" />
+                            <dxg:GridColumn VisibleIndex="7" FieldName="Estado" Header="Estado" />
+                            <dxg:GridColumn VisibleIndex="8" Visible="False" FieldName="FlagActivo" Header="FlagActivo" />
+                            <dxg:GridColumn VisibleIndex="9" Visible="False" FieldName="FlagActivo" Header="FlagActivo" />
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" FieldName="CodPerfilNeumatico" />
+                        </dxg:GridControl.TotalSummary>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                                AllowPerPixelScrolling="True" Name="tableView1" 
+                                ShowTotalSummary="False" ShowFixedTotalSummary="True"
+                                ShowGroupPanel="False" ShowSearchPanelMode="Always"
+                                SearchPanelHorizontalAlignment="Left" ShowIndicator="True"
+                                AlternateRowBackground="AliceBlue" AllowEditing="False"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                    <Button Name="btnNuevo" Content="Registrar" Click="btnNuevo_Click" Margin="19,0,0,9" Style="{DynamicResource buttonStyle}" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                    <Button Name="btnEditar" Content="Modificar" Click="btnEditar_Click" Margin="129,0,0,9" Style="{DynamicResource buttonStyle}" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Consultar Perfil de Neumático" Name="tabDetalle">
+                <Grid UseLayoutRounding="False">
+                    <Grid Name="gridRepuestos">
+                        <Image Height="35" HorizontalAlignment="Left" Margin="672.988,419.719,0,0" Name="imgLR4" Source="/AplicacionSistemaVentura;component/Image/LlantaRepuesto.png" Stretch="Fill" VerticalAlignment="Top" Width="34" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="711.5,419.386,0,0" Name="imgLR2" Source="/AplicacionSistemaVentura;component/Image/LlantaRepuesto.png" Stretch="Fill" VerticalAlignment="Top" Width="34" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="749.922,419.386,0,0" Name="imgLR1" Source="/AplicacionSistemaVentura;component/Image/LlantaRepuesto.png" Stretch="Fill" VerticalAlignment="Top" Width="34" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="788.058,419.719,0,0" Name="imgLR3" Source="/AplicacionSistemaVentura;component/Image/LlantaRepuesto.png" Stretch="Fill" VerticalAlignment="Top" Width="34" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="826.766,419.719,0,0" Name="imgLR5" Source="/AplicacionSistemaVentura;component/Image/LlantaRepuesto.png" Stretch="Fill" VerticalAlignment="Top" Width="34" />
+                    </Grid>
+                    <Grid Name="gridEjes" Margin="0,9,0,0">
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,26.783,0,0" Name="imgEje1" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,64.783,0,0" Name="imgEje2" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,104.783,0,0" Name="imgEje3" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,142.743,0,0" Name="imgEje4" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,182.704,0,0" Name="imgEje5" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,221.331,0,0" Name="imgEje6" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,261.782,0,0" Name="imgEje7" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,301.254,0,0" Name="imgEje8" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,337.974,0,0" Name="imgEje9" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <Image Height="21" HorizontalAlignment="Left" Margin="718,374.361,0,0" Name="imgEje10" Source="/AplicacionSistemaVentura;component/Image/camion-eje.png" Stretch="Fill" VerticalAlignment="Top" Width="104" />
+                        <DockPanel Margin="0,0,0,0" Visibility="Visible" Name="sbAuditoria" VerticalAlignment="Bottom">
+                            <StatusBar DockPanel.Dock="Top" Style="{DynamicResource Auditoria}">
+                                <StatusBar.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="50*" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="50*" />
+                                            </Grid.ColumnDefinitions>
+                                        </Grid>
+                                    </ItemsPanelTemplate>
+                                </StatusBar.ItemsPanel>
+                                <StatusBarItem Grid.Column="0">
+                                    <TextBlock Text="[Creación]" FontWeight="Bold" />
+                                </StatusBarItem>
+                                <Separator Grid.Column="1" />
+                                <StatusBarItem Grid.Column="2">
+                                    <TextBlock Name="lblAuditoria_creacion" Text="" />
+                                </StatusBarItem>
+                                <StatusBarItem Grid.Column="3">
+                                    <TextBlock Text="[Modificación]" FontWeight="Bold" />
+                                </StatusBarItem>
+                                <Separator Grid.Column="4" />
+                                <StatusBarItem Grid.Column="5">
+                                    <TextBlock Name="lblAuditoria_modificacion" Text="" />
+                                </StatusBarItem>
+                            </StatusBar>
+                        </DockPanel>
+                    </Grid>
+                    <Grid Name="gridNeumaticos" Margin="0,6,0,0">
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,23,0,0" Name="imgE01L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,23,0,0" Name="imgE01L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,23,0,0" Name="imgE01L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,23,0,0" Name="imgE01L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,23,0,0" Name="imgE01L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,23,0,0" Name="imgE01L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,23,0,0" Name="imgE01L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,23,0,0" Name="imgE01L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,23,0,0" Name="imgE01L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,23,0,0" Name="imgE01L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,23,0,0" Name="imgE01L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,23,0,0" Name="imgE01L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,61,0,0" Name="imgE02L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,61,0,0" Name="imgE02L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,61,0,0" Name="imgE02L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,61,0,0" Name="imgE02L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,61,0,0" Name="imgE02L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,61,0,0" Name="imgE02L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,61,0,0" Name="imgE02L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,61,0,0" Name="imgE02L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,61,0,0" Name="imgE02L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,61,0,0" Name="imgE02L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,61,0,0" Name="imgE02L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,61,0,0" Name="imgE02L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,98.5,0,0" Name="imgE03L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,98.5,0,0" Name="imgE03L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,98.5,0,0" Name="imgE03L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,98.5,0,0" Name="imgE03L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,98.5,0,0" Name="imgE03L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,98.5,0,0" Name="imgE03L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,98.5,0,0" Name="imgE03L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,98.5,0,0" Name="imgE03L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,98.5,0,0" Name="imgE03L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,98.5,0,0" Name="imgE03L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,98.5,0,0" Name="imgE03L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,98.5,0,0" Name="imgE03L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,136,0,0" Name="imgE04L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,136,0,0" Name="imgE04L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,136,0,0" Name="imgE04L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,136,0,0" Name="imgE04L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,136,0,0" Name="imgE04L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,136,0,0" Name="imgE04L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,136,0,0" Name="imgE04L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,136,0,0" Name="imgE04L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,136,0,0" Name="imgE04L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,136,0,0" Name="imgE04L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,136,0,0" Name="imgE04L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,136,0,0" Name="imgE04L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,174,0,0" Name="imgE05L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,174,0,0" Name="imgE05L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,174,0,0" Name="imgE05L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,174,0,0" Name="imgE05L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,174,0,0" Name="imgE05L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,174,0,0" Name="imgE05L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,174,0,0" Name="imgE05L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,174,0,0" Name="imgE05L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,174,0,0" Name="imgE05L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,174,0,0" Name="imgE05L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,174,0,0" Name="imgE05L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,174,0,0" Name="imgE05L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,212,0,0" Name="imgE06L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,212,0,0" Name="imgE06L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,212,0,0" Name="imgE06L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,212,0,0" Name="imgE06L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,212,0,0" Name="imgE06L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,212,0,0" Name="imgE06L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,212,0,0" Name="imgE06L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,212,0,0" Name="imgE06L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,212,0,0" Name="imgE06L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,212,0,0" Name="imgE06L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,212,0,0" Name="imgE06L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,212,0,0" Name="imgE06L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,250,0,0" Name="imgE07L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="684.667,250,0,0" Name="imgE07L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,250,0,0" Name="imgE07L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,250,0,0" Name="imgE07L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,250,0,0" Name="imgE07L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,250,0,0" Name="imgE07L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,250,0,0" Name="imgE07L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,250,0,0" Name="imgE07L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,250,0,0" Name="imgE07L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,250,0,0" Name="imgE07L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,288,0,0" Name="imgE08L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,288,0,0" Name="imgE08L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,288,0,0" Name="imgE08L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,288,0,0" Name="imgE08L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,288,0,0" Name="imgE08L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,288,0,0" Name="imgE08L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,288,0,0" Name="imgE08L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,288,0,0" Name="imgE08L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,288,0,0" Name="imgE08L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,288,0,0" Name="imgE08L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,326,0,0" Name="imgE09L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,326,0,0" Name="imgE09L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,326,0,0" Name="imgE09L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,326,0,0" Name="imgE09L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,326,0,0" Name="imgE09L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,326,0,0" Name="imgE09L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,326,0,0" Name="imgE09L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,326,0,0" Name="imgE09L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,326,0,0" Name="imgE09L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,326,0,0" Name="imgE09L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="663,364,0,0" Name="imgE10L03" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="574,364,0,0" Name="imgE10L11" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="597,364,0,0" Name="imgE10L09" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="619,364,0,0" Name="imgE10L07" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="640,364,0,0" Name="imgE10L05" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="831,364,0,0" Name="imgE10L02" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="854,364,0,0" Name="imgE10L04" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,364,0,0" Name="imgE10L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="897,364,0,0" Name="imgE10L08" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="920,364,0,0" Name="imgE10L10" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,288,0,0" Name="imgE08L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,325,0,0" Name="imgE09L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="685,364,0,0" Name="imgE10L01" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,250,0,0" Name="imgE07L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,288,0,0" Name="imgE08L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,326,0,0" Name="imgE09L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="941,364,0,0" Name="imgE10L12" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                        <Image Height="35" HorizontalAlignment="Left" Margin="876,250,0,0" Name="imgE07L06" Source="/AplicacionSistemaVentura;component/Image/camion-llanta.png" Stretch="Fill" VerticalAlignment="Top" Width="23" />
+                    </Grid>
+                    <Label Content="Código:" Height="28" HorizontalAlignment="Left" Margin="5,10,0,0" Name="label1" VerticalAlignment="Top" />
+                    <dxe:TextEdit IsReadOnly="True" Height="23" HorizontalAlignment="Left" Margin="131,10,0,0" Name="txtCodigoPN" VerticalAlignment="Top" Width="98" />
+                    
+                    <Label Content="Descripción" Height="28" HorizontalAlignment="Left" Margin="5,40,0,0" Name="label3" VerticalAlignment="Top"  />
+                    <dxe:TextEdit Height="23" HorizontalAlignment="Left" Margin="131,40,0,0" Name="txtDesc" VerticalAlignment="Top" Width="373" 
+                    Focusable="True" EditValueChanged="txtPlantilla_EditValueChanged" Mask="[A-Za-zÀ-ú0-9 ]{0,50}" MaskIgnoreBlank="False" MaskType="RegEx" />
+                        
+                    <Label Content="Ejes:" Height="28" HorizontalAlignment="Left" Margin="5,70,0,0" Name="label2" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="131,70,0,0" Name="cboNroEje" VerticalAlignment="Top" Width="97" SelectedIndexChanged="cboNroEje_SelectedIndexChanged" />
+                    
+                    <Label Content="Llantas de repuesto:" Height="28" HorizontalAlignment="Left" Margin="5,100,0,0" Name="label5" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="130,100,0,0" Name="cboLlanRepu" VerticalAlignment="Top" Width="96" 
+                    SelectedIndexChanged="cboLlanRepu_SelectedIndexChanged" />
+
+                    <Label Content="Estado:" Height="28" HorizontalAlignment="Left" Margin="5,130,0,0" Name="label4" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="130,130,0,0" Name="cboEstado" VerticalAlignment="Top" Width="96" 
+                    SelectedIndexChanged="cboEstado_SelectedIndexChanged" />
+
+                    <Label Content="Estructura Ejes:" Height="28" HorizontalAlignment="Left" Margin="5,160,0,0" Name="label14" VerticalAlignment="Top" />
+
+
+                    <Label Content="Comentarios:" Height="28" HorizontalAlignment="Left" Margin="280,270,0,0" Name="label8" VerticalAlignment="Top" />
+
+                    <dxe:TextEdit Height="130" HorizontalAlignment="Left" Margin="280,285,0,0" Name="txtComen" VerticalAlignment="Top" Width="225"
+                    Mask="[A-Za-zÀ-ú0-9 ]{0,200}" MaskIgnoreBlank="False" MaskType="RegEx"  TextWrapping="Wrap" VerticalContentAlignment="Top" EditValueChanged="txtPlantilla_EditValueChanged" />
+                    
+                    <Button Style="{DynamicResource buttonStyle}" Width="100" IsDefault="True"   HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5,0,0,28.04"
+                  Content="Grabar" Name="btnGrabar" Click="btnGrabar_Click"/>
+                    <Button Style="{DynamicResource buttonStyle}" Width="100" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Margin="110,0,0,28.04"
+                  Content="Cancelar" Name="btnCancelar" Click="btnCancelar_Click"/>
+                    <Button Style="{DynamicResource buttonStyle}" Width="100"  HorizontalAlignment="Left" VerticalAlignment="Bottom"  Margin="215,0,0,28.04"
+                  Content="Imprimir" Name="btnImprimir" Click="btnImprimir_Click"/>
+                   
+                    <Image Height="21" HorizontalAlignment="Left" Margin="718,5.167,0,0" Name="imgTimon" Source="/AplicacionSistemaVentura;component/Image/camion-timon.png" Stretch="Fill" VerticalAlignment="Top" Width="24" />
+                    <dxg:GridControl AutoGenerateColumns="None" AutoPopulateColumns="True" Margin="5,175,0,0" Name="dtgPerfNeumEje" HorizontalAlignment="Left" Width="270" Height="242" VerticalAlignment="Top">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="Eje" ReadOnly="True" VisibleIndex="0"/>
+                            <dxg:GridColumn FieldName="NroLlantas" CellTemplate="{StaticResource comboboxNroLlantas}" VisibleIndex="1"/>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                                Name="tbvPerfNeumEje" 
+                                ShowGroupPanel="False" ShowIndicator="False"                                 
+                                ShowTotalSummary="False" EditorButtonShowMode="ShowAlways"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>
+
+    

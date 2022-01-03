@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T12:25:33.9497918-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 457
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 329</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T12:25:34.5017841-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 457
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 329</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T16:13:45.9124089-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T17:28:49.4895539-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T17:29:00.9311119-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel._Workbook.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaCont.btnDescargar_Click(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaCont.xaml.cs:línea 318</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void SaveAs(System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-09T17:50:03.2407213-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,189 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="539" d:DesignWidth="716"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+    <Grid>
+        <Label Content="Seleccione archivo excel" HorizontalAlignment="Left" Margin="10,13,0,0" Name="label1" VerticalAlignment="Top" />
+        <dxe:ButtonEdit AllowDefaultButton="False" HorizontalAlignment="Left" Margin="138,10,0,0" Name="BtnBuscar" ShowText="False" VerticalAlignment="Top" Width="20" Height="20">
+            <dxe:ButtonInfo Content="..." Click="btnAbrirExcel_Click" />
+        </dxe:ButtonEdit>
+        <Label Content="Ubicación" HorizontalAlignment="Left" Margin="10,35,0,0" Name="lblUbicacion" VerticalAlignment="Top" />
+        <Label Content="" HorizontalAlignment="Left" Margin="138,35,0,0" Name="lblRuta" VerticalAlignment="Top" />
+        <Button Content="Descargar Formato" HorizontalAlignment="Right" Margin="0,10,10,0" Name="btnDescargar" VerticalAlignment="Top" Width="132" Click="btnDescargar_Click" Style="{DynamicResource buttonStyle}" />
+        <TabControl Margin="10,60,10,0" Name="tabControl1" Height="329" VerticalAlignment="Top">
+            <TabItem Header="Unidad de Control" Name="tabEncabezado">
+                <Grid>
+                    <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgEncabezado" Margin="10,10,10,10">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="PlacaSerie"  >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.PlacaSerie}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Perfil" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Perfil}"  Background="{Binding Path=RowData.Row.Color}"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="ContadorAcumulado" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.ContadorAcumulado}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right"/>
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                        </dxg:GridControl.TotalSummary>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView1"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown" />
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </Grid>
+            </TabItem>
+            <TabItem Name="tabDetalle" Header="Componente de Unidad de Control">
+                <Grid>
+                    <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgDetalle" Margin="10,10,10,10">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="PlacaSerie"  >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.PlacaSerie}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="PerfilComp" >
+                                <dxg:GridColumn.CellTemplate >
+                                    <DataTemplate >
+                                        <Label Content="{Binding Data.PerfilComp}" Background="{Binding Path=RowData.Row.Color}"  />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="NroSerie" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.NroSerie}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="CodigoSAP" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.CodigoSAP}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Estado" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Estado}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                        </dxg:GridControl.TotalSummary>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView2"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </Grid>
+            </TabItem>
+            <TabItem Name="tabItemCiclo" Header="Ciclos e Items de Componentes">
+                <Grid>
+                    <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Name="dtgItemCiclo" Margin="10,10,10,10">
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn FieldName="PlacaSerie" Width="100" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.PlacaSerie}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="PerfilComp" >
+                                <dxg:GridColumn.CellTemplate >
+                                    <DataTemplate >
+                                        <Label Content="{Binding Data.PerfilComp}" Background="{Binding Path=RowData.Row.Color}"  />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Ciclo" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Ciclo}" Background="{Binding Path=RowData.Row.Color}" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Contador" Width="60" >
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Contador}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="FrecuenciaCambio" Header="Frecuencia&#10;de Cambio" Width="70">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.FrecuenciaCambio}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Porc1" Header="Límite&#10;Amarillo" Width="70">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Porc1}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn FieldName="Porc2" Header="Límite&#10;Naranja" Width="70">
+                                <dxg:GridColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Data.Porc2}" Background="{Binding Path=RowData.Row.Color}" HorizontalContentAlignment="Right" />
+                                    </DataTemplate>
+                                </dxg:GridColumn.CellTemplate>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                        <dxg:GridControl.TotalSummary>
+                            <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+                        </dxg:GridControl.TotalSummary>
+                        <dxg:GridControl.View>
+                            <dxg:TableView 
+                        AllowPerPixelScrolling="True" Name="tableView3"
+                        ShowTotalSummary="False" ShowGroupPanel="False"
+                        ShowFixedTotalSummary="True" AllowEditing="False"
+                        FocusedRowChanged="dtgPLANTILLA_FocusedRowChanged" MouseDown="dtgPLANTILLA_MouseDown"/>
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <dxe:TextEdit Margin="10,416,10,47" Name="txtMensaje" IsReadOnly="True" VerticalScrollBarVisibility="Visible" VerticalContentAlignment="Top"/>
+        <Label Content="Errores Encontrados:" HorizontalAlignment="Left" Margin="10,396,0,0" Name="label3" VerticalAlignment="Top" />
+
+        <Label Content="Total de Errores:" HorizontalAlignment="Right" Margin="0,396,45,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="0" HorizontalAlignment="Right" Margin="0,396,10,0" Name="lblTotalErrores" VerticalAlignment="Top" Width="36" HorizontalContentAlignment="Right" />
+
+        <Button Content="Registrar" Click="BtnRegistrar_Click" Height="28" HorizontalAlignment="Left" Margin="10,0,0,10" Name="BtnRegistrar" VerticalAlignment="Bottom" Width="84" Style="{DynamicResource buttonStyle}" />
+        <Button Content="Cancelar"  Height="28" HorizontalAlignment="Left" Margin="120,0,0,10" Name="BtnCancelar" VerticalAlignment="Bottom" Width="84" Style="{DynamicResource buttonStyle}" />
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasiva"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             d:DesignHeight="453" d:DesignWidth="761" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="UserControl_Loaded"
+             xmlns:my="clr-namespace:AplicacionSistemaVentura.PAQ05_Utilitarios">
+    <Grid>
+        <TabControl Margin="10,10,10,10" Name="tabControl1">
+            <TabItem Header="Neumatico" Name="tabItem1">
+                <Grid>
+                    <my:UtilCargaMasivaN x:Name="utilCargaMasivaN" />                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Perfil Neumatico" Name="tamItem2">
+                <Grid>
+                    <my:UtilCargaMasivaPN x:Name="utilCargaMasivaPN" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Perfil Unidad de Control" Name="tabItem3">
+                <Grid>
+                    <my:UtilCargaMasivaPUC x:Name="utilCargaMasivaPUC" />
+                </Grid>
+            </TabItem>
+            <TabItem  Header="Unidad de Control" Name="tabItem4">
+                <Grid>
+                    <my:UtilCargaMasivaUC x:Name="utilCargaMasivaUC" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

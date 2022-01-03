@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ05_Utilitarios.UtilSelecCodigoSAP"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="358" d:DesignWidth="603" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="UserControl_Loaded">
+    <Grid>
+        <dxg:GridControl AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Height="223" HorizontalAlignment="Left" Margin="10,79,0,0" Name="gridControl1" VerticalAlignment="Top" Width="582">
+            <dxg:GridControl.Columns>
+                
+                <dxg:GridColumn VisibleIndex="0" IsEnabled="True">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:CheckEditSettings>                            
+                        </dxe:CheckEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                
+                <dxg:GridColumn FieldName="Codigo" VisibleIndex="1" />
+                <dxg:GridColumn FieldName="Descripcion" VisibleIndex="2"  Width="280"/>                
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" Name="tableView1" ShowTotalSummary="True" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Label Content="Criterio de busqueda:" Height="28" HorizontalAlignment="Left" Margin="16,24,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="147,27,0,0" Name="textBox1" VerticalAlignment="Top" Width="285" />
+        <dxe:ButtonEdit AllowDefaultButton="False" Height="28" HorizontalAlignment="Left" Margin="11,312,0,0" Name="BtnRegistrar" ShowText="False" VerticalAlignment="Top" Width="84">
+            <dxe:ButtonInfo Content="Registrar" />
+        </dxe:ButtonEdit>
+        <Label Content="Registros seleccionados:" Height="28" HorizontalAlignment="Left" Margin="379,314,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="XX" Height="28" HorizontalAlignment="Left" Margin="523,314,0,0" Name="LbLRegistroSeleccionados" VerticalAlignment="Top" />
+    </Grid>
+</UserControl>

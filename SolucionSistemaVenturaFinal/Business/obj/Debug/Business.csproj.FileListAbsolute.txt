@@ -1,0 +1,200 @@
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Business.dll
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Business.pdb
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Data.dll
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Entities.dll
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Utilitarios.dll
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Data.pdb
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Entities.pdb
+D:\SVN\branches\SIMANFLE\jrivas\Business\bin\Debug\Utilitarios.pdb
+D:\SVN\branches\SIMANFLE\jrivas\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\branches\SIMANFLE\jrivas\Business\obj\Debug\Business.dll
+D:\SVN\branches\SIMANFLE\jrivas\Business\obj\Debug\Business.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Business.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Business.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Data.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Entities.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Utilitarios.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Data.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Entities.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\bin\Debug\Utilitarios.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\obj\Debug\Business.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Business\obj\Debug\Business.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Business.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Business.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Data.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Entities.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Utilitarios.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Data.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Entities.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\bin\Debug\Utilitarios.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\obj\Debug\Business.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Business\obj\Debug\Business.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Business.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Business.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Data.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Entities.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Utilitarios.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Data.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Entities.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\bin\Debug\Utilitarios.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\obj\Debug\Business.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Business\obj\Debug\Business.pdb
+D:\jrivas_20150114\Business\bin\Debug\Business.dll
+D:\jrivas_20150114\Business\bin\Debug\Business.pdb
+D:\jrivas_20150114\Business\bin\Debug\Data.dll
+D:\jrivas_20150114\Business\bin\Debug\Entities.dll
+D:\jrivas_20150114\Business\bin\Debug\Utilitarios.dll
+D:\jrivas_20150114\Business\bin\Debug\Data.pdb
+D:\jrivas_20150114\Business\bin\Debug\Entities.pdb
+D:\jrivas_20150114\Business\bin\Debug\Utilitarios.pdb
+D:\jrivas_20150114\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\jrivas_20150114\Business\obj\Debug\Business.dll
+D:\jrivas_20150114\Business\obj\Debug\Business.pdb
+D:\jrivas_20150115\Business\bin\Debug\Business.dll
+D:\jrivas_20150115\Business\bin\Debug\Business.pdb
+D:\jrivas_20150115\Business\bin\Debug\Data.dll
+D:\jrivas_20150115\Business\bin\Debug\Entities.dll
+D:\jrivas_20150115\Business\bin\Debug\Utilitarios.dll
+D:\jrivas_20150115\Business\bin\Debug\Data.pdb
+D:\jrivas_20150115\Business\bin\Debug\Entities.pdb
+D:\jrivas_20150115\Business\bin\Debug\Utilitarios.pdb
+D:\jrivas_20150115\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\jrivas_20150115\Business\obj\Debug\Business.dll
+D:\jrivas_20150115\Business\obj\Debug\Business.pdb
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Business.dll
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Business.pdb
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Data.dll
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Entities.dll
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Utilitarios.dll
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Data.pdb
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Entities.pdb
+D:\Ventura\jrivas_20150119\Business\bin\Debug\Utilitarios.pdb
+D:\Ventura\jrivas_20150119\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\Ventura\jrivas_20150119\Business\obj\Debug\Business.dll
+D:\Ventura\jrivas_20150119\Business\obj\Debug\Business.pdb
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Business.dll
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Business.pdb
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Data.dll
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Entities.dll
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Utilitarios.dll
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Data.pdb
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Entities.pdb
+D:\Ventura\jrivas_20150127\Business\bin\Debug\Utilitarios.pdb
+D:\Ventura\jrivas_20150127\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\Ventura\jrivas_20150127\Business\obj\Debug\Business.dll
+D:\Ventura\jrivas_20150127\Business\obj\Debug\Business.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Business.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Business.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Data.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Entities.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Utilitarios.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Data.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Entities.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\bin\Debug\Utilitarios.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\obj\Debug\Business.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Business\obj\Debug\Business.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Business.dll
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Business.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Data.dll
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Entities.dll
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Utilitarios.dll
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Data.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Entities.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Business\bin\Debug\Utilitarios.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Dropbox\Ventura\jrivas_20150506\Business\obj\Debug\Business.dll
+D:\Dropbox\Ventura\jrivas_20150506\Business\obj\Debug\Business.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Business.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Business.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Data.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Entities.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Utilitarios.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Data.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Entities.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Business\bin\Debug\Utilitarios.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\VSUser\Desktop\ultimo compilado\Business\obj\Debug\Business.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Business\obj\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Business.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Data.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\bin\Debug\Utilitarios.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Business\obj\Debug\Business.pdb
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Business.dll
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Business.pdb
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Data.dll
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Entities.dll
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Utilitarios.dll
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Data.pdb
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Entities.pdb
+C:\rbo\VSMONE PROYECTO\Business\bin\Debug\Utilitarios.pdb
+C:\rbo\VSMONE PROYECTO\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\rbo\VSMONE PROYECTO\Business\obj\Debug\Business.dll
+C:\rbo\VSMONE PROYECTO\Business\obj\Debug\Business.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Business.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Business.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Data.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Utilitarios.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Data.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\bin\Debug\Utilitarios.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\obj\Debug\Business.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Business\obj\Debug\Business.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Business.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Business.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Data.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Utilitarios.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Data.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\bin\Debug\Utilitarios.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\obj\Debug\Business.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Business\obj\Debug\Business.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Business.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Business.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\bin\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\obj\Debug\Business.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Business\obj\Debug\Business.pdb

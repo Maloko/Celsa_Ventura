@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T11:42:10.0298426-05:00</Error_DateTime>
+    <Error_Description>La columna 'CodigoTipoUnidadControl' no pertenece a la tabla A.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarData_TipoUnidad(String tipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 124
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.UserControl_Loaded() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 87</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T11:43:30.5585088-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 362</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CargarExcel(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T11:50:25.0324038-05:00</Error_DateTime>
+    <Error_Description>La columna 'tipoUnidad' no pertenece a la tabla A.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarData_TipoUnidad(String tipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 124
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.UserControl_Loaded() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 87</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T12:07:44.2168419-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T14:10:05.1733928-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A01A8</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get_Cells()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 280</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T14:10:58.3260058-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A01A8</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get_Columns()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 278</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T14:23:15.2761837-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A01A8</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get_Rows()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 286</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T14:25:42.599009-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A01A8</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData&amp; msgData)
+   en Microsoft.Office.Interop.Excel.Range.get_Columns()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 235</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object ForwardCallToInvokeMember(System.String, System.Reflection.BindingFlags, System.Object, Int32[], System.Runtime.Remoting.Proxies.MessageData ByRef)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T14:56:17.7758359-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-03-12T15:01:32.4035028-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+</NewDataSet>

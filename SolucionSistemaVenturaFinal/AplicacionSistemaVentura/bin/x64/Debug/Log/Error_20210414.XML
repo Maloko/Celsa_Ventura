@@ -1,0 +1,1149 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:44:15.9639864-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:44:36.9826238-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:44:57.886734-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:45:18.8503648-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:45:39.8782875-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:46:01.2695244-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:46:23.8016804-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:46:44.9397076-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:47:06.1328185-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:47:27.2691208-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:47:48.3798254-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:48:09.5278444-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:48:30.7749619-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:48:52.0310927-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:49:13.34912-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:49:34.1789605-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:49:55.1505045-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T16:50:16.1568765-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:17:07.5424067-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:17:27.8667934-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:17:48.9007439-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:18:10.0869041-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:18:31.2981311-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:18:52.4638091-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:19:13.4829448-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:19:34.7027727-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:19:55.7910023-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:20:17.0162243-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:20:38.0510612-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:20:58.9949321-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:21:19.9638758-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:21:41.1913117-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:22:02.1872777-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:22:23.330616-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:22:44.2596717-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:23:05.4988966-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:23:26.3877208-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:23:47.804366-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:24:08.6199437-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:24:29.9098692-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:24:50.7266978-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:25:12.271309-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:25:33.2993979-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:25:54.2338719-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:26:15.5270381-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:26:36.3861358-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:26:57.356749-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:27:18.4467455-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:27:39.5657574-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:28:00.7899296-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:28:21.7532805-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:28:43.0703467-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:29:03.8665317-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:29:25.0007232-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:29:46.2568657-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:30:07.0921232-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:30:28.6994582-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:30:49.3416576-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:31:10.6588931-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:31:31.5589991-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:31:52.7548282-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T17:32:13.945482-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:33:59.9183207-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:34:20.8208044-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:34:41.9458137-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2476:3c71:5786:cc25%6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:35:02.9873292-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:35:24.2275167-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:35:45.3694935-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:36:06.4148667-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-04-14T18:36:27.3768295-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 488</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+</NewDataSet>

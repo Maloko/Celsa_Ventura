@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27DF6D7A-7384-4FCC-91DA-F8A903441D81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AplicacionSistemaVentura</RootNamespace>
+    <AssemblyName>AplicacionSistemaVentura</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Charts.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Data.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.DataAccess.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Mvvm.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.PivotGrid.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Printing.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Sparkline.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Utils.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Core.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Gauges.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Gauges.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Scheduler.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpf.Themes.DXStyle.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Xpo.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraCharts.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraPivotGrid.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraPrinting.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraReports.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraScheduler.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraScheduler.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Reporting, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraScheduler.v14.1.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Reporting.Extensions, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.XtraScheduler.v14.1.Reporting.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfazMTTO">
+      <HintPath>..\InterfazMTTO.dll</HintPath>
+    </Reference>
+    <Reference Include="iSBO_BE">
+      <HintPath>..\iSBO_BE.dll</HintPath>
+    </Reference>
+    <Reference Include="iSBO_DA">
+      <HintPath>..\iSBO_DA.dll</HintPath>
+    </Reference>
+    <Reference Include="iSBO_Util">
+      <HintPath>..\iSBO_Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessObjects.WPF.Viewer, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="PAQ04-Reportes\ControlAlertas.xaml.cs">
+      <DependentUpon>ControlAlertas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\FormatosImpresion.xaml.cs">
+      <DependentUpon>FormatosImpresion.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CRViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GeneraImpresion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InterfazPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRViewer.xaml.cs">
+      <DependentUpon>CRViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeneraImpresion.xaml.cs">
+      <DependentUpon>GeneraImpresion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalClass.cs" />
+    <Compile Include="InterfazPrincipal.xaml.cs">
+      <DependentUpon>InterfazPrincipal.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Loading.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestActividad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestHerramientaEspecial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestMoviNeumatico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestNeumatico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestPerfilNeumatico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestPerfilUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestTarea.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ01-Definicion\GestUnidadControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ02-Planificacion\PlanGestionMantenimiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ02-Planificacion\PlanPriorizaMantenimiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ02-Planificacion\PlanProgramacionUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecControlNeumatico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecGestHojaInspec.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecGestHojaRequer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecGestionOT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecGestRegInci.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ03-Ejecucion\EjecGestTransferParte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ04-Reportes\ControlAlertas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\Indicadores.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteComparativo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteCostoMantenimiento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteDisponibilidadStockOT.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteListadoHojaInspeccion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteListadoHojaRequerimiento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteMonitoreoLineaOT.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteTopTaller.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteTrabajoMecanico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\ReporteTransferenciaPartes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ04-Reportes\SchedulerProgramacionOT.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\FormatosImpresion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilCargaMasiva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilCargaMasivaN.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilCargaMasivaPN.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilCargaMasivaUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilConfiguracionDetalleTM.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilConfiguracionTP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ05-Utilitarios\UtilSelecCodigoSAP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ06-Seguridad\SeguConfigAcceso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ06-Seguridad\Segulogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAQ06-Seguridad\SeguUsuarioAsignaLicencia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Loading.xaml.cs">
+      <DependentUpon>Loading.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Mensajes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestActividad.xaml.cs">
+      <DependentUpon>GestActividad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestHerramientaEspecial.xaml.cs">
+      <DependentUpon>GestHerramientaEspecial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestMoviNeumatico.xaml.cs">
+      <DependentUpon>GestMoviNeumatico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestNeumatico.xaml.cs">
+      <DependentUpon>GestNeumatico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestPerfilNeumatico.xaml.cs">
+      <DependentUpon>GestPerfilNeumatico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestPerfilUC.xaml.cs">
+      <DependentUpon>GestPerfilUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestTarea.xaml.cs">
+      <DependentUpon>GestTarea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ01-Definicion\GestUnidadControl.xaml.cs">
+      <DependentUpon>GestUnidadControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ02-Planificacion\PlanGestionMantenimiento.xaml.cs">
+      <DependentUpon>PlanGestionMantenimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ02-Planificacion\PlanPriorizaMantenimiento.xaml.cs">
+      <DependentUpon>PlanPriorizaMantenimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ02-Planificacion\PlanProgramacionUC.xaml.cs">
+      <DependentUpon>PlanProgramacionUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs">
+      <DependentUpon>EjecControlNeumatico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecGestHojaInspec.xaml.cs">
+      <DependentUpon>EjecGestHojaInspec.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecGestHojaRequer.xaml.cs">
+      <DependentUpon>EjecGestHojaRequer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecGestionOT.xaml.cs">
+      <DependentUpon>EjecGestionOT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecGestRegInci.xaml.cs">
+      <DependentUpon>EjecGestRegInci.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ03-Ejecucion\EjecGestTransferParte.xaml.cs">
+      <DependentUpon>EjecGestTransferParte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Indicadores.xaml.cs">
+      <DependentUpon>Indicadores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_CostoMantenimiento.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_CostoMantenimiento.designer.cs">
+      <DependentUpon>Reporte_CostoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteComparativo.xaml.cs">
+      <DependentUpon>ReporteComparativo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteCostoMantenimiento.xaml.cs">
+      <DependentUpon>ReporteCostoMantenimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteDisponibilidadStockOT.xaml.cs">
+      <DependentUpon>ReporteDisponibilidadStockOT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteListadoHojaInspeccion.xaml.cs">
+      <DependentUpon>ReporteListadoHojaInspeccion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteListadoHojaRequerimiento.xaml.cs">
+      <DependentUpon>ReporteListadoHojaRequerimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteMonitoreoLineaOT.xaml.cs">
+      <DependentUpon>ReporteMonitoreoLineaOT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteTopTaller.xaml.cs">
+      <DependentUpon>ReporteTopTaller.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteTrabajoMecanico.xaml.cs">
+      <DependentUpon>ReporteTrabajoMecanico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\ReporteTransferenciaPartes.xaml.cs">
+      <DependentUpon>ReporteTransferenciaPartes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_Comparativo.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_Comparativo.designer.cs">
+      <DependentUpon>Reporte_Comparativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_DisponibilidadStockOT.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_DisponibilidadStockOT.designer.cs">
+      <DependentUpon>Reporte_DisponibilidadStockOT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_Indicadores.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_Indicadores.Designer.cs">
+      <DependentUpon>Reporte_Indicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_ListadoHojaInspeccion.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_ListadoHojaInspeccion.designer.cs">
+      <DependentUpon>Reporte_ListadoHojaInspeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_ListadoHojaRequerimiento.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_ListadoHojaRequerimiento.designer.cs">
+      <DependentUpon>Reporte_ListadoHojaRequerimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_MonitoreoLineaOT.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_MonitoreoLineaOT.designer.cs">
+      <DependentUpon>Reporte_MonitoreoLineaOT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_TopTaller.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_TopTaller.designer.cs">
+      <DependentUpon>Reporte_TopTaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_TrabajoMecanico.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_TrabajoMecanico.designer.cs">
+      <DependentUpon>Reporte_TrabajoMecanico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\Reporte_TransferenciaPartes.cs" />
+    <Compile Include="PAQ04-Reportes\Reporte_TransferenciaPartes.designer.cs">
+      <DependentUpon>Reporte_TransferenciaPartes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\SchedulerProgramacionOT.xaml.cs">
+      <DependentUpon>SchedulerProgramacionOT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\SubReporteActividades.cs" />
+    <Compile Include="PAQ04-Reportes\SubReporteActividades.designer.cs">
+      <DependentUpon>SubReporteActividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\SubReporteOTProcesadas.cs" />
+    <Compile Include="PAQ04-Reportes\SubReporteOTProcesadas.designer.cs">
+      <DependentUpon>SubReporteOTProcesadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\SubReporteUCCostoMtto.cs" />
+    <Compile Include="PAQ04-Reportes\SubReporteUCCostoMtto.designer.cs">
+      <DependentUpon>SubReporteUCCostoMtto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\SubReporteUCRecorrido.cs" />
+    <Compile Include="PAQ04-Reportes\SubReporteUCRecorrido.designer.cs">
+      <DependentUpon>SubReporteUCRecorrido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ04-Reportes\XtraSchedulerReport1.cs" />
+    <Compile Include="PAQ04-Reportes\XtraSchedulerReport1.designer.cs">
+      <DependentUpon>XtraSchedulerReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilCargaMasiva.xaml.cs">
+      <DependentUpon>UtilCargaMasiva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilCargaMasivaN.xaml.cs">
+      <DependentUpon>UtilCargaMasivaN.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilCargaMasivaPN.xaml.cs">
+      <DependentUpon>UtilCargaMasivaPN.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs">
+      <DependentUpon>UtilCargaMasivaPUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs">
+      <DependentUpon>UtilCargaMasivaUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilConfiguracionDetalleTM.xaml.cs">
+      <DependentUpon>UtilConfiguracionDetalleTM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilConfiguracionTP.xaml.cs">
+      <DependentUpon>UtilConfiguracionTP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ05-Utilitarios\UtilSelecCodigoSAP.xaml.cs">
+      <DependentUpon>UtilSelecCodigoSAP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ06-Seguridad\SeguConfigAcceso.xaml.cs">
+      <DependentUpon>SeguConfigAcceso.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ06-Seguridad\Segulogin.xaml.cs">
+      <DependentUpon>Segulogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAQ06-Seguridad\SeguUsuarioAsignaLicencia.xaml.cs">
+      <DependentUpon>SeguUsuarioAsignaLicencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Mensajes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Mensajes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_CostoMantenimiento.resx">
+      <DependentUpon>Reporte_CostoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_Comparativo.resx">
+      <DependentUpon>Reporte_Comparativo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_DisponibilidadStockOT.resx">
+      <DependentUpon>Reporte_DisponibilidadStockOT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_Indicadores.resx">
+      <DependentUpon>Reporte_Indicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_ListadoHojaInspeccion.resx">
+      <DependentUpon>Reporte_ListadoHojaInspeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_ListadoHojaRequerimiento.resx">
+      <DependentUpon>Reporte_ListadoHojaRequerimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_MonitoreoLineaOT.resx">
+      <DependentUpon>Reporte_MonitoreoLineaOT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_TopTaller.resx">
+      <DependentUpon>Reporte_TopTaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_TrabajoMecanico.resx">
+      <DependentUpon>Reporte_TrabajoMecanico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\Reporte_TransferenciaPartes.resx">
+      <DependentUpon>Reporte_TransferenciaPartes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\SubReporteActividades.resx">
+      <DependentUpon>SubReporteActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\SubReporteOTProcesadas.resx">
+      <DependentUpon>SubReporteOTProcesadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\SubReporteUCCostoMtto.resx">
+      <DependentUpon>SubReporteUCCostoMtto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\SubReporteUCRecorrido.resx">
+      <DependentUpon>SubReporteUCRecorrido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAQ04-Reportes\XtraSchedulerReport1.resx">
+      <DependentUpon>XtraSchedulerReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Image\Semaforo\Semáforos.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{0617F5DC-8E9B-4BA5-B750-56ADC9DB2B25}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{C5D7AD24-7780-4313-A3C3-997F9D62E5F0}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilitarios\Utilitarios.csproj">
+      <Project>{A67C7FAC-67A3-4517-9654-71F28EDA6B33}</Project>
+      <Name>Utilitarios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\folder-icon.png" />
+    <Resource Include="Image\form-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Anular.png" />
+    <Resource Include="Image\Ayuda.png" />
+    <Resource Include="Image\deshacer-icono-5403-96.png" />
+    <Resource Include="Image\document-edit.png" />
+    <Resource Include="Image\document-new.png" />
+    <Resource Include="Image\document-Save.png" />
+    <Resource Include="Image\report.png" />
+    <Resource Include="Image\Reportes.png" />
+    <Resource Include="Image\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Raya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\imagen1.png" />
+    <Resource Include="Image\imagen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Iconos\mantenimiento.png" />
+    <Resource Include="Image\Iconos\operaciones.gif" />
+    <Resource Include="Image\Iconos\planificacion.jpg" />
+    <Resource Include="Image\Iconos\reportes.png" />
+    <Resource Include="Image\Iconos\seguridad.png" />
+    <Resource Include="Image\Iconos\utilitarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\FondoPantalla\FondoPantalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camion-eje.png" />
+    <Resource Include="Image\camion-llanta.png" />
+    <Resource Include="Image\camion-timon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\habilitado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LlantaRepuesto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\flecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camion-eje-blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camion-llanta-enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camion-llanta-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LlantaRepuesto-enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LlantaRepuesto-disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Semaforo\verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Semaforo\Naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Semaforo\Rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Semaforo\amarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camion-llanta-repuesto.png" />
+    <Resource Include="Image\llanta-vertical-light.png" />
+    <Resource Include="Image\llanta-vertical.png" />
+    <Resource Include="Image\timon-camion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Iconos\Componente.png" />
+    <Resource Include="Image\Iconos\Titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Trash_Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Logo-ventura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\email-nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\email_visto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoadingW8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Iconos\Role_Manager.png" />
+    <Resource Include="Image\Iconos\Role_Other.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Iconos\User_Manager.png" />
+    <Resource Include="Image\Iconos\user_Other.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

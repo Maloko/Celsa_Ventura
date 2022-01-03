@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0eb3a195-b02e-41d9-8b65-6e2a56a0ee40" name="Antonio@ASUS 2014-07-29 22:27:40" runUser="ASUS\Antonio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1eac7b48-8cea-4ebb-8de2-83729d3f2ba6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Antonio_ASUS 2014-07-29 22_27_40" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-29T22:27:40.0082459-05:00" queuing="2014-07-29T22:27:41.1458823-05:00" start="2014-07-29T22:27:41.2519512-05:00" finish="2014-07-29T22:27:41.7110320-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="b616902b-dced-a4d9-d133-32bbf99fdb83">
+      <Execution id="11e502ab-25e0-4ff8-b409-5b57f60143ad" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.UnitTest1, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b616902b-dced-a4d9-d133-32bbf99fdb83" executionId="11e502ab-25e0-4ff8-b409-5b57f60143ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="11e502ab-25e0-4ff8-b409-5b57f60143ad" testId="b616902b-dced-a4d9-d133-32bbf99fdb83" testName="TestMethod1" computerName="ASUS" duration="00:00:00.0122702" startTime="2014-07-29T22:27:41.2659606-05:00" endTime="2014-07-29T22:27:41.6820149-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11e502ab-25e0-4ff8-b409-5b57f60143ad">
+    </UnitTestResult>
+  </Results>
+</TestRun>

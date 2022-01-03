@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8b12e35-2ccc-40e3-987c-b226efa6900d" name="Antonio@ASUS 2014-07-30 06:57:32" runUser="ASUS\Antonio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1eac7b48-8cea-4ebb-8de2-83729d3f2ba6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Antonio_ASUS 2014-07-30 06_57_32">
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\WPF.MDI.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\VIBlend.WPF.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\Utilitarios\bin\Debug\Utilitarios.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\Entities\bin\Debug\Entities.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\iSBO_DA.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\AplicacionVentura.exe" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\AplicacionSistemaVentura.exe" />
+      <DeploymentItem filename="C:\Program Files (x86)\DevExpress 14.1\Components\Bin\Framework\DevExpress.Images.v14.1.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\iSBO_BE.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\VIBlend.WPF.Editors.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\VIBlend\WPF Controls v.5.0\VIBlend.WPF.DataGrid.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\Business\bin\Debug\Business.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\InterfazMTTO.dll" />
+      <DeploymentItem filename="C:\Users\Antonio\Desktop\Ventura20140728\Ventura\AplicacionSistemaVentura\bin\Debug\iSBO_Util.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-30T06:57:32.5889572-05:00" queuing="2014-07-30T06:57:34.0964029-05:00" start="2014-07-30T06:57:34.1814596-05:00" finish="2014-07-30T06:59:31.2188138-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="32" executed="32" passed="2" error="17" failed="0" timeout="0" aborted="0" inconclusive="13" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ASUS" outcome="Warning" timestamp="2014-07-30T06:57:33.2842591-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'AplicacionSistemaVentura.exe' on test 'TDDVentura.GestPerfilNeumaticoTest.ComboEnGrillaTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ComboEnGrillaTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="ca69f6f9-6574-3eb0-08b3-d8e1fde2504a">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="5b851273-0a4d-4be2-945f-f162eab4f6b0" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComboEnGrillaTest" />
+    </UnitTest>
+    <UnitTest name="btnNuevo_ClickTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="b8c84d8e-4b9b-f64d-be5d-9b02bdddf3f1">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="b9173e9b-36b1-410b-ab41-c079ddc12a47" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnNuevo_ClickTest" />
+    </UnitTest>
+    <UnitTest name="GestPerfilNeumaticoConstructorTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="c6b3da3c-b305-f359-f273-d3a6a0bc20c0">
+      <Execution id="8717dae1-9bb4-4c50-b1e6-8f026013a299" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GestPerfilNeumaticoConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LimpiarControlesTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="6361acdc-dcba-73b3-4473-e46e9bf64d59">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="46048b78-3f16-4b70-ad5e-a622ebfa8e5a" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LimpiarControlesTest" />
+    </UnitTest>
+    <UnitTest name="OutFocusTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="11c777dd-0af4-f0d8-77a4-88d47b2ecec0">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="4affc92c-cbcb-4157-997f-a7fb06f1b79a" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OutFocusTest" />
+    </UnitTest>
+    <UnitTest name="cboLlanRepu_SelectedIndexChangedTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="3350f1ef-bae7-a170-28a2-f6d4ef908ec2">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="164150ed-b596-48ea-b40b-60075f93f4ff" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cboLlanRepu_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="MensajeTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="6dd6745c-2f58-acd9-85bc-b1e650de69e6">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="9aeace43-9ecf-4b27-bb26-2ca77d8c6252" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MensajeTest" />
+    </UnitTest>
+    <UnitTest name="dtgPerfNeum_MouseDoubleClickTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="39da4c68-d679-c2d7-f103-8758675e8bef">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="cdbc4542-2f99-4a01-8364-b9ed0aab0641" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="dtgPerfNeum_MouseDoubleClickTest" />
+    </UnitTest>
+    <UnitTest name="PintarLlantaRepuestoTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="d3e582fd-fda3-ef2a-80e1-dc06b091bf4c">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="d30473af-40d1-459c-8597-70fe48cdc004" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PintarLlantaRepuestoTest" />
+    </UnitTest>
+    <UnitTest name="DetallePerfilNeumaticoTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="d55aab20-b9c5-4a2d-3177-a2f8f5f39c9b">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="829cda8f-2302-4572-97f9-3f132140af49" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DetallePerfilNeumaticoTest" />
+    </UnitTest>
+    <UnitTest name="ConnectTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="90e48841-9508-a43f-fbc8-f29a03ce34e0">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="11cd1223-b6d7-4c27-887a-e8cca9871d1c" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectTest" />
+    </UnitTest>
+    <UnitTest name="btnGrabar_ClickTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="c34a7807-1e8f-c9a3-ac6c-4e8a2d3a8f28">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="3fb79ed8-6669-4abc-8f90-493ecc4fdbc0" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnGrabar_ClickTest" />
+    </UnitTest>
+    <UnitTest name="cboNroLlanta_SelectedIndexChangedTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="34633317-8120-3ba5-dc7b-d26e0e8fe124">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="9526371c-3b53-4bc4-af21-d28ffaa37140" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cboNroLlanta_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="tbvPerfNeumEje_ShowingEditorTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="8b6778f1-037d-45dd-245d-e889450b603b">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="6245df51-62e7-49cf-a9c3-e2936c131d4f" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="tbvPerfNeumEje_ShowingEditorTest" />
+    </UnitTest>
+    <UnitTest name="UserControl_LoadedTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="cd692052-1e14-8b68-94e8-48fd0eaf37eb">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="1d608af3-15b4-48a5-8d0e-7eb5b00b5fec" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserControl_LoadedTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="d3f917b7-7d71-0dec-4604-1a2bcf60978b">
+      <Execution id="101db3e0-a329-496c-b0f9-f7baecafd4d0" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="ValidaCampoObligadoTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="b2ed2b79-3302-03b0-5c80-29da7832a8fb">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="a514f6a8-8d87-4235-82c5-7e63e4b58b1c" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidaCampoObligadoTest" />
+    </UnitTest>
+    <UnitTest name="OnFocusTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="4e485c4f-a7e9-6a97-d8e7-746b90629991">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="532aef84-b9ca-4bb7-b3e7-e0f20cb62ac8" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OnFocusTest" />
+    </UnitTest>
+    <UnitTest name="btnEditar_ClickTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="57c22915-1571-3ea8-b1d3-5bb3f1000b53">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="8f5806da-acca-4f7f-afb7-73f1e4819212" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnEditar_ClickTest" />
+    </UnitTest>
+    <UnitTest name="GestPerfilNeumaticoConstructorTest1" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="0848aa6c-780c-1647-89fc-4a00f35cb2b0">
+      <Execution id="9f253d90-b223-4b82-9285-35dbc6b3fcf2" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GestPerfilNeumaticoConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="EstadoFormTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="a455db1e-363b-049c-80f3-977dbf6a9fd5">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="a82a981b-8adf-456e-b571-b92527e4549b" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EstadoFormTest" />
+    </UnitTest>
+    <UnitTest name="btnCancelar_ClickTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="e27987a3-b8f9-ddfd-d0b6-9ae2e8e51289">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="1581ad7b-cef9-4585-a86f-45b019fc13e3" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCancelar_ClickTest" />
+    </UnitTest>
+    <UnitTest name="ConnectTest1" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="f106a0a9-d39f-1ab3-5a92-69c914f90985">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="51d28a5d-40b1-42a1-ba1f-ddd3d6b44153" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectTest1" />
+    </UnitTest>
+    <UnitTest name="PintarEjeTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="2d273999-c8a0-62c4-1439-ab129b651d8f">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="2b532d9d-f9d2-4d29-89fa-a00f3d0477fc" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PintarEjeTest" />
+    </UnitTest>
+    <UnitTest name="cboNroEje_SelectedIndexChangedTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="3c2bda18-d360-568f-272c-fb0f18e86a1b">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="6ed6f57a-72c4-439c-8eaa-993c4685def2" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cboNroEje_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="EstadoEdicionTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="6c100e5e-4551-8023-cd41-1ac3bd84f1ba">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="e89d8ba7-aecc-4a5c-89ce-1d89feebf308" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EstadoEdicionTest" />
+    </UnitTest>
+    <UnitTest name="ValidaLogicaNegocioTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="e6c1ca1b-aff0-7448-2e55-ad7dfbe24679">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="8b3a3697-6ed5-49c5-a77e-b42c19260c02" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidaLogicaNegocioTest" />
+    </UnitTest>
+    <UnitTest name="PintarNeumaticoTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="11a4fa1c-861b-bd8f-33a6-6d9bd2d0d5ac">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="8140889c-a352-4888-9cb8-2ee762952ca0" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PintarNeumaticoTest" />
+    </UnitTest>
+    <UnitTest name="ListarPerfilNeumaticoTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="032808ca-936c-77d5-07ff-2d8ae417dc2f">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="539d025d-9ac6-4e26-89d6-8b71b911854f" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListarPerfilNeumaticoTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="b616902b-dced-a4d9-d133-32bbf99fdb83">
+      <Execution id="cae1f5e7-cb4e-4660-ad58-ad3044fdd683" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.UnitTest1, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="LimpiarGridTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="e3f5b30e-dd1d-7e93-6278-3536b04a9ab4">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="e6771fea-1596-40f9-90a2-216536551624" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LimpiarGridTest" />
+    </UnitTest>
+    <UnitTest name="txtDesc_KeyUpTest" storage="c:\users\antonio\desktop\ventura20140728\ventura\tddventura\bin\debug\tddventura.dll" id="1becd8ee-2c8a-a78d-217f-3d0559f6a784">
+      <DeploymentItems>
+        <DeploymentItem filename="AplicacionSistemaVentura.exe" />
+      </DeploymentItems>
+      <Execution id="8d4bf76f-13c6-470a-af18-10b5809109c1" />
+      <TestMethod codeBase="C:/Users/Antonio/Desktop/Ventura20140728/Ventura/TDDVentura/bin/Debug/TDDVentura.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TDDVentura.GestPerfilNeumaticoTest, TDDVentura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtDesc_KeyUpTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1becd8ee-2c8a-a78d-217f-3d0559f6a784" executionId="8d4bf76f-13c6-470a-af18-10b5809109c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dd6745c-2f58-acd9-85bc-b1e650de69e6" executionId="9aeace43-9ecf-4b27-bb26-2ca77d8c6252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3e582fd-fda3-ef2a-80e1-dc06b091bf4c" executionId="d30473af-40d1-459c-8597-70fe48cdc004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a4fa1c-861b-bd8f-33a6-6d9bd2d0d5ac" executionId="8140889c-a352-4888-9cb8-2ee762952ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b616902b-dced-a4d9-d133-32bbf99fdb83" executionId="cae1f5e7-cb4e-4660-ad58-ad3044fdd683" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6b3da3c-b305-f359-f273-d3a6a0bc20c0" executionId="8717dae1-9bb4-4c50-b1e6-8f026013a299" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d273999-c8a0-62c4-1439-ab129b651d8f" executionId="2b532d9d-f9d2-4d29-89fa-a00f3d0477fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34633317-8120-3ba5-dc7b-d26e0e8fe124" executionId="9526371c-3b53-4bc4-af21-d28ffaa37140" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11c777dd-0af4-f0d8-77a4-88d47b2ecec0" executionId="4affc92c-cbcb-4157-997f-a7fb06f1b79a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b6778f1-037d-45dd-245d-e889450b603b" executionId="6245df51-62e7-49cf-a9c3-e2936c131d4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c84d8e-4b9b-f64d-be5d-9b02bdddf3f1" executionId="b9173e9b-36b1-410b-ab41-c079ddc12a47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57c22915-1571-3ea8-b1d3-5bb3f1000b53" executionId="8f5806da-acca-4f7f-afb7-73f1e4819212" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c2bda18-d360-568f-272c-fb0f18e86a1b" executionId="6ed6f57a-72c4-439c-8eaa-993c4685def2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca69f6f9-6574-3eb0-08b3-d8e1fde2504a" executionId="5b851273-0a4d-4be2-945f-f162eab4f6b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e485c4f-a7e9-6a97-d8e7-746b90629991" executionId="532aef84-b9ca-4bb7-b3e7-e0f20cb62ac8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e27987a3-b8f9-ddfd-d0b6-9ae2e8e51289" executionId="1581ad7b-cef9-4585-a86f-45b019fc13e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f106a0a9-d39f-1ab3-5a92-69c914f90985" executionId="51d28a5d-40b1-42a1-ba1f-ddd3d6b44153" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90e48841-9508-a43f-fbc8-f29a03ce34e0" executionId="11cd1223-b6d7-4c27-887a-e8cca9871d1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6361acdc-dcba-73b3-4473-e46e9bf64d59" executionId="46048b78-3f16-4b70-ad5e-a622ebfa8e5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2ed2b79-3302-03b0-5c80-29da7832a8fb" executionId="a514f6a8-8d87-4235-82c5-7e63e4b58b1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3f917b7-7d71-0dec-4604-1a2bcf60978b" executionId="101db3e0-a329-496c-b0f9-f7baecafd4d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c34a7807-1e8f-c9a3-ac6c-4e8a2d3a8f28" executionId="3fb79ed8-6669-4abc-8f90-493ecc4fdbc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd692052-1e14-8b68-94e8-48fd0eaf37eb" executionId="1d608af3-15b4-48a5-8d0e-7eb5b00b5fec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6c1ca1b-aff0-7448-2e55-ad7dfbe24679" executionId="8b3a3697-6ed5-49c5-a77e-b42c19260c02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39da4c68-d679-c2d7-f103-8758675e8bef" executionId="cdbc4542-2f99-4a01-8364-b9ed0aab0641" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3f5b30e-dd1d-7e93-6278-3536b04a9ab4" executionId="e6771fea-1596-40f9-90a2-216536551624" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a455db1e-363b-049c-80f3-977dbf6a9fd5" executionId="a82a981b-8adf-456e-b571-b92527e4549b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="032808ca-936c-77d5-07ff-2d8ae417dc2f" executionId="539d025d-9ac6-4e26-89d6-8b71b911854f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c100e5e-4551-8023-cd41-1ac3bd84f1ba" executionId="e89d8ba7-aecc-4a5c-89ce-1d89feebf308" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3350f1ef-bae7-a170-28a2-f6d4ef908ec2" executionId="164150ed-b596-48ea-b40b-60075f93f4ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0848aa6c-780c-1647-89fc-4a00f35cb2b0" executionId="9f253d90-b223-4b82-9285-35dbc6b3fcf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d55aab20-b9c5-4a2d-3177-a2f8f5f39c9b" executionId="829cda8f-2302-4572-97f9-3f132140af49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8d4bf76f-13c6-470a-af18-10b5809109c1" testId="1becd8ee-2c8a-a78d-217f-3d0559f6a784" testName="txtDesc_KeyUpTest" computerName="ASUS" startTime="2014-07-30T06:57:34.2094799-05:00" endTime="2014-07-30T06:57:49.4945690-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d4bf76f-13c6-470a-af18-10b5809109c1">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9aeace43-9ecf-4b27-bb26-2ca77d8c6252" testId="6dd6745c-2f58-acd9-85bc-b1e650de69e6" testName="MensajeTest" computerName="ASUS" startTime="2014-07-30T06:57:49.5095784-05:00" endTime="2014-07-30T06:58:03.9169267-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9aeace43-9ecf-4b27-bb26-2ca77d8c6252">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d30473af-40d1-459c-8597-70fe48cdc004" testId="d3e582fd-fda3-ef2a-80e1-dc06b091bf4c" testName="PintarLlantaRepuestoTest" computerName="ASUS" duration="00:00:00.5217270" startTime="2014-07-30T06:58:03.9319372-05:00" endTime="2014-07-30T06:58:04.8805697-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d30473af-40d1-459c-8597-70fe48cdc004">
+    </UnitTestResult>
+    <UnitTestResult executionId="8140889c-a352-4888-9cb8-2ee762952ca0" testId="11a4fa1c-861b-bd8f-33a6-6d9bd2d0d5ac" testName="PintarNeumaticoTest" computerName="ASUS" duration="00:00:00.1354058" startTime="2014-07-30T06:58:04.8865737-05:00" endTime="2014-07-30T06:58:05.0266659-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8140889c-a352-4888-9cb8-2ee762952ca0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.PintarNeumaticoTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 271
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cae1f5e7-cb4e-4660-ad58-ad3044fdd683" testId="b616902b-dced-a4d9-d133-32bbf99fdb83" testName="TestMethod1" computerName="ASUS" duration="00:00:00.0001664" startTime="2014-07-30T06:58:05.0316692-05:00" endTime="2014-07-30T06:58:05.0346712-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cae1f5e7-cb4e-4660-ad58-ad3044fdd683">
+    </UnitTestResult>
+    <UnitTestResult executionId="8717dae1-9bb4-4c50-b1e6-8f026013a299" testId="c6b3da3c-b305-f359-f273-d3a6a0bc20c0" testName="GestPerfilNeumaticoConstructorTest" computerName="ASUS" duration="00:00:00.0591037" startTime="2014-07-30T06:58:05.0406758-05:00" endTime="2014-07-30T06:58:05.1027171-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8717dae1-9bb4-4c50-b1e6-8f026013a299">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.GestPerfilNeumaticoConstructorTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 81
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b532d9d-f9d2-4d29-89fa-a00f3d0477fc" testId="2d273999-c8a0-62c4-1439-ab129b651d8f" testName="PintarEjeTest" computerName="ASUS" duration="00:00:00.0492755" startTime="2014-07-30T06:58:05.1077198-05:00" endTime="2014-07-30T06:58:05.1617564-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b532d9d-f9d2-4d29-89fa-a00f3d0477fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.PintarEjeTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 244
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9526371c-3b53-4bc4-af21-d28ffaa37140" testId="34633317-8120-3ba5-dc7b-d26e0e8fe124" testName="cboNroLlanta_SelectedIndexChangedTest" computerName="ASUS" startTime="2014-07-30T06:58:05.1667592-05:00" endTime="2014-07-30T06:58:10.8137349-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9526371c-3b53-4bc4-af21-d28ffaa37140">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4affc92c-cbcb-4157-997f-a7fb06f1b79a" testId="11c777dd-0af4-f0d8-77a4-88d47b2ecec0" testName="OutFocusTest" computerName="ASUS" startTime="2014-07-30T06:58:10.8247405-05:00" endTime="2014-07-30T06:58:27.2283147-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4affc92c-cbcb-4157-997f-a7fb06f1b79a">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6245df51-62e7-49cf-a9c3-e2936c131d4f" testId="8b6778f1-037d-45dd-245d-e889450b603b" testName="tbvPerfNeumEje_ShowingEditorTest" computerName="ASUS" startTime="2014-07-30T06:58:27.2423240-05:00" endTime="2014-07-30T06:58:32.9144823-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6245df51-62e7-49cf-a9c3-e2936c131d4f">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9173e9b-36b1-410b-ab41-c079ddc12a47" testId="b8c84d8e-4b9b-f64d-be5d-9b02bdddf3f1" testName="btnNuevo_ClickTest" computerName="ASUS" duration="00:00:00.6467789" startTime="2014-07-30T06:58:32.9264886-05:00" endTime="2014-07-30T06:58:33.9051405-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9173e9b-36b1-410b-ab41-c079ddc12a47">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.btnNuevo_ClickTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 399
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f5806da-acca-4f7f-afb7-73f1e4819212" testId="57c22915-1571-3ea8-b1d3-5bb3f1000b53" testName="btnEditar_ClickTest" computerName="ASUS" startTime="2014-07-30T06:58:33.9121451-05:00" endTime="2014-07-30T06:58:41.9486424-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f5806da-acca-4f7f-afb7-73f1e4819212">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ed6f57a-72c4-439c-8eaa-993c4685def2" testId="3c2bda18-d360-568f-272c-fb0f18e86a1b" testName="cboNroEje_SelectedIndexChangedTest" computerName="ASUS" startTime="2014-07-30T06:58:41.9636535-05:00" endTime="2014-07-30T06:58:47.4213356-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ed6f57a-72c4-439c-8eaa-993c4685def2">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b851273-0a4d-4be2-945f-f162eab4f6b0" testId="ca69f6f9-6574-3eb0-08b3-d8e1fde2504a" testName="ComboEnGrillaTest" computerName="ASUS" startTime="2014-07-30T06:58:47.4363450-05:00" endTime="2014-07-30T06:58:50.1723857-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b851273-0a4d-4be2-945f-f162eab4f6b0">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="532aef84-b9ca-4bb7-b3e7-e0f20cb62ac8" testId="4e485c4f-a7e9-6a97-d8e7-746b90629991" testName="OnFocusTest" computerName="ASUS" startTime="2014-07-30T06:58:50.1873969-05:00" endTime="2014-07-30T06:58:54.7360546-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="532aef84-b9ca-4bb7-b3e7-e0f20cb62ac8">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1581ad7b-cef9-4585-a86f-45b019fc13e3" testId="e27987a3-b8f9-ddfd-d0b6-9ae2e8e51289" testName="btnCancelar_ClickTest" computerName="ASUS" duration="00:00:00.4994928" startTime="2014-07-30T06:58:54.7470620-05:00" endTime="2014-07-30T06:58:55.5205795-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1581ad7b-cef9-4585-a86f-45b019fc13e3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.btnCancelar_ClickTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 357
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="51d28a5d-40b1-42a1-ba1f-ddd3d6b44153" testId="f106a0a9-d39f-1ab3-5a92-69c914f90985" testName="ConnectTest1" computerName="ASUS" duration="00:00:00.0690397" startTime="2014-07-30T06:58:55.5265812-05:00" endTime="2014-07-30T06:58:55.5986309-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51d28a5d-40b1-42a1-ba1f-ddd3d6b44153">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.ConnectTest1() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 299
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11cd1223-b6d7-4c27-887a-e8cca9871d1c" testId="90e48841-9508-a43f-fbc8-f29a03ce34e0" testName="ConnectTest" computerName="ASUS" duration="00:00:00.0537292" startTime="2014-07-30T06:58:55.6036331-05:00" endTime="2014-07-30T06:58:55.6606716-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11cd1223-b6d7-4c27-887a-e8cca9871d1c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.ConnectTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 285
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46048b78-3f16-4b70-ad5e-a622ebfa8e5a" testId="6361acdc-dcba-73b3-4473-e46e9bf64d59" testName="LimpiarControlesTest" computerName="ASUS" duration="00:00:00.0841569" startTime="2014-07-30T06:58:55.6666745-05:00" endTime="2014-07-30T06:58:55.7547349-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46048b78-3f16-4b70-ad5e-a622ebfa8e5a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.LimpiarControlesTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 164
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a514f6a8-8d87-4235-82c5-7e63e4b58b1c" testId="b2ed2b79-3302-03b0-5c80-29da7832a8fb" testName="ValidaCampoObligadoTest" computerName="ASUS" startTime="2014-07-30T06:58:55.7607377-05:00" endTime="2014-07-30T06:58:59.7963831-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a514f6a8-8d87-4235-82c5-7e63e4b58b1c">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="101db3e0-a329-496c-b0f9-f7baecafd4d0" testId="d3f917b7-7d71-0dec-4604-1a2bcf60978b" testName="InitializeComponentTest" computerName="ASUS" duration="00:00:00.5766541" startTime="2014-07-30T06:58:59.8093941-05:00" endTime="2014-07-30T06:59:00.6749683-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="101db3e0-a329-496c-b0f9-f7baecafd4d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.InitializeComponentTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 152
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3fb79ed8-6669-4abc-8f90-493ecc4fdbc0" testId="c34a7807-1e8f-c9a3-ac6c-4e8a2d3a8f28" testName="btnGrabar_ClickTest" computerName="ASUS" startTime="2014-07-30T06:59:00.6809735-05:00" endTime="2014-07-30T06:59:04.6743383-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fb79ed8-6669-4abc-8f90-493ecc4fdbc0">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d608af3-15b4-48a5-8d0e-7eb5b00b5fec" testId="cd692052-1e14-8b68-94e8-48fd0eaf37eb" testName="UserControl_LoadedTest" computerName="ASUS" startTime="2014-07-30T06:59:04.6843478-05:00" endTime="2014-07-30T06:59:07.3304483-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d608af3-15b4-48a5-8d0e-7eb5b00b5fec">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b3a3697-6ed5-49c5-a77e-b42c19260c02" testId="e6c1ca1b-aff0-7448-2e55-ad7dfbe24679" testName="ValidaLogicaNegocioTest" computerName="ASUS" startTime="2014-07-30T06:59:07.3444582-05:00" endTime="2014-07-30T06:59:12.0234301-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b3a3697-6ed5-49c5-a77e-b42c19260c02">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cdbc4542-2f99-4a01-8364-b9ed0aab0641" testId="39da4c68-d679-c2d7-f103-8758675e8bef" testName="dtgPerfNeum_MouseDoubleClickTest" computerName="ASUS" startTime="2014-07-30T06:59:12.0364376-05:00" endTime="2014-07-30T06:59:16.7141899-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdbc4542-2f99-4a01-8364-b9ed0aab0641">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6771fea-1596-40f9-90a2-216536551624" testId="e3f5b30e-dd1d-7e93-6278-3536b04a9ab4" testName="LimpiarGridTest" computerName="ASUS" startTime="2014-07-30T06:59:16.7251950-05:00" endTime="2014-07-30T06:59:21.3614615-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6771fea-1596-40f9-90a2-216536551624">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a82a981b-8adf-456e-b571-b92527e4549b" testId="a455db1e-363b-049c-80f3-977dbf6a9fd5" testName="EstadoFormTest" computerName="ASUS" duration="00:00:00.5030729" startTime="2014-07-30T06:59:21.3714716-05:00" endTime="2014-07-30T06:59:22.1479860-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a82a981b-8adf-456e-b571-b92527e4549b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.EstadoFormTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 141
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="539d025d-9ac6-4e26-89d6-8b71b911854f" testId="032808ca-936c-77d5-07ff-2d8ae417dc2f" testName="ListarPerfilNeumaticoTest" computerName="ASUS" startTime="2014-07-30T06:59:22.1539911-05:00" endTime="2014-07-30T06:59:26.3738971-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="539d025d-9ac6-4e26-89d6-8b71b911854f">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e89d8ba7-aecc-4a5c-89ce-1d89feebf308" testId="6c100e5e-4551-8023-cd41-1ac3bd84f1ba" testName="EstadoEdicionTest" computerName="ASUS" duration="00:00:00.4835186" startTime="2014-07-30T06:59:26.3839055-05:00" endTime="2014-07-30T06:59:27.1394088-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e89d8ba7-aecc-4a5c-89ce-1d89feebf308">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.EstadoEdicionTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 129
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="164150ed-b596-48ea-b40b-60075f93f4ff" testId="3350f1ef-bae7-a170-28a2-f6d4ef908ec2" testName="cboLlanRepu_SelectedIndexChangedTest" computerName="ASUS" duration="00:00:00.1755169" startTime="2014-07-30T06:59:27.1454105-05:00" endTime="2014-07-30T06:59:27.3245309-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="164150ed-b596-48ea-b40b-60075f93f4ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.cboLlanRepu_SelectedIndexChangedTest() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 413
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f253d90-b223-4b82-9285-35dbc6b3fcf2" testId="0848aa6c-780c-1647-89fc-4a00f35cb2b0" testName="GestPerfilNeumaticoConstructorTest1" computerName="ASUS" duration="00:00:00.0457917" startTime="2014-07-30T06:59:27.3305349-05:00" endTime="2014-07-30T06:59:27.3795659-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f253d90-b223-4b82-9285-35dbc6b3fcf2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   en TDDVentura.GestPerfilNeumaticoTest.GestPerfilNeumaticoConstructorTest1() en C:\Users\Antonio\Desktop\Ventura20140728\Ventura\TDDVentura\GestPerfilNeumaticoTest.cs:línea 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="829cda8f-2302-4572-97f9-3f132140af49" testId="d55aab20-b9c5-4a2d-3177-a2f8f5f39c9b" testName="DetallePerfilNeumaticoTest" computerName="ASUS" startTime="2014-07-30T06:59:27.3845709-05:00" endTime="2014-07-30T06:59:31.2028037-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="829cda8f-2302-4572-97f9-3f132140af49">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

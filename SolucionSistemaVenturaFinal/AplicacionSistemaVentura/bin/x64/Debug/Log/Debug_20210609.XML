@@ -1,0 +1,1015 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T11:11:10.7081663-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T11:11:22.7686166-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T11:12:53.192646-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T11:12:53.4096339-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:02.264788-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:02.4189957-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:16.8776134-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:24.4308002-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:24.444806-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:13:46.5063184-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:14:01.7706527-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T11:14:01.7786563-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T12:25:23.5567304-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T12:25:24.073723-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:25:32.0812551-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:25:33.9527918-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T12:40:50.6828941-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T12:40:50.8958839-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:40:57.5041396-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:40:57.5651486-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 12:41:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 12:40:53, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T12:42:00.4156008-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:42:21.6074876-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T12:43:58.553236-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 12:41:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 12:40:53, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T12:43:58.6092303-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T15:47:06.2384771-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:09:39.0946886-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:09:39.4890688-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:16:14.9319595-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:16:15.3009917-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:16:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:09:44, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:16:46.6303056-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:19:31.4327198-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:19:31.7167043-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:19:57.9509007-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:19:58.1099034-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:20:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:19:54, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:20:51.7695072-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:21:08.8832323-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:21:08.9252215-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:20:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:19:54, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:21:08.9342268-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:33:30.83648-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:33:31.2547988-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:34:35.63892-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:34:35.8220511-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:35:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:34:22, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:35:11.343053-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:35:15.9870382-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:35:16.0310545-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:35:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:34:22, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:35:16.0420348-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:38.3806752-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:38.437698-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:38.4966686-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 0, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:38.5166677-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:46.2771765-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:49.9612859-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 1, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:54.0993581-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 1, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:45:54.1353569-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 6, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:06.7075899-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 6, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:06.72457-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItem</Metodo>
+    <Parametros>IdNeumatico= 5, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 00:00:00, FechaBaja = , Observacion = , IdEstadoN = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:15.8987896-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoCiclo_List</Metodo>
+    <Parametros>IdNeumaticoCiclo= 0, IdNeumatico = 5, IdCiclo = 0, Frecuencia = 0, Contador = 0, IdEstadoNC = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:15.9207896-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:46:43.3676398-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:43.4786391-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_GetItem</Metodo>
+    <Parametros>IdNC= 10, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:46:52.0161139-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_List</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 10, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:46:52.0391143-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 10, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:47:11.6828653-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 10, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:47:17.2173349-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 10, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:47:17.2633349-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:48:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:47:13, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:48:49.1242506-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 10, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:48:49.3402686-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 10, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:48:49.3812984-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:48:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:47:13, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:48:49.3952928-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 0, FechaControl = 01/01/0001 00:00:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:50:41.9924392-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboWithPN</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T16:50:42.2394405-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:50:49.3811514-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:50:49.4521571-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControl_UpdateCascada</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:51:00, Ciclo = 0, IdEstadoNC = 1, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:50:44, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:51:44.7352516-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 25, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:51:44.8132538-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>NeumaticoControlDet_ListByUC</Metodo>
+    <Parametros>IdNCD= 0, IdNC = 0, Posicion = 0, IdNeumatico = 0, Valor = 0, ValorNuevo = 0, FlagReencauche = False, Observacion = , IdEstadoNCD = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 00:00:00, HostModificacion = , IdUC = 0, IdCiclo = 0, IdUsuario = 0</Parametros>
+    <FechaHora>2021-06-09T16:51:57.753111-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_Control_List</Metodo>
+    <Parametros>IdNC= 0, CodNC = , IdUC = 25, FechaControl = 09/06/2021 16:51:00, Ciclo = 0, IdEstadoNC = 0, FlagActivo = True, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 00:00:00, HostCreacion = , IdUsuarioModificacion = , IdUsuario = 1, FechaModificacion = 09/06/2021 16:50:44, HostModificacion = 01/01/0001 00:00:00</Parametros>
+    <FechaHora>2021-06-09T16:51:57.7641128-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:02:56.9744853-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:03:18.1022415-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:03:18.1112503-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:03:18.9862371-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:03:19.0712356-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_Combo</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 0, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:03:19.0812352-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:04:09.5869738-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:04:09.5979778-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:04:10.3729919-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:04:10.4289775-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_Combo</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 0, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:04:10.4379715-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:05:59.8557898-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:00.5938902-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:06.0634923-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:06.8714905-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_GetItem</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =25, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:08.7324966-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_List</Metodo>
+    <Parametros>IdUCComp = 0, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:08.7525075-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 4, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:08.8375168-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_GetBeforeChange</Metodo>
+    <Parametros>IdUCComp = 10, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:15.1337018-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_GetBeforeChange</Metodo>
+    <Parametros>IdUCComp = 11, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:06:17.9612806-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:08:59.0212645-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:08:59.6890859-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:07.39724-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:08.7912431-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_GetItem</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =25, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:10.8003718-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_List</Metodo>
+    <Parametros>IdUCComp = 11, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:10.8283761-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 4, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:10.8783721-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_GetBeforeChange</Metodo>
+    <Parametros>IdUCComp = 11, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:19.1542443-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_GetBeforeChange</Metodo>
+    <Parametros>IdUCComp = 10, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:20.8881519-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UCComp_GetBeforeChange</Metodo>
+    <Parametros>IdUCComp = 11, IdPerfilComp = 0, IdUC = 25, IdTipoDetalle =0, IdItem =0, NroSerie = , CodigoSAP =, DescripcionSAP =, IdEstadoUCComp = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:24.2391348-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:26.9188221-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:27.5667813-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Ciclo_List</Metodo>
+    <Parametros>IdCiclo = 0, IdTipoCiclo = 0, Ciclo = 0, IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, FechaCreacion = , HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = , HostModificacion = </Parametros>
+    <FechaHora>2021-06-09T17:09:33.0489604-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_List</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:33.9089685-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:33.9329684-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_GetItem</Metodo>
+    <Parametros>IdPerfil = 5, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:44.5477765-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 5, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 1, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:44.5627726-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:48.3896497-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:09:49.476419-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:27:14.4918274-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:27:14.5418362-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:27:15.4528319-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:27:15.5458259-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_Combo</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 0, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:27:15.5528252-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T17:48:43.5013933-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T18:15:26.2964291-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-09T18:17:51.2986443-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+</NewDataSet>

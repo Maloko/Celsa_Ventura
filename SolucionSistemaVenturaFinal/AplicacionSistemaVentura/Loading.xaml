@@ -1,0 +1,14 @@
+﻿<Window x:Class="AplicacionSistemaVentura.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        Background="Transparent" AllowsTransparency="True"
+        Title="Loading" Height="300" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="None" Icon="/AplicacionSistemaVentura;component/favicon.ico">
+    <Grid>
+        <Border CornerRadius="10,80,10,80">
+            <Border.Background>
+                <ImageBrush ImageSource="/AplicacionSistemaVentura;component/Image/Logo-ventura.png" />
+            </Border.Background>
+        </Border>
+    </Grid>
+</Window>

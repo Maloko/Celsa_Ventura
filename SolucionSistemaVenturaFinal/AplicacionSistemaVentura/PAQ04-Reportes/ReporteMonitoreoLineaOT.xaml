@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ04_Reportes.ReporteMonitoreoLineaOT"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="UserControl_Loaded" d:DesignHeight="514" d:DesignWidth="1024" xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid" xmlns:dxpdf="http://schemas.devexpress.com/winfx/2008/xaml/pdf" xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/reportdesigner">
+    <Grid>
+        <ContentControl Height="398" HorizontalAlignment="Left" Margin="28,35,0,0" Name="contentControl1" VerticalAlignment="Top" Width="822">
+            <dxg:GridControl Name="gridControl1" AutoGenerateColumns="AddNew" FontSize="11">
+                <dxg:GridControl.View>
+                    <dxg:TableView x:Name="view" AutoWidth="True" AllowPrintDetails="True" PrintAllDetails="True" BestFitMode="Smart" AllowBestFit="False" />
+                </dxg:GridControl.View>
+            </dxg:GridControl>                    
+        </ContentControl>
+        <StackPanel Orientation="Horizontal" Height="45" HorizontalAlignment="Left" Margin="28,439,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="272">
+            <Button Style="{DynamicResource buttonStyle}" Click="PreviewGrid" Width="116" Height="26">
+                Exportar Consulta
+            </Button>
+            <Button Style="{DynamicResource buttonStyle}"  Height="26" Name="button2" Width="93" Click="button2_Click">
+                Imprimir
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

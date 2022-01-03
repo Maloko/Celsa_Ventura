@@ -1,0 +1,307 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>3</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:23.936766-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo1</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:43.4548046-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:46.7090877-05:00</Error_DateTime>
+    <Error_Description>El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   en System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException&amp; exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.Mailer(String titulo, String OT, String Articulo, String canSol, String cantUti) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE_64\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5050</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo2</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:46.7130863-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo1</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:46.7150858-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:48.3953785-05:00</Error_DateTime>
+    <Error_Description>El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   en System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException&amp; exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.Mailer(String titulo, String OT, String Articulo, String canSol, String cantUti) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE_64\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5050</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo2</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:48.4003824-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo1</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:48.4043816-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:50.2723641-05:00</Error_DateTime>
+    <Error_Description>El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   en System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   en System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException&amp; exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.Mailer(String titulo, String OT, String Articulo, String canSol, String cantUti) en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE_64\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 5050</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo2</Error_Type>
+    <Error_DateTime>2021-06-07T13:08:50.275357-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T13:15:34.082305-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\gparedes\Desktop\VSMONE\VSMONE_FUENTE_64\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>1</Error_Type>
+    <Error_DateTime>2021-06-07T13:18:06.8183147-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo1</Error_Type>
+    <Error_DateTime>2021-06-07T13:18:20.3045155-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>Aquí correo2</Error_Type>
+    <Error_DateTime>2021-06-07T13:19:42.6840085-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>3</Error_Type>
+    <Error_DateTime>2021-06-07T13:39:55.5392279-05:00</Error_DateTime>
+    <Error_Description>OT</Error_Description>
+    <Error_Source />
+    <Error_Stack_Trace />
+    <Error_Caused_By_Method />
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T14:43:57.9945734-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T14:52:22.419392-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T14:56:38.5588579-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-07T17:23:23.0926811-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+</NewDataSet>

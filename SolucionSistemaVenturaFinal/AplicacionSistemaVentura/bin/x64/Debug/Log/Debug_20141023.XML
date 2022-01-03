@@ -1,0 +1,695 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T16:14:07.0517627-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Tarea_ComboByAct</Metodo>
+    <Parametros>IdTarea = 0, CodTarea = , Tarea = , IdActividad = 0, IdEstadoT = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T16:14:07.087763-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T16:14:07.9777754-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T16:14:08.2437795-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_Combo</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 0, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T16:14:08.3007811-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:41:54.0296997-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:43:11.08782-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:43:11.3530205-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 2, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:44:23.7345786-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:45:14.7605053-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:46:31.401124-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:47:17.0453173-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:51:46.2002718-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:51:57.1710913-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:57:09.0203597-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:57:26.2792016-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T18:59:58.527114-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:00:04.221124-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:05:50.7166967-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:06:04.9733329-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:06:27.4194994-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:06:27.4974995-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:12:29.4775636-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:16:04.7270428-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramientaitem_GetItem</Metodo>
+    <Parametros>IdHerramientaItem = 0, IdHerramienta = 0, NroSerie = , IdEstadoDisponible = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:16:21.5334253-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_UpdateCascade</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:16:23.046628-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = Herramienta Prueba, Observacion = , IdEstadoH = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:16:38.1230565-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:17:06.9495105-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:22:01.4306372-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000099, DescripcionSAP = CAMARA 300 x 18 KENDA, IdDisenio = 2, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:17:36 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:22:26.8518884-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:29:35.5561718-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:30:16.102532-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = SOLDA000004, DescripcionSAP = DISCO DE DESBASTE 4 1/2" x 1/4" x 7/8", IdDisenio = 3, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:29:40 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:30:17.3325375-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = SOLDA000004, DescripcionSAP = DISCO DE DESBASTE 4 1/2" x 1/4" x 7/8", IdDisenio = 3, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:29:40 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:30:29.4319601-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:35:21.6587646-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:35:43.1139928-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000086, DescripcionSAP = CAMARA 1200R20 HENG-AN, IdDisenio = 3, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:35:32 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:35:46.0311979-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:44:51.6332776-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:45:10.0567426-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000086, DescripcionSAP = CAMARA 1200R20 HENG-AN, IdDisenio = 2, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:44:55 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:45:13.3669486-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Herramienta_List</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T19:53:16.047823-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:53:21.2112863-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:53:35.5155244-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:53:51.9638251-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000104, DescripcionSAP = ACOPLE RAPIDO DE ½ MACHO/PARA PISTOLA DE NEUMATICO, IdDisenio = 1, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:53:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:53:53.2742274-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000104, DescripcionSAP = ACOPLE RAPIDO DE ½ MACHO/PARA PISTOLA DE NEUMATICO, IdDisenio = 1, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:53:37 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:55:13.6213389-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:58:26.6941993-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:58:47.3478587-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000086, DescripcionSAP = CAMARA 1200R20 HENG-AN, IdDisenio = 2, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:58:32 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:58:48.3769175-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = NEUMA000086, DescripcionSAP = CAMARA 1200R20 HENG-AN, IdDisenio = 2, IdTipoBanda = 3, FechaAlta = 23/10/2014 07:58:32 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T19:59:00.3236008-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T20:05:59.928861-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_GetItemBySerie</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T20:06:28.8079177-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_InsertMasivo</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = S/N, CodigoSAP = SOLDA000004, DescripcionSAP = DISCO DE DESBASTE 4 1/2" x 1/4" x 7/8", IdDisenio = 2, IdTipoBanda = 3, FechaAlta = 23/10/2014 08:06:17 p.m., FechaBaja = 19000101, Observacion = , IdEstadoN = 1, FlagActivo = 1, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T20:06:29.7751194-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Neumatico_List</Metodo>
+    <Parametros>IdNeumatico= 0, NroSerie = , CodigoSAP = , DescripcionSAP = , IdDisenio = 0, IdTipoBanda = 0, FechaAlta = 01/01/0001 12:00:00 a.m., FechaBaja = , Observacion = , IdEstadoN = 1, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0, IdUC = 0</Parametros>
+    <FechaHora>2014-10-23T20:06:52.4887593-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:08:33.1247346-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:08.1279643-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:08.1747644-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:10.7949698-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:10.8261699-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:13.1958094-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>PerfilComp_List</Metodo>
+    <Parametros>IdPerfilComp = 0, CodPerfilComp = , PerfilComp = , IdPerfilCompPadre = 0, IdPerfil = 1, CodigoSAP = , DescripcionSAP = , IdEstadoPC = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:14.8994628-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_UpdateCascade</Metodo>
+    <Parametros>CodUC = A1C785, IdPerfil = 1, IdPerfilNeumatico = 0, IdTipoUnidad =C, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =A1C785, FlagActivo = 0, IdUsuarioCreacion = 1, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:21.8587002-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:22.0615005-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:22.2643009-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:22.4047011-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:22.5451014-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:23.0755023-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:23.2939027-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:36.4186304-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:36.4498305-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:39.2130441-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:39.2286441-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:43.6766521-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:43.7078521-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_List</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:48.5169023-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:48.5325023-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:09:53.2125106-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = A1C785, IdOrigenRegistro = 1, IdEvento =1, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =20/03/2015 12:00:00 a.m., FechaHoraFin = 20/03/2015 01:00:00 a.m., ContadorIni = 2, ContadorFin = 5, CodSolicitante = 44, CodResponsable = 105, Observacion = LOL xD, IdUsuario = 1, FechaIni = 03/10/2014 08:09:53 p.m., FechaFin = 23/10/2014 08:09:53 p.m.</Parametros>
+    <FechaHora>2014-10-23T20:11:00.5423778-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2014-10-23T20:13:03.2226061-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2014-10-23T20:13:03.2916101-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Perfil_Combo</Metodo>
+    <Parametros>IdPerfil = 0, Codperfil = , Perfil = , Idtipounidad = , IdPerfilNeumatico = 0, IdEstadoP = 0, FlagActivo = False, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:13:03.4586196-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdHerramienta = 0, CodHerramienta = , Herramienta = , Observacion = , IdEstadoH = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:13:03.4816209-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>Actividad_Combo</Metodo>
+    <Parametros>IdActividad = 0, CodActividad = , Actividad = , IdEstadoActividad = 0, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2014-10-23T20:13:04.829698-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>B_OT_List</Metodo>
+    <Parametros>IdOT = 0, CodOT = , NombreOT = , IdTipoOT = 0, FlagSinUC = 0, IdUC = 0, FechaProg = 01/01/0001 12:00:00 a.m., FechaReprog = 01/01/0001 12:00:00 a.m., FechaLiber = 01/01/0001 12:00:00 a.m., CodResponsable = , NombreResponsable = , IdTipoGeneracion = 0, IdEstadoOT = 0, MotivoPostergacion = , Observacion = , FlagActivo = 0, IdUsuarioCreacion = 0, FechaCreacion = 01/01/0001 12:00:00 a.m., HostCreacion = , IdUsuarioModificacion = 0, FechaModificacion = 01/01/0001 12:00:00 a.m., CodUC = , IdsOTCompActividadEstado = </Parametros>
+    <FechaHora>2014-10-23T20:13:12.3773613-05:00</FechaHora>
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+</NewDataSet>

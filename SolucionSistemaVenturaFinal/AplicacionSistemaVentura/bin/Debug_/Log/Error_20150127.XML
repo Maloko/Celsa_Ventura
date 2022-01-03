@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-27T12:11:46.1958206-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-27T12:15:59.9333336-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>192.168.1.5</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-27T16:00:19.9685331-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-27T16:02:21.0559457-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-27T18:06:22.2542206-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>127.0.0.1</IPAddress>
+  </Table1>
+</NewDataSet>

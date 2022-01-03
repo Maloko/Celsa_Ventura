@@ -1,0 +1,253 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T16:47:52.0344424-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T18:43:11.3218205-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T18:46:31.4635241-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T18:51:46.2470719-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T18:59:58.5895141-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:06:27.4818995-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:14:59.072986-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:16:21.5958254-05:00</Error_DateTime>
+    <Error_Description>No hay ninguna fila en la posición 0.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestHerramientaEspecial.ValidaLogicaNegocio() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestHerramientaEspecial.xaml.cs:línea 631</Error_Stack_Trace>
+    <Error_Caused_By_Method>NodePath GetNodeByIndex(Int32)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:22:50.5206565-05:00</Error_DateTime>
+    <Error_Description>Procedure or function 'Neumatico_UpdateCascade' expects parameter '@FechaModificacion', which was not supplied.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Neumatico.cs:línea 180
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:30:20.3619429-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Neumatico.cs:línea 181
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:38:23.0993592-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Neumatico.cs:línea 181
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T19:46:02.4404493-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Neumatico.cs:línea 181
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-23T20:06:32.6767245-05:00</Error_DateTime>
+    <Error_Description>No se puede convertir un objeto DBNull en otros tipos.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ToInt32(Object value)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Neumatico.cs:línea 182
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Int32 System.IConvertible.ToInt32(System.IFormatProvider)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:22:33.2150775-05:00</Error_DateTime>
+    <Error_Description>Object cannot be cast from DBNull to other types.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   at System.Convert.ToDouble(Object value)
+   at AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:line 4187</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double System.IConvertible.ToDouble(System.IFormatProvider)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:23:43.1270691-05:00</Error_DateTime>
+    <Error_Description>String was not recognized as a valid DateTime.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:line 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:23:53.1891639-05:00</Error_DateTime>
+    <Error_Description>String was not recognized as a valid DateTime.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:line 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:24:50.3004246-05:00</Error_DateTime>
+    <Error_Description>Object cannot be cast from DBNull to other types.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   at System.Convert.ToDouble(Object value)
+   at AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:line 4187</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double System.IConvertible.ToDouble(System.IFormatProvider)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:28:16.81352-05:00</Error_DateTime>
+    <Error_Description>Object cannot be cast from DBNull to other types.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   at System.Convert.ToDouble(Object value)
+   at AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:line 4189</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double System.IConvertible.ToDouble(System.IFormatProvider)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T11:57:09.78712-05:00</Error_DateTime>
+    <Error_Description>Index was outside the bounds of the array.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   at AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:line 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T12:23:35.0206-05:00</Error_DateTime>
+    <Error_Description>Index was outside the bounds of the array.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   at AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:line 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T12:28:14.3354375-05:00</Error_DateTime>
+    <Error_Description>Index was outside the bounds of the array.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   at AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:line 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-08-26T12:42:50.353802-05:00</Error_DateTime>
+    <Error_Description>Index was outside the bounds of the array.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   at AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() in C:\rbo\VSMONE PROYECTO\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:line 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>MGRAU</HostName>
+    <IPAddress>192.168.1.6</IPAddress>
+  </Table1>
+</NewDataSet>

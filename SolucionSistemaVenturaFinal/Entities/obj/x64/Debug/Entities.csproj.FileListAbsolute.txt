@@ -1,0 +1,38 @@
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\bin\x64\Debug\Entities.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\bin\x64\Debug\Entities.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\obj\x64\Debug\Entities.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\obj\x64\Debug\Entities.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Entities\obj\x64\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Entities\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Entities\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Entities\obj\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Entities\obj\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Entities\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Entities\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Entities\obj\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Entities\obj\x64\Debug\Entities.pdb
+D:\Ventura\Repo\VSOME\Hana\Entities\bin\x64\Debug\Entities.dll
+D:\Ventura\Repo\VSOME\Hana\Entities\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repo\VSOME\Hana\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Ventura\Repo\VSOME\Hana\Entities\obj\x64\Debug\Entities.dll
+D:\Ventura\Repo\VSOME\Hana\Entities\obj\x64\Debug\Entities.pdb
+D:\Ventura\Repo\VSOME\Hana\Entities\obj\x64\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\vsperu\Downloads\Hana\Entities\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Downloads\Hana\Entities\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Downloads\Hana\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Downloads\Hana\Entities\obj\x64\Debug\Entities.dll
+C:\Users\vsperu\Downloads\Hana\Entities\obj\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\x64\Debug\Entities.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\bin\x64\Debug\Entities.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\obj\x64\Debug\Entities.csproj.AssemblyReference.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\obj\x64\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\obj\x64\Debug\Entities.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Entities\obj\x64\Debug\Entities.pdb

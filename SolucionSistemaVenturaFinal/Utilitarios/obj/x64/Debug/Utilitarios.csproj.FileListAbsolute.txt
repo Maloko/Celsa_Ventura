@@ -1,0 +1,80 @@
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Utilitarios.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Data.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Entities.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Data.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\bin\x64\Debug\Entities.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\obj\x64\Debug\Utilitarios.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\obj\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\obj\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Utilitarios.dll
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Data.dll
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Entities.dll
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Data.pdb
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\obj\x64\Debug\Utilitarios.dll
+D:\Ventura\Repo\VSOME\Hana\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Downloads\Hana\Utilitarios\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Downloads\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\vsperu\Downloads\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Downloads\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\vsperu\Downloads\Hana\Utilitarios\obj\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Downloads\Hana\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\obj\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Utilitarios\obj\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Utilitarios.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Data.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Microsoft.ReportViewer.Common.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Entities.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Data.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\obj\x64\Debug\Utilitarios.csproj.AssemblyReference.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\obj\x64\Debug\Utilitarios.csproj.CopyComplete
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\obj\x64\Debug\Utilitarios.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Utilitarios\obj\x64\Debug\Utilitarios.pdb

@@ -1,0 +1,204 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T15:03:48.8412246-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T16:52:06.2316395-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T17:00:32.2036319-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T17:04:44.5840829-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T17:51:49.1624652-05:00</Error_DateTime>
+    <Error_Description>La columna 'IdNC' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 433
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T17:51:49.7224584-05:00</Error_DateTime>
+    <Error_Description>La columna 'IdNC' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 433
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T17:53:41.4610071-05:00</Error_DateTime>
+    <Error_Description>La columna 'IdNC' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 433
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T18:02:51.9858458-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 451
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T18:02:52.5608522-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 451
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T18:05:22.0346102-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 451
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-06-08T18:05:29.9844061-05:00</Error_DateTime>
+    <Error_Description>La columna 'FCambio' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.ListarDetalleNeumatico(Int32 Id, Boolean Consulta) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 451
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecControlNeumatico.CboUnidadControl_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\Tesoreria\Desktop\VS-VSMONE\VSMONE_store\HANA\VSMONE\HANA\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecControlNeumatico.xaml.cs:línea 323</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>ECOSTRUX</HostName>
+    <IPAddress>192.168.30.30</IPAddress>
+  </Table1>
+</NewDataSet>

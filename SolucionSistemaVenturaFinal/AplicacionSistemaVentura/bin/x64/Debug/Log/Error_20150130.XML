@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-30T17:01:20.0443012-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 474</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::30b5:352b:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-30T18:19:25.8973167-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   en System.Convert.ToDouble(Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.CboPerfilAC_SelectedIndexChanged(Object sender, RoutedEventArgs e) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 2606</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double ParseDouble(System.String, System.Globalization.NumberStyles, System.Globalization.NumberFormatInfo)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-30T18:20:46.9249512-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   en System.Convert.ToDouble(Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.CboPerfilAC_SelectedIndexChanged(Object sender, RoutedEventArgs e) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 2606</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double ParseDouble(System.String, System.Globalization.NumberStyles, System.Globalization.NumberFormatInfo)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-30T18:21:17.9417252-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   en System.Convert.ToDouble(Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.CboPerfilAC_SelectedIndexChanged(Object sender, RoutedEventArgs e) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 2606</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double ParseDouble(System.String, System.Globalization.NumberStyles, System.Globalization.NumberFormatInfo)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-01-30T18:21:46.4393552-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   en System.Convert.ToDouble(Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.CboPerfilAC_SelectedIndexChanged(Object sender, RoutedEventArgs e) en D:\Ventura\jrivas_20150127\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 2606</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double ParseDouble(System.String, System.Globalization.NumberStyles, System.Globalization.NumberFormatInfo)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER2</NombreUsuario>
+    <HostName>TOSHIBA01-PC</HostName>
+    <IPAddress>fe80::2c4e:35c8:3f57:fef8%14</IPAddress>
+  </Table1>
+</NewDataSet>

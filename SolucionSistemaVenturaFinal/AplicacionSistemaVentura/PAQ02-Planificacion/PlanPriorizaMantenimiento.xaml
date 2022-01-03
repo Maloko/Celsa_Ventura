@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="AplicacionSistemaVentura.PAQ02_Planificacion.PlanPriorizaMantenimiento"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="449" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol">
+    <UserControl.Resources>
+    <ResourceDictionary>
+        <DataTemplate x:Key="comboboxEstado">
+            <dxe:ComboBoxEdit Name="PART_Editor" IsTextEditable="False" IsEnabled="True" ItemsSource="{Binding Data.cboFuenteEstado}"  ValueMember="Id" DisplayMember="Text">
+            </dxe:ComboBoxEdit>
+        </DataTemplate>
+            <DataTemplate x:Key="comboboxPrioridad">
+                <dxe:ComboBoxEdit Name="PART_Editor" IsTextEditable="False" IsEnabled="True" ItemsSource="{Binding Data.cboFuentePrioridad}"
+                                  ValueMember="Id" DisplayMember="Text" SelectedIndexChanged="cboPrioridad_SelectedIndexChanged">
+                </dxe:ComboBoxEdit>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Label Content="Perfil de Unidad de Control:" HorizontalAlignment="Left" Margin="10,19,0,0" Name="label1" VerticalAlignment="Top" />
+        <dxe:ComboBoxEdit Margin="156,15,10,0" Name="cboPerfil" VerticalAlignment="Top" AutoComplete="True" FilterCondition="Contains" IncrementalFiltering="True" SelectedIndexChanged="cboPerfil_SelectedIndexChanged" PopupOpening="cboPerfil_PopupOpening" />
+        <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Margin="10,50,10,52" Name="dtgListadoPM">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="IdPM" VisibleIndex="0" Visible="False" />
+                <dxg:GridColumn FieldName="PM" VisibleIndex="1" Header="Plan de Mantenimiento" Width="300" />
+                <dxg:GridColumn FieldName="Prioridad" VisibleIndex="2" Width="80" Header="Prioridad" CellTemplate="{StaticResource comboboxPrioridad}" />
+                <!--<dxg:GridColumn FieldName="IdEstado" VisibleIndex="2" Header="Estado"  CellTemplate="{StaticResource comboboxEstado}" />-->
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.TotalSummary>
+                <dxg:GridSummaryItem SummaryType="Count" Alignment="Right"/>
+            </dxg:GridControl.TotalSummary>
+            <dxg:GridControl.View>
+                <dxg:TableView
+                    AllowPerPixelScrolling="True" Name="tableView1" 
+                    ShowTotalSummary="False" ShowGroupPanel="False"
+                    ShowFixedTotalSummary="True" EditorButtonShowMode="ShowAlways"
+                     />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+        <Button Style="{DynamicResource buttonStyle}" Width="100" IsDefault="True"   HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" Content="Registrar" Name="BtnAceptar" Click="btnAceptar_Click"/>
+    </Grid>
+</UserControl>

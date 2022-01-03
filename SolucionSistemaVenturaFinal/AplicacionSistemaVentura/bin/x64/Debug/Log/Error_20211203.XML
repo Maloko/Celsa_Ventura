@@ -1,0 +1,510 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T09:10:35.9326284-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T09:15:06.6494756-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T10:13:05.0781118-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T10:41:54.6807656-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestPerfilUC.cboCompSAP_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\PAQ01-Definicion\GestPerfilUC.xaml.cs:línea 3436</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T12:35:26.0988698-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestPerfilUC.cboCompSAP_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\PAQ01-Definicion\GestPerfilUC.xaml.cs:línea 3436</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T12:38:04.5028094-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestPerfilUC.cboCompSAP_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\PAQ01-Definicion\GestPerfilUC.xaml.cs:línea 3436</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T12:39:31.8851945-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestPerfilUC.cboCompSAP_SelectedIndexChanged(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\PAQ01-Definicion\GestPerfilUC.xaml.cs:línea 3436</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T13:43:53.8039842-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 257</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T17:54:27.0133186-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T17:58:57.7328332-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:03:38.9939353-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:08:10.3170208-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:10:41.0720444-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'ProgramacionKey', table 'VSMONE.dbo.Bitacora'; column does not allow nulls. INSERT fails.
+------------------------------------------------
+02. CREATE TABLE #ContadorDet
+------------------------------------------------
+03A. INSERT #ContadorDet 1, 2, 4 Registro Previo
+------------------------------------------------
+03B. INSERT #ContadorDet 1, 2, 3 Registro a Insertar
+------------------------------------------------
+03C. Autocompleta rangos vacíos a partir del Registro de Contadores de Distancia y Horas.
+@IdContadorDet: 16
+@Fecha1: 03/12/2021 19:00:00
+@Contador1: 90
+@Fecha2: NULO
+@Contador2: NULO
+------------------------------------------------
+03H. INSERT ContadorDet @IdTipoOperacion = 1: Nuevo evitando duplicados
+------------------------------------------------
+03I. UPDATE UC.ContadorAcum
+The statement has been terminated.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Data\D_ContadorDet.cs:línea 93
+   en Business.B_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Business\B_ContadorDet.cs:línea 32
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.btnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 264</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:12:43.247264-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:13:32.2868866-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'ProgramacionKey', table 'VSMONE.dbo.Bitacora'; column does not allow nulls. INSERT fails.
+------------------------------------------------
+02. CREATE TABLE #ContadorDet
+------------------------------------------------
+03A. INSERT #ContadorDet 1, 2, 4 Registro Previo
+------------------------------------------------
+03B. INSERT #ContadorDet 1, 2, 3 Registro a Insertar
+------------------------------------------------
+03C. Autocompleta rangos vacíos a partir del Registro de Contadores de Distancia y Horas.
+@IdContadorDet: 10012
+@Fecha1: 03/12/2021 19:00:00
+@Contador1: 90
+@Fecha2: 03/12/2021 19:00:00
+@Contador2: 90
+@IdContadorDet: 10013
+@Fecha1: 03/12/2021 22:00:00
+@Contador1: 100
+@Fecha2: NULO
+@Contador2: NULO
+------------------------------------------------
+03H. INSERT ContadorDet @IdTipoOperacion = 1: Nuevo evitando duplicados
+------------------------------------------------
+03I. UPDATE UC.ContadorAcum
+The statement has been terminated.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Data\D_ContadorDet.cs:línea 93
+   en Business.B_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Business\B_ContadorDet.cs:línea 32
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.btnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 264</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:27:09.0839908-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'ProgramacionKey', table 'VSMONE.dbo.Bitacora'; column does not allow nulls. INSERT fails.
+------------------------------------------------
+02. CREATE TABLE #ContadorDet
+------------------------------------------------
+03A. INSERT #ContadorDet 1, 2, 4 Registro Previo
+------------------------------------------------
+03B. INSERT #ContadorDet 1, 2, 3 Registro a Insertar
+------------------------------------------------
+03C. Autocompleta rangos vacíos a partir del Registro de Contadores de Distancia y Horas.
+@IdContadorDet: 10014
+@Fecha1: 03/12/2021 00:00:00
+@Contador1: 30
+@Fecha2: NULO
+@Contador2: NULO
+------------------------------------------------
+03H. INSERT ContadorDet @IdTipoOperacion = 1: Nuevo evitando duplicados
+------------------------------------------------
+03I. UPDATE UC.ContadorAcum
+The statement has been terminated.</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Data\D_ContadorDet.cs:línea 93
+   en Business.B_ContadorDet.ContadorDet_UpdateProcess(E_ContadorDet objE, String&amp; DescError) en C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\Business\B_ContadorDet.cs:línea 32
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestRegInci.btnGrabar_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestRegInci.xaml.cs:línea 264</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:31:03.0500108-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T18:35:34.1178425-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:09:19.1226227-05:00</Error_DateTime>
+    <Error_Description>Error del método con código de error inesperado 53.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   en System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   en System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)
+   en System.IO.DirectoryInfo.GetAccessControl()
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.BtnRegistrarInformeP_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 1268</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Security.AccessControl.CommonSecurityDescriptor CreateInternal(System.Security.AccessControl.ResourceType, Boolean, System.String, System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections, Boolean, ExceptionFromErrorCode, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:09:19.2386362-05:00</Error_DateTime>
+    <Error_Description>Error del método con código de error inesperado 53.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   en System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   en System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)
+   en System.IO.DirectoryInfo.GetAccessControl()
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.BtnRegistrarInformeP_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 1268</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Security.AccessControl.CommonSecurityDescriptor CreateInternal(System.Security.AccessControl.ResourceType, Boolean, System.String, System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections, Boolean, ExceptionFromErrorCode, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:09:35.2264077-05:00</Error_DateTime>
+    <Error_Description>Error del método con código de error inesperado 53.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   en System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   en System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)
+   en System.IO.DirectoryInfo.GetAccessControl()
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.BtnRegistrarInformeP_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 1268</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Security.AccessControl.CommonSecurityDescriptor CreateInternal(System.Security.AccessControl.ResourceType, Boolean, System.String, System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections, Boolean, ExceptionFromErrorCode, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:11:50.0409881-05:00</Error_DateTime>
+    <Error_Description>Error del método con código de error inesperado 53.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   en System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   en System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)
+   en System.IO.DirectoryInfo.GetAccessControl()
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.BtnRegistrarInformeP_Click(Object sender, RoutedEventArgs e) en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 1268</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Security.AccessControl.CommonSecurityDescriptor CreateInternal(System.Security.AccessControl.ResourceType, Boolean, System.String, System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections, Boolean, ExceptionFromErrorCode, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:21:31.4546684-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:26:06.4818995-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T19:40:07.432384-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2021-12-03T22:00:17.0617849-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 260</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>LAPTOP-CQUJFQPD</HostName>
+    <IPAddress>fe80::9419:5cdd:c787:8ee4%21</IPAddress>
+  </Table1>
+</NewDataSet>

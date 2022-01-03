@@ -1,0 +1,948 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:19:24.7393986-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:25:19.9707167-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:01:41.6455014-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:12:41.1212212-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:17:33.0559189-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:29:03.9174339-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value, IFormatProvider provider)
+   en System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DXWindow_Loaded(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 111</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:22:49.9699536-05:00</Error_DateTime>
+    <Error_Description>El objeto invocado ha desconectado de sus clientes. (Excepción de HRESULT: 0x80010108 (RPC_E_DISCONNECTED))</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel._Workbook.get_Sheets()
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 275</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Sheets get_Sheets()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:29:16.9780892-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T20:35:12.2499408-05:00</Error_DateTime>
+    <Error_Description>The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilUC_PerfilNeumatico". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilNeumatico", column 'IdPerfilNeumatico'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Perfil". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.Perfil", column 'IdPerfil'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Ciclo_PerfilComp". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilComp", column 'IdPerfilComp'.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+IdError
+0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblPerfil, DataTable tblPerfilComp, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfilDetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Perfil.cs:línea 205
+   en Business.B_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblP, DataTable tblPC, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfildetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Perfil.cs:línea 73
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.BtnRegistrar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 1167</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T20:40:46.6220657-05:00</Error_DateTime>
+    <Error_Description>The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilUC_PerfilNeumatico". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilNeumatico", column 'IdPerfilNeumatico'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Perfil". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.Perfil", column 'IdPerfil'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Ciclo_PerfilComp". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilComp", column 'IdPerfilComp'.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+IdError
+0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblPerfil, DataTable tblPerfilComp, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfilDetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Perfil.cs:línea 205
+   en Business.B_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblP, DataTable tblPC, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfildetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Perfil.cs:línea 73
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.BtnRegistrar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 1167</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T21:05:41.520569-05:00</Error_DateTime>
+    <Error_Description>El índice (basado en cero) debe ser mayor o igual a cero y menor que el tamaño de la lista de argumentos.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   en System.String.Format(IFormatProvider provider, String format, Object[] args)
+   en System.String.Format(String format, Object arg0, Object arg1)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 618</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Text.StringBuilder AppendFormat(System.IFormatProvider, System.String, System.Object[])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T21:27:22.6639902-05:00</Error_DateTime>
+    <Error_Description>The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilUC_PerfilNeumatico". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilNeumatico", column 'IdPerfilNeumatico'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Perfil". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.Perfil", column 'IdPerfil'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PerfilComp_Ciclo_PerfilComp". The conflict occurred in database "VEN_MMTO_FLOTA_VEHI", table "dbo.PerfilComp", column 'IdPerfilComp'.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+IdError
+0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Data.D_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblPerfil, DataTable tblPerfilComp, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfilDetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Data\D_Perfil.cs:línea 205
+   en Business.B_Perfil.Perfil_CargaMasiva(E_Perfil objE, DataTable tblP, DataTable tblPC, DataTable tblPCCiclo, DataTable tblPCActividad, DataTable tblPerfilTarea, DataTable tblPerfildetalle) en C:\Users\USUARIO\Desktop\jrivas_20150206\Business\B_Perfil.cs:línea 73
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.BtnRegistrar_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 1167</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T11:41:41.0391622-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T11:45:58.6246778-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T11:50:15.0415193-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T12:52:05.7430551-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T13:06:38.2417709-05:00</Error_DateTime>
+    <Error_Description>La columna 'Perfil' no pertenece a la tabla .</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.CargarExcel(String path) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 493</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataColumn GetDataColumn(System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T13:16:16.8309634-05:00</Error_DateTime>
+    <Error_Description>No se puede convertir un objeto DBNull en otros tipos.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   en System.Convert.ToDouble(Object value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 4160</Error_Stack_Trace>
+    <Error_Caused_By_Method>Double System.IConvertible.ToDouble(System.IFormatProvider)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:02:05.0336826-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:02:12.8718157-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:02:41.7761984-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:03:05.659511-05:00</Error_DateTime>
+    <Error_Description>No se puede reconocer la cadena como valor DateTime válido.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   en System.Convert.ToDateTime(String value)
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.btnAgregarTrabajador_Click(Object sender, RoutedEventArgs e) en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 4080</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.DateTime Parse(System.String, System.Globalization.DateTimeFormatInfo, System.Globalization.DateTimeStyles)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:21:21.74989-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:35:23.8867519-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:01:06.5321281-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T17:10:22.405399-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\Users\USUARIO\Desktop\jrivas_20150206\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.4</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:25:06.0085353-05:00</Error_DateTime>
+    <Error_Description>La operación solicitada no se puede realizar en un archivo con una sección asignada a usuario abierta.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   en System.Data.DataTable.WriteXml(String fileName, XmlWriteMode mode, Boolean writeHierarchy)
+   en Utilitarios.DebugHandler.EscribirDebug(String Metodo, String Parametros) en D:\Dropbox\Ventura\jrivas_20150506\Utilitarios\DebugHandler.cs:línea 57
+   en Business.B_Tarea.Tarea_Debug(String Metodo, E_Tarea E_Tarea) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Tarea.cs:línea 66
+   en Business.B_Tarea.Tarea_ComboByAct(E_Tarea E_Tarea) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Tarea.cs:línea 70
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.UserControl_Loaded() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 102</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:25:57.8636386-05:00</Error_DateTime>
+    <Error_Description>El valor no puede ser nulo.
+Nombre del parámetro: source</Error_Description>
+    <Error_Source>System.Core</Error_Source>
+    <Error_Stack_Trace>   en System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 617</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Collections.Generic.IEnumerable`1[TSource] Where[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:37:37.7262312-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:41:42.7132602-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 215</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Workbook Open(System.String, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:41:55.0354973-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 215</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Workbook Open(System.String, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:42:52.2712047-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 215</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Workbook Open(System.String, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:43:59.3393235-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 215</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Workbook Open(System.String, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:46:22.6715906-05:00</Error_DateTime>
+    <Error_Description>La operación solicitada no se puede realizar en un archivo con una sección asignada a usuario abierta.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   en System.Data.DataTable.WriteXml(String fileName, XmlWriteMode mode, Boolean writeHierarchy)
+   en Utilitarios.DebugHandler.EscribirDebug(String Metodo, String Parametros) en D:\Dropbox\Ventura\jrivas_20150506\Utilitarios\DebugHandler.cs:línea 57
+   en Business.B_Perfil.Perfil_Debug(String Metodo, E_Perfil E_Perfil) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Perfil.cs:línea 89
+   en Business.B_Perfil.Perfil_Combo() en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Perfil.cs:línea 61
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaUC.UserControl_Loaded() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaUC.xaml.cs:línea 77</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T18:46:43.8712434-05:00</Error_DateTime>
+    <Error_Description>Excepción de HRESULT: 0x800A03EC</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   en AplicacionSistemaVentura.PAQ05_Utilitarios.UtilCargaMasivaPUC.CargarExcel(String path) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ05-Utilitarios\UtilCargaMasivaPUC.xaml.cs:línea 215</Error_Stack_Trace>
+    <Error_Caused_By_Method>Microsoft.Office.Interop.Excel.Workbook Open(System.String, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T14:30:28.2878277-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en D:\Dropbox\Ventura\jrivas_20150506\Data\D_Neumatico.cs:línea 182
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T14:35:59.8883045-05:00</Error_DateTime>
+    <Error_Description>La cadena de entrada no tiene el formato correcto.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Data.D_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en D:\Dropbox\Ventura\jrivas_20150506\Data\D_Neumatico.cs:línea 182
+   en Business.B_Neumatico.Neumatico_UpdateCascade(E_Neumatico E_Neumatico, DataTable tblCiclo) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Neumatico.cs:línea 49
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.BtnGrabar_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 249</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T14:38:43.957682-05:00</Error_DateTime>
+    <Error_Description>La operación solicitada no se puede realizar en un archivo con una sección asignada a usuario abierta.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   en System.Data.DataTable.WriteXml(String fileName, XmlWriteMode mode, Boolean writeHierarchy)
+   en Utilitarios.DebugHandler.EscribirDebug(String Metodo, String Parametros) en D:\Dropbox\Ventura\jrivas_20150506\Utilitarios\DebugHandler.cs:línea 57
+   en Business.B_Neumatico_Ciclo.NeumaticoCiclo_Debug(String Metodo, E_Neumatico_Ciclo E_Neumatico_Ciclo) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Neumatico_Ciclo.cs:línea 50
+   en Business.B_Neumatico_Ciclo.NeumaticoCiclo_List(E_Neumatico_Ciclo obje) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Neumatico_Ciclo.cs:línea 16
+   en AplicacionSistemaVentura.PAQ01_Definicion.GestNeumatico.LlenarDatos(Int32 IdNeumatico) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ01-Definicion\GestNeumatico.xaml.cs:línea 604</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:07:50.8030723-05:00</Error_DateTime>
+    <Error_Description>'La invocación del constructor del tipo 'AplicacionSistemaVentura.PAQ02_Planificacion.PlanGestionMantenimiento' que coincide con las restricciones de enlace especificadas produjo una excepción.' (número de línea: '6'; posición de línea: '160').</Error_Description>
+    <Error_Source>PresentationFramework</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   en System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   en System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   en System.Windows.Application.LoadBamlStreamWithSyncInfo(Stream stream, ParserContext pc)
+   en System.Windows.Application.LoadComponent(Uri resourceLocator, Boolean bSkipJournaledProperties)
+   en System.Windows.Application.LoadComponent(Uri resourceLocator)
+   en DevExpress.Xpf.Docking.XamlLoaderHelper.LoadContentFromUri(Uri uri)
+   en DevExpress.Xpf.Docking.LayoutPanel.CheckContentAsUri(Object content)
+   en DevExpress.Xpf.Docking.LayoutPanel.CheckContent(Object content)
+   en DevExpress.Xpf.Docking.LayoutPanel.OnContentChanged(Object content, Object oldContent)
+   en DevExpress.Xpf.Docking.ContentItem.&lt;.cctor&gt;b__de(DependencyObject dObj, DependencyPropertyChangedEventArgs e)
+   en System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   en System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   en System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   en System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry&amp; newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   en System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en DevExpress.Xpf.Docking.ContentItem.set_Content(Object value)
+   en AplicacionSistemaVentura.InterfazPrincipal.DefinirHijo(String FormularioXAML, String Titulo, Double Ancho, Double Alto) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 175</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Load(System.Xaml.XamlReader, System.Xaml.IXamlObjectWriterFactory, Boolean, System.Object, System.Xaml.XamlObjectWriterSettings, System.Uri)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T13:43:06.576033-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 477</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T13:47:16.0573025-05:00</Error_DateTime>
+    <Error_Description>El subproceso que realiza la llamada no puede obtener acceso a este objeto porque el propietario es otro subproceso.</Error_Description>
+    <Error_Source>WindowsBase</Error_Source>
+    <Error_Stack_Trace>   en System.Windows.Threading.Dispatcher.VerifyAccess()
+   en System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   en System.Windows.Controls.TextBlock.set_Text(String value)
+   en AplicacionSistemaVentura.InterfazPrincipal.Mensaje(String strMensaje, Int32 intTipo) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 477</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyAccess()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T13:58:21.3533553-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>169.254.99.73</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T15:11:21.88802-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.NameNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   en System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   en System.Data.Index.ApplyChangeAction(Int32 record, Int32 action, Int32 changeRecord)
+   en System.Data.Index.RecordStateChanged(Int32 record, DataViewRowState oldState, DataViewRowState newState)
+   en System.Data.DataTable.RecordStateChanged(Int32 record1, DataViewRowState oldState1, DataViewRowState newState1, Int32 record2, DataViewRowState oldState2, DataViewRowState newState2)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception&amp; deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.PreparaciondeOTPreventivo() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 873
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 539</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Eval(System.Data.DataRow, System.Data.DataRowVersion)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T15:12:22.8151065-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.NameNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   en System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   en System.Data.Index.ApplyChangeAction(Int32 record, Int32 action, Int32 changeRecord)
+   en System.Data.Index.RecordStateChanged(Int32 record, DataViewRowState oldState, DataViewRowState newState)
+   en System.Data.DataTable.RecordStateChanged(Int32 record1, DataViewRowState oldState1, DataViewRowState newState1, Int32 record2, DataViewRowState oldState2, DataViewRowState newState2)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception&amp; deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.PreparaciondeOTPreventivo() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 873
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 539</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Eval(System.Data.DataRow, System.Data.DataRowVersion)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T15:19:43.9917242-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.NameNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   en System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   en System.Data.Index.ApplyChangeAction(Int32 record, Int32 action, Int32 changeRecord)
+   en System.Data.Index.RecordStateChanged(Int32 record, DataViewRowState oldState, DataViewRowState newState)
+   en System.Data.DataTable.RecordStateChanged(Int32 record1, DataViewRowState oldState1, DataViewRowState newState1, Int32 record2, DataViewRowState oldState2, DataViewRowState newState2)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception&amp; deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.PreparaciondeOTPreventivo() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 873
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 539</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Eval(System.Data.DataRow, System.Data.DataRowVersion)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T15:22:04.7269212-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.NameNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   en System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   en System.Data.Index.ApplyChangeAction(Int32 record, Int32 action, Int32 changeRecord)
+   en System.Data.Index.RecordStateChanged(Int32 record, DataViewRowState oldState, DataViewRowState newState)
+   en System.Data.DataTable.RecordStateChanged(Int32 record1, DataViewRowState oldState1, DataViewRowState newState1, Int32 record2, DataViewRowState oldState2, DataViewRowState newState2)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception&amp; deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.PreparaciondeOTPreventivo() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 873
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 539</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Eval(System.Data.DataRow, System.Data.DataRowVersion)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T15:33:31.8694417-05:00</Error_DateTime>
+    <Error_Description>La operación solicitada no se puede realizar en un archivo con una sección asignada a usuario abierta.
+</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   en System.Data.DataTable.WriteXml(String fileName, XmlWriteMode mode, Boolean writeHierarchy)
+   en Utilitarios.DebugHandler.EscribirDebug(String Metodo, String Parametros) en D:\Dropbox\Ventura\jrivas_20150506\Utilitarios\DebugHandler.cs:línea 57
+   en Business.B_Herramienta.Herramienta_Debug(String Metodo, E_Herramienta E_Herramienta) en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Herramienta.cs:línea 75
+   en Business.B_Herramienta.Herramienta_Combo() en D:\Dropbox\Ventura\jrivas_20150506\Business\B_Herramienta.cs:línea 16
+   en AplicacionSistemaVentura.PAQ03_Ejecucion.EjecGestionOT.UserControl_Loaded() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\PAQ03-Ejecucion\EjecGestionOT.xaml.cs:línea 633</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void WinIOError(Int32, System.String)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-10-22T16:20:13.4482972-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en D:\Dropbox\Ventura\jrivas_20150506\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.2</IPAddress>
+  </Table1>
+</NewDataSet>

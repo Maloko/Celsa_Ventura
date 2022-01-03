@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Metodo" type="xs:string" minOccurs="0" />
+                <xs:element name="Parametros" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaHora" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:25:05.4656118-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:34:33.6136717-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:38:56.2386706-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:41:30.8193604-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:43:56.2390881-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T12:45:42.7297827-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T15:39:26.6027146-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =2, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 00:30:00, FechaHoraFin = 24/10/2020 00:40:00, ContadorIni = 1550, ContadorFin = 1600, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:39:21, FechaFin = 10/06/2021 15:39:21</Parametros>
+    <FechaHora>2021-06-10T15:40:38.9550257-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =2, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 00:40:00, FechaHoraFin = 24/10/2020 00:50:00, ContadorIni = 1600, ContadorFin = 1650, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:39:21, FechaFin = 10/06/2021 15:40:36</Parametros>
+    <FechaHora>2021-06-10T15:42:57.0809922-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =1, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 00:50:00, FechaHoraFin = 24/10/2020 01:00:00, ContadorIni = 1650, ContadorFin = 1700, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:39:21, FechaFin = 10/06/2021 15:42:53</Parametros>
+    <FechaHora>2021-06-10T15:45:31.8412508-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T15:47:34.8852514-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =2, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 01:00:00, FechaHoraFin = 24/10/2020 01:30:00, ContadorIni = 1700, ContadorFin = 1710, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:47:29, FechaFin = 10/06/2021 15:47:29</Parametros>
+    <FechaHora>2021-06-10T15:48:18.6355005-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =1, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 01:30:00, FechaHoraFin = 24/10/2020 02:00:00, ContadorIni = 1710, ContadorFin = 1730, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:47:29, FechaFin = 10/06/2021 15:48:14</Parametros>
+    <FechaHora>2021-06-10T15:49:46.7572809-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T15:52:21.6208752-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =1, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 02:00:00, FechaHoraFin = 24/10/2020 02:03:00, ContadorIni = 1730, ContadorFin = 1800, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 15:52:16, FechaFin = 10/06/2021 15:52:16</Parametros>
+    <FechaHora>2021-06-10T15:53:02.2473941-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T16:00:57.2180273-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>192.168.1.40</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T16:01:04.0440836-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T16:01:08.3383524-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T16:01:25.0166419-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =2, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 02:03:00, FechaHoraFin = 24/10/2020 02:30:00, ContadorIni = 1800, ContadorFin = 1810, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 16:01:20, FechaFin = 10/06/2021 16:01:20</Parametros>
+    <FechaHora>2021-06-10T16:02:05.3926093-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>UC_ComboByUC</Metodo>
+    <Parametros>CodUC = , IdPerfil = 0, IdPerfilNeumatico = 0, IdTipoUnidad =, IdUc =0, ContadorAcum = 0, Observacion =, PlacaSerie =, FlagActivo = 0, IdUsuarioCreacion = 0, IdUsuarioModificacion = 0</Parametros>
+    <FechaHora>2021-06-10T16:06:58.9300279-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+  <Table1>
+    <Metodo>ContadorDet_UpdateProcess</Metodo>
+    <Parametros>IdContadorDet = 0, CodUc = SCA-001, IdOrigenRegistro = 1, IdEvento =1, IdTipoOperacion =1, NroDocOperacion = , IdDocCorregir =0, FechaHoraIni =24/10/2020 02:30:00, FechaHoraFin = 24/10/2020 03:00:00, ContadorIni = 1810, ContadorFin = 1840, CodSolicitante = 192, CodResponsable = 193, Observacion = , IdUsuario = 5, FechaIni = 21/05/2021 16:06:54, FechaFin = 10/06/2021 16:06:54</Parametros>
+    <FechaHora>2021-06-10T16:07:33.6945804-05:00</FechaHora>
+    <NombreUsuario>MANAGER25</NombreUsuario>
+    <HostName>WIN-POADQ8LHK67</HostName>
+    <IPAddress>fe80::2895:3c71:5786:cc25%4</IPAddress>
+  </Table1>
+</NewDataSet>

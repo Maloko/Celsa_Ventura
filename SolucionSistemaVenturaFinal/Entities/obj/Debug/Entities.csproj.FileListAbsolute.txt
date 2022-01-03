@@ -1,0 +1,75 @@
+D:\SVN\branches\SIMANFLE\jrivas\Entities\bin\Debug\Entities.dll
+D:\SVN\branches\SIMANFLE\jrivas\Entities\bin\Debug\Entities.pdb
+D:\SVN\branches\SIMANFLE\jrivas\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN\branches\SIMANFLE\jrivas\Entities\obj\Debug\Entities.dll
+D:\SVN\branches\SIMANFLE\jrivas\Entities\obj\Debug\Entities.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Entities\bin\Debug\Entities.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Entities\bin\Debug\Entities.pdb
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Entities\obj\Debug\Entities.dll
+E:\SVN\Inntec\SOLMTTO\branches\SIMANFLE\jrivas\Entities\obj\Debug\Entities.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Entities\bin\Debug\Entities.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Entities\bin\Debug\Entities.pdb
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Entities\obj\Debug\Entities.dll
+C:\Users\Toshiba01\Dropbox\Sistema_Ventura\Entities\obj\Debug\Entities.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Entities\bin\Debug\Entities.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Entities\bin\Debug\Entities.pdb
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Entities\obj\Debug\Entities.dll
+C:\Users\Toshiba01\Desktop\jrivas_05_01_15\Entities\obj\Debug\Entities.pdb
+D:\jrivas_20150114\Entities\bin\Debug\Entities.dll
+D:\jrivas_20150114\Entities\bin\Debug\Entities.pdb
+D:\jrivas_20150114\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\jrivas_20150114\Entities\obj\Debug\Entities.dll
+D:\jrivas_20150114\Entities\obj\Debug\Entities.pdb
+D:\Ventura\jrivas_20150119\Entities\bin\Debug\Entities.dll
+D:\Ventura\jrivas_20150119\Entities\bin\Debug\Entities.pdb
+D:\Ventura\jrivas_20150119\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Ventura\jrivas_20150119\Entities\obj\Debug\Entities.dll
+D:\Ventura\jrivas_20150119\Entities\obj\Debug\Entities.pdb
+D:\Ventura\jrivas_20150127\Entities\bin\Debug\Entities.dll
+D:\Ventura\jrivas_20150127\Entities\bin\Debug\Entities.pdb
+D:\Ventura\jrivas_20150127\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Ventura\jrivas_20150127\Entities\obj\Debug\Entities.dll
+D:\Ventura\jrivas_20150127\Entities\obj\Debug\Entities.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Entities\bin\Debug\Entities.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Entities\bin\Debug\Entities.pdb
+C:\Users\USUARIO\Desktop\jrivas_20150206\Entities\obj\Debug\Entities.dll
+C:\Users\USUARIO\Desktop\jrivas_20150206\Entities\obj\Debug\Entities.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Entities\bin\Debug\Entities.dll
+D:\Dropbox\Ventura\jrivas_20150506\Entities\bin\Debug\Entities.pdb
+D:\Dropbox\Ventura\jrivas_20150506\Entities\obj\Debug\Entities.dll
+D:\Dropbox\Ventura\jrivas_20150506\Entities\obj\Debug\Entities.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Entities\bin\Debug\Entities.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Entities\bin\Debug\Entities.pdb
+C:\Users\VSUser\Desktop\ultimo compilado\Entities\obj\Debug\Entities.dll
+C:\Users\VSUser\Desktop\ultimo compilado\Entities\obj\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\6. JUNIO 2015\nuevas versiones\08-06-15\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Entities\bin\Debug\Entities.pdb
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.dll
+C:\RBO\VSM-One\ISSUES VSMONE\7. JULIO 2015\archivos fuente compilado VSMONE 25-05-15\Entities\obj\Debug\Entities.pdb
+C:\rbo\VSMONE PROYECTO\Entities\bin\Debug\Entities.dll
+C:\rbo\VSMONE PROYECTO\Entities\bin\Debug\Entities.pdb
+C:\rbo\VSMONE PROYECTO\Entities\obj\Debug\Entities.dll
+C:\rbo\VSMONE PROYECTO\Entities\obj\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Entities\bin\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Entities\bin\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Entities\obj\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\Entities\obj\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Entities\bin\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Entities\bin\Debug\Entities.pdb
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Entities\obj\Debug\Entities.dll
+C:\SVN\Producto\ZZ\ZZX3MNT\VSMOne\branches\1.00.2.0003\Fuentes\Proyecto\HANA\Entities\obj\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\bin\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\bin\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\Entities\obj\Debug\Entities.pdb

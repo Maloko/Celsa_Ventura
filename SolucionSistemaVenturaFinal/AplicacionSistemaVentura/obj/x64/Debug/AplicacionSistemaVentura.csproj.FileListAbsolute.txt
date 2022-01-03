@@ -1,0 +1,1323 @@
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\nmelendez\Desktop\VSMONE\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\wetransfer_codigo-fuente_2021-12-01_2154\VSMONE_RECOMPILADO EN 64 bits\CodigoFuente\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+D:\Ventura\Repo\VSOME\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Downloads\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\VSMONE\FUENTES PRINCIPALES\AplicaciónSistemaVentura_FINAL\Hana\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AxShockwaveFlashObjects.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportSource.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\log4net.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.Common.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\log4net.xml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\CrystalDecisions.ReportSource.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\CrystalDecisions.Windows.Forms.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\SAPBusinessObjects.WPF.Viewer.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer2.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer2.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe.config
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AplicacionSistemaVentura.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\AxShockwaveFlashObjects.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Business.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Entities.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\InterfazMTTO.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_BE.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_DA.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\iSBO_Util.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\log4net.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Data.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\stdole.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Business.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Entities.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Utilitarios.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\log4net.xml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\Data.pdb
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\CrystalDecisions.ReportSource.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\CrystalDecisions.Windows.Forms.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\SAPBusinessObjects.WPF.Viewer.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\cs\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\da\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\de\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\en\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\es\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fi\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\fr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\hu\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\it\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ja\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ko\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nb-NO\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\nl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pl\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\pt\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\ru\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sk\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\sv\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\th\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\tr\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHS\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\bin\x64\Debug\zh-CHT\SAPBusinessObjects.WPF.ViewerShared.resources.dll
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.AssemblyReference.cache
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.ResolveComReference.cache
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer2.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\Loading.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\App.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer2.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\CRViewer.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneraImpresion.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\InterfazPrincipal.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\Loading.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestActividad.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestHerramientaEspecial.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestMoviNeumatico.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestNeumatico.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilNeumatico.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestPerfilUC.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestTarea.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ01-Definicion\GestUnidadControl.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanGestionMantenimiento.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanPriorizaMantenimiento.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecControlNeumatico.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaInspec.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestHojaRequer.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestionOT.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestRegInci.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ03-Ejecucion\EjecGestTransferParte.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\Indicadores.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteComparativo.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteCostoMantenimiento.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteDisponibilidadStockOT.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaInspeccion.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteListadoHojaRequerimiento.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteMonitoreoLineaOT.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTopTaller.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTrabajoMecanico.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ReporteTransferenciaPartes.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\SchedulerProgramacionOT.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\FormatosImpresion.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaN.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPN.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaPUC.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasivaUC.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionDetalleTM.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilConfiguracionTP.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilSelecCodigoSAP.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguConfigAcceso.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\SeguUsuarioAsignaLicencia.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\App.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_Content.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.cache
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura_MarkupCompile.lref
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ02-Planificacion\PlanProgramacionUC.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ04-Reportes\ControlAlertas.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ05-Utilitarios\UtilCargaMasiva.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\PAQ06-Seguridad\Segulogin.baml
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.g.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Mensajes.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_CostoMantenimiento.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Comparativo.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_DisponibilidadStockOT.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_Indicadores.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaInspeccion.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_ListadoHojaRequerimiento.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_MonitoreoLineaOT.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TopTaller.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TrabajoMecanico.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.Reporte_TransferenciaPartes.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteActividades.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteOTProcesadas.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCCostoMtto.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.SubReporteUCRecorrido.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.PAQ04_Reportes.XtraSchedulerReport1.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.Properties.Resources.resources
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.GenerateResource.cache
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe.licenses
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CoreCompileInputs.cache
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.csproj.CopyComplete
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.exe
+C:\Users\vsperu\Desktop\SolucionSistemaVenturaFinal\AplicacionSistemaVentura\obj\x64\Debug\AplicacionSistemaVentura.pdb

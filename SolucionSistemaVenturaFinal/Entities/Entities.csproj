@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5D7AD24-7780-4313-A3C3-997F9D62E5F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="E_Actividad.cs" />
+    <Compile Include="E_Alertas.cs" />
+    <Compile Include="E_CargaMasiva.cs" />
+    <Compile Include="E_Ciclo.cs" />
+    <Compile Include="E_ContadorDet.cs" />
+    <Compile Include="E_Correo.cs" />
+    <Compile Include="E_Empresa.cs" />
+    <Compile Include="E_FormatoImpresion.cs" />
+    <Compile Include="E_Herramienta.cs" />
+    <Compile Include="E_HerramientaItem.cs" />
+    <Compile Include="E_HI.cs" />
+    <Compile Include="E_HR.cs" />
+    <Compile Include="E_Menu.cs" />
+    <Compile Include="E_Neumatico.cs" />
+    <Compile Include="E_Neumatico_Ciclo.cs" />
+    <Compile Include="E_Neumatico_Control.cs" />
+    <Compile Include="E_Neumatico_ControlDet.cs" />
+    <Compile Include="E_Neumatico_Transfer.cs" />
+    <Compile Include="E_OT.cs" />
+    <Compile Include="E_OTComp.cs" />
+    <Compile Include="E_OTIProv.cs" />
+    <Compile Include="E_Perfil.cs" />
+    <Compile Include="E_PerfilComp.cs" />
+    <Compile Include="E_PerfilComp_Ciclo.cs" />
+    <Compile Include="E_PerfilDetalle.cs" />
+    <Compile Include="E_PerfilNeumatico.cs" />
+    <Compile Include="E_PerfilNeumaticoEje.cs" />
+    <Compile Include="E_PerfilTarea.cs" />
+    <Compile Include="E_PerfilComp_Actividad.cs" />
+    <Compile Include="E_PM.cs" />
+    <Compile Include="E_Programacion.cs" />
+    <Compile Include="E_Rol.cs" />
+    <Compile Include="E_TablaMaestra.cs" />
+    <Compile Include="E_Tarea.cs" />
+    <Compile Include="E_TP.cs" />
+    <Compile Include="E_UC.cs" />
+    <Compile Include="E_UCComp.cs" />
+    <Compile Include="E_UCCompTransfer.cs" />
+    <Compile Include="E_UCComp_Ciclo.cs" />
+    <Compile Include="E_UCIncidencia.cs" />
+    <Compile Include="E_UCIncidenciaDet.cs" />
+    <Compile Include="E_Usuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Entities.dll" />
+    <Content Include="bin\Debug\Entities.pdb" />
+    <Content Include="bin\Release\Entities.dll" />
+    <Content Include="bin\Release\Entities.pdb" />
+    <Content Include="bin\x64\Debug\Entities.dll" />
+    <Content Include="bin\x64\Debug\Entities.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x64\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

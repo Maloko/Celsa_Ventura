@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T15:29:30.1543701-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1588
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T15:30:05.8664883-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1588
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T15:33:17.5360861-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1588
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:01:45.7620257-05:00</Error_DateTime>
+    <Error_Description>El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1588
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void ThrowArgumentOutOfRangeException()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:05:36.8398681-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:09:48.8902632-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:14:01.4957301-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:35:38.5912102-05:00</Error_DateTime>
+    <Error_Description>El valor no puede ser nulo.
+Nombre del parámetro: format</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.String.Format(String format, Object arg0, Object arg1)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1595
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.String Format(System.String, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:35:49.3307097-05:00</Error_DateTime>
+    <Error_Description>El valor no puede ser nulo.
+Nombre del parámetro: format</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   en System.String.Format(String format, Object arg0, Object arg1)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.LlenarStock(String&amp; salida) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 1595
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 525</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.String Format(System.String, System.Object, System.Object)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T16:59:49.3386777-05:00</Error_DateTime>
+    <Error_Description>Referencia a objeto no establecida como instancia de un objeto.</Error_Description>
+    <Error_Source>System.Data</Error_Source>
+    <Error_Stack_Trace>   en System.Data.NameNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   en System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   en System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   en System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   en System.Data.Index.ApplyChangeAction(Int32 record, Int32 action, Int32 changeRecord)
+   en System.Data.Index.RecordStateChanged(Int32 record, DataViewRowState oldState, DataViewRowState newState)
+   en System.Data.DataTable.RecordStateChanged(Int32 record1, DataViewRowState oldState1, DataViewRowState newState1, Int32 record2, DataViewRowState oldState2, DataViewRowState newState2)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception&amp; deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.PreparaciondeOTPreventivo() en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 879
+   en AplicacionSistemaVentura.PAQ02_Planificacion.PlanProgramacionUC.btnGenOT_Click(Object sender, RoutedEventArgs e) en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\PAQ02-Planificacion\PlanProgramacionUC.xaml.cs:línea 543</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Object Eval(System.Data.DataRow, System.Data.DataRowVersion)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2015-05-26T17:08:37.322677-05:00</Error_DateTime>
+    <Error_Description>Índice fuera de los límites de la matriz.</Error_Description>
+    <Error_Source>AplicacionSistemaVentura</Error_Source>
+    <Error_Stack_Trace>   en AplicacionSistemaVentura.InterfazPrincipal.VerificarAlertas() en C:\RBO\VSM-One\ISSUES VSMONE\5. MAYO 2015\NUEVAS VERSIONES\22-05-2015\archivos fuente compilado VSMONE 25-05-15\AplicacionSistemaVentura\InterfazPrincipal.xaml.cs:línea 246</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerificarAlertas()</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario>MANAGER</NombreUsuario>
+    <HostName>VS-LT-06</HostName>
+    <IPAddress>fe80::d15b:aab5:d8b4:6976%11</IPAddress>
+  </Table1>
+</NewDataSet>

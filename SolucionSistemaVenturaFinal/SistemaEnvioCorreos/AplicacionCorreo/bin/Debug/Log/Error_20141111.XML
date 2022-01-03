@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Optional_Text_3" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreUsuario" type="xs:string" minOccurs="0" />
+                <xs:element name="HostName" type="xs:string" minOccurs="0" />
+                <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-11T11:48:48.5501786-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'FlagEnvio', table 'VEN_MMTO_FLOTA_VEHI.dbo.Alertas_Envio_Log'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+IdError
+0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 64
+   at Business.B_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 30
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 368</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.169</IPAddress>
+  </Table1>
+  <Table1>
+    <Error_Type>System.Collections.ListDictionaryInternal</Error_Type>
+    <Error_DateTime>2014-11-11T11:49:49.0650859-05:00</Error_DateTime>
+    <Error_Description>Cannot insert the value NULL into column 'FlagEnvio', table 'VEN_MMTO_FLOTA_VEHI.dbo.Alertas_Envio_Log'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+IdError
+0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Data.D_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Data\D_Alertas.cs:line 64
+   at Business.B_Alertas.Alertas_Envio_Log_UpdateCascade(E_Alertas E_Alertas, DataTable tblAlertasLog) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\Business\B_Alertas.cs:line 30
+   at AplicacionCorreo.EnvioCorreos.HiloEnvio_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) in D:\Ventura_2daParte\20141110\SistemaCorreos\SolucionAplicacionCorreosVentura\AplicacionCorreo\EnvioCorreos.cs:line 368</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void OnError(System.Data.SqlClient.SqlException, Boolean)</Error_Caused_By_Method>
+    <Optional_Text_1 />
+    <Optional_Text_2 />
+    <Optional_Text_3 />
+    <NombreUsuario />
+    <HostName>HADES</HostName>
+    <IPAddress>192.168.1.169</IPAddress>
+  </Table1>
+</NewDataSet>
