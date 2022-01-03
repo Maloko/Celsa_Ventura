@@ -123,5 +123,11 @@ namespace Business
             Debug.EscribirDebug(Metodo, Parametros);
         }
 
+        #region REQUERIMIENTO_03_CELSA
+        public DataTable ContadoresxUC_List(string IdUc)
+        {
+            return D_UC.ContadoresxUC_List(IdUc);
+        }
+        #endregion
     }
 }

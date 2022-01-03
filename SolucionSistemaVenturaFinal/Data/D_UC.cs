@@ -253,5 +253,23 @@ namespace Data
             }
             return Error;
         }
+
+        #region REQUERIMIENTO_03_CELSA
+        public static DataTable ContadoresxUC_List(string IdUc)
+        {
+            DataTable tbl = new DataTable();
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                SqlCommand cmd = new SqlCommand("ContadoresxUC_List", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@CodUC", SqlDbType.VarChar).Value = IdUc;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tbl);
+                cx.Close();
+            }
+            return tbl;
+        }
+        #endregion
     }
 }

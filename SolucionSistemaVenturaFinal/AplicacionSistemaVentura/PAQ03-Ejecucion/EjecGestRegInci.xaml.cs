@@ -8,6 +8,10 @@ using Business;
 using static Utilitarios.Utilitarios;
 using Utilitarios.Enum;
 using Utilitarios.Constantes;
+#region REQUERIMIENTO_03_CELSA
+using System.Net.Mail;
+#endregion
+
 
 namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 {
@@ -51,6 +55,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
         B_ContadorDet objB_ContadorDet = new B_ContadorDet();
         E_ContadorDet objE_ContadorDet = new E_ContadorDet();
+
+        #region REQUERIMIENTO_03_CELSA
+        string correodest;
+        #endregion
 
         private void ListarIncidencias()
         {
@@ -266,6 +274,41 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaRegistroIncidencias, "GRAB_NUEV"), 1);
                         mskFechaFin.EditValue = Utilitarios.Utilitarios.FechaHora_Servidor();
                         ListarIncidencias();
+
+                        #region REQUERIMIENTO_03_CELSA
+                        //Enviar Correos si alguno de los semáforos está en amarillo o naranja 
+                        B_UC objuc = new B_UC();
+                        DataTable tlvu = new DataTable();
+                        string vUC = cboUC.EditValue.ToString();
+                        tlvu = objuc.ContadoresxUC_List(vUC);
+
+                        if (tlvu.Rows.Count > 0)
+                        {
+                            for (int i = 0; i < tlvu.Rows.Count; i++)
+                            {
+                                decimal Vcontador = Convert.ToDecimal(tlvu.Rows[i]["Contador"]);
+                                decimal VFcambio = Convert.ToDecimal(tlvu.Rows[i]["FrecuenciaCambio"]);
+                                decimal VPor1 = Convert.ToDecimal(tlvu.Rows[i]["Porc01"]) / 100;
+                                decimal VPor2 = Convert.ToDecimal(tlvu.Rows[i]["Porc02"]) / 100;
+                                string PerfilComp = Convert.ToString(tlvu.Rows[i]["PerfilComp"]);
+                                string color;
+
+                                decimal vSemAmari = VFcambio - (VFcambio * VPor1);
+                                decimal vSemNaran = VFcambio - (VFcambio * VPor2);
+
+                                if (Vcontador >= vSemAmari && Vcontador < vSemNaran)
+                                {
+                                    color = "amarillo";
+                                    Mailer("Semáforo amarillo: " + vUC, vUC, PerfilComp, VFcambio.ToString(), Vcontador.ToString(), Convert.ToString(tlvu.Rows[i]["Porc01"]), color);
+                                }
+                                if (Vcontador >= vSemNaran)
+                                {
+                                    color = "naranja";
+                                    Mailer("Semáforo naranja: " + vUC, vUC, PerfilComp, VFcambio.ToString(), Vcontador.ToString(), Convert.ToString(tlvu.Rows[i]["Porc02"]), color);
+                                }
+                            }
+                        }
+                        #endregion
                     }
                     else
                     {
@@ -762,5 +805,87 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             }
             return rpta;
         }
+
+        #region REQUERIMIENTO_03_CELSA
+        private void Mailer(string titulo, string UC, string PerfilComp, string vfcambio, string vcontador, string vporc, string color)
+        {
+            try
+            {
+                DataTable tlbcorreo = new DataTable();
+                B_Correo objco = new B_Correo();
+                string usuario;
+                string servidor;
+                string password;
+                string puerto;
+                int Ltbl;
+
+                tlbcorreo = objco.Correo_List(); //Tabla de configuración del correo emisor
+
+                if (tlbcorreo.Rows.Count > 0)
+                {
+                    usuario = tlbcorreo.Rows[0]["Correo"].ToString();
+                    servidor = tlbcorreo.Rows[0]["Srv"].ToString();
+                    password = tlbcorreo.Rows[0]["Pwd"].ToString();
+                    puerto = tlbcorreo.Rows[0]["Puerto"].ToString();
+
+                    B_Usuario objcor = new B_Usuario();
+                    DataTable tlvcor = new DataTable(); //Listado de usuarios con el flag de gerencia operativa 
+                    tlvcor = objcor.UsuarioCorreoG();
+                    Ltbl = tlvcor.Rows.Count;
+                    string correos = "";
+
+                    if (Ltbl > 0)
+                    {
+                        for (int i = 0; i < Ltbl; i++)
+                        {
+                            correodest = tlvcor.Rows[i]["Email"].ToString();
+
+                            if (correodest != " ")
+                            {
+                                if (i != Ltbl - 1)
+                                {
+                                    correos = correos + correodest + ";";
+                                }
+                                else
+                                {
+                                    correos = correos + correodest;
+                                }
+                            }
+                        }
+
+                        char[] delimitador = new char[] { ';' };
+                        MailMessage message = new MailMessage();
+                        foreach (string destinos in correos.Split(delimitador))
+                        {
+                            message.To.Add(new MailAddress(destinos));
+                        }
+
+
+                        message.From = new MailAddress(usuario);
+                        string mensaje = "El semáforo del componente " + PerfilComp + ", proveniente de la Unidad de Control: " + UC + " se encuentra en " + color + "." + "\n";
+                        mensaje = mensaje + "Valor del contador: " + vcontador + "." + "\n";
+                        mensaje = mensaje + "Valor de la frecuencia de cambio:  " + vfcambio + "." + "\n";
+                        mensaje = mensaje + "Porcentaje semáforo " + color + " : " + vporc + " %." + "\n";
+                        message.Body = mensaje;
+                        message.Subject = titulo;
+                        message.IsBodyHtml = true;
+                        SmtpClient client = new SmtpClient(servidor, int.Parse(puerto));
+                        client.EnableSsl = true;
+                        client.Credentials = new System.Net.NetworkCredential(usuario, password);
+                        client.Send(message);
+
+
+                    }
+                }
+
+            }
+            catch (Exception ex)
+
+            {
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+        #endregion
     }
 }

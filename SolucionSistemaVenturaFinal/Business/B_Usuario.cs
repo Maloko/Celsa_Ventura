@@ -34,5 +34,12 @@ namespace Business
         {
             return D_Usuario.UsuarioBloqueo_GetItem(objE);
         }
+
+        #region REQUERIMIENTO_03_CELSA
+        public DataTable UsuarioCorreoG()
+        {
+            return D_Usuario.Usuario_CorreoG();
+        }
+        #endregion
     }
 }

@@ -124,5 +124,22 @@ namespace Data
             return tbl;
         }
 
+        #region REQUERIMIENTO_03_CELSA
+        public static DataTable Usuario_CorreoG()
+        {
+            DataTable tbl = new DataTable();
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                SqlCommand cmd = new SqlCommand("Usuario_CorreoG", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tbl);
+                cx.Close();
+            }
+            return tbl;
+        }
+        #endregion
+
     }
 }
