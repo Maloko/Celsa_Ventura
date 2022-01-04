@@ -27,6 +27,11 @@ namespace Data
                 cmd.Parameters.Add("@tblHRComp", SqlDbType.Structured).Value = tblHRComp;
                 cmd.Parameters.Add("@IdError", SqlDbType.Int).Value = 0;
                 cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_HR.FechaModificacion;
+                #region Celsa
+                cmd.Parameters.Add("@CodPrioridad", SqlDbType.Int).Value = E_HR.CodPrioridad;
+                cmd.Parameters.Add("@CodTipoRequerimiento", SqlDbType.Int).Value = E_HR.CodTipoRequerimiento;
+                #endregion
+
                 cmd.Parameters["@IdError"].Direction = ParameterDirection.Output;
                 cx.Open();
                 cmd.ExecuteNonQuery();

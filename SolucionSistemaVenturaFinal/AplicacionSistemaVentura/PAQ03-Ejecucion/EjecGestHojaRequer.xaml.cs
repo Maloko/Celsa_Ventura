@@ -129,6 +129,30 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 cboEstado.SelectedIndexChanged += new RoutedEventHandler(cboEstado_SelectedIndexChanged);
                 chkInspeccion.Unchecked += new RoutedEventHandler(chkInspeccion_Unchecked);
                 chkInspeccion.Checked += new RoutedEventHandler(chkInspeccion_Checked);
+
+       
+                #region RequerimientoCelsa
+                cboPrioridad.SelectedIndexChanged -= new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+                DataTable tbl = Utilitarios.Utilitarios.ListarCombo_TablaMaestra("IdTabla=62", dtvMaestra);
+                tbl.DefaultView.RowFilter = "IdColumna <> 0";
+                cboPrioridad.ItemsSource = tbl.DefaultView;
+                cboPrioridad.DisplayMember = "Descripcion";
+                cboPrioridad.ValueMember = "IdColumna";
+                cboPrioridad.SelectedIndex = -1;
+                cboPrioridad.SelectedIndexChanged += new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+
+                cboTipoRequerimiento.SelectedIndexChanged -= new RoutedEventHandler(cboTipoRequerimiento_SelectedIndexChanged);
+                DataTable tblTipoReq = Utilitarios.Utilitarios.ListarCombo_TablaMaestra("IdTabla=63", dtvMaestra);
+                tblTipoReq.DefaultView.RowFilter = "IdColumna <> 0";
+                cboTipoRequerimiento.ItemsSource = tblTipoReq.DefaultView;
+                cboTipoRequerimiento.DisplayMember = "Descripcion";
+                cboTipoRequerimiento.ValueMember = "IdColumna";
+                cboTipoRequerimiento.SelectedIndex = -1;
+                cboTipoRequerimiento.SelectedIndexChanged += new RoutedEventHandler(cboTipoRequerimiento_SelectedIndexChanged);
+
+
+                #endregion
+
             }
             catch (Exception ex)
             {
@@ -241,6 +265,22 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaRequerimiento, "OBLI_SOLI"), 2);
                     cboSolicitante.Focus();
                 }
+
+                #region "CELSA"
+                else if (cboTipoRequerimiento.SelectedIndex == -1)
+                {
+                    bolRpta = true;
+                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaRequerimiento, "OBLI_TIPR"), 2);
+                    cboTipoRequerimiento.Focus();
+                }
+                else if (cboPrioridad.SelectedIndex == -1)
+                {
+                    bolRpta = true;
+                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaRequerimiento, "OBLI_PRIO"), 2);
+                    cboPrioridad.Focus();
+                }
+                #endregion 
+
                 return bolRpta;
             }
             catch (Exception ex)
@@ -353,6 +393,11 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_HR.FlagActivo = 1;
                     objE_HR.IdUsuario = Utilitarios.Utilitarios.gintIdUsuario;
                     objE_HR.FechaModificacion = DateTime.Now;
+
+                    #region CELSA
+                    objE_HR.CodPrioridad = Convert.ToInt32(cboPrioridad.EditValue);
+                    objE_HR.CodTipoRequerimiento = Convert.ToInt32(cboTipoRequerimiento.EditValue); ;
+                    #endregion
                     int resp = objB_HR.HR_UpdateCascade(objE_HR, HRComp);
                     if (resp == 1)
                     {
@@ -391,6 +436,12 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_HR.FlagActivo = 1;
                     objE_HR.IdUsuario = Utilitarios.Utilitarios.gintIdUsuario;
                     objE_HR.FechaModificacion = FechaModificacion;
+
+                    #region "CELSA"
+                    objE_HR.CodPrioridad= Convert.ToInt32(cboPrioridad.EditValue);
+                    objE_HR.CodTipoRequerimiento = Convert.ToInt32(cboTipoRequerimiento.EditValue);
+                    #endregion
+
                     int resp = objB_HR.HR_UpdateCascade(objE_HR, HRComp);
                     if (resp == 1)
                     {
@@ -713,6 +764,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 cboSolicitante.SelectedIndexChanged -= new RoutedEventHandler(cboSolicitante_SelectedIndexChanged);
                 cboEstado.SelectedIndexChanged -= new RoutedEventHandler(cboEstado_SelectedIndexChanged);
                 txtObservacionFinal.EditValueChanged -= new DevExpress.Xpf.Editors.EditValueChangedEventHandler(txtObservacionFinal_EditValueChanged);
+                cboPrioridad.SelectedIndexChanged -= new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+                cboTipoRequerimiento.SelectedIndexChanged -= new RoutedEventHandler(cboTipoRequerimiento_SelectedIndexChanged);
 
                 gbolIsDetalles = true;
                 objE_HR.IdHR = gintIdHR;
@@ -724,6 +777,15 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 cboUnidadControl.EditValue = Convert.ToInt32(tblHRDet.Rows[0]["IdUC"]);
                 txtObservacionFinal.Text = tblHRDet.Rows[0]["Observacion"].ToString();
                 lblCodigoHI.Content = tblHRDet.Rows[0]["CodHI"].ToString();
+
+                #region Celsa
+
+                if (tblHRDet.Rows[0]["CodPrioridad"].ToString()!="" && tblHRDet.Rows[0]["CodTipoRequerimiento"].ToString() != "")
+                {
+                    cboPrioridad.EditValue = Convert.ToInt32(tblHRDet.Rows[0]["CodPrioridad"]);
+                    cboTipoRequerimiento.EditValue = Convert.ToInt32(tblHRDet.Rows[0]["CodTipoRequerimiento"]);
+                }
+                #endregion
 
                 lblAuditoria_creacion.Text = String.Format("Usuario: {0} Fecha: {1} Host: {2}", tblHRDet.Rows[0]["UsuarioCreacion"].ToString(), tblHRDet.Rows[0]["FechaCreacion"].ToString(), tblHRDet.Rows[0]["HostCreacion"].ToString());
                 lblAuditoria_modificacion.Text = String.Format("Usuario: {0} Fecha: {1} Host: {2}", tblHRDet.Rows[0]["UsuarioModificacion"].ToString(), tblHRDet.Rows[0]["FechaModificacion"].ToString(), tblHRDet.Rows[0]["HostModificacion"].ToString());
@@ -737,6 +799,11 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 cboSolicitante.SelectedIndexChanged += new RoutedEventHandler(cboSolicitante_SelectedIndexChanged);
                 cboEstado.SelectedIndexChanged += new RoutedEventHandler(cboEstado_SelectedIndexChanged);
                 txtObservacionFinal.EditValueChanged += new DevExpress.Xpf.Editors.EditValueChangedEventHandler(txtObservacionFinal_EditValueChanged);
+
+                #region Celsa
+                cboPrioridad.SelectedIndexChanged += new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+                cboTipoRequerimiento.SelectedIndexChanged += new RoutedEventHandler(cboTipoRequerimiento_SelectedIndexChanged);
+                #endregion
             }
             catch (Exception ex)
             {
@@ -862,6 +929,35 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
             }
         }
+
+
+        #region Celsa
+        private void cboPrioridad_SelectedIndexChanged(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                EstadoForm(false, true, false);
+            }
+            catch (Exception ex)
+            {
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+
+        private void cboTipoRequerimiento_SelectedIndexChanged(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                EstadoForm(false, true, false);
+            }
+            catch (Exception ex)
+            {
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+        #endregion
 
         private void btnImprimir_Click(object sender, RoutedEventArgs e)
         {

@@ -89,3 +89,16 @@ D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal
 D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.csproj.CopyComplete
 D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.dll
 D:\Ventura\Repositorios\SolucionSistemaVenturaFinal2\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.pdb
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Business.dll
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Business.pdb
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Data.dll
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Entities.dll
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Utilitarios.dll
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Data.pdb
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Entities.pdb
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\bin\x64\Debug\Utilitarios.pdb
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.csproj.AssemblyReference.cache
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.csproj.CoreCompileInputs.cache
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.csproj.CopyComplete
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.dll
+D:\Ventura\Repositorios\CELSA\Celsa_Ventura\SolucionSistemaVenturaFinal\Business\obj\x64\Debug\Business.pdb

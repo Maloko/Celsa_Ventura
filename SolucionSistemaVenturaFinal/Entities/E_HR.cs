@@ -14,5 +14,7 @@ namespace Entities
         public int IdUsuario { get; set; }
         public int FlagActivo { get; set; }
         public DateTime FechaModificacion { get; set; }
+        public int CodPrioridad { get; set; }
+        public int CodTipoRequerimiento { get; set; }
     }
 }

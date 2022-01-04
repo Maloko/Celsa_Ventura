@@ -20,8 +20,8 @@
             </HierarchicalDataTemplate>
         </ResourceDictionary>
     </UserControl.Resources>
-    
-    <Grid>
+
+    <Grid Margin="2,-2,-1.8,2.2">
         <TabControl Margin="12,12,12,12" Name="tcHR">
             <TabItem Header="Listado de Hojas de Requerimiento" Name="tbListaHR">
                 <Grid>
@@ -56,6 +56,8 @@
                             <dxg:GridColumn FieldName="Estado" Header="Estado" VisibleIndex="4" />
                             <dxg:GridColumn FieldName="CodHI" Header="Hoja de Inspeccion" VisibleIndex="5" />
                             <dxg:GridColumn FieldName="NombreSolicitanteSAP" Header="Solicitante" VisibleIndex="6" />
+                            <dxg:GridColumn FieldName="Prioridad" Header="Prioridad" VisibleIndex="7" />
+                            <dxg:GridColumn FieldName="TipoRequerimiento" Header="Tipo Requerimiento" VisibleIndex="8" />
                         </dxg:GridControl.Columns>
                         <dxg:GridControl.View>
                             <dxg:TableView 
@@ -87,26 +89,32 @@
             </TabItem>
             <TabItem Header="Datos Hoja de Requerimiento" Name="tbDetalleHR">
                 <Grid>
-                    <Label Content="Código:" HorizontalAlignment="Left" Margin="10,24,0,0" Name="label1" VerticalAlignment="Top" />
-                    <dxe:TextEdit Text="Nuevo Código" Margin="71,21,0,0" Name="txtcodigo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" IsEnabled="False" />
-                    
-                    <Label Content="Fecha:" HorizontalAlignment="Left" Margin="10,51,0,0" Name="label5" VerticalAlignment="Top" />
-                    <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="71,48,0,0" x:Name="dtpFecha" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="130" EditValueChanged="dtpFecha_EditValueChanged"/>
-                    
-                    <Label Content="Unidad de control:" HorizontalAlignment="Left" Margin="227,21,0,0" Name="label2" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="332,18,0,0" Name="cboUnidadControl" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboUnidadControl_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
-                    
-                    <Label Content="Perfil:" HorizontalAlignment="Left" Margin="227,51,0,0" Name="label3" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="332,48,0,0" Name="cboPerfil" VerticalAlignment="Top" Width="130" IsEnabled="False"/>
-                    
-                    <Label Content="Estado:" HorizontalAlignment="Left" Margin="493,21,0,0" Name="label4" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="565,18,0,0" Name="cboEstado" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboEstado_SelectedIndexChanged"/>
+                    <Label Content="Código:" HorizontalAlignment="Left" Margin="12,7,0,0" Name="label1" VerticalAlignment="Top" />
+                    <dxe:TextEdit Text="Nuevo Código" Margin="73,1,0,0" Name="txtcodigo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" IsEnabled="false" />
+
+                    <Label Content="Fecha:" HorizontalAlignment="Left" Margin="12,34,0,0" Name="label5" VerticalAlignment="Top" />
+                    <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,31,0,0" x:Name="dtpFecha" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="130" EditValueChanged="dtpFecha_EditValueChanged"/>
+
+                    <Label Content="Unidad de control:" HorizontalAlignment="Left" Margin="229,4,0,0" Name="label2" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="334,1,0,0" Name="cboUnidadControl" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboUnidadControl_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
+
+                    <Label Content="Perfil:" HorizontalAlignment="Left" Margin="229,34,0,0" Name="label3" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="334,31,0,0" Name="cboPerfil" VerticalAlignment="Top" Width="130" IsEnabled="False"/>
+
+                    <Label Content="Estado:" HorizontalAlignment="Left" Margin="495,4,0,0" Name="label4" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="567,1,0,0" Name="cboEstado" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboEstado_SelectedIndexChanged"/>
 
                     <Label Content="#HI:" HorizontalAlignment="Left" Margin="690,21,0,0" Name="lblHI" VerticalAlignment="Top" Visibility="Collapsed" />
                     <Label Content="HI0000200" HorizontalAlignment="Left" Margin="726,21,0,0" Name="lblCodigoHI" VerticalAlignment="Top" FontWeight="Bold" Visibility="Collapsed"/>
 
-                    <Label Content="Solicitante:" HorizontalAlignment="Left" Margin="493,51,0,0" Name="label7" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="565,48,0,0" Name="cboSolicitante" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboSolicitante_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
+                    <Label Content="Solicitante:" HorizontalAlignment="Left" Margin="495,34,0,0" Name="label7" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="567,31,0,0" Name="cboSolicitante" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboSolicitante_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
+
+                    <Label Content="Prioridad:" HorizontalAlignment="Left" Margin="12,61,0,0" Name="labelPrioridad" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="73,58,0,0" Name="cboPrioridad" VerticalAlignment="Top" Width="130" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" SelectedIndexChanged="cboPrioridad_SelectedIndexChanged"/>
+
+                    <Label Content="Tipo Requerimiento:" HorizontalAlignment="Left" Margin="229,61,0,0" Name="labelTipoReq" VerticalAlignment="Top" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="337,61,0,0" Name="cboTipoRequerimiento" VerticalAlignment="Top" Width="130"  SelectedIndexChanged="cboTipoRequerimiento_SelectedIndexChanged"/>
 
                     <TreeView Height="328" Width="246" Margin="10,105,0,0" x:Name="trvComp" VerticalAlignment="Top" HorizontalAlignment="Left" ItemContainerStyle="{StaticResource TreeViewItemStyle}" ItemTemplate="{StaticResource CheckBoxItemTemplate}" SelectedItemChanged="trvComp_SelectedItemChanged" />
 
@@ -117,7 +125,7 @@
                             <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="60" HorizontalAlignment="Left" Margin="6,65,0,0" Name="txtInfoComplementaria" VerticalAlignment="Top" Width="489" TextWrapping="Wrap" VerticalContentAlignment="Top" EditValueChanged="txtInfoComplementaria_EditValueChanged"/>
                         </Grid>
                     </GroupBox>
-                    
+
                     <Label Content="Observaciones Finales:" HorizontalAlignment="Left" Margin="293,319,0,0" Name="label8" VerticalAlignment="Top" />
                     <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax400}" Height="95" HorizontalAlignment="Left" Margin="293,338,0,0" Name="txtObservacionFinal" VerticalAlignment="Top" Width="514" TextWrapping="Wrap" VerticalContentAlignment="Top" EditValueChanged="txtObservacionFinal_EditValueChanged"/>
 
