@@ -464,7 +464,10 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
 
         void LlenarNuevosCiclos()
         {
-            dtvListadoCiclos.RowFilter = "IdCiclo IN (3,4)";
+            #region REQUERIMIENTO_05_CELSA
+            //dtvListadoCiclos.RowFilter = "IdCiclo IN (3,4)";
+            dtvListadoCiclos.RowFilter = "IdCiclo IN (4,5)";
+            #endregion
             for (int i = 0; i < dtvListadoCiclos.Count; i++)
             {
                 DataRow row2;
@@ -2256,7 +2259,10 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
                 tblListadoCiclos = objCiclo.Ciclo_List(objECiclo);
                 dtvListadoCiclos = new DataView(tblListadoCiclos);
                 DataView dtvCiclosCombo = new DataView(tblListadoCiclos);
-                dtvCiclosCombo.RowFilter = "IdCiclo IN (3,4)";
+                #region REQUERIMIENTO_05_CELSA
+                //dtvCiclosCombo.RowFilter = "IdCiclo IN (3,4)";
+                dtvCiclosCombo.RowFilter = "IdCiclo IN (4,5)";
+                #endregion
                 cboCicloPerfil.ItemsSource = dtvCiclosCombo;
                 cboCicloPerfil.DisplayMember = "Ciclo";
                 cboCicloPerfil.ValueMember = "IdCiclo";
@@ -3087,7 +3093,10 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
 
                 if (trm.IdMenu != 0 && exciclos == 0)
                 {
-                    dtvListadoCiclos.RowFilter = "IdCiclo IN (3,4)";
+                    #region REQUERIMIENTO_05_CELSA
+                    //dtvListadoCiclos.RowFilter = "IdCiclo IN (3,4)";
+                    dtvListadoCiclos.RowFilter = "IdCiclo IN (4,5)";
+                    #endregion
                     if (IsNeumatico)
                     {
                         dtvListadoCiclos.RowFilter = "IdCiclo IN (1,2)";
