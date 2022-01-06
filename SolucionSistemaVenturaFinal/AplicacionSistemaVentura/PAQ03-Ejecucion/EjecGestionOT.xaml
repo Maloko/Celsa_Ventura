@@ -85,6 +85,7 @@
                             <dxg:GridColumn Header="Tipo de orden" FieldName="TipoOT" VisibleIndex="8" ReadOnly="True"/>
                             <dxg:GridColumn Header="Observación" FieldName="Observacion" VisibleIndex="9" ReadOnly="True" Visible="False"/>
                             <dxg:GridColumn Header="Motivo de postergación" FieldName="MotivoPostergacion" VisibleIndex="10" ReadOnly="True" Visible="False"/>
+                            <dxg:GridColumn Header="Tipo de Averia" FieldName="TipoAveria" VisibleIndex="10" ReadOnly="True"/>
                             <dxg:GridColumn FieldName="IdOT" VisibleIndex="11" Visible="False" ReadOnly="True"/>
 
                         </dxg:GridControl.Columns>
@@ -359,10 +360,14 @@
             </TabItem>
             <TabItem Header="Registro de Tareas Realizadas" Name="tabTareasOT">
                 <Grid>
-                    <Label Content="Tiempo Dedicado" HorizontalAlignment="Left" Margin="492,456,0,0" Name="label23" VerticalAlignment="Top" />
-                    <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="597,456,0,0" Name="label24" VerticalAlignment="Top" />
-                    <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="46" HorizontalAlignment="Left" Margin="670,460,0,0" Name="txtComentarioTarea" VerticalAlignment="Top" Width="308" GotFocus="OnFocus"  LostFocus="OutFocus"/>
-                    <GroupBox Header="Datos generales - OT" HorizontalAlignment="Left" Margin="6,0,0,0" Name="groupBox2" Width="978" Height="97" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="57*"/>
+                        <ColumnDefinition Width="439*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Tiempo Dedicado" HorizontalAlignment="Left" Margin="377.6,456,0,0" Name="label23" VerticalAlignment="Top" Grid.Column="1" />
+                    <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="482.6,456,0,0" Name="label24" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="46" HorizontalAlignment="Left" Margin="555.6,460,0,0" Name="txtComentarioTarea" VerticalAlignment="Top" Width="308" GotFocus="OnFocus"  LostFocus="OutFocus" Grid.Column="1"/>
+                    <GroupBox Header="Datos generales - OT" HorizontalAlignment="Left" Margin="6,0,0,0" Name="groupBox2" Width="978" Height="97" VerticalAlignment="Top" Grid.ColumnSpan="2">
                         <Grid>
                             <Label Content="Fecha de liberación: " HorizontalAlignment="Left" Margin="256,11,0,0" Name="label18" VerticalAlignment="Top" />
                             <Label Content="Responsable:" HorizontalAlignment="Left" Margin="518,43,0,0" Name="label19" VerticalAlignment="Top" />
@@ -377,9 +382,13 @@
                             <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="364,40,0,0" x:Name="dtpFechaCierreT" EditValue="02.09.2009 00:00" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="117" />
                             <Label Content="Nro OT:" HorizontalAlignment="Left" Margin="5,11,0,0" Name="label16" VerticalAlignment="Top" />
                             <TextBox Height="23" HorizontalAlignment="Left" Margin="110,8,0,0" Name="TxTNumeroOT" VerticalAlignment="Top" Width="117" IsEnabled="False"/>
+
+                            <Label Content="T. Averia:" HorizontalAlignment="Left" Margin="750,11,0,0" Name="labelTipoAveria" VerticalAlignment="Top" Visibility="Hidden" />
+                            <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="800,11,0,0" Name="cboTipoAveria" VerticalAlignment="Top" Width="130" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" Visibility="Hidden"/>
+
                         </Grid>
                     </GroupBox>
-                    <GroupBox Header="Detalle - OT" HorizontalAlignment="Left" Margin="515,103,0,0" Name="groupBox8" Width="469" FontSize="11" Height="331" VerticalAlignment="Top">
+                    <GroupBox Header="Detalle - OT" HorizontalAlignment="Left" Margin="400.6,103,0,0" Name="groupBox8" Width="469" FontSize="11" Height="331" VerticalAlignment="Top" Grid.Column="1">
                         <Grid>
                             <TabControl Margin="10,10,10,10" Name="tabControl3">
                                 <TabItem Header="Herramientas especiales" Name="tabItem10">
@@ -437,11 +446,11 @@
                             </TabControl>
                         </Grid>
                     </GroupBox>
-                    <Button Style="{DynamicResource buttonStyle}" IsDefault="True" Content="Registrar" Margin="10,0,0,30" VerticalAlignment="Bottom" Width="100" Name="btnRegistrarOTTarea" Click="btnRegistrarOTTarea_Click" HorizontalAlignment="Left"/>
-                    <Button Style="{DynamicResource buttonStyle}" Content="Cancelar" Margin="120,465,0,30" VerticalAlignment="Bottom" Width="100" Name="CancelarOTTarea" Click="CancelarOTTarea_Click" HorizontalAlignment="Left"/>
-                    <Button Style="{DynamicResource buttonStyle}" Content="Cerrar OT" Margin="230,465,0,30" VerticalAlignment="Bottom" Width="100" Name="ActualizarEstadoOTTarea" Click="ActualizarEstadoOTTarea_Click" HorizontalAlignment="Left"/>
+                    <Button Style="{DynamicResource buttonStyle}" IsDefault="True" Content="Registrar" Margin="10,0,0,30.2" VerticalAlignment="Bottom" Width="100" Name="btnRegistrarOTTarea" Click="btnRegistrarOTTarea_Click" HorizontalAlignment="Left"/>
+                    <Button Style="{DynamicResource buttonStyle}" Content="Cancelar" Margin="5.6,0,0,30.2" VerticalAlignment="Bottom" Width="100" Name="CancelarOTTarea" Click="CancelarOTTarea_Click" HorizontalAlignment="Left" Grid.Column="1"/>
+                    <Button Style="{DynamicResource buttonStyle}" Content="Cerrar OT" Margin="115.6,0,0,30.2" VerticalAlignment="Bottom" Width="100" Name="ActualizarEstadoOTTarea" Click="ActualizarEstadoOTTarea_Click" HorizontalAlignment="Left" Grid.Column="1"/>
 
-                    <dxg:TreeListControl Name="trlComponente" Margin="10,103,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="325" Width="491" SelectedItemChanged="trlComponente_SelectedItemChanged">
+                    <dxg:TreeListControl Name="trlComponente" Margin="10,103,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="325" Width="491" SelectedItemChanged="trlComponente_SelectedItemChanged" Grid.ColumnSpan="2">
                         <dxg:TreeListControl.Columns>
                             <dxg:TreeListColumn FieldName="Descripcion" Header="Descripción" VisibleIndex="0" Width="350" ReadOnly="True"/>
                             <dxg:TreeListColumn FieldName="IdReal" Header="IdReal" VisibleIndex="1" Visible="False"/>
@@ -459,11 +468,11 @@
                         </dxg:TreeListControl.View>
                     </dxg:TreeListControl>
 
-                    <dxe:ButtonEdit AllowDefaultButton="False"  Height="26" HorizontalAlignment="Left" Margin="521,483,0,0"  Name="btn2" ShowText="False" VerticalAlignment="Top" Width="30">
+                    <dxe:ButtonEdit AllowDefaultButton="False"  Height="26" HorizontalAlignment="Left" Margin="406.6,483,0,0"  Name="btn2" ShowText="False" VerticalAlignment="Top" Width="30" Grid.Column="1">
                         <dxe:ButtonInfo  GlyphKind="Search" Content="..." Name="btnAñadirTrabajador" Click="btnAñadirTrabajador_Click"/>
                     </dxe:ButtonEdit>
 
-                    <DockPanel Margin="0,0,0,0" Visibility="Visible" Name="sbAuditoriaRR" VerticalAlignment="Bottom">
+                    <DockPanel Margin="0,0,-0.2,0.2" Visibility="Visible" Name="sbAuditoriaRR" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
                         <StatusBar DockPanel.Dock="Top" Style="{DynamicResource Auditoria}">
                             <StatusBar.ItemsPanel>
                                 <ItemsPanelTemplate>

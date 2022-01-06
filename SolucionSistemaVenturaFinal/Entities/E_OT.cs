@@ -31,5 +31,6 @@ namespace Entities
         public string IdsOTCompActividadEstado{ get; set; }
         public string IdHerramientaItems { get; set; }
         public int IsRegProveedor { get; set; }
+        public int CodTipoAveria { get; set; }
     }
 }

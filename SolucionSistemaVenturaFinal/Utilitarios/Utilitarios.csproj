@@ -73,6 +73,7 @@
     <Compile Include="DebugHandler.cs" />
     <Compile Include="Enum\EstadoUCEnum.cs" />
     <Compile Include="Enum\MenuEnum.cs" />
+    <Compile Include="Enum\TipoRequerimientoEnum.cs" />
     <Compile Include="ErrorHandler.cs" />
     <Compile Include="IniParser.cs" />
     <Compile Include="TreeViewModel.cs" />

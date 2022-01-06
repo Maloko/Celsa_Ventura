@@ -10,7 +10,6 @@ using Entities;
 using Utilitarios;
 using System.Text.RegularExpressions;
 using DevExpress.Xpf.Grid;
-using Utilitarios.Constantes;
 using Utilitarios.Enum;
 using System.Net.Mail;
 
@@ -42,6 +41,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         int gintCodResponsable = 1;
         int gintIdUsuario = Utilitarios.Utilitarios.gintIdUsuario;
         string gstrIdHerramientas = "";
+        int codTipoReq = 0;
 
         double gdblFileSize = 0;
         double gdblMaxFileSize = 0;
@@ -205,6 +205,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 rowOT["FechaModificacion"] = tbl.Rows[i]["FechaModificacion"].ToString();
                 rowOT["HostModificacion"] = tbl.Rows[i]["HostModificacion"].ToString();
                 rowOT["FlagActivo"] = tbl.Rows[i]["FlagActivo"].ToString();
+                rowOT["TipoAveria"] = tbl.Rows[i]["TipoAveria"].ToString();
                 tblTempOT.Rows.Add(rowOT);
             }
             dtgOT.ItemsSource = tblTempOT.DefaultView;
@@ -264,6 +265,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 tblTempOT.Columns.Add("IdUsuarioModificacion");
                 tblTempOT.Columns.Add("FechaModificacion");
                 tblTempOT.Columns.Add("HostModificacion");
+                tblTempOT.Columns.Add("TipoAveria");
+     
 
                 //2 Tabla de Reprogramacion de OT
                 tblOTPost.Columns.Add("IdOTReprog", Type.GetType("System.Int32"));
@@ -3909,6 +3912,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 val = false;
                 return val;
             }
+
+
             return val;
         }
         private void lstboxActividad_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -4664,6 +4669,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         {
             try
             {
+                if (ValidaTipoAveria() == false) return;
                 if (GrabarTarea() == true)
                 {
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_RTAR"), 1);
@@ -4695,6 +4701,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 objE_OT.IdOT = IdOT;
                 objE_OT.IdUsuario = gintIdUsuario;
                 objE_OT.FechaModificacion = FechaModificacion;
+                objE_OT.CodTipoAveria = Convert.ToInt32(cboTipoAveria.EditValue);
+
                 if (dtpFechaCierreT.EditValue == null)
                 {
                     objE_OT.FechaCierre = DateTime.MinValue;
@@ -5840,6 +5848,34 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
             if (tblOT.Rows.Count > 0)
             {
+
+        
+                codTipoReq = tblOT.Rows[0]["CodTipoRequerimiento"].ToString() == "" ? 0 : Convert.ToInt32(tblOT.Rows[0]["CodTipoRequerimiento"].ToString());
+
+                if(codTipoReq == (int)TipoRequerimientoEnum.Averia)
+                {
+
+                    #region RequerimientoCelsa
+                    //cboTipoRequerimiento.SelectedIndexChanged -= new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+                    DataTable tbl = Utilitarios.Utilitarios.ListarCombo_TablaMaestra("IdTabla=64", dtv_maestra);
+                    tbl.DefaultView.RowFilter = "IdColumna <> 0";
+                    cboTipoAveria.ItemsSource = tbl.DefaultView;
+                    cboTipoAveria.DisplayMember = "Descripcion";
+                    cboTipoAveria.ValueMember = "IdColumna";
+                    cboTipoAveria.SelectedIndex = -1;
+                    //cboPrioridad.SelectedIndexChanged += new RoutedEventHandler(cboPrioridad_SelectedIndexChanged);
+                    #endregion
+
+                    labelTipoAveria.Visibility = Visibility.Visible;
+                    cboTipoAveria.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    labelTipoAveria.Visibility = Visibility.Hidden;
+                    cboTipoAveria.Visibility = Visibility.Hidden;
+                }
+
+
                 TxTNumeroOT.Text = tblOT.Rows[0]["CodOT"].ToString();
                 if (tblOT.Rows[0]["FechaLiber"] == DBNull.Value)
                 {
@@ -7488,7 +7524,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
             try
             {
-                //Obtener Tipo de Cambio
+                    //Obtener Tipo de Cambio
                 RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
                 InterfazMTTO.iSBO_BE.BEORTT tipoCambio = null;
                 tipoCambio = InterfazMTTO.iSBO_BL.TipoCambio_BL.ObtenerTipoCambioPorFecha(DateTime.Now, ref RPTA);
@@ -7496,6 +7532,32 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 {
                     GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
                     return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                val = false;
+                return val;
+            }
+            return val;
+        }
+
+        private bool ValidaTipoAveria()
+        {
+            bool val = true;
+
+            try
+            {
+                if (codTipoReq == (int)TipoRequerimientoEnum.Averia)
+                {
+                    if (cboTipoAveria.SelectedIndex == -1)
+                    {
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "OBLI_TIPO_REQUERIMIENTO"), 2);
+                        val = false;
+                        return val;
+                    }
                 }
             }
             catch (Exception ex)

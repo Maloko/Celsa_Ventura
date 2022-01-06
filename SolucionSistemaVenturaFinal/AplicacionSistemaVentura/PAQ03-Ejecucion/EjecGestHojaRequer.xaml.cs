@@ -149,8 +149,6 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 cboTipoRequerimiento.ValueMember = "IdColumna";
                 cboTipoRequerimiento.SelectedIndex = -1;
                 cboTipoRequerimiento.SelectedIndexChanged += new RoutedEventHandler(cboTipoRequerimiento_SelectedIndexChanged);
-
-
                 #endregion
 
             }
