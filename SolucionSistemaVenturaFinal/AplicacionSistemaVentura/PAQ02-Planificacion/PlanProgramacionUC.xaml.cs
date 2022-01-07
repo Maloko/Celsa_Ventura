@@ -1270,7 +1270,11 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 if (Convert.ToInt32(IdTipoOT) != 2)
                 {
                     if (GlobalClass.ValidaTipoCambio() == false) { return; };
-                    if (GlobalClass.ValidaAlmacenArticulo(IdTipoOT, tblRepuesto, tblConsumible) == false) { return; }
+                    for (int i = 0; i < tblDatosOT.Rows.Count; i++)
+                    {
+                        if (GlobalClass.ValidaAlmacenArticulo(IdTipoOT, dsRepuesto.Tables[i], dsConsumible.Tables[i]) == false) { return; }
+                    }
+                        
                 }
                 #endregion
 
