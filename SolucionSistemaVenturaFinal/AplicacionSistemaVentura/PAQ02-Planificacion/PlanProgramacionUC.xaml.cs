@@ -1217,6 +1217,8 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
         {
             try
             {
+
+                int IdTipoOT = 0;
                 for (int i = 0; i < tblProgramacionDet.Rows.Count; i++)
                 {
                         DataRow drbit = tblBitacora.NewRow();
@@ -1239,7 +1241,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 dtvRespon.RowFilter = "CodigoPersona <> 0";
                 for (int i = 0; i < dtvRespon.Count; i++)
                 {
-                    int IdTipoOT = Convert.ToInt32(dtvRespon[i]["IdTipoOT"]);
+                    IdTipoOT = Convert.ToInt32(dtvRespon[i]["IdTipoOT"]);
                     string FechaProgramacion = dtvRespon[i]["FechaProgramacion"].ToString();
                     int IdUC = Convert.ToInt32(dtvRespon[i]["IdUC"]);
 
@@ -1262,6 +1264,17 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                         }
                     }
                 }
+
+                IdTipoOT = Convert.ToInt32(tblDatosOT.Rows[0]["IdTipoOT"]);
+                #region "Celsa"
+                if (Convert.ToInt32(IdTipoOT) != 2)
+                {
+                    if (GlobalClass.ValidaTipoCambio() == false) { return; };
+                    if (GlobalClass.ValidaAlmacenArticulo(IdTipoOT, tblRepuesto, tblConsumible) == false) { return; }
+                }
+                #endregion
+
+
                 pgbInsertando.Visibility = Visibility.Visible;
                 lblRegOTS.Visibility = Visibility.Visible;
                 lblRegOTS.Content = "";
