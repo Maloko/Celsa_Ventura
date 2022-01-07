@@ -59,6 +59,12 @@ namespace Business
             Debug.EscribirDebug(Metodo, Parametros);
         }
 
-        
+        public static DataTable TablaMaestraByIdTabla(int idTabla)
+        {
+            return D_TablaMaestra.TablaMaestraByIdTabla(idTabla);
+        }
+
+
+
     }
 }

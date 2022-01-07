@@ -17,6 +17,7 @@ using System.Security.Cryptography;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
+using Utilitarios.Enum;
 
 namespace AplicacionSistemaVentura
 {
@@ -128,6 +129,142 @@ namespace AplicacionSistemaVentura
         public static NumberFormatInfo CultureInfo { get; set; }
         public static DataTable tblAlertasAPP { get; set; }
         public static PAQ04_Reportes.ControlAlertas FrmAlerta {get;set;}
+        public static InterfazMTTO.iSBO_BE.BERPTA RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
+        public static Utilitarios.ErrorHandler Error = new Utilitarios.ErrorHandler();
+
+        public static bool ValidaTipoCambio()
+        {
+            bool val = true;
+
+            try
+            {
+                //Obtener Tipo de Cambio
+                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
+                InterfazMTTO.iSBO_BE.BEORTT tipoCambio = null;
+                tipoCambio = InterfazMTTO.iSBO_BL.TipoCambio_BL.ObtenerTipoCambioPorFecha(DateTime.Now, ref RPTA);
+                if (RPTA.ResultadoRetorno != 0)
+                {
+                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                val = false;
+                return val;
+            }
+            return val;
+        }
+
+        public static bool ValidaAlmacenArticulo(int idTipoOrden,DataTable tableRepuesto, DataTable tablaConsumible)
+        {
+            bool val = true;
+
+            try
+            {
+                if (Convert.ToInt32(idTipoOrden) == 2) //Revisar 
+                {
+                    return true;
+                }
+
+                string almacenEntrada = GetAmacenEntrada();
+                string almacenSalida = GetAmacenSalida();
+
+                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
+                InterfazMTTO.iSBO_BE.BEOITWList listaOITW = new InterfazMTTO.iSBO_BE.BEOITWList();
+
+                if (almacenEntrada == "" || almacenSalida == "")
+                {
+                    GlobalClass.ip.Mensaje("No se encontro un almacén de entrada y/o salida", 2);
+                    return false;
+                }
+
+                if (tablaConsumible.Rows.Count > 0) tableRepuesto.Merge(tablaConsumible);
+
+                //Repuestos
+                for (int i = 0; i < tableRepuesto.Rows.Count; i++)
+                {
+                    string articuloId = tableRepuesto.Rows[i]["IdArticulo"].ToString();
+
+                    listaOITW = InterfazMTTO.iSBO_BL.Articulo_BL.ObtenerAlmacenEntradaSalidaArticulo(articuloId, almacenEntrada, almacenSalida, ref RPTA);
+                    if (RPTA.ResultadoRetorno != 0)
+                    {
+                        val = false;
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                        break;
+                    }
+
+                    if (listaOITW.Count == 1)
+                    {
+
+                        if (listaOITW[0].WhsCode == almacenEntrada)
+                        {
+                            //GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
+                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de salida", 2);
+                            val = false;
+                            break;
+                        }
+                        else
+                        {
+                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de entrada", 2);
+                            val = false;
+                            break;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                val = false;
+                return val;
+            }
+            return val;
+        }
+
+
+        public static string GetAmacenEntrada()
+        {
+            try
+            {
+                DataTable tblAlmacen = B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Almacenes);
+
+                if (tblAlmacen.Rows.Count > 0)
+                    return tblAlmacen.Rows[0]["Valor"].ToString();
+                else
+                    return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                return "";
+            }
+        }
+
+        public static string GetAmacenSalida()
+        {
+            try
+            {
+                DataTable tblAlmacen = B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Almacenes);
+
+                if (tblAlmacen.Rows.Count > 0)
+                    return tblAlmacen.Rows[1]["Valor"].ToString();//General
+                else
+                    return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                return string.Empty;
+            }
+        }
+
+
         public static bool ExisteFormatoImpresion(string NombreMenu, ref int IdMenu)
         {
             bool Resultado = false;

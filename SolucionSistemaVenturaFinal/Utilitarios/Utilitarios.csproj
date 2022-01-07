@@ -49,6 +49,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="InterfazMTTO">
+      <HintPath>C:\Users\vsperu\Desktop\DLL\NEW\InterfazMTTO.dll</HintPath>
+    </Reference>
+    <Reference Include="iSBO_BE">
+      <HintPath>C:\Users\vsperu\Desktop\DLL\NEW\iSBO_BE.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
@@ -72,6 +78,7 @@
     <Compile Include="Constantes\CicloConst.cs" />
     <Compile Include="DebugHandler.cs" />
     <Compile Include="Enum\EstadoUCEnum.cs" />
+    <Compile Include="Enum\MaestraEnum.cs" />
     <Compile Include="Enum\MenuEnum.cs" />
     <Compile Include="Enum\TipoRequerimientoEnum.cs" />
     <Compile Include="ErrorHandler.cs" />

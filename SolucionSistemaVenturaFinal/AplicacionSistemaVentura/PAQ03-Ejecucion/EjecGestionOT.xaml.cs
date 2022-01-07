@@ -3429,9 +3429,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             string CodOT = "";
             try
             {
+                IdTipoOrden = Convert.ToInt32(CboOrden.EditValue);
                 if (ValidaGrabacion() == false) { return; }
-                if (ValidaTipoCambio() == false) { return; }
-                if (ValidaAlmacenArticulo(tblRepuesto, tblConsumible) == false) { return; }
+                if (GlobalClass.ValidaTipoCambio() == false) { return; }
+                if (GlobalClass.ValidaAlmacenArticulo(IdTipoOrden,tblRepuesto, tblConsumible) == false) { return; }
                 gbolIsOTMod = false;
                 if (!gbolIsRegNroSeries)
                 {
@@ -7512,36 +7513,9 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         {
             try
             {
-
                 GlobalClass.GeneraImpresion(gintIdMenu, gintIdOT);
             }
             catch { }
-        }
-
-        private bool ValidaTipoCambio()
-        {
-            bool val = true;
-
-            try
-            {
-                    //Obtener Tipo de Cambio
-                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
-                InterfazMTTO.iSBO_BE.BEORTT tipoCambio = null;
-                tipoCambio = InterfazMTTO.iSBO_BL.TipoCambio_BL.ObtenerTipoCambioPorFecha(DateTime.Now, ref RPTA);
-                if (RPTA.ResultadoRetorno != 0)
-                {
-                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
-                    return false;
-                }
-            }
-            catch (Exception ex)
-            {
-                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
-                GlobalClass.ip.Mensaje(ex.Message, 3);
-                val = false;
-                return val;
-            }
-            return val;
         }
 
         private bool ValidaTipoAveria()
@@ -7568,115 +7542,6 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 return val;
             }
             return val;
-        }
-
-
-        private bool ValidaAlmacenArticulo(DataTable tableRepuesto, DataTable tablaConsumible)
-        {
-            bool val = true;
-
-            try
-            {
-
-                IdTipoOrden = Convert.ToInt32(CboOrden.EditValue);
-                if (Convert.ToInt32(IdTipoOrden) == 2) //Revisar 
-                {
-                    return true;
-                }
-                    string almacenEntrada = GetAmacenEntrada();
-                string almacenSalida = GetAmacenSalida();
-
-                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
-                InterfazMTTO.iSBO_BE.BEOITWList listaOITW = new InterfazMTTO.iSBO_BE.BEOITWList();
-
-                if (almacenEntrada == "" || almacenSalida == "")
-                {
-                    GlobalClass.ip.Mensaje("No se encontro un almacén de entrada y/o salida", 2);
-                    return false;
-                }
-
-                if(tablaConsumible.Rows.Count>0) tableRepuesto.Merge(tablaConsumible);
-
-                //Repuestos
-                for (int i = 0; i < tblRepuesto.Rows.Count; i++)
-                {
-                    string articuloId = tblRepuesto.Rows[i]["IdArticulo"].ToString();
-
-                    listaOITW = InterfazMTTO.iSBO_BL.Articulo_BL.ObtenerAlmacenEntradaSalidaArticulo(articuloId, almacenEntrada, almacenSalida, ref RPTA);
-                    if (RPTA.ResultadoRetorno != 0)
-                    {
-                        val = false;
-                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
-                        break;
-                    }
-
-                    if (listaOITW.Count == 1)
-                    {
-
-                        if (listaOITW[0].WhsCode == almacenEntrada)
-                        {
-                            //GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
-                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de salida", 2);
-                            val = false;
-                            break;
-                        }
-                        else
-                        {
-                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de entrada", 2);
-                            val = false;
-                            break;
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
-                GlobalClass.ip.Mensaje(ex.Message, 3);
-                val = false;
-                return val;
-            }
-            return val;
-        }
-
-        private string GetAmacenEntrada()
-        {
-            try
-            {
-                objE_TablaMaestra.IdTabla = 42;
-                DataTable tblAlmacen = B_TablaMaestra.TablaMaestra_Combo(objE_TablaMaestra);
-
-                if (tblAlmacen.Rows.Count > 0)
-                    return tblAlmacen.Rows[0]["Valor"].ToString();
-                else
-                    return string.Empty;
-            }
-            catch (Exception ex)
-            {
-                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
-                GlobalClass.ip.Mensaje(ex.Message, 3);
-                return "";
-            }
-        }
-
-        private string GetAmacenSalida()
-        {
-            try
-            {
-                objE_TablaMaestra.IdTabla = 42;
-                DataTable tblAlmacen = B_TablaMaestra.TablaMaestra_Combo(objE_TablaMaestra);
-
-                if (tblAlmacen.Rows.Count > 0)
-                    return tblAlmacen.Rows[1]["Valor"].ToString();//General
-                else
-                    return string.Empty;
-            }
-            catch (Exception ex)
-            {
-                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
-                GlobalClass.ip.Mensaje(ex.Message, 3);
-                return string.Empty;
-            }
         }
     }
 }

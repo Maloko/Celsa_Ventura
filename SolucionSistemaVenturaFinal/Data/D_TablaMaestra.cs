@@ -114,6 +114,23 @@ namespace Data
             return n;
         }
 
+        public static DataTable TablaMaestraByIdTabla(int idTabla)
+        {
+            DataTable tbl = new DataTable();
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                SqlCommand cmd = new SqlCommand("TablaMaestra_Combo", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdTabla", idTabla);
+                SqlDataAdapter adp = new SqlDataAdapter(cmd);
+                adp.Fill(tbl);
+                cx.Close();
+            }
+
+            return tbl;
+        }
+
 
     }
 }
