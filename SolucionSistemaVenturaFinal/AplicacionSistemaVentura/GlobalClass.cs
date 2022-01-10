@@ -164,10 +164,12 @@ namespace AplicacionSistemaVentura
 
             try
             {
+
                 if (Convert.ToInt32(idTipoOrden) == 2) //Revisar 
                 {
                     return true;
                 }
+
 
                 string almacenEntrada = GetAmacenEntrada();
                 string almacenSalida = GetAmacenSalida();
@@ -181,7 +183,7 @@ namespace AplicacionSistemaVentura
                     return false;
                 }
 
-                if (tablaConsumible.Rows.Count > 0) tableRepuesto.Merge(tablaConsumible);
+                //if (tablaConsumible.Rows.Count > 0) tabblaRepuesto.Merge(tablaConsumible);
 
                 //Repuestos
                 for (int i = 0; i < tableRepuesto.Rows.Count; i++)
@@ -214,6 +216,39 @@ namespace AplicacionSistemaVentura
                         }
                     }
                 }
+
+                //Cosumibles
+                for (int i = 0; i < tablaConsumible.Rows.Count; i++)
+                {
+                    string articuloId = tablaConsumible.Rows[i]["IdArticulo"].ToString();
+
+                    listaOITW = InterfazMTTO.iSBO_BL.Articulo_BL.ObtenerAlmacenEntradaSalidaArticulo(articuloId, almacenEntrada, almacenSalida, ref RPTA);
+                    if (RPTA.ResultadoRetorno != 0)
+                    {
+                        val = false;
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                        break;
+                    }
+
+                    if (listaOITW.Count == 1)
+                    {
+
+                        if (listaOITW[0].WhsCode == almacenEntrada)
+                        {
+                            //GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
+                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de salida", 2);
+                            val = false;
+                            break;
+                        }
+                        else
+                        {
+                            GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de entrada", 2);
+                            val = false;
+                            break;
+                        }
+                    }
+                }
+
             }
             catch (Exception ex)
             {
