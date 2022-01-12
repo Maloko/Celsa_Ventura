@@ -128,7 +128,7 @@ namespace AplicacionSistemaVentura
         public static int IdTabla { get; set; }
         public static NumberFormatInfo CultureInfo { get; set; }
         public static DataTable tblAlertasAPP { get; set; }
-        public static PAQ04_Reportes.ControlAlertas FrmAlerta {get;set;}
+        public static PAQ04_Reportes.ControlAlertas FrmAlerta { get; set; }
         public static InterfazMTTO.iSBO_BE.BERPTA RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
         public static Utilitarios.ErrorHandler Error = new Utilitarios.ErrorHandler();
 
@@ -158,7 +158,7 @@ namespace AplicacionSistemaVentura
             return val;
         }
 
-        public static bool ValidaAlmacenArticulo(int idTipoOrden,DataTable tableRepuesto, DataTable tablaConsumible)
+        public static bool ValidaAlmacenEntradaAndSalidaArticulo(int idTipoOrden, DataTable tableRepuesto, DataTable tablaConsumible)
         {
             bool val = true;
 
@@ -206,13 +206,13 @@ namespace AplicacionSistemaVentura
                             //GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
                             GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de salida", 2);
                             val = false;
-                            break;
+                            return val;
                         }
                         else
                         {
                             GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de entrada", 2);
                             val = false;
-                            break;
+                            return val;
                         }
                     }
                 }
@@ -238,13 +238,13 @@ namespace AplicacionSistemaVentura
                             //GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
                             GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de salida", 2);
                             val = false;
-                            break;
+                            return val;
                         }
                         else
                         {
                             GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de entrada", 2);
                             val = false;
-                            break;
+                            return val;
                         }
                     }
                 }
@@ -260,6 +260,106 @@ namespace AplicacionSistemaVentura
             return val;
         }
 
+
+        public static bool ValidaAlmacenSalidaArticulo(int idTipoOrden, DataTable tableRepuesto, DataTable tablaConsumible)
+        {
+            bool val = true;
+
+            try
+            {
+
+                if (Convert.ToInt32(idTipoOrden) == 2) //Revisar 
+                {
+                    return true;
+                }
+                string almacenSalida = GetAmacenSalida();
+
+                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
+                InterfazMTTO.iSBO_BE.BEOITWList listaOITW = new InterfazMTTO.iSBO_BE.BEOITWList();
+
+                if (almacenSalida == "")
+                {
+                    GlobalClass.ip.Mensaje("No se encontro un almacén de mantenimiento", 2);
+                    return false;
+                }
+
+                //Repuestos
+                for (int i = 0; i < tableRepuesto.Rows.Count; i++)
+                {
+                    string articuloId = tableRepuesto.Rows[i]["IdArticulo"].ToString();
+
+                    listaOITW = InterfazMTTO.iSBO_BL.Articulo_BL.ObtenerAlmacenEntradaSalidaArticulo(articuloId, "", almacenSalida, ref RPTA);
+                    if (RPTA.ResultadoRetorno != 0)
+                    {
+                        val = false;
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                        break;
+                    }
+
+                    if (listaOITW.Count == 0)
+                    {
+                        GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen", 2);
+                        val = false;
+                        return val;
+                    }
+
+                    if (listaOITW.Count > 0)
+                    {
+                        for (int j = 0; j < listaOITW.Count; j++)
+                        {
+                            if (listaOITW[0].OnHand == 0)
+                            {
+                                GlobalClass.ip.Mensaje("Por favor ingrese stock al articulo "+listaOITW[0].CodigoArticulo+"", 2);
+                                val = false;
+                                return val;
+                            }
+                        }
+                    }
+                }
+
+                //Cosumibles
+                for (int i = 0; i < tablaConsumible.Rows.Count; i++)
+                {
+                    string articuloId = tablaConsumible.Rows[i]["IdArticulo"].ToString();
+
+                    listaOITW = InterfazMTTO.iSBO_BL.Articulo_BL.ObtenerAlmacenEntradaSalidaArticulo(articuloId, "", almacenSalida, ref RPTA);
+                    if (RPTA.ResultadoRetorno != 0)
+                    {
+                        val = false;
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                        return val;
+                    }
+
+                    if (listaOITW.Count == 0)
+                    {
+                        GlobalClass.ip.Mensaje("Articulo " + listaOITW[0].WhsCode + " no tiene almacen de mantenimiento", 2);
+                        val = false;
+                        return val;
+                    }
+                    if (listaOITW.Count > 0)
+                    {
+                        for (int j = 0; j < listaOITW.Count; j++)
+                        {
+                            if (listaOITW[0].OnHand == 0)
+                            {
+                                GlobalClass.ip.Mensaje("Por favor ingrese stock al articulo " + listaOITW[0].CodigoArticulo + "", 2);
+                                val = false;
+                                return val;
+                            }
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                val = false;
+                return val;
+            }
+            return val;
+        }
 
         public static string GetAmacenEntrada()
         {
@@ -413,7 +513,6 @@ namespace AplicacionSistemaVentura
                     }
                 }
             }
-
             catch (Exception ex)
             {
                 GlobalClass.ip.Mensaje(ex.Message, 3);
@@ -446,7 +545,7 @@ namespace AplicacionSistemaVentura
                 B_Conexion b_Conexion = new B_Conexion();
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(ConfigurationManager.ConnectionStrings["BDVentura"].ToString());
 
-                
+
                 param1 = new ParameterField();
                 param1.ParameterFieldName = "Param";
 
@@ -462,13 +561,11 @@ namespace AplicacionSistemaVentura
                 CRViewer.Owner = XAML;
                 CRViewer.ShowDialog();
             }
-
             catch (Exception ex)
             {
                 GlobalClass.ip.Mensaje(ex.Message, 3);
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
             }
-
         }
 
         public static string[] CargarParametrosLicencia(StreamReader Archivo)
@@ -513,19 +610,19 @@ namespace AplicacionSistemaVentura
             if (!tbl.Columns.Contains(clm))
                 tbl.Columns.Add(clm);
         }
-        public static void Columna_AddIFnotExits(DataTable tbl, string clm,Type tipo)
+        public static void Columna_AddIFnotExits(DataTable tbl, string clm, Type tipo)
         {
             if (!tbl.Columns.Contains(clm))
-                tbl.Columns.Add(clm,tipo);
+                tbl.Columns.Add(clm, tipo);
         }
 
         public static void ControlSubMenu(string frm, Grid grilla)
         {
-            E_Rol objE_Rol=new E_Rol();            
-            B_Rol objB_rol=new B_Rol();
-            objE_Rol.IdRol=Utilitarios.Utilitarios.gintIdRol;
+            E_Rol objE_Rol = new E_Rol();
+            B_Rol objB_rol = new B_Rol();
+            objE_Rol.IdRol = Utilitarios.Utilitarios.gintIdRol;
             DataTable tblTab = objB_rol.Rol_Menu_List(objE_Rol);
-            foreach (DataRow fila in tblTab.Select("FlagActivo = 'False' AND IdTipo IN (4,5) AND Formulario = '"+frm+"'"))
+            foreach (DataRow fila in tblTab.Select("FlagActivo = 'False' AND IdTipo IN (4,5) AND Formulario = '" + frm + "'"))
             {
                 object btn = grilla.FindName(fila["Objeto"].ToString());
                 if (btn is FrameworkElement)
@@ -556,7 +653,6 @@ namespace AplicacionSistemaVentura
 
                 }
             }
-
             catch (Exception ex)
             {
                 GlobalClass.ip.Mensaje(ex.Message, 3);
@@ -705,8 +801,5 @@ namespace AplicacionSistemaVentura
         {
             BeginAnimation(FrameIndexProperty, null);
         }
-
-
-
     }
 }

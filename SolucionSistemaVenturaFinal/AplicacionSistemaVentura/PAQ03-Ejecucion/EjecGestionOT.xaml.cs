@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 using DevExpress.Xpf.Grid;
 using Utilitarios.Enum;
 using System.Net.Mail;
+using Utilitarios.Constantes;
 
 namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 {
@@ -57,6 +58,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         Boolean gbolExisteTarea = false;
         Boolean gbolExisteInforme = false;
         Boolean gbolNuevoDocumento = false;
+        int commportamientoSalidaStock = 1;
 
         DateTime FechaModificacion;
 
@@ -220,6 +222,12 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         {
             try
             {
+
+                #region "Celsa"
+                commportamientoSalidaStock = Convert.ToInt32(B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Comportamiento).Select("IdColumna=1")[0]["Valor"]);
+                #endregion
+
+
                 btnImprimirOT.Visibility = Visibility.Hidden;
                 GlobalClass.ControlSubMenu(this.GetType().Name, gridTabLista);
                 dtgCambioEstado.AutoGenerateColumns = DevExpress.Xpf.Grid.AutoGenerateColumnsMode.None;
@@ -3431,8 +3439,17 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             {
                 IdTipoOrden = Convert.ToInt32(CboOrden.EditValue);
                 if (ValidaGrabacion() == false) { return; }
-                if (GlobalClass.ValidaTipoCambio() == false) { return; }
-                if (GlobalClass.ValidaAlmacenArticulo(IdTipoOrden,tblRepuesto, tblConsumible) == false) { return; }
+
+                if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
+                {
+                    if (GlobalClass.ValidaTipoCambio() == false) { return; }
+                    if (GlobalClass.ValidaAlmacenEntradaAndSalidaArticulo(IdTipoOrden, tblRepuesto, tblConsumible) == false) { return; }
+                }
+                else
+                {
+                    if (GlobalClass.ValidaAlmacenSalidaArticulo(IdTipoOrden, tblRepuesto, tblConsumible) == false) { return; }
+                }
+                
                 gbolIsOTMod = false;
                 if (!gbolIsRegNroSeries)
                 {
@@ -5438,6 +5455,11 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         {
             try
             {
+
+                //Validar tipo de cambio
+                if (GlobalClass.ValidaTipoCambio() == false) { return; };
+
+
                 foreach (DataRow drArtiDet in tblArticuloTarea.Select("IdTipoArticulo = 4"))
                 {
                     if (drArtiDet["NroSerie"].ToString().Trim() == "")
@@ -5560,6 +5582,12 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_TablaMaestra.IdTabla = 42;
                     DataTable tblAlmacen = B_TablaMaestra.TablaMaestra_Combo(objE_TablaMaestra);
 
+                    #region "Celsa"
+                    //Trae el compartamiento a utilizar si es con solicitud de translado o si es solo con salida de mercancia
+                    string nombreColumna = string.Empty;            
+                    nombreColumna= commportamientoSalidaStock == (int)EstadoEnum.Activo ?  "CantUti" :  "CantSol";     
+                    #endregion
+
                     DataTable tbl = tblArticuloTarea.DefaultView.ToTable(true, "NroSolicitudTransferencia");
                     for (int i = 0; i < tbl.Rows.Count; i++)
                     {
@@ -5572,16 +5600,17 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         DataView dtvArticulo = tblArticuloTarea.DefaultView;
                         dtvArticulo.RowFilter = "NroSolicitudTransferencia = " + Convert.ToInt32(tbl.Rows[i]["NroSolicitudTransferencia"]);
 
+                        //Aqui traer condicion de comportamiento si esta activa utilizar CantSoli y si no usar CanUti
                         for (int j = 0; j < dtvArticulo.Count; j++)
                         {
-                            if (Convert.ToInt32(dtvArticulo[j]["CantUti"]) > 0)
+                            if (Convert.ToInt32(dtvArticulo[j][nombreColumna]) > 0)
                             {
                                 IGE1 = new InterfazMTTO.iSBO_BE.BEIGE1();
                                 IGE1.NroOrdenTrabajo = TxTNumeroOT.Text;
                                 IGE1.NroLineaOrdenTrabajo = Convert.ToInt32(dtvArticulo[j]["IdOTArticulo"]);
                                 IGE1.CodigoArticulo = Convert.ToString(dtvArticulo[j]["IdArticulo"]);
                                 IGE1.AlmacenSalida = tblAlmacen.Rows[1]["Valor"].ToString();
-                                IGE1.CantidadSalida = Convert.ToInt32(dtvArticulo[j]["CantUti"]);
+                                IGE1.CantidadSalida = Convert.ToInt32(dtvArticulo[j][nombreColumna]);
                                 IGE1.TipoOperacion = Convert.ToString(tblTipoOperacion.Rows[0]["Valor"]);
                                 IGE1.CuentaContable = Convert.ToString(CuentaContable.Rows[0]["Valor"]);
                                 IGE1List.Add(IGE1);
@@ -5645,15 +5674,19 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
                     for (int i = 0; i < tblArticuloTarea.Rows.Count; i++)
                     {
-                        if (Convert.ToInt32(tblArticuloTarea.Rows[i]["CantEnv"]) > Convert.ToInt32(tblArticuloTarea.Rows[i]["CantUti"]))
+
+                        if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
                         {
-                            InterfazMTTO.iSBO_BE.BEWTQ1 BEWTQ1 = new InterfazMTTO.iSBO_BE.BEWTQ1();
-                            BEWTQ1.NroOrdenTrabajo = TxTNumeroOT.Text;
-                            BEWTQ1.NroLinea = Convert.ToInt32(tblArticuloTarea.Rows[i]["IdOTArticulo"]);//De la BD
-                            BEWTQ1.CodigoArticulo = Convert.ToString(tblArticuloTarea.Rows[i]["IdArticulo"]);
-                            BEWTQ1.CantidadSolicitada = Convert.ToInt32(tblArticuloTarea.Rows[i]["CantEnv"]) - Convert.ToInt32(tblArticuloTarea.Rows[i]["CantUti"]);
-                            BEWTQ1.TipoOperacion = tblTipoOperacion.Rows[0]["Valor"].ToString(); //Tabla Maestra  --> 12
-                            WTQ1List.Add(BEWTQ1);
+                            if (Convert.ToInt32(tblArticuloTarea.Rows[i]["CantEnv"]) > Convert.ToInt32(tblArticuloTarea.Rows[i]["CantUti"]))
+                            {
+                                InterfazMTTO.iSBO_BE.BEWTQ1 BEWTQ1 = new InterfazMTTO.iSBO_BE.BEWTQ1();
+                                BEWTQ1.NroOrdenTrabajo = TxTNumeroOT.Text;
+                                BEWTQ1.NroLinea = Convert.ToInt32(tblArticuloTarea.Rows[i]["IdOTArticulo"]);//De la BD
+                                BEWTQ1.CodigoArticulo = Convert.ToString(tblArticuloTarea.Rows[i]["IdArticulo"]);
+                                BEWTQ1.CantidadSolicitada = Convert.ToInt32(tblArticuloTarea.Rows[i]["CantEnv"]) - Convert.ToInt32(tblArticuloTarea.Rows[i]["CantUti"]);
+                                BEWTQ1.TipoOperacion = tblTipoOperacion.Rows[0]["Valor"].ToString(); //Tabla Maestra  --> 12
+                                WTQ1List.Add(BEWTQ1);
+                            }
                         }
                     }
 
@@ -6034,11 +6067,15 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             {
                 //Extraer Cant Entrega SAP
                 RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
-                WTQ1List = InterfazMTTO.iSBO_BL.SolicitudTransferencia_BL.ObtenerTransferencia(TxTNumeroOT.Text, ref RPTA);
-                if (RPTA.ResultadoRetorno != 0)
+
+                if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
                 {
-                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
-                    //return;
+                    WTQ1List = InterfazMTTO.iSBO_BL.SolicitudTransferencia_BL.ObtenerTransferencia(TxTNumeroOT.Text, ref RPTA);
+                    if (RPTA.ResultadoRetorno != 0)
+                    {
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 2);
+                        //return;
+                    }
                 }
             }
             for (int i = 0; i < tblOTCompDetDatos.Tables[1].Rows.Count; i++)
@@ -7081,27 +7118,30 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             IdTipoOrden = Convert.ToInt32(CboOrden.EditValue);
             if (WTQ1List.Count > 0 && Convert.ToInt32(IdTipoOrden) != 2) //Revisar 
             {
-                //InterfazMTTO.iSBO_BE.BEWTQ1List WTQ1List = new InterfazMTTO.iSBO_BE.BEWTQ1List();
-                WTQ1List = InterfazMTTO.iSBO_BL.SolicitudTransferencia_BL.RegistraSolicitudTransferencia(OWTQ, WTQ1List, ref RPTA);
-                if (RPTA.ResultadoRetorno == 0)
+                if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
                 {
-                    tblOTArticuloSol.Rows.Clear();
-                    //Actualizar datos OTArticulo
-                    for (int i = 0; i < WTQ1List.Count; i++)
+                    //InterfazMTTO.iSBO_BE.BEWTQ1List WTQ1List = new InterfazMTTO.iSBO_BE.BEWTQ1List();
+                    WTQ1List = InterfazMTTO.iSBO_BL.SolicitudTransferencia_BL.RegistraSolicitudTransferencia(OWTQ, WTQ1List, ref RPTA);
+                    if (RPTA.ResultadoRetorno == 0)
                     {
-                        DataRow dr = tblOTArticuloSol.NewRow();
-                        dr["IdOTArticulo"] = WTQ1List[i].NroLineaOT;
-                        dr["NroSolTransfer"] = WTQ1List[i].NroSolicitudTransferencia;
-                        dr["NroLinSolTransfer"] = WTQ1List[i].NroLinea;
-                        tblOTArticuloSol.Rows.Add(dr);
-                    }
+                        tblOTArticuloSol.Rows.Clear();
+                        //Actualizar datos OTArticulo
+                        for (int i = 0; i < WTQ1List.Count; i++)
+                        {
+                            DataRow dr = tblOTArticuloSol.NewRow();
+                            dr["IdOTArticulo"] = WTQ1List[i].NroLineaOT;
+                            dr["NroSolTransfer"] = WTQ1List[i].NroSolicitudTransferencia;
+                            dr["NroLinSolTransfer"] = WTQ1List[i].NroLinea;
+                            tblOTArticuloSol.Rows.Add(dr);
+                        }
 
-                    int x = objB_OT.OTArticulo_Update(1, tblOTArticuloSol);
-                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_SOLI_SAP"), 1);
-                }
-                else
-                {
-                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
+                        int x = objB_OT.OTArticulo_Update(1, tblOTArticuloSol);
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_SOLI_SAP"), 1);
+                    }
+                    else
+                    {
+                        GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
+                    }
                 }
             }
         }

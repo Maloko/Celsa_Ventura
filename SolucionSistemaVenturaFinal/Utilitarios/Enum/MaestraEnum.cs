@@ -3,6 +3,6 @@
     public enum MaestraEnum
     {
         Almacenes =42,
-        MovimientoNeumatico = 12
+        Comportamiento = 65
     }
 }

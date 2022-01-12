@@ -77,6 +77,8 @@
   <ItemGroup>
     <Compile Include="Constantes\CicloConst.cs" />
     <Compile Include="DebugHandler.cs" />
+    <Compile Include="Enum\ColumnaMaestra.cs" />
+    <Compile Include="Enum\EstadoEnum.cs" />
     <Compile Include="Enum\EstadoUCEnum.cs" />
     <Compile Include="Enum\MaestraEnum.cs" />
     <Compile Include="Enum\MenuEnum.cs" />
