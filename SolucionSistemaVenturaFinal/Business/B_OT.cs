@@ -195,6 +195,13 @@ namespace Business
             Parametros = Parametros + ", IdsOTCompActividadEstado = " + obj.NullableTrim(E_OT.IdsOTCompActividadEstado);
             Debug.EscribirDebug(Metodo, Parametros);
         }
-        
+
+        #region REQUERIMIENTO_02_CELSA
+        public DataTable OTGetData(E_OT E_OT, int tipoOperacion)
+        {
+            OT_Debug("OTGetData", E_OT);
+            return D_OT.OTGetData(E_OT, tipoOperacion);
+        }
+        #endregion
     }
 }

@@ -274,5 +274,42 @@ namespace Data
             }
             return tbl;
         }
+
+        #region REQUERIMIENTO_02_CELSA
+        public static int Perfil_InsertMasivo_OT(E_PM E_PM, DataTable tblPMComp, DataTable tblMPComp_Actividad, DataTable tblPMFrecuencias)
+        {
+            int rpta = 11;
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                SqlCommand cmd = new SqlCommand("PM_UpdateCascade_OT", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                //Perfil
+                cmd.Parameters.Add("@IdPM", SqlDbType.Int).Value = E_PM.IdPM;
+                cmd.Parameters.Add("@IdError", SqlDbType.Int).Value = 0;
+                cmd.Parameters["@IdError"].Direction = ParameterDirection.Output;
+                cmd.Parameters.Add("@PM", SqlDbType.VarChar, 100).Value = E_PM.PM;
+                cmd.Parameters.Add("@IdPerfil", SqlDbType.Int).Value = E_PM.IdPerfil;
+                cmd.Parameters.Add("@IdCiclo", SqlDbType.Int).Value = E_PM.IdCiclo;
+                cmd.Parameters.Add("@Porc01", SqlDbType.Decimal).Value = E_PM.Porc01;
+                cmd.Parameters.Add("@Porc02", SqlDbType.Decimal).Value = E_PM.Porc02;
+                cmd.Parameters.Add("@IdTipoOTDefecto", SqlDbType.Int).Value = E_PM.IdTipoOTDefecto;
+                cmd.Parameters.Add("@IdEstadoPM", SqlDbType.Int).Value = E_PM.IdEstadoPM;
+                cmd.Parameters.Add("@Prioridad", SqlDbType.Int).Value = E_PM.Prioridad;
+                cmd.Parameters.Add("@FlagActivo", SqlDbType.Bit).Value = E_PM.FlagActivo;
+                cmd.Parameters.Add("@IdUsuario", SqlDbType.Int).Value = E_PM.IdUsuarioCreacion;
+                cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_PM.FechaModificacion;
+                cmd.Parameters.Add("@FechaProgramacion", SqlDbType.DateTime).Value = E_PM.FechaProg;
+                //Detalles
+                cmd.Parameters.Add("@tblPMComp", SqlDbType.Structured).Value = tblPMComp;
+                cmd.Parameters.Add("@tblPMCompActi", SqlDbType.Structured).Value = tblMPComp_Actividad;
+                cmd.Parameters.Add("@tblPMCompFrec", SqlDbType.Structured).Value = tblPMFrecuencias;
+                cmd.ExecuteNonQuery();
+                rpta = Int32.Parse(cmd.Parameters["@IdError"].Value.ToString());
+                cx.Close();
+            }
+            return rpta;
+        }
+        #endregion
     }
 }

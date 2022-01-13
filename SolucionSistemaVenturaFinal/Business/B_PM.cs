@@ -139,5 +139,15 @@ namespace Business
             Parametros = Parametros + ", IdUsuarioModificacion = " + obj.NullableTrim(E_PM.IdUsuarioModificacion.ToString());
             Debug.EscribirDebug(Metodo, Parametros);
         }
+
+        #region REQUERIMIENTO_02_CELSA
+        public int Perfil_InsertMasivo_OT(E_PM E_PM, DataTable tblPMComp, DataTable tblMPComp_Actividad, DataTable tblPMFrecuencias)
+        {
+            PM_Debug("Perfil_InsertMasivo_OT", E_PM);
+            int rpta = 11;
+            rpta = D_PM.Perfil_InsertMasivo_OT(E_PM, tblPMComp, tblMPComp_Actividad, tblPMFrecuencias);
+            return rpta;
+        }
+        #endregion
     }
 }

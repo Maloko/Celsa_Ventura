@@ -482,5 +482,21 @@ namespace Data
             return rpta;
         }
 
+        #region REQUERIMIENTO_02_CELSA
+        public static DataTable OTGetData(E_OT E_OT, int tipoOperacion)
+        {
+            DataTable tbl = new DataTable();
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                SqlCommand cmd = new SqlCommand("OTGetData", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@IdOT", SqlDbType.Int).Value = E_OT.IdOT;
+                cmd.Parameters.Add("@tipoOperacion", SqlDbType.Int).Value = tipoOperacion;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tbl);
+                return tbl;
+            }
+        }
+        #endregion
     }
 }

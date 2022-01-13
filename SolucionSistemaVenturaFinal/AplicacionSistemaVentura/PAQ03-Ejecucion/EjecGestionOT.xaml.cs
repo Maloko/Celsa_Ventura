@@ -139,6 +139,13 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         DataTable tblHerramientaDatosCambioEstado = new DataTable();
         DataTable tblFrecuencias = new DataTable();
 
+        #region REQUERIMIENTO_02_CELSA
+        DataTable tblPMFrecuencias = new DataTable();
+        DataTable tblPMComp = new DataTable();
+        DataTable tblPMComp_Actividad = new DataTable();
+        string gstrEtiquetaPlanMantenimiento = "PlanGestionMantenimiento";
+        #endregion
+
         DataTable tblNroSerie = new DataTable();
         DataRow rowOT;
         //DataRow rowOT1;
@@ -5749,7 +5756,6 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         return;
                     }
 
-
                     # region ENVIAR_CORREO_USUARIOS_ALMACEN
                     string cuerpoEmail = "", asuntoEmail = "";
                     objE_OT = new E_OT();
@@ -5821,6 +5827,15 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                                 client.Send(message);
                             }
                         }
+                    }
+                    #endregion
+
+                    #region REQUERIMIENTO_02_CELSA
+                    var rptPM = DevExpress.Xpf.Core.DXMessageBox.Show("Desea definir la fecha del próximo plan de mantenimiento?", "Próximo Plan de Mantenimiento", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    if (rptPM == MessageBoxResult.Yes)
+                    {
+                        stkDatosNuevoPM.Visibility = System.Windows.Visibility.Visible;
+                        dtpFechaNuevoPM.IsEnabled = true;
                     }
                     #endregion
                 }
@@ -7582,6 +7597,192 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 return val;
             }
             return val;
+        }
+
+        #region REQUERIMIENTO_02_CELSA
+        private void IniciarTablasPM()
+        {
+            tblPMComp = new DataTable();
+            tblPMComp.Columns.Add("IdPMComp", Type.GetType("System.Int32"));
+            tblPMComp.Columns.Add("IdPerfilComp", Type.GetType("System.Int32"));
+            tblPMComp.Columns.Add("IdPM", Type.GetType("System.Int32"));
+            tblPMComp.Columns.Add("IdEstadoPMC", Type.GetType("System.Int32"));
+            tblPMComp.Columns.Add("FlagActivo", Type.GetType("System.Boolean"));
+            tblPMComp.Columns.Add("Nuevo", Type.GetType("System.Boolean"));
+
+            tblPMComp_Actividad = new DataTable();
+            tblPMComp_Actividad.Columns.Add("IdPMCompActividad", Type.GetType("System.Int32"));
+            tblPMComp_Actividad.Columns.Add("IdPMComp", Type.GetType("System.Int32"));
+            tblPMComp_Actividad.Columns.Add("IdPerfilComp", Type.GetType("System.Int32"));
+            tblPMComp_Actividad.Columns.Add("IdPerfilCompActividad", Type.GetType("System.Int32"));
+            tblPMComp_Actividad.Columns.Add("IdEstadoPMA", Type.GetType("System.Int32"));
+            tblPMComp_Actividad.Columns.Add("FlagActivo", Type.GetType("System.Boolean"));
+            tblPMComp_Actividad.Columns.Add("Nuevo", Type.GetType("System.Boolean"));
+
+            tblPMFrecuencias = new DataTable();
+            tblPMFrecuencias.Columns.Add("IdPMCompFrecuencia", Type.GetType("System.Int32"));
+            tblPMFrecuencias.Columns.Add("IdPM", Type.GetType("System.Int32"));
+            tblPMFrecuencias.Columns.Add("Frecuencia", Type.GetType("System.Double"));
+            tblPMFrecuencias.Columns.Add("IdEstadoPMF", Type.GetType("System.Int32"));
+            tblPMFrecuencias.Columns.Add("EstadoF", Type.GetType("System.String"));
+            tblPMFrecuencias.Columns.Add("FlagActivo", Type.GetType("System.Boolean"));
+            tblPMFrecuencias.Columns.Add("Nuevo", Type.GetType("System.Boolean"));
+        }
+
+        private void btnGuardarNPM_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                IniciarTablasPM();
+                objE_OT = new E_OT();
+                objE_OT.IdOT = IdOT;
+
+                DataTable tblPMNew = objB_OT.OTGetData(objE_OT, 1);
+                if (tblPMNew.Rows.Count > 0)
+                {
+                    objEPM = new E_PM();
+                    objEPM.IdPerfil = Convert.ToInt32(tblPMNew.Rows[0]["IdPerfil"]);
+                    objEPM.IdCiclo = Convert.ToInt32(tblPMNew.Rows[0]["IdCicloDefecto"]);
+                    objEPM.Porc01 = 20;
+                    objEPM.Porc02 = 10;
+                    objEPM.IdTipoOTDefecto = 1;
+                    objEPM.IdEstadoPM = 1;
+                    objEPM.Prioridad = 1;
+                    objEPM.FlagActivo = true;
+                    objEPM.IdUsuarioCreacion = 1;
+                    objEPM.FechaProg = Convert.ToDateTime(dtpFechaNuevoPM.EditValue);
+
+                    DataRow dr2 = tblPMFrecuencias.NewRow();
+                    dr2["IdPMCompFrecuencia"] = 0;
+                    dr2["IdPM"] = 0;
+                    dr2["Frecuencia"] = 0;
+                    dr2["IdEstadoPMF"] = 1;
+                    dr2["EstadoF"] = "";
+                    dr2["FlagActivo"] = true;
+                    dr2["Nuevo"] = false;
+                    tblPMFrecuencias.Rows.Add(dr2);
+
+                    DataTable tblPMCompNew = objB_OT.OTGetData(objE_OT, 2);
+                    DataTable tblPMCompActividadNew = objB_OT.OTGetData(objE_OT, 3);
+                    int IdPMCompActividad = 1;
+                    int IdPmComp = 1;
+                    if (tblPMCompNew.Rows.Count > 0)
+                    {
+                        for (int i = 0; i < tblPMCompNew.Rows.Count; i++)
+                        {
+                            DataRow dr = tblPMComp.NewRow();
+                            dr["IdPMComp"] = IdPmComp;
+                            dr["IdPerfilComp"] = Convert.ToInt32(tblPMNew.Rows[i]["IdPerfilComp"]);
+                            dr["IdPM"] = 0;
+                            dr["IdEstadoPMC"] = 1;
+                            dr["FlagActivo"] = true;
+                            dr["Nuevo"] = true;
+                            tblPMComp.Rows.Add(dr);
+                            IdPmComp++;
+
+                            if (tblPMCompActividadNew.Rows.Count > 0)
+                            {
+                                for (int j = 0; j < tblPMCompActividadNew.Rows.Count; j++)
+                                {
+                                    if (Convert.ToInt32(tblPMNew.Rows[i]["IdPerfilComp"]) == Convert.ToInt32(tblPMCompActividadNew.Rows[j]["IdPerfilComp"]))
+                                    {
+                                        DataRow dr1 = tblPMComp_Actividad.NewRow();
+                                        dr1["IdPMCompActividad"] = IdPMCompActividad;
+                                        dr1["IdPMComp"] = 0;
+                                        dr1["IdPerfilComp"] = Convert.ToInt32(tblPMCompActividadNew.Rows[j]["IdPerfilComp"]);
+                                        dr1["IdPerfilCompActividad"] = 0;
+                                        dr1["IdEstadoPMA"] = 1;
+                                        dr1["FlagActivo"] = true;
+                                        dr1["Nuevo"] = true;
+                                        tblPMComp_Actividad.Rows.Add(dr1);
+                                        IdPMCompActividad++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    tblPMFrecuencias.Columns.Remove("EstadoF");
+                    tblPMComp_Actividad.Columns.Remove("IdPerfilComp");
+                    objEPM.FechaModificacion = DateTime.Now;
+                    int nresp = objBPM.Perfil_InsertMasivo(objEPM, tblPMComp, tblPMComp_Actividad, tblPMFrecuencias);
+                    if (nresp == 1)
+                    {
+                        EstadoForm(false, false, true);
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaPlanMantenimiento, "GRAB_NUEV"), 1);
+                    }
+                    else if (nresp == 0)
+                    {
+                        GlobalClass.Columna_AddIFnotExits(tblPMFrecuencias, "EstadoF", Type.GetType("System.String"));
+                        GlobalClass.Columna_AddIFnotExits(tblPMComp_Actividad, "IdPerfilComp", Type.GetType("System.Int32"));
+                        if (Convert.ToInt32(objEPM.IdCiclo) == 4)
+                        {
+                            for (int i = 0; i < tblPMFrecuencias.Rows.Count; i++)
+                            {
+                                tblPMFrecuencias.Rows[i]["Frecuencia"] = Convert.ToDouble(tblPMFrecuencias.Rows[i]["Frecuencia"]) / gintValorTiempoDefecto;
+                                tblPMFrecuencias.Rows[i]["EstadoF"] = (Convert.ToInt32(tblPMFrecuencias.Rows[i]["IdEstadoPMF"]) == 1) ? "Activo" : "Inactivo";
+                            }
+                        }
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaPlanMantenimiento, "LOGI_MODI"), 2);
+                        return;
+                    }
+                    else if (nresp == 1205)
+                    {
+                        GlobalClass.Columna_AddIFnotExits(tblPMFrecuencias, "EstadoF", Type.GetType("System.String"));
+                        GlobalClass.Columna_AddIFnotExits(tblPMComp_Actividad, "IdPerfilComp", Type.GetType("System.Int32"));
+                        if (Convert.ToInt32(objEPM.IdCiclo) == 4)
+                        {
+                            for (int i = 0; i < tblPMFrecuencias.Rows.Count; i++)
+                            {
+                                tblPMFrecuencias.Rows[i]["Frecuencia"] = Convert.ToDouble(tblPMFrecuencias.Rows[i]["Frecuencia"]) / gintValorTiempoDefecto;
+                                tblPMFrecuencias.Rows[i]["EstadoF"] = (Convert.ToInt32(tblPMFrecuencias.Rows[i]["IdEstadoPMF"]) == 1) ? "Activo" : "Inactivo";
+                            }
+                        }
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaPlanMantenimiento, "GRAB_CONC"), 2);
+                        return;
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+
+        private void btnCancelarNPM_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                stkDatosNuevoPM.Visibility = System.Windows.Visibility.Hidden;
+            }
+            catch (Exception ex)
+            {
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+        #endregion
+
+        private string GetAmacenSalida()
+        {
+            try
+            {
+                objE_TablaMaestra.IdTabla = 42;
+                DataTable tblAlmacen = B_TablaMaestra.TablaMaestra_Combo(objE_TablaMaestra);
+
+                if (tblAlmacen.Rows.Count > 0)
+                    return tblAlmacen.Rows[1]["Valor"].ToString();//General
+                else
+                    return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                return string.Empty;
+            }
         }
     }
 }

@@ -23,5 +23,9 @@ namespace Entities
         public int IdUsuarioModificacion { set; get; }
         public DateTime FechaModificacion { set; get; }
         public string HostModificacion { set; get; }
+
+        #region REQUERIMIENTO_02_CELSA 
+        public DateTime FechaProg { get; set; }
+        #endregion
     }
 }

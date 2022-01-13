@@ -1137,6 +1137,29 @@
                 </StackPanel>
             </Border>
         </Grid>
+
+        <Grid Name="stkDatosNuevoPM" Visibility="Collapsed" >
+            <Grid Background="Black" Opacity="0.75"/>
+            <Border x:Name="InputBorderNPM" MinWidth="200" Background="White"                
+                                                       BorderThickness="5" 
+                                                       CornerRadius="10" 
+                                                       HorizontalAlignment="Center" 
+                                                       VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
+                <StackPanel>
+                    <TextBlock TextAlignment="Center" Height="20" Width="361" Margin="-1" Text="Fecha Inicio Nuevo Plan" Background="#FF5AA6CB" FontFamily="Tahoma" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <StackPanel Visibility="Visible" Grid.ColumnSpan="2" Height="250" HorizontalAlignment="Left" Margin="0,0,0,0" Name="stkNuevoPM" VerticalAlignment="Top" Width="360" >
+
+                        <Grid Height="180" Background="White">
+                            <Label Content="Fecha Plan Mantenimiento" HorizontalAlignment="Left" Margin="16,27,0,0" Name="lblFPM" VerticalAlignment="Top" Width="80" />
+                            <dxe:TextEdit VerticalAlignment="Top" Height="25" HorizontalAlignment="Left" Margin="433,10,0,0" x:Name="dtpFechaNuevoPM" EditValue="02.09.2009 3:14" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="143" LostFocus="OutFocus" GotFocus="OnFocus"/>
+                            <Button Style="{DynamicResource buttonStyle}" Height="28"  HorizontalAlignment="Left" Margin="80,0,0,-50" VerticalAlignment="Bottom" Width="100" Name="btnGuardarNPM" Content="Guardar" Click="btnGuardarNPM_Click"/>
+                            <Button Style="{DynamicResource buttonStyle}" Height="28"  HorizontalAlignment="Right" Margin="0,0,70,-50" VerticalAlignment="Bottom" Width="100" Name="btnCancelarNPM" Content="Cancelar" Click="btnCancelarNPM_Click"/>
+                        </Grid>
+
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 
 </UserControl>
