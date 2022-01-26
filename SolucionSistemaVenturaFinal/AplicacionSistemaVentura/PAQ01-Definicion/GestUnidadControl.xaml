@@ -108,6 +108,12 @@
                                 <dxe:ComboBoxEdit IsEnabled="False" AutoComplete="False" FilterCondition="Contains" Height="23" HorizontalAlignment="Left" IncrementalFiltering="True" Margin="140,17,0,0" Name="cboEstadoUC" ValidateOnTextInput="False" VerticalAlignment="Top" Width="116" Grid.Column="1" SelectedIndexChanged="cboEstadoUC_SelectedIndexChanged" />
                                 <Label Content="Contador Acumulado:" Height="23" Margin="20,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="label18" Grid.Column="1" />
                                 <Label Content="0.00" Height="23" Margin="140,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="lblContadorAcumulado" Grid.Column="1" />
+
+                                <Label Content="Fecha Inicio Uso:" Height="23" Margin="270,21,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="labelFechaInicio"  Grid.Column="1"/>
+                                <Label Content="Contador Automatico:" Height="23" Margin="270,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="labelContadorAutomatico"  Grid.Column="1"/>
+                                
+                                <DatePicker Grid.Column="1" HorizontalAlignment="Left" Margin="390,17,0,0" VerticalAlignment="Top" Name="fechaInicio"/>
+                                <CheckBox Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Name="checkContadorAutomatico"/>
                                 
                                 <GroupBox Header="Datos Generales" Height="231" HorizontalAlignment="Left" Margin="40,89,0,0" Name="groupBox1" VerticalAlignment="Top" Width="716" Grid.ColumnSpan="2">
                                     <Grid>

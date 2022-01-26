@@ -1,16 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using DevExpress.Xpf.Editors;
 using System.Data;
 using Utilitarios;
@@ -275,6 +268,10 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
         {
             try
             {
+
+
+                fechaInicio.SelectedDate = DateTime.Now.Date;
+
                 GlobalClass.ControlSubMenu(this.GetType().Name, gridTabLista);
                 cboEstado.SelectedIndexChanged -= new RoutedEventHandler(cboEstado_SelectedIndexChanged);
                 cboPerfil.SelectedIndexChanged -= new RoutedEventHandler(cboPerfil_SelectedIndexChanged);
@@ -1804,6 +1801,9 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
                     objEUC.IdUsuarioCreacion = gintusuario;
                     objEUC.IdEstadoUC = Convert.ToInt32(cboEstadoUC.EditValue);
                     objEUC.FechaModificacion = DateTime.Now;
+                    objEUC.ConContadorAutomatico = checkContadorAutomatico.IsChecked== true ? true : false;
+                    objEUC.FechaInicioUso = fechaInicio.SelectedDate.Value;
+                    objEUC.FechaUltimoControl = objEUC.FechaInicioUso;
 
                     foreach (DataRow drPfComp in tblPerfilComponentes.Select("NroSerie <> ''"))
                     {
