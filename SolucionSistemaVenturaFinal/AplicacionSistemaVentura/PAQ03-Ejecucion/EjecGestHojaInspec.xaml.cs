@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Data;
 using Entities;
 using Business;
@@ -2241,6 +2233,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_SOLI"), 2);
                     cboResponsable.Focus();
                 }
+
+                
                 else if (dtpFechaInicio.EditValue == null)
                 {
                     bolRpta = true;
@@ -2265,6 +2259,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_CONT_FINA"), 2);
                     txtKilomFinal.Focus();
                 }
+
+
                 return bolRpta;
             }
             catch (Exception ex)

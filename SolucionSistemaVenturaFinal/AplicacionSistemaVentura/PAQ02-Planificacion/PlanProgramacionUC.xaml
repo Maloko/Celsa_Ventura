@@ -85,11 +85,26 @@
                     </dxg:GridColumn.EditSettings>
                 </dxg:GridColumn>
                 <dxg:GridColumn AllowEditing="False" FieldName="Semaforo" Header="Semáforo" VisibleIndex="2" CellTemplate="{StaticResource SemaforoTemplate}" HorizontalHeaderContentAlignment="Center" Width="80" Fixed="Right"/>
+
+
+                <dxg:GridColumn FieldName="FechaUltimaMantenimiento" Header="Fecha Ult. Mantenimiento" VisibleIndex="3" Width="140" >
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="DateTime" Mask="g" DisplayFormat="g"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+
+                <dxg:GridColumn FieldName="FechaProgramadaSistema" Header="Fecha Recomendada" VisibleIndex="3" Width="130" >
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="DateTime" Mask="g" DisplayFormat="g"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+
                 <dxg:GridColumn FieldName="FechaProgramacion" Header="Fecha de Programación" VisibleIndex="3" Width="130" >
                     <dxg:GridColumn.EditSettings>
                         <dxe:TextEditSettings MaskType="DateTime" Mask="g" DisplayFormat="g"/>
                     </dxg:GridColumn.EditSettings>
                 </dxg:GridColumn>
+                
                 <dxg:GridColumn AllowEditing="False" FieldName="UC" Header="Unidad de Control" VisibleIndex="4"  />
                 <dxg:GridColumn AllowEditing="False" FieldName="PerfilComp" Header="Componente" VisibleIndex="5" />
                 <dxg:GridColumn AllowEditing="False" FieldName="Actividad" Header="Actividad" VisibleIndex="6" />

@@ -22,7 +22,7 @@
             <DataTemplate x:Key="comboboxPerfilComp">
                 <dxe:ComboBoxEdit Name="PART_Editor" IsTextEditable="False" IsEnabled="True" ItemsSource="{Binding Data.DetailSource}"  ValueMember="Id" DisplayMember="Text">
                 </dxe:ComboBoxEdit>
-            </DataTemplate>            
+            </DataTemplate>
         </ResourceDictionary>
     </UserControl.Resources>
 
@@ -103,7 +103,11 @@
                                 <dxe:ComboBoxEdit Height="23" HorizontalAlignment="Left" Margin="150,17,0,0" Name="cboPerfil" VerticalAlignment="Top" Width="116" SelectedIndexChanged="cboPerfil_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" />
                                 <Label Content="Unidad de control:" Height="23" HorizontalAlignment="Left" Margin="40,50,0,0" Name="label2" VerticalAlignment="Top" />
                                 <dxe:ComboBoxEdit  HorizontalAlignment="Left" Height="23" Margin="150,47,0,0" Name="cboUnidCont" VerticalAlignment="Top" Width="116"  SelectedIndexChanged="cboUnidCont_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
-                                
+
+                                <Label Content="Ciclo:" Height="23" HorizontalAlignment="Left" Margin="40,80,0,0" Name="labelCicloDefecto" VerticalAlignment="Top" />
+
+                                <dxe:ComboBoxEdit IsEnabled="false" HorizontalAlignment="Left" Margin="150,80,0,0" Name="CboCiclo" VerticalAlignment="Top" Width="250" />
+
                                 <Label Content="Estado:" Height="23" Margin="20,21,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="label16"  Grid.Column="1"/>
                                 <dxe:ComboBoxEdit IsEnabled="False" AutoComplete="False" FilterCondition="Contains" Height="23" HorizontalAlignment="Left" IncrementalFiltering="True" Margin="140,17,0,0" Name="cboEstadoUC" ValidateOnTextInput="False" VerticalAlignment="Top" Width="116" Grid.Column="1" SelectedIndexChanged="cboEstadoUC_SelectedIndexChanged" />
                                 <Label Content="Contador Acumulado:" Height="23" Margin="20,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="label18" Grid.Column="1" />
@@ -111,11 +115,11 @@
 
                                 <Label Content="Fecha Inicio Uso:" Height="23" Margin="270,21,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="labelFechaInicio"  Grid.Column="1"/>
                                 <Label Content="Contador Automatico:" Height="23" Margin="270,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="labelContadorAutomatico"  Grid.Column="1"/>
-                                
+
                                 <DatePicker Grid.Column="1" HorizontalAlignment="Left" Margin="390,17,0,0" VerticalAlignment="Top" Name="fechaInicio"/>
-                                <CheckBox Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Name="checkContadorAutomatico"/>
-                                
-                                <GroupBox Header="Datos Generales" Height="231" HorizontalAlignment="Left" Margin="40,89,0,0" Name="groupBox1" VerticalAlignment="Top" Width="716" Grid.ColumnSpan="2">
+                                <CheckBox  Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Name="checkContadorAutomatico"/>
+
+                                <GroupBox Header="Datos Generales" Height="231" HorizontalAlignment="Left" Margin="40,109,0,0" Name="groupBox1" VerticalAlignment="Top" Width="716" Grid.ColumnSpan="2">
                                     <Grid>
                                         <Label Content="Placa / Serie:" Height="28" HorizontalAlignment="Left" Margin="90,5,0,0" Name="label3" VerticalAlignment="Top" />
                                         <Label Content="Marca:" Height="28" HorizontalAlignment="Left" Margin="90,75,0,0" Name="label4" VerticalAlignment="Top" />
@@ -125,11 +129,11 @@
                                         <Label Content="Modelo:" Height="28" HorizontalAlignment="Left" Margin="90,110,0,0" Name="label6" VerticalAlignment="Top" />
                                         <Label Content="Sub-familia:"  Height="28" HorizontalAlignment="Left" Margin="370,110,0,0" Name="labelSubFamilia" VerticalAlignment="Top" />
                                         <Label Content="Configuración:"  Height="28" HorizontalAlignment="Left" Margin="90,180,0,0" Name="label9" VerticalAlignment="Top" />
-                                        
+
                                         <Label Content="Año:" Height="28" HorizontalAlignment="Left" Margin="90,145,0,0" Name="label24" VerticalAlignment="Top" />
                                         <Label Content="Linea de Negocio:" Height="28" HorizontalAlignment="Left" Margin="370,145,0,0" Name="labelLineaN" VerticalAlignment="Top" />
                                         <Label Content="Tipo Propiedad:" Height="28" HorizontalAlignment="Left" Margin="370,5,0,0" Name="label26" VerticalAlignment="Top" />
-                                        
+
                                         <Label Height="25" HorizontalAlignment="Left" Margin="170,75,0,0" Name="lblMarca" VerticalAlignment="Top" FontWeight="Bold"/>
                                         <Label Height="25" HorizontalAlignment="Left" Margin="170,5,0,0" Name="lblPlacaSerie" VerticalAlignment="Top" FontWeight="Bold" />
                                         <Label Height="25" HorizontalAlignment="Left" Margin="170,145,0,0" Name="lblAnio" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -143,9 +147,9 @@
                                         <Label Height="25" HorizontalAlignment="Left" Margin="470,75,0,0" Name="lblFami" FontWeight="Bold" VerticalAlignment="Top" />
                                     </Grid>
                                 </GroupBox>
-                                <Label Content="Observaciones:" Height="28" Margin="40,331,0,0" Name="label14" VerticalAlignment="Top" HorizontalAlignment="Left" Width="74" />
-                                <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Grid.ColumnSpan="2" Height="92" HorizontalAlignment="Left" Margin="150,331,0,0" Name="txtobservacion" VerticalAlignment="Top" Width="605" EditValueChanged="txtPLANTILLA_EditValueChanged" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" />
-                                
+                                <Label Content="Observaciones:" Height="28" Margin="40,351,0,0" Name="label14" VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" />
+                                <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Grid.ColumnSpan="2" Height="60" HorizontalAlignment="Left" Margin="150,351,0,0" Name="txtobservacion" VerticalAlignment="Top" Width="605" EditValueChanged="txtPLANTILLA_EditValueChanged" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" />
+
                             </Grid>
                         </TabItem>
                         <TabItem Header="Componentes Unidad de Control" Name="tbDatosCompUC">
@@ -265,7 +269,7 @@
                     </DockPanel>
                 </Grid>
             </TabItem>
-            
+
             <TabItem Header="Cambio Estado UC" Name="tabItem4" IsEnabled="False">
                 <Grid>
                     <Label  Content="Unidades de Control:" HorizontalAlignment="Left" Margin="26,30,0,0" Name="label20" VerticalAlignment="Top" />

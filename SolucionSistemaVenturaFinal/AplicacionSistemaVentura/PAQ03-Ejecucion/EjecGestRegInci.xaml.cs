@@ -56,6 +56,9 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         B_ContadorDet objB_ContadorDet = new B_ContadorDet();
         E_ContadorDet objE_ContadorDet = new E_ContadorDet();
 
+
+        int cicloPorDefecto = 0;
+
         #region REQUERIMIENTO_03_CELSA
         string correodest;
         #endregion
@@ -280,7 +283,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         B_UC objuc = new B_UC();
                         DataTable tlvu = new DataTable();
                         string vUC = cboUC.EditValue.ToString();
-                        tlvu = objuc.ContadoresxUC_List(vUC);
+                        tlvu = objuc.ContadoresxUC_List(vUC, cicloPorDefecto);
 
                         if (tlvu.Rows.Count > 0)
                         {
@@ -578,6 +581,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 if (ePerfil != null)
                 {
                     txtCiclo.Text = ePerfil.Ciclo;
+                    cicloPorDefecto = ePerfil.IdCicloDefecto;
 
                     if (ePerfil.Ciclo == CicloConst.Horas)
                     {

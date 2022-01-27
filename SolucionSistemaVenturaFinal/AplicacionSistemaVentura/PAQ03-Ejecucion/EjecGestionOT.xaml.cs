@@ -160,6 +160,9 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         string gstrNroSerieSelec = "";
         int gintIdMenu = 0, gintIdOT = 0;
         string correodest;
+
+        int IdTipoGeneracion = 0;
+
         #endregion
         void OnFocus(object sender, RoutedEventArgs e)
         {
@@ -281,7 +284,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 tblTempOT.Columns.Add("FechaModificacion");
                 tblTempOT.Columns.Add("HostModificacion");
                 tblTempOT.Columns.Add("TipoAveria");
-     
+
 
                 //2 Tabla de Reprogramacion de OT
                 tblOTPost.Columns.Add("IdOTReprog", Type.GetType("System.Int32"));
@@ -1146,6 +1149,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 if (dtgOT.VisibleRowCount == 0) { return; }
                 int IdTipoOT = Convert.ToInt32(dtgOT.GetFocusedRowCellValue("IdTipoOT"));
                 int IdEstadoOT = Convert.ToInt32(dtgOT.GetFocusedRowCellValue("IdEstadoOT"));
+                IdTipoGeneracion = Convert.ToInt32(dtgOT.GetFocusedRowCellValue("IdTipoGeneracion"));
 
                 if (IdTipoOT != 1 && IdTipoOT != 3)
                 {
@@ -3456,7 +3460,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 {
                     if (GlobalClass.ValidaAlmacenSalidaArticulo(IdTipoOrden, tblRepuesto, tblConsumible) == false) { return; }
                 }
-                
+
                 gbolIsOTMod = false;
                 if (!gbolIsRegNroSeries)
                 {
@@ -4740,6 +4744,13 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         dtpFechaCierreT.Focus();
                         return blRpta; //Descomentar cuando la licencia de SAP este activa.
                     }
+                    if (Convert.ToDateTime(dtpFechaCierreT.EditValue).Date>DateTime.Now.Date)
+                    {
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECHCIERRE"), 2);
+                        dtpFechaCierreT.Focus();
+                        return blRpta;
+                    }
+
                     objE_OT.FechaCierre = Convert.ToDateTime(dtpFechaCierreT.EditValue);
 
                     int VerificarEstado = tblHerrEspTarea.Select("IdEstado <> 2").Length;
@@ -5463,15 +5474,18 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             try
             {
 
+                Mouse.OverrideCursor = Cursors.Wait;
+
                 //Validar tipo de cambio
                 if (GlobalClass.ValidaTipoCambio() == false) { return; };
-
+                B_UC objBUC = new B_UC();
 
                 foreach (DataRow drArtiDet in tblArticuloTarea.Select("IdTipoArticulo = 4"))
                 {
                     if (drArtiDet["NroSerie"].ToString().Trim() == "")
                     {
                         GlobalClass.ip.Mensaje(String.Format(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "OBLI_RTAR_CERR_NROS"), drArtiDet["Articulo"].ToString()), 2);
+                        Mouse.OverrideCursor = null;
                         return;
                     }
                 }
@@ -5479,6 +5493,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 if (dtpFechaCierreT.EditValue == null)
                 {
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "OBLI_RTAR_FECH_CIER"), 2);
+                    Mouse.OverrideCursor = null;
                     dtpFechaCierreT.Focus();
                     return;
                 }
@@ -5489,6 +5504,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
                     if (GrabarTarea() == false)
                     {
+                        Mouse.OverrideCursor = null;
                         return;
                     }
 
@@ -5591,8 +5607,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
                     #region "Celsa"
                     //Trae el compartamiento a utilizar si es con solicitud de translado o si es solo con salida de mercancia
-                    string nombreColumna = string.Empty;            
-                    nombreColumna= commportamientoSalidaStock == (int)EstadoEnum.Activo ?  "CantUti" :  "CantSol";     
+                    string nombreColumna = string.Empty;
+                    nombreColumna = commportamientoSalidaStock == (int)EstadoEnum.Activo ? "CantUti" : "CantSol";
                     #endregion
 
                     DataTable tbl = tblArticuloTarea.DefaultView.ToTable(true, "NroSolicitudTransferencia");
@@ -5633,6 +5649,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                             if (RPTA.ResultadoRetorno != 0)
                             {
                                 GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
+                                Mouse.OverrideCursor = null;
                                 return;
                             }
                             else
@@ -5728,7 +5745,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                             GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
                         }
                     }
-                    //Actualiza Estado
+
                     objE_OT = new E_OT();
                     objE_OT.IdOT = IdOT;
                     objE_OT.IdEstadoOT = 5;
@@ -5736,6 +5753,24 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_OT.IdUsuarioModificacion = Utilitarios.Utilitarios.gintIdUsuario;
                     objE_OT.IsRegProveedor = 0;
                     objE_OT.FechaModificacion = DateTime.Now;
+
+                    #region REQUERIMIENTO_02_CELSA
+                    if (IdTipoGeneracion == (int)TipoMantenimientoEnum.Correctivo)
+                    {
+                        var rptPM = DevExpress.Xpf.Core.DXMessageBox.Show("¿Desea cambiar la fecha de programación, por la fecha de cierre de la OT ?", "Próximo Plan de Mantenimiento", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                        if (rptPM == MessageBoxResult.Yes)
+                        {
+                            objBUC.UC_UpdateFechaUltimaControl(objE_OT);
+                        }
+                    }
+                    else
+                    {
+                        objBUC.UC_UpdateFechaUltimaControl(objE_OT);
+                    }
+                    #endregion
+
+
+                    //Actualiza Estado
                     int cant = objB_OT.OT_UpdateEstado(objE_OT);
                     if (cant == 1)
                     {
@@ -5748,20 +5783,22 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     else if (cant == 0)
                     {
                         GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_MODI"), 2);
+                        Mouse.OverrideCursor = null;
                         return;
                     }
                     else if (cant == 1205)
                     {
                         GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "GRAB_CONC"), 2);
+                        Mouse.OverrideCursor = null;
                         return;
                     }
 
                     # region ENVIAR_CORREO_USUARIOS_ALMACEN
                     string cuerpoEmail = "", asuntoEmail = "";
-                    objE_OT = new E_OT();
-                    objE_OT.IdOT = IdOT;
-                    cuerpoEmail = objB_OTArticulo.BodyEmail(objE_OT);
-                    asuntoEmail = "OT: " + objB_OTArticulo.SubjectEmail(objE_OT) + " - REPUESTOS NO UTILIZADOS";
+                    E_OT objOT = new E_OT();
+                    objOT.IdOT = IdOT;
+                    cuerpoEmail = objB_OTArticulo.BodyEmail(objOT);
+                    asuntoEmail = "OT: " + objB_OTArticulo.SubjectEmail(objOT) + " - REPUESTOS NO UTILIZADOS";
 
                     DataTable tlbcorreo = new DataTable();
                     B_Correo objco = new B_Correo();
@@ -5830,18 +5867,14 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     }
                     #endregion
 
-                    #region REQUERIMIENTO_02_CELSA
-                    var rptPM = DevExpress.Xpf.Core.DXMessageBox.Show("Desea definir la fecha del próximo plan de mantenimiento?", "Próximo Plan de Mantenimiento", MessageBoxButton.YesNo, MessageBoxImage.Question);
-                    if (rptPM == MessageBoxResult.Yes)
-                    {
-                        stkDatosNuevoPM.Visibility = System.Windows.Visibility.Visible;
-                        dtpFechaNuevoPM.IsEnabled = true;
-                    }
-                    #endregion
+
                 }
+
+                Mouse.OverrideCursor = null;
             }
             catch (Exception ex)
             {
+                Mouse.OverrideCursor = null;
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
                 GlobalClass.ip.Mensaje(ex.Message, 3);
             }
@@ -5863,6 +5896,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             {
                 txthoraini.Text = Utilitarios.Utilitarios.SoloHora(txthoraini.Text);
             }
+
             catch (Exception ex)
             {
                 GlobalClass.ip.Mensaje(ex.Message, 3);
@@ -5898,10 +5932,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             if (tblOT.Rows.Count > 0)
             {
 
-        
+
                 codTipoReq = tblOT.Rows[0]["CodTipoRequerimiento"].ToString() == "" ? 0 : Convert.ToInt32(tblOT.Rows[0]["CodTipoRequerimiento"].ToString());
 
-                if(codTipoReq == (int)TipoRequerimientoEnum.Averia)
+                if (codTipoReq == (int)TipoRequerimientoEnum.Averia)
                 {
 
                     #region RequerimientoCelsa

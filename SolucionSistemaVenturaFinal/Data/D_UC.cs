@@ -51,6 +51,10 @@ namespace Data
                 cmd.Parameters.Add("@tblUCComp", SqlDbType.Structured).Value = tblPerfilComponentes;
                 cmd.Parameters.Add("@tblItem_Ciclo", SqlDbType.Structured).Value = tblPerfilCompCiclo;
                 cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_UC.FechaModificacion;
+
+                cmd.Parameters.Add("@FechaInicioUso", SqlDbType.DateTime).Value = E_UC.FechaInicioUso;
+                cmd.Parameters.Add("@ConContadorAutomatico", SqlDbType.Bit).Value = E_UC.ConContadorAutomatico;
+                cmd.Parameters.Add("@FechaUltimoControl", SqlDbType.DateTime).Value = E_UC.FechaUltimoControl;
                 cmd.ExecuteNonQuery();
                 rpta = Int32.Parse(cmd.Parameters["@IdError"].Value.ToString());
                 cx.Close();
@@ -255,7 +259,7 @@ namespace Data
         }
 
         #region REQUERIMIENTO_03_CELSA
-        public static DataTable ContadoresxUC_List(string IdUc)
+        public static DataTable ContadoresxUC_List(string IdUc,int cicloPorDefecto)
         {
             DataTable tbl = new DataTable();
             using (SqlConnection cx = Conexion.ObtenerConexion())
@@ -264,12 +268,31 @@ namespace Data
                 SqlCommand cmd = new SqlCommand("ContadoresxUC_List", cx);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@CodUC", SqlDbType.VarChar).Value = IdUc;
+                cmd.Parameters.Add("@CodCiclo", SqlDbType.Int).Value = cicloPorDefecto;
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(tbl);
                 cx.Close();
             }
             return tbl;
         }
+
+
+        public static void UC_UpdateFechaUltimoControl(E_OT E_OT)
+        {
+            int nrofil = 0;
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                SqlCommand cmd = new SqlCommand("UC_UpdateFechaUltimoControl", cx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@IdOT", SqlDbType.Int).Value = E_OT.IdOT;
+                cmd.Parameters.Add("@FechaCierre", SqlDbType.DateTime).Value = E_OT.FechaCierre;
+                cmd.Parameters.Add("@IdUsuario", SqlDbType.Int).Value = E_OT.IdUsuarioModificacion;
+                cmd.ExecuteNonQuery();
+                cx.Close();
+            }
+        }
+
         #endregion
     }
 }

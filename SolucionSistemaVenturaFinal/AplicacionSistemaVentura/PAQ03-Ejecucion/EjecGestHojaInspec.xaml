@@ -79,6 +79,10 @@
             </TabItem>
             <TabItem Header="Consulta de Hoja de Inspección" Name="tbDetalleHI">
                 <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="125*"/>
+                        <ColumnDefinition Width="354*"/>
+                    </Grid.ColumnDefinitions>
                     <Label Content="Código:" HorizontalAlignment="Left" Margin="10,9,0,0" Name="label1" VerticalAlignment="Top" />
                     <Label Content="Nuevo Código" HorizontalAlignment="Left" Margin="98,9,0,0" Name="LbLHojaInspeccion" VerticalAlignment="Top" />
 
@@ -106,39 +110,39 @@
                         <dxe:ButtonInfo Name="btnAbrirHR" GlyphKind="Search" ToolTipService.ToolTip="Seleccionar Hoja de Requerimiento" Click="btnAbrirHR_Click" />
                     </dxe:ButtonEdit>-->
 
-                    <Label Content="Unidad de Control:" HorizontalAlignment="Left" Margin="246,9,0,0" Name="label4" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="349,6,0,0" Name="cboUnidadControl" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboUnidadControl_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
+                    <Label Content="Unidad de Control:" HorizontalAlignment="Left" Margin="246,9,0,0" Name="label4" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="99.4,6,0,0" Name="cboUnidadControl" VerticalAlignment="Top" Width="130" SelectedIndexChanged="cboUnidadControl_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" Grid.Column="1"/>
 
-                    <Label Content="Perfil:" HorizontalAlignment="Left" Margin="246,39,0,0" Name="label2" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="349,36,0,0" Name="cboPerfil" VerticalAlignment="Top" Width="130" IsEnabled="False"/>
+                    <Label Content="Perfil:" HorizontalAlignment="Left" Margin="246,39,0,0" Name="label2" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="99.4,36,0,0" Name="cboPerfil" VerticalAlignment="Top" Width="130" IsEnabled="False" Grid.Column="1"/>
 
-                    <Label Content="Estado:" HorizontalAlignment="Left" Margin="526,9,0,0" Name="label5" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="576,6,0,0" Name="cboEstado" VerticalAlignment="Top" Width="125" SelectedIndexChanged="cboEstado_SelectedIndexChanged"/>
+                    <Label Content="Estado:" HorizontalAlignment="Left" Margin="276.4,9,0,0" Name="label5" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="326.4,6,0,0" Name="cboEstado" VerticalAlignment="Top" Width="125" SelectedIndexChanged="cboEstado_SelectedIndexChanged" Grid.Column="1"/>
 
-                    <Label Content="Fecha:" HorizontalAlignment="Left" Margin="526,39,0,0" Name="label22" VerticalAlignment="Top" />
-                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Margin="576,36,0,0" Width="125" Name="dtpFechaHI" VerticalAlignment="Top" HorizontalAlignment="Left" EditValueChanged="dtpFechaHI_EditValueChanged"/>
+                    <Label Content="Fecha:" HorizontalAlignment="Left" Margin="276.4,39,0,0" Name="label22" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Margin="326.4,36,0,0" Width="125" Name="dtpFechaHI" VerticalAlignment="Top" HorizontalAlignment="Left" EditValueChanged="dtpFechaHI_EditValueChanged" Grid.Column="1"/>
 
-                    <Label Content="Fecha Inicial:" HorizontalAlignment="Left" Margin="282,389,0,0" Name="label6" VerticalAlignment="Top" />
-                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Margin="379,386,0,0" Width="140" Name="dtpFechaInicio" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-                    
-                    <Label Content="Fecha Final:" HorizontalAlignment="Left" Margin="588,389,0,0" Name="label21" VerticalAlignment="Top" />
-                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" HorizontalAlignment="Left" Margin="679,386,0,0" Width="140" Name="dtpFechaFinal" VerticalAlignment="Top"/>
+                    <Label Content="Fecha Inicial:" HorizontalAlignment="Left" Margin="32.4,389,0,0" Name="label6" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Margin="129.4,386,0,0" Width="140" Name="dtpFechaInicio" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1"/>
+
+                    <Label Content="Fecha Final:" HorizontalAlignment="Left" Margin="338.4,389,0,0" Name="label21" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" HorizontalAlignment="Left" Margin="429.4,386,0,0" Width="140" Name="dtpFechaFinal" VerticalAlignment="Top" Grid.Column="1"/>
 
                     <Label Content="Responsable:" HorizontalAlignment="Left" Margin="10,389,0,0" Name="label10" VerticalAlignment="Top" />
-                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="117,386,0,0" Name="cboResponsable" VerticalAlignment="Top" Width="140" SelectedIndexChanged="cboResponsable_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
+                    <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="117,386,0,0" Name="cboResponsable" VerticalAlignment="Top" Width="140" SelectedIndexChanged="cboResponsable_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False" Grid.ColumnSpan="2"/>
 
                     <Label Content="Tiempo dedicado:" HorizontalAlignment="Left" Margin="10,419,0,0" Name="label11" VerticalAlignment="Top" />
                     <Label Content="0" Width="50" HorizontalAlignment="Left" Margin="118,419,0,0" Name="lblCantHoras" VerticalAlignment="Top" FontWeight="Bold" HorizontalContentAlignment="Right" />
                     <Label Content="Horas" HorizontalAlignment="Left" Margin="176,419,0,0" Name="lblTipoTiempo" VerticalAlignment="Top" />
-                    <dxe:ButtonEdit Name="btnHorasDedicadas" AllowDefaultButton="False" HorizontalAlignment="Left" Margin="230,416,0,0" ShowText="False" VerticalAlignment="Top" Width="25">
+                    <dxe:ButtonEdit Name="btnHorasDedicadas" AllowDefaultButton="False" HorizontalAlignment="Left" Margin="230,416,0,0" ShowText="False" VerticalAlignment="Top" Width="25" Grid.ColumnSpan="2">
                         <dxe:ButtonInfo Name="btnAbrirHorasDedicadas" GlyphKind="Search" ToolTipService.ToolTip="Ver detalles de horas dedicadas" Click="btnAbrirHorasDedicadas_Click" />
                     </dxe:ButtonEdit>
 
-                    <Label Content="Contador Inicial:" HorizontalAlignment="Left" Margin="282,419,0,0" Name="label14" VerticalAlignment="Top" />
-                    <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" EditValue="0" HorizontalAlignment="Left" Margin="379,416,0,0" Name="txtKilomInicial" VerticalAlignment="Top" Width="140" />
+                    <Label Content="Contador Inicial:" HorizontalAlignment="Left" Margin="32.4,419,0,0" Name="label14" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" EditValue="0" HorizontalAlignment="Left" Margin="129.4,416,0,0" Name="txtKilomInicial" VerticalAlignment="Top" Width="140" Grid.Column="1" />
 
-                    <Label Content="Contador Final:" HorizontalAlignment="Left" Margin="588,419,0,0" Name="label15" VerticalAlignment="Top" />
-                    <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" EditValue="0" HorizontalAlignment="Left" Margin="679,416,0,0" Name="txtKilomFinal" VerticalAlignment="Top" Width="140" />
+                    <Label Content="Contador Final:" HorizontalAlignment="Left" Margin="338.4,419,0,0" Name="label15" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:TextEdit Style="{DynamicResource FormatoDecimal}" EditValue="0" HorizontalAlignment="Left" Margin="429.4,416,0,0" Name="txtKilomFinal" VerticalAlignment="Top" Width="140" Grid.Column="1" />
 
                     <TreeView  Height="272" Width="221"  Margin="10,97,0,0" x:Name="trvComp" 
                                VerticalAlignment="Top" HorizontalAlignment="Left" ItemContainerStyle="{StaticResource TreeViewItemStyle}"
@@ -146,7 +150,7 @@
 
                     <CheckBox Content="Requiere Orden de Trabajo" Height="16" HorizontalAlignment="Left" Margin="10,68,0,0" Name="chkReqOT" VerticalAlignment="Top" VerticalContentAlignment="Center" Click="chkReqOT_Click"/>
 
-                    <GroupBox Header="Actividades - Componente" Name="grbActividades" Margin="260,89,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="92" Width="679">
+                    <GroupBox Header="Actividades - Componente" Name="grbActividades" Margin="10.4,89,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="92" Width="679" Grid.Column="1">
                         <Grid>
                             <RadioButton Content="Segun Plan de Mantenimiento" Height="16" HorizontalAlignment="Left" Margin="10,9,0,0" Name="rbnPlanMantenimiento" VerticalAlignment="Top" Checked="rbnPlanMantenimiento_Checked"/>
                             <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="190,8,0,0" Name="cboPlanMantenimiento" VerticalAlignment="Top" Width="277" SelectedIndexChanged="cboPlanMantenimiento_SelectedIndexChanged" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
@@ -154,7 +158,7 @@
                             <RadioButton Content="Asginación Manual" Height="16" HorizontalAlignment="Left" Margin="10,49,0,0" Name="rbnManual" VerticalAlignment="Top" Checked="rbnManual_Checked"/>
                         </Grid>
                     </GroupBox>
-                    <TabControl Height="162" Margin="507,207,15,0" Name="tabControl2" VerticalAlignment="Top">
+                    <TabControl Height="162" Margin="257.4,207,14.6,0" Name="tabControl2" VerticalAlignment="Top" Grid.Column="1">
                         <TabItem Header="Tarea" Name="tabItem3">
                             <Grid>
                                 <dxg:GridControl Name="dtgTareas" AutoGenerateColumns="None" Margin="34,6,5,6">
@@ -268,22 +272,22 @@
                             </Grid>
                         </TabItem>
                     </TabControl>
-                    <Label Content="Actividad:" HorizontalAlignment="Left" Margin="262,188,0,0" Name="label8" VerticalAlignment="Top" />
-                    <dxe:ListBoxEdit Margin="260,207,0,0" Name="lstbActividad" Height="162" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222" SelectedIndexChanged="lstbActividad_SelectedIndexChanged" KeyUp="lstbActividad_KeyUp" />
-                        
-                    <dxe:ButtonEdit Name="btnActividad" AllowDefaultButton="False" HorizontalAlignment="Left" Margin="315,185,0,0" ShowText="False" VerticalAlignment="Top" Width="20" Height="20">
+                    <Label Content="Actividad:" HorizontalAlignment="Left" Margin="12.4,188,0,0" Name="label8" VerticalAlignment="Top" Grid.Column="1" />
+                    <dxe:ListBoxEdit Margin="10.4,207,0,0" Name="lstbActividad" Height="162" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222" SelectedIndexChanged="lstbActividad_SelectedIndexChanged" KeyUp="lstbActividad_KeyUp" Grid.Column="1" />
+
+                    <dxe:ButtonEdit Name="btnActividad" AllowDefaultButton="False" HorizontalAlignment="Left" Margin="65.4,185,0,0" ShowText="False" VerticalAlignment="Top" Width="20" Height="20" Grid.Column="1">
                         <dxe:ButtonInfo Name="btnAbrirActividades" GlyphKind="Search" ToolTipService.ToolTip="Seleccionar Actividades" Click="btnAbrirActividades_Click" />
                     </dxe:ButtonEdit>
-                    <CheckBox Content="Programado" Height="16" HorizontalAlignment="Left" Margin="765,6,0,0" Name="chkProgramado" VerticalAlignment="Top" VerticalContentAlignment="Center" IsEnabled="False"/>
-                    <Label Content="Nro OT:" HorizontalAlignment="Left" Margin="765,37,0,0" Name="lbl1" VerticalAlignment="Top" />
-                    <Label Content="" HorizontalAlignment="Left" Margin="810,37,0,0" Name="lblNroOT" VerticalAlignment="Top" FontWeight="Bold" />
+                    <CheckBox Content="Programado" Height="16" HorizontalAlignment="Left" Margin="515.4,6,0,0" Name="chkProgramado" VerticalAlignment="Top" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+                    <Label Content="Nro OT:" HorizontalAlignment="Left" Margin="515.4,37,0,0" Name="lbl1" VerticalAlignment="Top" Grid.Column="1" />
+                    <Label Content="" HorizontalAlignment="Left" Margin="560.4,37,0,0" Name="lblNroOT" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="1" />
 
                     <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="10,454,0,0" Name="label17" VerticalAlignment="Top" />
-                    <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" HorizontalAlignment="Left" Margin="117,457,0,30" Name="txtComentarios" Width="471" TextWrapping="Wrap" VerticalContentAlignment="Top" EditValueChanged="txtComentarios_EditValueChanged"/>
+                    <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" HorizontalAlignment="Left" Margin="117,457,0,30.4" Name="txtComentarios" Width="471" TextWrapping="Wrap" VerticalContentAlignment="Top" EditValueChanged="txtComentarios_EditValueChanged" Grid.ColumnSpan="2"/>
 
-                    <Button Style="{DynamicResource buttonStyle}" IsDefault="True" HorizontalAlignment="Right" Margin="0,0,240,30" VerticalAlignment="Bottom" Click="BtnGrabar_Click" Content="Aceptar" Name="btnGrabar"/>
-                    <Button Style="{DynamicResource buttonStyle}" IsCancel="True" HorizontalAlignment="Right" Margin="0,0,130,30" VerticalAlignment="Bottom" Click="BtnCancelar_Click" Content="Cancelar" Name="btnCancelar"/>
-                    <Button Style="{DynamicResource buttonStyle}" IsCancel="False" HorizontalAlignment="Right" Margin="0,0,20,30" VerticalAlignment="Bottom" Click="btnImprimir_Click" Content="Imprimir" Name="btnImprimir"/>
+                    <Button Style="{DynamicResource buttonStyle}" IsDefault="True" HorizontalAlignment="Right" Margin="0,0,239.6,30.4" VerticalAlignment="Bottom" Click="BtnGrabar_Click" Content="Aceptar" Name="btnGrabar" Grid.Column="1"/>
+                    <Button Style="{DynamicResource buttonStyle}" IsCancel="True" HorizontalAlignment="Right" Margin="0,0,129.6,30.4" VerticalAlignment="Bottom" Click="BtnCancelar_Click" Content="Cancelar" Name="btnCancelar" Grid.Column="1"/>
+                    <Button Style="{DynamicResource buttonStyle}" IsCancel="False" HorizontalAlignment="Right" Margin="0,0,19.6,30.4" VerticalAlignment="Bottom" Click="btnImprimir_Click" Content="Imprimir" Name="btnImprimir" Grid.Column="1"/>
 
                     <!--<dxe:ButtonEdit AllowDefaultButton="False" Height="28" HorizontalAlignment="Left" Margin="775,628,0,0" Name="buttonEdit4" ShowText="False" VerticalAlignment="Top" Width="100">
                         <dxe:ButtonInfo Content="Cancelar" Name="BtnCancelar"  Click="BtnCancelar_Click"/>
@@ -292,7 +296,7 @@
                         <dxe:ButtonInfo Content="Grabar" Name="BtnGrabar" Click="BtnGrabar_Click" />
                     </dxe:ButtonEdit>-->
 
-                    <DockPanel Margin="0,0,0,0" Visibility="Visible" Name="sbAuditoria" VerticalAlignment="Bottom">
+                    <DockPanel Margin="0,0,-0.4,0.4" Visibility="Visible" Name="sbAuditoria" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
                         <StatusBar DockPanel.Dock="Top" Style="{DynamicResource Auditoria}">
                             <StatusBar.ItemsPanel>
                                 <ItemsPanelTemplate>
@@ -376,7 +380,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Name="stkPanelTareas" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.75"/>
             <Border MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
@@ -398,7 +402,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Name="stkPanelHerramientas" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.75"/>
             <Border MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
@@ -418,7 +422,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Name="stkPanelRepuestos" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.75"/>
             <Border MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
@@ -438,7 +442,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Name="stkPanelConsumibles" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.75"/>
             <Border MinWidth="300" Background="White" BorderThickness="5" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="#FF5AA6CB">
@@ -459,7 +463,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Name="stkTiempoDedicado" Visibility="Collapsed">
             <Grid Background="Black" Opacity="0.75"/>
             <Border MinWidth="300" Background="White"                
@@ -475,18 +479,18 @@
                             <Label Content="Personal:" Height="21" HorizontalAlignment="Left" Margin="7,11,0,0" Name="label42" VerticalAlignment="Top" Width="55" />
                             <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="72,11,0,0" Name="cboTrabajador" VerticalAlignment="Top" Width="153" AutoComplete="False" FilterCondition="Contains" IncrementalFiltering="True" ValidateOnTextInput="False"/>
                             <Label Content="Fecha:" Height="22" HorizontalAlignment="Left" Margin="237,11,0,0" Name="label67" VerticalAlignment="Top" Width="49" />
-                            
+
                             <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="298,11,0,0" x:Name="dtpFechaTarea"  MaskType="DateTime" Mask="dd/MM/yyyy" MaskUseAsDisplayFormat="True" Width="158"/>
                             <Label Content="Hora Inicio:" Height="22" HorizontalAlignment="Left" Margin="6,42,0,0" Name="label68" VerticalAlignment="Top" Width="65" />
-                            
+
                             <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="74,43,0,0" x:Name="txthoraini" EditValue="00:00" MaskType="DateTime" Mask="HH:mm" MaskUseAsDisplayFormat="True" Width="85"/>
                             <Label Content="Hora Fin:" Height="26" HorizontalAlignment="Left" Margin="238,43,0,0" Name="label69" VerticalAlignment="Top" Width="75" />
-                            
+
                             <dxe:TextEdit VerticalAlignment="Top" HorizontalAlignment="Left" Margin="299,42,0,0" x:Name="txthorafin" EditValue="00:00" MaskType="DateTime" Mask="HH:mm" MaskUseAsDisplayFormat="True" Width="85"/>
                             <Button Style="{DynamicResource buttonStyle}" IsDefault="False" HorizontalAlignment="Left" Margin="500,8,0,0" VerticalAlignment="Top" Width="72" Content="Agregar" Name="btnAgregarTrabajador" Click="btnAgregarTrabajador_Click"/>
-                            
+
                             <Button Style="{DynamicResource buttonStyle}" IsCancel="False" HorizontalAlignment="Left" Margin="500,38,0,0" VerticalAlignment="Top" Width="72" Content="Salir" Name="btnCancelarTrabajador" Click="btnCancelarTrabajador_Click"/>
-                            
+
                             <dxg:GridControl AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Height="145" HorizontalAlignment="Left" Margin="10,72,0,0" Name="dtgListarTrabajador" VerticalAlignment="Top" Width="667">
                                 <dxg:GridControl.Columns>
                                     <dxg:GridColumn Header="Trabajador"  FieldName="Responsable" VisibleIndex="0" Width="240" ReadOnly="True" />

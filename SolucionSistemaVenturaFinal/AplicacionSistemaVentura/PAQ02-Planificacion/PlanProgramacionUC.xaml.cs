@@ -10,6 +10,7 @@ using System.ComponentModel;
 using System.Windows.Threading;
 using Utilitarios.Constantes;
 using Utilitarios.Enum;
+using System.Windows.Input;
 
 namespace AplicacionSistemaVentura.PAQ02_Planificacion
 {
@@ -96,6 +97,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
         DispatcherTimer TimerProgramacion = new DispatcherTimer();
         int gintTimer = 0;
         int commportamientoSalidaStock = 1;
+
 
         void OnFocus(object sender, RoutedEventArgs e)
         {
@@ -218,6 +220,9 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 tblProgramacionDet.Columns.Add("Nuevo", Type.GetType("System.Boolean"));
                 tblProgramacionDet.Columns.Add("TipoOT", Type.GetType("System.Int32"));
                 tblProgramacionDet.Columns.Add("FechaProgramacion", Type.GetType("System.String"));
+                tblProgramacionDet.Columns.Add("FechaUltimaMantenimiento", Type.GetType("System.String"));
+                tblProgramacionDet.Columns.Add("FechaProgramadaSistema", Type.GetType("System.String"));
+
 
                 //Tabla Bitacora
                 tblBitacora.Columns.Add("LineNum", Type.GetType("System.Int32"));
@@ -397,10 +402,11 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                     if (gstrFiltroActPend.Trim() != "" || gstrFiltroTodos.Trim() != "") { gstrFiltroTipoMmto += "AND "; }
                     if (gstrFiltroActPend.Trim() != "" && gstrFiltroTodos.Trim() != "") { gstrFiltroActPend += "AND "; }
                     string Filtro = gstrFiltroTipoMmto + gstrFiltroActPend + gstrFiltroTodos;
+                    gstrSortActPrio = "Fecha Registro desc";
                     string Sort = gstrSortActPrio;
                     DataView dtvProgramacionDatos = new DataView(tblProgramacionDatos);
                     dtvProgramacionDatos.RowFilter = Filtro;
-                    dtvProgramacionDatos.Sort = Sort;
+                    //dtvProgramacionDatos.Sort = Sort;
                     tblProgramacionDatos = dtvProgramacionDatos.ToTable();
                 }
                 else if ((bool)RdnCorrectivo.IsChecked)
@@ -429,6 +435,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
             }
             catch (Exception ex)
             {
+                Mouse.OverrideCursor = null;
                 GlobalClass.ip.Mensaje(ex.Message, 3);
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
             }
@@ -437,11 +444,14 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
         {
             try
             {
+
+
+                Mouse.OverrideCursor = Cursors.Wait;
                 gbolAllActividades = true;
-                if (ValidaConsulta() == true) { return; }
+                if (ValidaConsulta() == true) { Mouse.OverrideCursor = null; return; }
                 objE_Programacion.FechaProgramacion = Convert.ToDateTime(dtpFechaProgram.EditValue);
 
-                if (RdnCorrectivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 2 "; objE_Programacion.TipoMantenimiento = 2; }
+                if (RdnCorrectivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 2 "; objE_Programacion.TipoMantenimiento = 2;  }
                 else if (RdnPreventivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 1 "; objE_Programacion.TipoMantenimiento = 1; }
 
                 objE_Programacion.FechaProgramacion = Convert.ToDateTime(dtpFechaProgram.EditValue);
@@ -456,9 +466,11 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 else { gstrFiltroTodos = "Semaforo <> 'Verde' "; }
 
                 ProgramacionList();
+                Mouse.OverrideCursor = null;
             }
             catch (Exception ex)
             {
+                Mouse.OverrideCursor = null;
                 GlobalClass.ip.Mensaje(ex.Message, 3);
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
             }
@@ -870,7 +882,10 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 dr["FlagRealizado"] = false;
                 dr["Nuevo"] = true;
                 dr["TipoOT"] = Convert.ToInt32(dr2["IdTipoOT"]);
+
                 dr["FechaProgramacion"] = DateTime.Parse(dr2["FechaProgramacion"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
+                dr["FechaUltimaMantenimiento"] = dr2["FechaUltimaMantenimiento"] == DBNull.Value?"": DateTime.Parse(dr2["FechaUltimaMantenimiento"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
+                dr["FechaProgramadaSistema"] = dr2["FechaProgramadaSistema"]==DBNull.Value?"": DateTime.Parse(dr2["FechaProgramadaSistema"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
                 tblProgramacionDet.Rows.Add(dr);
             }
 
@@ -1516,6 +1531,10 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                     objE_Programacion.Observacion = TxTComentarios.Text;
                     objE_Programacion.FlagActivo = true;
 
+
+                    tblProgramacionDet.Columns.Remove("FechaUltimaMantenimiento");
+                    tblProgramacionDet.Columns.Remove("FechaProgramadaSistema");
+
                     int rpta = objB_Programacion.Programacion_UpdateCascade(objE_Programacion, tblBitacora, tblProgramacionDet);
                     if (rpta != 0)
                     {
@@ -1523,6 +1542,9 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                     }
                     tblProgramacionDet.Columns.Add("TipoOT", Type.GetType("System.Int32"));
                     tblProgramacionDet.Columns.Add("FechaProgramacion", Type.GetType("System.String"));
+
+                    tblProgramacionDet.Columns.Add("FechaUltimaMantenimiento", Type.GetType("System.String"));
+                    tblProgramacionDet.Columns.Add("FechaProgramadaSistema", Type.GetType("System.String"));
                 }
                 else
                 {
@@ -1572,6 +1594,8 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
 
         void LlenarStock(out string salida)
         {
+
+            int valorAlmacen = 0;
             string LineNum = "";
 
             if ((bool)RdnPreventivo.IsChecked)
@@ -1603,6 +1627,12 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
             tblVerStock.Columns.Add("Cantidad");
             tblVerStock.Columns.Add("Stock");
 
+            if (commportamientoSalidaStock == (int)EstadoEnum.Inactivo)
+            {
+                valorAlmacen = 1;
+            }
+  
+
             DataRow dr;
             for (int i = 0; i < tmpGetStock.Rows.Count; i++)
             {
@@ -1612,7 +1642,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 dr["Actividad"] = tmpGetStock.Rows[i]["Actividad"].ToString();
                 dr["TipoArticulo"] = tmpGetStock.Rows[i]["TipoArticulo"].ToString();
                 dr["IdArticulo"] = tmpGetStock.Rows[i]["IdArticulo"].ToString();
-                BEOITMList = InterfazMTTO.iSBO_BL.Articulo_BL.ListarArticulos(tmpGetStock.Rows[i]["IdArticulo"].ToString(), tblAlmacenes.Rows[0]["Valor"].ToString(), ref RPTA);
+                BEOITMList = InterfazMTTO.iSBO_BL.Articulo_BL.ListarArticulos(tmpGetStock.Rows[i]["IdArticulo"].ToString(), tblAlmacenes.Rows[valorAlmacen]["Valor"].ToString(), ref RPTA);
                 if (RPTA.CodigoErrorUsuario == "000")
                 {
                     dr["Articulo"] = BEOITMList[0].DescripcionArticulo;

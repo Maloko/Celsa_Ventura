@@ -10,6 +10,7 @@ using Utilitarios;
 using Entities;
 using Business;
 using InterfazMTTO;
+using Utilitarios.Enum;
 
 namespace AplicacionSistemaVentura.PAQ01_Definicion
 {
@@ -271,6 +272,14 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
 
 
                 fechaInicio.SelectedDate = DateTime.Now.Date;
+
+                labelContadorAutomatico.Visibility = Visibility.Hidden;
+                checkContadorAutomatico.Visibility = Visibility.Hidden;
+                fechaInicio.Visibility = Visibility.Hidden;
+                labelFechaInicio.Visibility = Visibility.Hidden;
+                fechaInicio.Visibility = Visibility.Hidden;
+
+
 
                 GlobalClass.ControlSubMenu(this.GetType().Name, gridTabLista);
                 cboEstado.SelectedIndexChanged -= new RoutedEventHandler(cboEstado_SelectedIndexChanged);
@@ -787,6 +796,53 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
 
                 int IdPerfil = Convert.ToInt32(cboPerfil.EditValue);
                 string IdTipoUnidad = "";
+
+                #region "Planes de Mantenimiento=>,"Cargar Ciclo por Defecto de perfil seleccionado"
+                B_Ciclo objCiclos = new B_Ciclo();
+                E_Perfil E_Perfil = new E_Perfil();
+                E_Perfil.Idperfil = IdPerfil;
+                DataView dtvciclos = objCiclos.Ciclo_ComboByPerfil(E_Perfil).DefaultView;
+                dtvciclos.RowFilter = "IdTipoCiclo = 2";
+                CboCiclo.ItemsSource = dtvciclos;
+                CboCiclo.DisplayMember = "Ciclo";
+                CboCiclo.ValueMember = "IdCiclo";
+
+                DataTable tblPerfil = new DataTable();
+                tblPerfil = objPerfil.Perfil_GetItem(E_Perfil);
+                CboCiclo.EditValue = Convert.ToInt32(tblPerfil.Rows[0]["IdCicloDefecto"]);
+
+                int idCicloDefec= Convert.ToInt32(tblPerfil.Rows[0]["IdCicloDefecto"]);
+
+
+
+                if(idCicloDefec==(int)CicloEnum.Dias)
+                {
+
+                    labelContadorAutomatico.Visibility = Visibility.Visible;
+                    checkContadorAutomatico.Visibility = Visibility.Visible;
+                    fechaInicio.Visibility = Visibility.Visible;
+                    labelFechaInicio.Visibility = Visibility.Visible;
+                    fechaInicio.Visibility = Visibility.Visible;
+
+
+                    checkContadorAutomatico.IsEnabled = true;
+                    checkContadorAutomatico.IsChecked = true;
+
+
+                }
+                else
+                {
+                    labelContadorAutomatico.Visibility = Visibility.Hidden;
+                    checkContadorAutomatico.Visibility = Visibility.Hidden;
+
+                    labelFechaInicio.Visibility = Visibility.Hidden;
+                    fechaInicio.Visibility = Visibility.Hidden;
+
+                    checkContadorAutomatico.IsChecked = false;
+                    
+                 
+                }
+                #endregion
 
                 foreach (DataRow drPerfil in tblPerfil.Select("IdPerfil = " + IdPerfil))
                 {

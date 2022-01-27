@@ -124,10 +124,16 @@ namespace Business
         }
 
         #region REQUERIMIENTO_03_CELSA
-        public DataTable ContadoresxUC_List(string IdUc)
+        public DataTable ContadoresxUC_List(string IdUc,int cicloPorDefecto)
         {
-            return D_UC.ContadoresxUC_List(IdUc);
+            return D_UC.ContadoresxUC_List(IdUc, cicloPorDefecto);
         }
+
+        public void UC_UpdateFechaUltimaControl(E_OT E_OT)
+        {
+             D_UC.UC_UpdateFechaUltimoControl(E_OT);
+        }
+
         #endregion
     }
 }

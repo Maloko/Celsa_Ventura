@@ -77,11 +77,13 @@
   <ItemGroup>
     <Compile Include="Constantes\CicloConst.cs" />
     <Compile Include="DebugHandler.cs" />
+    <Compile Include="Enum\CicloEnum.cs" />
     <Compile Include="Enum\ColumnaMaestra.cs" />
     <Compile Include="Enum\EstadoEnum.cs" />
     <Compile Include="Enum\EstadoUCEnum.cs" />
     <Compile Include="Enum\MaestraEnum.cs" />
     <Compile Include="Enum\MenuEnum.cs" />
+    <Compile Include="Enum\TipoMantenimientoEnum.cs" />
     <Compile Include="Enum\TipoRequerimientoEnum.cs" />
     <Compile Include="ErrorHandler.cs" />
     <Compile Include="IniParser.cs" />

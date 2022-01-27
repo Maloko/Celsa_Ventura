@@ -19,5 +19,8 @@ namespace Entities
         public string Observacion { get; set; }
         public string PlacaSerie { get; set; }
         public int IdEstadoUC { get; set; }
+        public DateTime FechaInicioUso { get; set; }
+        public bool? ConContadorAutomatico { get; set; }
+        public DateTime FechaUltimoControl { get; set; }
     }
 }
