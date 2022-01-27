@@ -93,7 +93,7 @@
                     </dxg:GridColumn.EditSettings>
                 </dxg:GridColumn>
 
-                <dxg:GridColumn FieldName="FechaProgramadaSistema" Header="Fecha Recomendada" VisibleIndex="3" Width="130" >
+                <dxg:GridColumn FieldName="FechaProgramadaSistema" Header="Fecha Recomendada" VisibleIndex="3" Width="120" >
                     <dxg:GridColumn.EditSettings>
                         <dxe:TextEditSettings MaskType="DateTime" Mask="g" DisplayFormat="g"/>
                     </dxg:GridColumn.EditSettings>
