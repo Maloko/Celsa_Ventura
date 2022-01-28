@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Business;
 using Entities;
 using System.Windows.Threading;
@@ -18,10 +8,7 @@ using System.Data;
 using DevExpress.Xpf.Core;
 using System.Configuration;
 using System.IO;
-
 using System.ComponentModel;
-using System.Threading;
-
 using Utilitarios;
 
 namespace AplicacionSistemaVentura.PAQ06_Seguridad
@@ -58,8 +45,8 @@ namespace AplicacionSistemaVentura.PAQ06_Seguridad
         private void DXWindow_Loaded(object sender, RoutedEventArgs e)
         {
 
-            txtPassword.Password = "1234";
-            txtUsuario.Text = "MANAGER";
+            //txtPassword.Password = "1234";
+            //txtUsuario.Text = "MANAGER";
 
             bgwork.WorkerSupportsCancellation = true;
             bgwork.DoWork += worker_DoWork;
@@ -80,7 +67,7 @@ namespace AplicacionSistemaVentura.PAQ06_Seguridad
                 Utilitarios.Utilitarios.gstrBaseDatosSBO = tblMaestra.Rows[0]["Valor"].ToString();
 
             
-                btnIngresar_Click(null,null);
+                //btnIngresar_Click(null,null);
             }
             catch (Exception ex)
             {
@@ -185,6 +172,7 @@ namespace AplicacionSistemaVentura.PAQ06_Seguridad
             else
             {
                 string Manager = "MANAGER";
+                Manager = gstrUsuario.ToUpper();
                 if (!Convert.ToBoolean(gtblUsuario.Rows[0]["Licenciado"]) && gstrUsuario.ToUpper() != Manager)
                 {
                     gstrMensaje = Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaLogin, "MENS_USUA_LICE");
@@ -204,10 +192,8 @@ namespace AplicacionSistemaVentura.PAQ06_Seguridad
 
                         BEOUSR = new InterfazMTTO.iSBO_BE.BEOUSR()
                         {
-                            //CodigoUsuario = gstrUsuario,
-                            //Clave = gstrClave
-                            CodigoUsuario = "mcastillo",
-                            Clave = "1234"
+                            CodigoUsuario = gstrUsuario,
+                            Clave = gstrClave
                         };
                         BEPCSAP = new InterfazMTTO.iSBO_BE.BEPCSAP()
                         {
