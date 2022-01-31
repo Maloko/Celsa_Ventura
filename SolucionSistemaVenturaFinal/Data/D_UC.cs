@@ -129,6 +129,45 @@ namespace Data
             return objUc;
         }
 
+        public static E_UC UC_GetItemByIdUC(E_UC E_UC)
+        {
+            E_UC objUc = null;
+            using (SqlConnection cx = Conexion.ObtenerConexion())
+            {
+                cx.Open();
+                using (SqlCommand cmd = new SqlCommand("UC_GetItemByIdUc", cx))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@IdUC", SqlDbType.VarChar).Value = E_UC.IdUc;
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    if (dr.HasRows)
+                    {
+                        while (dr.Read())
+                        {
+                            objUc = new E_UC();
+                            objUc.IdUc = dr.GetInt32(0);
+                            objUc.CodUc = dr.GetString(1);
+                            objUc.PlacaSerie = dr.GetString(2);
+                            objUc.IdTipoUnidad = dr.GetString(3);
+                            objUc.ContadorAcum = dr.GetDecimal(4);
+                            objUc.IdPerfil = dr.GetInt32(5);
+                            if (!dr.IsDBNull(6))
+                            {
+                                objUc.IdPerfilNeumatico = dr.GetInt32(6);
+                            }
+                            objUc.Observacion = dr.GetString(7);
+                            objUc.IdEstadoUC = dr.GetInt32(8);
+                            objUc.FlagActivo = dr.GetBoolean(9) == true ? 1 : 0;
+                            objUc.ConContadorAutomatico = dr.GetBoolean(10);
+                        }
+                        dr.Close();
+                    }
+                }
+            }
+            return objUc;
+        }
+
+
         public static DataTable UC_Combo(E_UC E_UC)
         {
             DataTable tbl = new DataTable();

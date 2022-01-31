@@ -90,6 +90,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
         string gstrEtiquetaHojaInspeccion = "EjecGestHojaInspec";
 
+        bool ConContadorAutomatico = false;
+
         public EjecGestHojaInspec()
         {
             InitializeComponent();
@@ -467,17 +469,26 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_ContadorDet.IdTipoOperacion = 1;
                     objE_ContadorDet.NroDocOperacion = "";
                     objE_ContadorDet.IdDocCorregir = 0;
-                    objE_ContadorDet.FechaHoraIni = Convert.ToDateTime(dtpFechaInicio.EditValue);
-                    objE_ContadorDet.FechaHoraFin = Convert.ToDateTime(dtpFechaFinal.EditValue);
-                    objE_ContadorDet.ContadorIni = Convert.ToDouble(txtKilomInicial.EditValue);
-                    objE_ContadorDet.ContadorFin = Convert.ToDouble(txtKilomFinal.EditValue);
+                    objE_ContadorDet.FechaHoraIni = ConContadorAutomatico == true ? DateTime.Now: Convert.ToDateTime(dtpFechaInicio.EditValue);
+                    objE_ContadorDet.FechaHoraFin = ConContadorAutomatico == true ? DateTime.Now: Convert.ToDateTime(dtpFechaFinal.EditValue);
+                    objE_ContadorDet.ContadorIni = ConContadorAutomatico == true ? 0: Convert.ToDouble(txtKilomInicial.EditValue);
+                    objE_ContadorDet.ContadorFin = ConContadorAutomatico == true ? 0: Convert.ToDouble(txtKilomFinal.EditValue);
                     objE_ContadorDet.CodSolicitante = (cboHR.EditValue == null) ? "" : tblHRDetalle.Rows[0]["CodSolicitanteSAP"].ToString();
                     objE_ContadorDet.CodResponsable = cboResponsable.EditValue.ToString();
                     objE_ContadorDet.Observacion = txtComentarios.Text;
                     objE_ContadorDet.IdUsuario = Utilitarios.Utilitarios.gintIdUsuario;
 
                     string DescError = "";
-                    int RPTACO = objB_ContadorDet.ContadorDet_UpdateProcess(objE_ContadorDet, out DescError);
+
+                    int RPTACO;
+                    if (ConContadorAutomatico == true)
+                    {
+                        RPTACO = 1;
+                    }
+                    else {
+                        RPTACO = objB_ContadorDet.ContadorDet_UpdateProcess(objE_ContadorDet, out DescError);
+                    }
+                  
                     if (RPTACO > 0)
                     {
                         objE_HI.IdHI = 0;
@@ -490,10 +501,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         objE_HI.FlagProgramado = false;
                         objE_HI.CodResponsableSAP = cboResponsable.EditValue.ToString();
                         objE_HI.NombreResponsableSAP = cboResponsable.Text;
-                        objE_HI.FechaInicial = Convert.ToDateTime(dtpFechaInicio.EditValue);
-                        objE_HI.FechaFinal = Convert.ToDateTime(dtpFechaFinal.EditValue);
-                        objE_HI.KmInicial = Convert.ToDouble(txtKilomInicial.EditValue);
-                        objE_HI.KmFinal = Convert.ToDouble(txtKilomFinal.EditValue);
+                        objE_HI.FechaInicial = ConContadorAutomatico == true?DateTime.Now: Convert.ToDateTime(dtpFechaInicio.EditValue);
+                        objE_HI.FechaFinal = ConContadorAutomatico == true ? DateTime.Now : Convert.ToDateTime(dtpFechaFinal.EditValue);
+                        objE_HI.KmInicial = ConContadorAutomatico == true?0:Convert.ToDouble(txtKilomInicial.EditValue);
+                        objE_HI.KmFinal = ConContadorAutomatico == true ? 0 : Convert.ToDouble(txtKilomFinal.EditValue);
                         objE_HI.Observacion = txtComentarios.Text;
                         objE_HI.IdEstadoHI = Convert.ToInt32(cboEstado.EditValue);
                         objE_HI.FlagActivo = true;
@@ -547,10 +558,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_HI.FlagProgramado = false;
                     objE_HI.CodResponsableSAP = cboResponsable.EditValue.ToString();
                     objE_HI.NombreResponsableSAP = cboResponsable.Text;
-                    objE_HI.FechaInicial = Convert.ToDateTime(dtpFechaInicio.EditValue);
-                    objE_HI.FechaFinal = Convert.ToDateTime(dtpFechaFinal.EditValue);
-                    objE_HI.KmInicial = Convert.ToDouble(txtKilomInicial.EditValue);
-                    objE_HI.KmFinal = Convert.ToDouble(txtKilomFinal.EditValue);
+                    objE_HI.FechaInicial = ConContadorAutomatico == true ? DateTime.Now : Convert.ToDateTime(dtpFechaInicio.EditValue);
+                    objE_HI.FechaFinal = ConContadorAutomatico == true ? DateTime.Now : Convert.ToDateTime(dtpFechaFinal.EditValue);
+                    objE_HI.KmInicial = ConContadorAutomatico == true ? 0 : Convert.ToDouble(txtKilomInicial.EditValue);
+                    objE_HI.KmFinal = ConContadorAutomatico == true ? 0 : Convert.ToDouble(txtKilomFinal.EditValue);
                     objE_HI.Observacion = txtComentarios.Text;
                     objE_HI.IdEstadoHI = Convert.ToInt32(cboEstado.EditValue);
                     objE_HI.FlagActivo = true;
@@ -1141,6 +1152,30 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         gintIdPerfil = 0;
                         LimpiarCambioDeUC();
                         cboUnidadControl_SelectedIndexChanged(sender, e);
+                    }
+                }
+
+                E_UC objUnidadControl = new E_UC();
+                objUnidadControl.IdUc = Convert.ToInt32(cboUnidadControl.EditValue.ToString());
+                objUnidadControl = objB_UC.B_UC_GetItemByIdUC(objUnidadControl);
+                if (objUnidadControl != null)
+                {
+                    ConContadorAutomatico = (bool)objUnidadControl.ConContadorAutomatico;
+
+
+                    if(ConContadorAutomatico==true)
+                    {
+                        dtpFechaInicio.IsEnabled = false;
+                        dtpFechaFinal.IsEnabled = false;
+                        txtKilomInicial.IsEnabled = false;
+                        txtKilomFinal.IsEnabled = false;
+                    }
+                    else
+                    {
+                        dtpFechaInicio.IsEnabled = true;
+                        dtpFechaFinal.IsEnabled = true;
+                        txtKilomInicial.IsEnabled = true;
+                        txtKilomFinal.IsEnabled = true;
                     }
                 }
                 LlenarComboHR();
@@ -2234,32 +2269,34 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     cboResponsable.Focus();
                 }
 
-                
-                else if (dtpFechaInicio.EditValue == null)
-                {
-                    bolRpta = true;
-                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_FECH_INIC"), 2);
-                    dtpFechaInicio.Focus();
-                }
-                else if (dtpFechaFinal.EditValue == null)
-                {
-                    bolRpta = true;
-                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_FECH_FINA"), 2);
-                    dtpFechaFinal.Focus();
-                }
-                else if (Convert.ToDouble(txtKilomInicial.EditValue) <= 0)
-                {
-                    bolRpta = true;
-                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_CONT_INIC"), 2);
-                    txtKilomInicial.Focus();
-                }
-                else if (Convert.ToDouble(txtKilomFinal.EditValue) <= 0)
-                {
-                    bolRpta = true;
-                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_CONT_FINA"), 2);
-                    txtKilomFinal.Focus();
-                }
 
+                if(ConContadorAutomatico == false)
+                {
+                    if (dtpFechaInicio.EditValue == null)
+                    {
+                        bolRpta = true;
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_FECH_INIC"), 2);
+                        dtpFechaInicio.Focus();
+                    }
+                    else if (dtpFechaFinal.EditValue == null)
+                    {
+                        bolRpta = true;
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_FECH_FINA"), 2);
+                        dtpFechaFinal.Focus();
+                    }
+                    else if (Convert.ToDouble(txtKilomInicial.EditValue) <= 0)
+                    {
+                        bolRpta = true;
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_CONT_INIC"), 2);
+                        txtKilomInicial.Focus();
+                    }
+                    else if (Convert.ToDouble(txtKilomFinal.EditValue) <= 0)
+                    {
+                        bolRpta = true;
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaHojaInspeccion, "OBLI_CONT_FINA"), 2);
+                        txtKilomFinal.Focus();
+                    }
+                }
 
                 return bolRpta;
             }
