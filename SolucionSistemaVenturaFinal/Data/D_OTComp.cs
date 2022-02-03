@@ -76,6 +76,7 @@ namespace Data
                 cmd.Parameters.Add("@tblOTArticuloDet", SqlDbType.Structured).Value = tblOTArticuloDet;
                 cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_OT.FechaModificacion;
                 cmd.Parameters.Add("@CodTipoAveria", SqlDbType.Int).Value = E_OT.CodTipoAveria;
+                cmd.Parameters.Add("@FechaLiberacion", SqlDbType.VarChar, 17).Value = Convert.ToDateTime(E_OT.FechaLiber).ToString("yyyyMMdd HH:mm");
                 cmd.Parameters["@IdError"].Direction = ParameterDirection.Output;
                 cmd.ExecuteNonQuery();
                 rpta = Int32.Parse(cmd.Parameters["@IdError"].Value.ToString());

@@ -372,6 +372,9 @@
                             <Label Content="Fecha de liberación: " HorizontalAlignment="Left" Margin="256,11,0,0" Name="label18" VerticalAlignment="Top" />
                             <Label Content="Responsable:" HorizontalAlignment="Left" Margin="518,43,0,0" Name="label19" VerticalAlignment="Top" />
                             <Label Content="" HorizontalAlignment="Left" Margin="364,11,0,0" Name="LblFechaLiberacion" VerticalAlignment="Top" FontWeight="Bold" />
+
+                            <dxe:TextEdit  HorizontalAlignment="Left" Margin="364,11,0,0" VerticalAlignment="Top"  x:Name="dtpFechaLiberacionT" EditValue="02.09.2009 00:00" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="117" />
+                            
                             <Label Content="" HorizontalAlignment="Left" Margin="620,43,0,0" Name="LblResponsable" VerticalAlignment="Top" FontWeight="Bold" />
                             <Label Content="Unidad de control:" Margin="5,43,840,0" Name="label20" VerticalAlignment="Top" />
                             <Label Content="" HorizontalAlignment="Left" Margin="110,43,0,0" Name="LblUnidadControl" VerticalAlignment="Top" FontWeight="Bold" />
@@ -1075,9 +1078,13 @@
                     <StackPanel Visibility="Visible" Height="180" Background="White" HorizontalAlignment="Left" Margin="0,0,0,0" Name="stkRegistroCambioEstado1" VerticalAlignment="Top" Width="500" >
                         <Grid Height="180">
                             <Label Content="Nuevo Estado :" Height="25" HorizontalAlignment="Left" Margin="101,24,0,0" Name="label52" VerticalAlignment="Top"  />
-                            <Label Content="Estado OT" Height="25" HorizontalAlignment="Left" Margin="184,24,0,0" Name="lblNuevoEstado" VerticalAlignment="Top"  />
-                            <Label Content="Observacion :" Height="25" HorizontalAlignment="Left" Margin="102,63,0,0" Name="label53" VerticalAlignment="Top"  />
-                            <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="56" HorizontalAlignment="Left" Margin="184,64,0,0" Name="txtObservacionCambioEstado" VerticalAlignment="Top" Width="224" TextWrapping="Wrap" VerticalContentAlignment="Top"/>
+                            <Label Content="Estado OT" Height="25" HorizontalAlignment="Left" Margin="190,24,0,0" Name="lblNuevoEstado" VerticalAlignment="Top"  />
+                            
+                            <Label Content="Fecha Liberación :" Height="25" HorizontalAlignment="Left" Margin="101,45,0,0" Name="labelFechaLiberacion" VerticalAlignment="Top"  />
+                            <dxe:TextEdit  HorizontalAlignment="Left" Margin="190,45,0,0" VerticalAlignment="Top"  x:Name="dtpFechaLiberacionR" EditValue="02.09.2009 00:00" MaskType="DateTime" Mask="dd/MM/yyyy HH:mm" MaskUseAsDisplayFormat="True" Width="117" />
+                            
+                            <Label Content="Observacion :" Height="25" HorizontalAlignment="Left" Margin="102,66,0,0" Name="label53" VerticalAlignment="Top"  />
+                            <dxe:TextEdit Style="{DynamicResource FormatoAlfanumericoEspecialMax200}" Height="53" HorizontalAlignment="Left" Margin="190,69,0,0" Name="txtObservacionCambioEstado" VerticalAlignment="Top" Width="224" TextWrapping="Wrap" VerticalContentAlignment="Top"/>
 
                             <Button Style="{DynamicResource buttonStyle}" Height="28" HorizontalAlignment="Left" Margin="140,0,0,10" VerticalAlignment="Bottom" Content="Aceptar" Name="buttonInfo5" Click="btnAceptarCambioEstado_Click"/>
                             <Button Style="{DynamicResource buttonStyle}" Height="28" HorizontalAlignment="Right" Margin="0,0,140,10" VerticalAlignment="Bottom" Content="Cancelar" Name="buttonInfo6" Click="btnCancelarRegistroCambioEstado_Click"/>

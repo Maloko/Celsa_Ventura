@@ -825,7 +825,7 @@ namespace AplicacionSistemaVentura.PAQ01_Definicion
                     fechaInicio.Visibility = Visibility.Visible;
 
 
-                    checkContadorAutomatico.IsEnabled = true;
+                    //checkContadorAutomatico.IsEnabled = true;
                     checkContadorAutomatico.IsChecked = true;
 
 

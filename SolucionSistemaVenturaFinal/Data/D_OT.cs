@@ -143,6 +143,7 @@ namespace Data
                 cmd.Parameters.Add("@IdUsuario", SqlDbType.Int).Value = E_OT.IdUsuario;
                 cmd.Parameters.Add("@IdError", SqlDbType.Int).Value = 0;
                 cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_OT.FechaModificacion;
+                cmd.Parameters.Add("@FechaLiberacion", SqlDbType.DateTime).Value = E_OT.FechaLiber;
                 cmd.Parameters["@IdError"].Direction = ParameterDirection.Output;
                 cmd.ExecuteNonQuery();
                 rpta = Int32.Parse(cmd.Parameters["@IdError"].Value.ToString());
@@ -319,6 +320,7 @@ namespace Data
                 cmd.Parameters.Add("@IsRegProveedor", SqlDbType.Int).Value = E_OT.IsRegProveedor;
                 cmd.Parameters.Add("@IdUsuario", SqlDbType.Int).Value = E_OT.IdUsuarioModificacion;
                 cmd.Parameters.Add("@FechaModificacion", SqlDbType.DateTime).Value = E_OT.FechaModificacion;
+                cmd.Parameters.Add("@FechaLiberacion", SqlDbType.DateTime).Value = E_OT.FechaLiber;
                 cmd.Parameters.Add("@IdError", SqlDbType.Int).Value = 0;
                 cmd.Parameters["@IdError"].Direction = ParameterDirection.Output;
                 cmd.ExecuteNonQuery();

@@ -117,7 +117,7 @@
                                 <Label Content="Contador Automatico:" Height="23" Margin="270,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="labelContadorAutomatico"  Grid.Column="1"/>
 
                                 <DatePicker Grid.Column="1" HorizontalAlignment="Left" Margin="390,17,0,0" VerticalAlignment="Top" Name="fechaInicio"/>
-                                <CheckBox  Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Name="checkContadorAutomatico"/>
+                                <CheckBox  Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Name="checkContadorAutomatico" IsEnabled="false"/>
 
                                 <GroupBox Header="Datos Generales" Height="231" HorizontalAlignment="Left" Margin="40,109,0,0" Name="groupBox1" VerticalAlignment="Top" Width="716" Grid.ColumnSpan="2">
                                     <Grid>

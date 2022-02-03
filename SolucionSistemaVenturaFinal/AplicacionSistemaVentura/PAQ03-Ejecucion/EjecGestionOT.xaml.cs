@@ -237,6 +237,10 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 commportamientoSalidaStock = Convert.ToInt32(B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Comportamiento).Select("IdColumna=1")[0]["Valor"]);
                 #endregion
 
+                #region Cmabio celsa FechaLiberacion sea editable
+                LblFechaLiberacion.Visibility = Visibility.Hidden;
+                #endregion
+
 
                 btnImprimirOT.Visibility = Visibility.Hidden;
                 GlobalClass.ControlSubMenu(this.GetType().Name, gridTabLista);
@@ -882,6 +886,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
         private void btnAbrirCambiarEstado_Click(object sender, RoutedEventArgs e)
         {
             txtObservacionCambioEstado.Text = string.Empty;
+
+            dtpFechaLiberacionR.EditValue = DateTime.Now;
             stkRegistroCambioEstado.Visibility = System.Windows.Visibility.Visible;
         }
         private void btnAceptarCambioEstado_Click(object sender, RoutedEventArgs e)
@@ -899,6 +905,18 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     dtpfechaPost.Focus();
                     return;
                 }
+                #region celsa fecha liberacion sea editable
+                if (Convert.ToDateTime(dtpFechaLiberacionR.EditValue).Year < DateTime.Now.Year)
+                {
+                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECHLIBERACION"), 2);
+                    dtpFechaLiberacionT.Focus();
+                    return;
+                }
+
+                objE_OT.FechaLiber = Convert.ToDateTime(dtpFechaLiberacionR.EditValue);
+                #endregion
+
+
 
                 if (gintEstadoOT != 0)
                 {
@@ -4119,13 +4137,15 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     return;
                 }
 
-
-                if (Convert.ToDateTime(LblFechaLiberacion.Content) > FechaInicial)
+                #region Cambio Clesa FechaLiberacion sea editable
+                //if (Convert.ToDateTime(LblFechaLiberacion.Content) > FechaInicial)
+                if (Convert.ToDateTime(dtpFechaLiberacionT.EditValue) > FechaInicial)
                 {
                     GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_RTAR_FECH"), 2);
                     dtpFechaCierreT.Focus();
                     return;
                 }
+                #endregion
 
                 //Validar si existe un trabajador en dentro de las horas
                 //int CantExis = tbOTTareaTrabajador.Select("CodResponsable = '" + Convert.ToString(cboTrabajador.EditValue) + "' and Fecha='" + FechaInicial + "'").Length;
@@ -4690,6 +4710,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
             //txtHoraFechaCierre.Text = "";
             TxTNumeroOT.Text = "";
             LblFechaLiberacion.Content = "";
+            dtpFechaLiberacionT.EditValue = "";
             LblResponsable.Content = "";
             LblUnidadControl.Content = "";
             lblTipoOrden.Content = "";
@@ -4732,18 +4753,35 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 objE_OT.FechaModificacion = FechaModificacion;
                 objE_OT.CodTipoAveria = Convert.ToInt32(cboTipoAveria.EditValue);
 
+                #region celsa fecha liberacion sea editable
+                if (Convert.ToDateTime(dtpFechaLiberacionT.EditValue).Year < DateTime.Now.Year)
+                {
+                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECHLIBERACION"), 2);
+                    dtpFechaLiberacionT.Focus();
+                    return blRpta;
+                }
+
+                objE_OT.FechaLiber = Convert.ToDateTime(dtpFechaLiberacionT.EditValue);
+                #endregion region;
+
+
                 if (dtpFechaCierreT.EditValue == null)
                 {
                     objE_OT.FechaCierre = DateTime.MinValue;
                 }
                 else
                 {
-                    if (Convert.ToDateTime(LblFechaLiberacion.Content) > Convert.ToDateTime(dtpFechaCierreT.EditValue))
+
+                    #region Cambio celsa FechaLiberacion sea editable
+                    // if (Convert.ToDateTime(LblFechaLiberacion.Content) > Convert.ToDateTime(dtpFechaCierreT.EditValue))
+                    if (Convert.ToDateTime(dtpFechaLiberacionT.EditValue) > Convert.ToDateTime(dtpFechaCierreT.EditValue))
                     {
                         GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECH"), 2);
                         dtpFechaCierreT.Focus();
                         return blRpta; //Descomentar cuando la licencia de SAP este activa.
                     }
+
+                    #endregion
                     if (Convert.ToDateTime(dtpFechaCierreT.EditValue).Date>DateTime.Now.Date)
                     {
                         GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECHCIERRE"), 2);
@@ -5754,6 +5792,17 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                     objE_OT.IsRegProveedor = 0;
                     objE_OT.FechaModificacion = DateTime.Now;
 
+                    #region celsa fecha liberacion sea editable
+                    if (Convert.ToDateTime(dtpFechaLiberacionT.EditValue).Year < DateTime.Now.Year)
+                    {
+                        GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaOT, "LOGI_CERR_OT_FECHLIBERACION"), 2);
+                        dtpFechaLiberacionT.Focus();
+                        return;
+                    }
+                    objE_OT.FechaLiber = Convert.ToDateTime(dtpFechaLiberacionT.EditValue);
+                    #endregion
+
+
                     #region REQUERIMIENTO_02_CELSA
                     if (IdTipoGeneracion == (int)TipoMantenimientoEnum.Correctivo)
                     {
@@ -5793,75 +5842,80 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                         return;
                     }
 
-                    # region ENVIAR_CORREO_USUARIOS_ALMACEN
-                    string cuerpoEmail = "", asuntoEmail = "";
-                    E_OT objOT = new E_OT();
-                    objOT.IdOT = IdOT;
-                    cuerpoEmail = objB_OTArticulo.BodyEmail(objOT);
-                    asuntoEmail = "OT: " + objB_OTArticulo.SubjectEmail(objOT) + " - REPUESTOS NO UTILIZADOS";
+                    #region ENVIAR_CORREO_USUARIOS_ALMACEN
 
-                    DataTable tlbcorreo = new DataTable();
-                    B_Correo objco = new B_Correo();
-                    string usuario;
-                    string servidor;
-                    string password;
-                    string puerto;
-                    int Ltbl;
 
-                    tlbcorreo = objco.Correo_List(); //Tabla de configuración del correo emisor
-
-                    if (tlbcorreo.Rows.Count > 0)
+                    if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
                     {
-                        usuario = tlbcorreo.Rows[0]["Correo"].ToString();
-                        servidor = tlbcorreo.Rows[0]["Srv"].ToString();
-                        password = tlbcorreo.Rows[0]["Pwd"].ToString();
-                        puerto = tlbcorreo.Rows[0]["Puerto"].ToString();
+                        string cuerpoEmail = "", asuntoEmail = "";
+                        E_OT objOT = new E_OT();
+                        objOT.IdOT = IdOT;
+                        cuerpoEmail = objB_OTArticulo.BodyEmail(objOT);
+                        asuntoEmail = "OT: " + objB_OTArticulo.SubjectEmail(objOT) + " - REPUESTOS NO UTILIZADOS";
 
-                        B_Usuario objcor = new B_Usuario();
-                        DataTable tlvcor = new DataTable(); //Listado de usuarios con el flag de gerencia operativa 
-                        List<InterfazMTTO.iSBO_BE.BEOUSR> ListaUsuarioDepartment;
-                        ListaUsuarioDepartment = InterfazMTTO.iSBO_BL.Usuario_BL.ListarUsuariosDepartment(13, ref RPTA);
-                        string correos = "";
+                        DataTable tlbcorreo = new DataTable();
+                        B_Correo objco = new B_Correo();
+                        string usuario;
+                        string servidor;
+                        string password;
+                        string puerto;
+                        int Ltbl;
 
-                        if (RPTA.ResultadoRetorno == 0)
+                        tlbcorreo = objco.Correo_List(); //Tabla de configuración del correo emisor
+
+                        if (tlbcorreo.Rows.Count > 0)
                         {
-                            tlvcor = Utilitarios.Utilitarios.ToDataTable(ListaUsuarioDepartment);
-                            Ltbl = tlvcor.Rows.Count;
+                            usuario = tlbcorreo.Rows[0]["Correo"].ToString();
+                            servidor = tlbcorreo.Rows[0]["Srv"].ToString();
+                            password = tlbcorreo.Rows[0]["Pwd"].ToString();
+                            puerto = tlbcorreo.Rows[0]["Puerto"].ToString();
 
-                            if (Ltbl > 0)
+                            B_Usuario objcor = new B_Usuario();
+                            DataTable tlvcor = new DataTable(); //Listado de usuarios con el flag de gerencia operativa 
+                            List<InterfazMTTO.iSBO_BE.BEOUSR> ListaUsuarioDepartment;
+                            ListaUsuarioDepartment = InterfazMTTO.iSBO_BL.Usuario_BL.ListarUsuariosDepartment(13, ref RPTA);
+                            string correos = "";
+
+                            if (RPTA.ResultadoRetorno == 0)
                             {
-                                for (int i = 0; i < Ltbl; i++)
-                                {
-                                    if (tlvcor.Rows[i]["Correo"].ToString().Contains("@"))
-                                    {
-                                        correodest = tlvcor.Rows[i]["Correo"].ToString();
+                                tlvcor = Utilitarios.Utilitarios.ToDataTable(ListaUsuarioDepartment);
+                                Ltbl = tlvcor.Rows.Count;
 
-                                        if (i != Ltbl - 1)
+                                if (Ltbl > 0)
+                                {
+                                    for (int i = 0; i < Ltbl; i++)
+                                    {
+                                        if (tlvcor.Rows[i]["Correo"].ToString().Contains("@"))
                                         {
-                                            correos = correos + correodest + ";";
-                                        }
-                                        else
-                                        {
-                                            correos = correos + correodest;
+                                            correodest = tlvcor.Rows[i]["Correo"].ToString();
+
+                                            if (i != Ltbl - 1)
+                                            {
+                                                correos = correos + correodest + ";";
+                                            }
+                                            else
+                                            {
+                                                correos = correos + correodest;
+                                            }
                                         }
                                     }
-                                }
 
-                                char[] delimitador = new char[] { ';' };
-                                MailMessage message = new MailMessage();
-                                foreach (string destinos in correos.Split(delimitador))
-                                {
-                                    message.To.Add(new MailAddress(destinos));
-                                }
+                                    char[] delimitador = new char[] { ';' };
+                                    MailMessage message = new MailMessage();
+                                    foreach (string destinos in correos.Split(delimitador))
+                                    {
+                                        message.To.Add(new MailAddress(destinos));
+                                    }
 
-                                message.From = new MailAddress(usuario);
-                                message.Body = cuerpoEmail;
-                                message.Subject = asuntoEmail;
-                                message.IsBodyHtml = true;
-                                SmtpClient client = new SmtpClient(servidor, int.Parse(puerto));
-                                client.EnableSsl = true;
-                                client.Credentials = new System.Net.NetworkCredential(usuario, password);
-                                client.Send(message);
+                                    message.From = new MailAddress(usuario);
+                                    message.Body = cuerpoEmail;
+                                    message.Subject = asuntoEmail;
+                                    message.IsBodyHtml = true;
+                                    SmtpClient client = new SmtpClient(servidor, int.Parse(puerto));
+                                    client.EnableSsl = true;
+                                    client.Credentials = new System.Net.NetworkCredential(usuario, password);
+                                    client.Send(message);
+                                }
                             }
                         }
                     }
@@ -5963,10 +6017,15 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 if (tblOT.Rows[0]["FechaLiber"] == DBNull.Value)
                 {
                     LblFechaLiberacion.Content = "";
+                    dtpFechaLiberacionT.EditValue = "";
                 }
                 else
                 {
+                    
                     LblFechaLiberacion.Content = Convert.ToDateTime(tblOT.Rows[0]["FechaLiber"]).ToString("dd/MM/yyyy HH:mm");
+                    //dtpFechaLiberacionT.EditValue=Convert.ToDateTime(tblOT.Rows[0]["FechaLiber"]).ToString("dd/MM/yyyy HH:mm");
+
+                    dtpFechaLiberacionT.EditValue = Convert.ToDateTime(tblOT.Rows[0]["FechaLiber"]);
                 }
 
                 if (Convert.ToBoolean(tblOT.Rows[0]["FlagSinUC"]) == false)
