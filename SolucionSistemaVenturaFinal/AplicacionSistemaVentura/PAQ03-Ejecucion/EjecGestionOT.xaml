@@ -79,14 +79,15 @@
                             <dxg:GridColumn FieldName="NombreOT" VisibleIndex="2" Visible="False"/>
                             <dxg:GridColumn Header="Código de UC" FieldName="CodUC" VisibleIndex="3" ReadOnly="True"/>
                             <dxg:GridColumn Header="Estado de OT" FieldName="EstadoOT" VisibleIndex="4" ReadOnly="True"/>
-                            <dxg:GridColumn Header="Fecha de programación" FieldName="FechaProg" VisibleIndex="5" ReadOnly="True"/>
-                            <dxg:GridColumn Header="Fecha de liberación" FieldName="FechaLiber" VisibleIndex="6" ReadOnly="True"/>
-                            <dxg:GridColumn Header="Fecha de cierre" FieldName="FechaCierre" VisibleIndex="7" ReadOnly="True"/>
-                            <dxg:GridColumn Header="Tipo de orden" FieldName="TipoOT" VisibleIndex="8" ReadOnly="True"/>
-                            <dxg:GridColumn Header="Observación" FieldName="Observacion" VisibleIndex="9" ReadOnly="True" Visible="False"/>
+                            <dxg:GridColumn Header="Tipo Origen" FieldName="TipoOrigen" VisibleIndex="5" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Fecha de programación" FieldName="FechaProg" VisibleIndex="6" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Fecha de liberación" FieldName="FechaLiber" VisibleIndex="7" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Fecha de cierre" FieldName="FechaCierre" VisibleIndex="8" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Tipo de orden" FieldName="TipoOT" VisibleIndex="9" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Observación" FieldName="Observacion" VisibleIndex="10" ReadOnly="True" Visible="False"/>
                             <dxg:GridColumn Header="Motivo de postergación" FieldName="MotivoPostergacion" VisibleIndex="10" ReadOnly="True" Visible="False"/>
-                            <dxg:GridColumn Header="Tipo de Averia" FieldName="TipoAveria" VisibleIndex="10" ReadOnly="True"/>
-                            <dxg:GridColumn FieldName="IdOT" VisibleIndex="11" Visible="False" ReadOnly="True"/>
+                            <dxg:GridColumn Header="Tipo de Averia" FieldName="TipoAveria" VisibleIndex="11" ReadOnly="True"/>
+                            <dxg:GridColumn FieldName="IdOT" VisibleIndex="12" Visible="False" ReadOnly="True"/>
 
                         </dxg:GridControl.Columns>
                         <dxg:GridControl.TotalSummary>

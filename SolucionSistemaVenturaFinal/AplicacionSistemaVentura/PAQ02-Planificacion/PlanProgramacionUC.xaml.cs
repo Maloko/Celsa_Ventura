@@ -8,7 +8,6 @@ using Business;
 using Entities;
 using System.ComponentModel;
 using System.Windows.Threading;
-using Utilitarios.Constantes;
 using Utilitarios.Enum;
 using System.Windows.Input;
 
@@ -17,11 +16,23 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
 
     public partial class PlanProgramacionUC : UserControl
     {
+
+        public int otAutomatica = 0;
+
         public PlanProgramacionUC()
         {
             InitializeComponent();
             UserControl_Loaded();
         }
+
+        public PlanProgramacionUC(int idAutomatico)
+        {
+            otAutomatica = idAutomatico;
+            InitializeComponent();
+            UserControl_Loaded();
+           
+        }
+
         int gintUsuario = Utilitarios.Utilitarios.gintIdUsuario;
         int OTSReg = 0;
         private readonly BackgroundWorker worker = new BackgroundWorker();
@@ -97,7 +108,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
         DispatcherTimer TimerProgramacion = new DispatcherTimer();
         int gintTimer = 0;
         int commportamientoSalidaStock = 1;
-
+      
 
         void OnFocus(object sender, RoutedEventArgs e)
         {
@@ -170,10 +181,22 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
 
                 #region "Celsa"
                 commportamientoSalidaStock = Convert.ToInt32(B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Comportamiento).Select("IdColumna=1")[0]["Valor"]);
+
+        
+
                 #endregion
 
                 objTM.IdTabla = 0;
                 dtvMaestra = B_TablaMaestra.TablaMaestra_Combo(objTM).DefaultView;
+                dtv_maestra = B_TablaMaestra.TablaMaestra_Combo(objTablaMestra).DefaultView;
+
+                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
+                BEOITMListCon = new InterfazMTTO.iSBO_BE.BEOITMList();
+                BEOITMListCon = InterfazMTTO.iSBO_BL.Articulo_BL.ListarArticulos("O", ref RPTA);
+                if (RPTA.ResultadoRetorno != 0)
+                {
+                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
+                }
 
                 dtpFechaProgram.EditValue = DateTime.Now;
                 BtnAceptar.Visibility = Visibility.Hidden;
@@ -354,15 +377,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 tblRegistrados.Columns.Add("msg", Type.GetType("System.String"));
                 tblRegistrados.Columns.Add("msgSAP", Type.GetType("System.String"));
 
-                dtv_maestra = B_TablaMaestra.TablaMaestra_Combo(objTablaMestra).DefaultView;
-
-                RPTA = new InterfazMTTO.iSBO_BE.BERPTA();
-                BEOITMListCon = new InterfazMTTO.iSBO_BE.BEOITMList();
-                BEOITMListCon = InterfazMTTO.iSBO_BL.Articulo_BL.ListarArticulos("O", ref RPTA);
-                if (RPTA.ResultadoRetorno != 0)
-                {
-                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
-                }
+               
 
                 worker.DoWork += worker_DoWork;
                 worker.RunWorkerCompleted += worker_RunWorkerCompleted;
@@ -370,6 +385,9 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
 
                 TimerProgramacion.Tick += new EventHandler(TimerProgramacion_Tick);
                 TimerProgramacion.Interval = new TimeSpan(0, 0, 1);
+
+                if (otAutomatica == 1) { GenerarOTAutomatica(); };
+
             }
             catch (Exception ex)
             {
@@ -377,7 +395,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
             }
         }
-        
+
         private void TimerProgramacion_Tick(object sender, EventArgs e)
         {
             gintTimer += 1;
@@ -451,7 +469,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 if (ValidaConsulta() == true) { Mouse.OverrideCursor = null; return; }
                 objE_Programacion.FechaProgramacion = Convert.ToDateTime(dtpFechaProgram.EditValue);
 
-                if (RdnCorrectivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 2 "; objE_Programacion.TipoMantenimiento = 2;  }
+                if (RdnCorrectivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 2 "; objE_Programacion.TipoMantenimiento = 2; }
                 else if (RdnPreventivo.IsChecked == true) { gstrFiltroTipoMmto = "IdTipoGeneracion = 1 "; objE_Programacion.TipoMantenimiento = 1; }
 
                 objE_Programacion.FechaProgramacion = Convert.ToDateTime(dtpFechaProgram.EditValue);
@@ -884,8 +902,8 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 dr["TipoOT"] = Convert.ToInt32(dr2["IdTipoOT"]);
 
                 dr["FechaProgramacion"] = DateTime.Parse(dr2["FechaProgramacion"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
-                dr["FechaUltimaMantenimiento"] = dr2["FechaUltimaMantenimiento"] == DBNull.Value?"": DateTime.Parse(dr2["FechaUltimaMantenimiento"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
-                dr["FechaProgramadaSistema"] = dr2["FechaProgramadaSistema"]==DBNull.Value?"": DateTime.Parse(dr2["FechaProgramadaSistema"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
+                dr["FechaUltimaMantenimiento"] = dr2["FechaUltimaMantenimiento"] == DBNull.Value ? "" : DateTime.Parse(dr2["FechaUltimaMantenimiento"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
+                dr["FechaProgramadaSistema"] = dr2["FechaProgramadaSistema"] == DBNull.Value ? "" : DateTime.Parse(dr2["FechaProgramadaSistema"].ToString()).ToString("dd/MM/yyyy HH:mm:ss");
                 tblProgramacionDet.Rows.Add(dr);
             }
 
@@ -1146,7 +1164,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 drOT["FechaProg"] = FechaProgramacion;
                 drOT["CodResponsable"] = "0";
                 drOT["NombreResponsable"] = "";
-                drOT["IdTipoGeneracion"] = objE_Programacion.TipoMantenimiento;
+                drOT["IdTipoGeneracion"] =objE_Programacion.TipoMantenimiento==0?1: objE_Programacion.TipoMantenimiento;
                 drOT["IdEstadoOT"] = 1;
                 drOT["MotivoPostergacion"] = "";
                 drOT["Observacion"] = Convert.ToString(TxTComentarios.Text);
@@ -1203,9 +1221,19 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 tblRepuesto.Rows.Clear();
                 tblConsumible.Rows.Clear();
             }
-            trvConfirmarRegistrosOT.ItemsSource = tblConfirmacion;
-            treeListView2.ExpandAllNodes();
-            stkPanelGrabarOT.Visibility = Visibility.Visible;
+
+
+            if (otAutomatica == 0)
+            {
+                trvConfirmarRegistrosOT.ItemsSource = tblConfirmacion;
+                treeListView2.ExpandAllNodes();
+                stkPanelGrabarOT.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                trvConfirmarRegistrosOT.ItemsSource = tblConfirmacion;
+                btnAcepOT_Click(null,null);
+            }
         }
         private void btnCancOT_Click(object sender, RoutedEventArgs e)
         {
@@ -1234,14 +1262,14 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 int IdTipoOT = 0;
                 for (int i = 0; i < tblProgramacionDet.Rows.Count; i++)
                 {
-                        DataRow drbit = tblBitacora.NewRow();
-                        drbit["LineNum"] = Convert.ToInt32(tblProgramacionDet.Rows[i]["LineNum"]);
-                        drbit["IdOT"] = 0;
-                        drbit["IdEstado"] = 0;
-                        drbit["Error"] = "";
-                        tblBitacora.Rows.Add(drbit);
+                    DataRow drbit = tblBitacora.NewRow();
+                    drbit["LineNum"] = Convert.ToInt32(tblProgramacionDet.Rows[i]["LineNum"]);
+                    drbit["IdOT"] = 0;
+                    drbit["IdEstado"] = 0;
+                    drbit["Error"] = "";
+                    tblBitacora.Rows.Add(drbit);
                 }
-                int rpta =objB_Programacion.Programacion_BeforeCreate(tblBitacora);
+                int rpta = objB_Programacion.Programacion_BeforeCreate(tblBitacora);
                 tblBitacora.Rows.Clear();
                 if (rpta == 0)
                 {
@@ -1282,7 +1310,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                 #region "Celsa"
                 if (Convert.ToInt32(IdTipoOT) != 2)
                 {
-                  
+
                     if (commportamientoSalidaStock == (int)EstadoEnum.Activo)
                     {
                         if (GlobalClass.ValidaTipoCambio() == false) { return; };
@@ -1297,7 +1325,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                         {
                             if (GlobalClass.ValidaAlmacenSalidaArticulo(IdTipoOT, dsRepuesto.Tables[i], dsConsumible.Tables[i]) == false) { return; }
                         }
-                    }                        
+                    }
                 }
                 #endregion
 
@@ -1358,7 +1386,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                                 int rptaes = objB_HI.HI_UpdateEstado(objE_HI);
                             }
                             catch { }
-                            
+
                             DataView dtvProgDet = new DataView(tblProgramacionDet);
                             dtvProgDet.RowFilter = "TipoOT = " + TipoOT + " AND FechaProgramacion = '" + Convert.ToDateTime(FechaProg).ToString("dd/MM/yyyy HH:mm:ss") + "' AND IdUC = " + IdUC;
                             for (int dr = 0; dr < dtvProgDet.Count; dr++)
@@ -1612,7 +1640,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
                     LineNum += drData["IdHI"].ToString() + ",";
                 }
             }
-            
+
 
             DataTable tblAlmacenes = Utilitarios.Utilitarios.ListarCombo_TablaMaestra("IdTabla = 42", dtvMaestra);
             DataTable tmpGetStock = objB_Programacion.Bitacora_GetStock(LineNum);
@@ -1631,7 +1659,7 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
             {
                 valorAlmacen = 1;
             }
-  
+
 
             DataRow dr;
             for (int i = 0; i < tmpGetStock.Rows.Count; i++)
@@ -1755,5 +1783,155 @@ namespace AplicacionSistemaVentura.PAQ02_Planificacion
             dtgProgramacionCorrectivo.Visibility = Visibility.Visible;
             dtgProgramacionPreventivo.Visibility = Visibility.Collapsed;
         }
+
+
+        public void GenerarOTAutomatica()
+        {
+            ProgramacionPreventivaList();
+
+
+            if (tblProgramacionDatos.Rows.Count <= 0) { otAutomatica = 0; return; }
+
+
+            dsOTComp = new DataSet();
+            dsActividades = new DataSet();
+            dsTareas = new DataSet();
+            dsHerrEsp = new DataSet();
+            dsRepuesto = new DataSet();
+            dsConsumible = new DataSet();
+            tblProgramacionDet.Rows.Clear();
+            tblDatosOT.Rows.Clear();
+
+            string LineNum = "";
+            bool valorChecked = true;
+            LlenarStockAuto(out LineNum, valorChecked);
+            if (tblVerStock.Rows.Count != 0)
+            {
+                int cant = 0;
+                foreach (DataRow drSotck in tblVerStock.Select("Stock = 0"))
+                {
+                    cant = 1;
+                    break;
+                }
+                if (cant == 1)
+                {
+                    GlobalClass.ip.Mensaje(Utilitarios.Utilitarios.parser.GetSetting(gstrEtiquetaProgramacionUC, "ALER_STOC_OT"), 2);
+                }
+            }
+
+            otAutomatica = 1;
+            PreparaciondeOTPreventivo();
+            otAutomatica = 0;
+
+            //ProgramacionList();
+        }
+
+        public void ProgramacionPreventivaList()
+        {
+            try
+            {
+                tblProgramacionDatos = new DataTable();
+
+                tblProgramacionDatos = objB_Programacion.BitacoraAutomatica_List();
+                if (gstrFiltroActPend.Trim() != "" || gstrFiltroTodos.Trim() != "") { gstrFiltroTipoMmto += "AND "; }
+                if (gstrFiltroActPend.Trim() != "" && gstrFiltroTodos.Trim() != "") { gstrFiltroActPend += "AND "; }
+                string Filtro = gstrFiltroTipoMmto + gstrFiltroActPend + gstrFiltroTodos;
+                gstrSortActPrio = "Fecha Registro desc";
+                string Sort = gstrSortActPrio;
+                DataView dtvProgramacionDatos = new DataView(tblProgramacionDatos);
+                dtvProgramacionDatos.RowFilter = Filtro;
+                //dtvProgramacionDatos.Sort = Sort;
+                tblProgramacionDatos = dtvProgramacionDatos.ToTable();
+
+
+                DataColumn dcIsChecked = new DataColumn() { ColumnName = "IsChecked", DefaultValue = false };
+                DataColumn dcFechaProgramacion = new DataColumn() { ColumnName = "FechaProgramacion", DefaultValue = Convert.ToDateTime(dtpFechaProgram.EditValue) };
+                DataColumn dcFlagRegistrado = new DataColumn() { ColumnName = "FlagRegistrado", DefaultValue = true };
+                tblProgramacionDatos.Columns.Add(dcIsChecked);
+                tblProgramacionDatos.Columns.Add(dcFechaProgramacion);
+                tblProgramacionDatos.Columns.Add(dcFlagRegistrado);
+
+
+                dtgProgramacionPreventivo.ItemsSource = tblProgramacionDatos;
+
+                for (int i = 0; i < tblProgramacionDatos.Rows.Count; i++)
+                {
+                    tblProgramacionDatos.Rows[i]["IsChecked"] = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Mouse.OverrideCursor = null;
+                GlobalClass.ip.Mensaje(ex.Message, 3);
+                Error.EscribirError(ex.Data.ToString(), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), "", "", "");
+            }
+        }
+
+        void LlenarStockAuto(out string salida, bool valorChecked)
+        {
+
+            int valorAlmacen = 0;
+            string LineNum = "";
+
+            if (valorChecked==true)
+            {
+                foreach (DataRow drData in tblProgramacionDatos.Select("IsChecked = true"))
+                {
+                    LineNum += drData["LineNum"].ToString() + "|";
+                }
+            }
+            else if (valorChecked == false)
+            {
+                foreach (DataRow drData in tblProgramacionDatos.Select("IsChecked = true"))
+                {
+                    LineNum += drData["IdHI"].ToString() + ",";
+                }
+            }
+
+
+            DataTable tblAlmacenes = Utilitarios.Utilitarios.ListarCombo_TablaMaestra("IdTabla = 42", dtvMaestra);
+            DataTable tmpGetStock = objB_Programacion.Bitacora_GetStock(LineNum);
+
+            tblVerStock = new DataTable();
+            tblVerStock.Columns.Add("UC");
+            tblVerStock.Columns.Add("Componente");
+            tblVerStock.Columns.Add("Actividad");
+            tblVerStock.Columns.Add("TipoArticulo");
+            tblVerStock.Columns.Add("IdArticulo");
+            tblVerStock.Columns.Add("Articulo");
+            tblVerStock.Columns.Add("Cantidad");
+            tblVerStock.Columns.Add("Stock");
+
+            if (commportamientoSalidaStock == (int)EstadoEnum.Inactivo)
+            {
+                valorAlmacen = 1;
+            }
+
+
+            DataRow dr;
+            for (int i = 0; i < tmpGetStock.Rows.Count; i++)
+            {
+                dr = tblVerStock.NewRow();
+                dr["UC"] = tmpGetStock.Rows[i]["UC"].ToString();
+                dr["Componente"] = tmpGetStock.Rows[i]["Componente"].ToString();
+                dr["Actividad"] = tmpGetStock.Rows[i]["Actividad"].ToString();
+                dr["TipoArticulo"] = tmpGetStock.Rows[i]["TipoArticulo"].ToString();
+                dr["IdArticulo"] = tmpGetStock.Rows[i]["IdArticulo"].ToString();
+                BEOITMList = InterfazMTTO.iSBO_BL.Articulo_BL.ListarArticulos(tmpGetStock.Rows[i]["IdArticulo"].ToString(), tblAlmacenes.Rows[valorAlmacen]["Valor"].ToString(), ref RPTA);
+                if (RPTA.CodigoErrorUsuario == "000")
+                {
+                    dr["Articulo"] = BEOITMList[0].DescripcionArticulo;
+                    dr["Stock"] = BEOITMList[0].CantidadDisponible;
+                }
+                else
+                {
+                    GlobalClass.ip.Mensaje(RPTA.DescripcionErrorUsuario, 3);
+                }
+                dr["Cantidad"] = Convert.ToInt32(tmpGetStock.Rows[i]["Cantidad"]);
+                tblVerStock.Rows.Add(dr);
+            }
+            salida = LineNum;
+        }
+
     }
 }

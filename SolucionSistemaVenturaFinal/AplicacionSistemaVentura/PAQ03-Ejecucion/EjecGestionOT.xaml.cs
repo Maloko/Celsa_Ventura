@@ -13,6 +13,7 @@ using DevExpress.Xpf.Grid;
 using Utilitarios.Enum;
 using System.Net.Mail;
 using Utilitarios.Constantes;
+using AplicacionSistemaVentura.PAQ02_Planificacion;
 
 namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 {
@@ -218,6 +219,8 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 rowOT["HostModificacion"] = tbl.Rows[i]["HostModificacion"].ToString();
                 rowOT["FlagActivo"] = tbl.Rows[i]["FlagActivo"].ToString();
                 rowOT["TipoAveria"] = tbl.Rows[i]["TipoAveria"].ToString();
+                rowOT["TipoOrigen"] = tbl.Rows[i]["TipoOrigen"].ToString();
+
                 tblTempOT.Rows.Add(rowOT);
             }
             dtgOT.ItemsSource = tblTempOT.DefaultView;
@@ -235,6 +238,9 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
 
                 #region "Celsa"
                 commportamientoSalidaStock = Convert.ToInt32(B_TablaMaestra.TablaMaestraByIdTabla((int)MaestraEnum.Comportamiento).Select("IdColumna=1")[0]["Valor"]);
+
+                PlanProgramacionUC planuc = new PlanProgramacionUC(1);
+
                 #endregion
 
                 #region Cmabio celsa FechaLiberacion sea editable
@@ -288,6 +294,7 @@ namespace AplicacionSistemaVentura.PAQ03_Ejecucion
                 tblTempOT.Columns.Add("FechaModificacion");
                 tblTempOT.Columns.Add("HostModificacion");
                 tblTempOT.Columns.Add("TipoAveria");
+                tblTempOT.Columns.Add("TipoOrigen");
 
 
                 //2 Tabla de Reprogramacion de OT

@@ -11,6 +11,13 @@ namespace Business
             return D_Programacion.Bitacora_List();
         }
 
+
+        public DataTable BitacoraAutomatica_List()
+        {
+            return D_Programacion.BitacoraAutomatica_List();
+        }
+
+
         public DataTable ObtenerDatosHI()
         {
             return D_Programacion.ObtenerDatosHI();
